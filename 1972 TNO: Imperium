@@ -1,0 +1,124 @@
+e=campaignTrail_temp
+campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 4, \"fields\": {\"year\": 1972, \"summary\": \"<p>After 8 years of consistent American failure both at home and abroad under the Kennedy administration, the National Progressive Pact has nominated Francis Parker Yockey of the American National Vanguard, whilst the RDC has nominated George Romney, whos moderation stands in contrast to Yockey's downright Nazistic ideas. <ul><li>Francis Parker Yockey is the current leader of the American National Vanguard and the NPP nominee. Yockey is a committed Nazi, and if he wins, then god save America, <b><i>for noone else will.</b></i></li> <li>George Romney is the current governor of Michigan and a moderate Republican. All he has to do is maintain his lead against Yockey to ensure his victory.</li></p>\", \"image_url\": \"https://th-thumbnailer.cdn-si-edu.com/nSmENPL7HHGbWNzP77BTX8LGAb8=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/6d/84/6d84c95b-e8bc-41dc-8b69-f59f4735fd72/detroit-fire.jpg\",\"has_visits\":1, \"winning_electoral_vote_number\": 268, \"advisor_url\": \"https://i.imgur.com/FdlgjmS.png\", \"recommended_reading\": \"<div style='overflow-y:scroll;height:320px;'><br><br><p><i>The election is over, the choice has been made, yet what of America?</i><br><br></p><p><b>YOCKEY TO PREVAIL IN ELECTION, LOSES POPULAR VOTE HANDILY</b> - New York Times, November 3rd, 1972<br><br><br></p><p><b>GERMAN MOON LANDING COMPLETED; DEUTSCHLAND ÜBER ALLES</b> - Völkisch Observer, March 8th, 1973<br><br><br></p><p><b>S.A.F.E. ACT DEFEATED; MODERATES REJOICE</b> - Boston Globe, March 29th, 1973<br><br><br><b>GENERAL SECRETARY KHRUSHCHEV TO RETIRE, ANDREY GROMYKO SUCCEEDS HIM</b> - Pravda, July 2nd, 1974<br><br><br></p><p><b>MIDTERMS OVER; CONGRESS REMAINS STATIC</b> - New York Times, November 20th, 1974<br><br><br></p><p><b>SECOND WEST RUSSIAN WAR BEGINS; FIELD MARSHALL BREZHNEV KILLED IN OPENING HOURS</b> - Washington Post, August 8th, 1975<br><br><br></p><p><img src=\\\"https://media.discordapp.net/attachments/818130397706846242/1146133856437674035/160.png\\\" alt=\\\"Italian Trulli\\\" style=\\\"width:630px;height:293px;\\\" '=\\\"\\\"><br><i>To be continued.</i></p><br><br>\"}}]");
+campaignTrail_temp.candidate_json = JSON.parse("[{\"model\": \"campaign_trail.candidate\", \"pk\": 23, \"fields\": {\"first_name\": \"Francis Parker\", \"last_name\": \"Yockey\", \"election\": 4, \"party\": \"National Progressive Pact - American National Vanguard\", \"state\": \"Illinois\", \"priority\": 1, \"description\": \"<p>Francis Parker Yockey is the current leader of the American National Vanguard, and is the current NPP nominee. Yockey is a sympathizer of Adolf Hitler, an un-apologetic Nazi, a Himmler apologist and an ex-lawyer. Yockey has campaigned on rabidly racist, anti-semetic policies, detente with the Reich, but more importantly the return of Hawaii, opposition to any friendly relations with Japan, and the tearing up of the treaties which saw the US regain the treaty ports under President Kennedy which many regarded as lopsided in favor of the Japanese.<br><p>In order for Yockey to win, he will need to unite a base of segregationists, warhawks, union workers, and many more if he hopes to win by presenting himself as more viable than Romney, and if he does, then it will not only be the very values of our nation that will be lost, <b><i>but perhaps American democracy itself.</p>\", \"color_hex\": \"#481f01\", \"secondary_color_hex\": \"#00aeae\", \"is_active\": 1, \"image_url\": \"https://i.imgur.com/D1rd1nq.jpeg\", \"electoral_victory_message\": \"\", \"electoral_loss_message\": \"\", \"no_electoral_majority_message\": \"<h3>Oh my god. Noone has achieved a majority within the Electoral College.</h3><p>Despite the best efforts of you and Romney, neither of you have achieved an electoral majority. Any hopes of compromise between you and him are non-existent considering your views. You rant and rave but to no use, Romney has already declared he would rather concede all his votes to Gus Hall rather than you, and you can't strike a deal with anyone else, not at this rate.</p><p>Noone knows what will follow next, but the mood in the air is tense. Riots have already begun, calls of voter fraud and voter supression ring out from both sides and hopes of reonciliation plummet by the day. In any case, President RFK calls for the electors who voted for you to switch their votes for Romney, but it doesn't work, the gap is either too big or the electors are too stubborn.</p><p> Bormann and the Reich have already denounced the election as being rigged, whilst Prime Minister Ikeda and Japan have remained silent. Meanwhile, Nikita Khrushchev of the revitalized USSR has proclaimed that the election is a fine example of the decay of capitalism.</p><p>But then you figure out a way to achieve victory. On January 2nd, 1973 at exactly 6:33 AM, to the horror of everyone, thousands of armed ANV members seize control over vital strategic areas in the Deep South under your orders, with you declaring the establishment of the American Imperium. <b><i>And the rest as they say, is history.</b></i></p>\", \"description_as_running_mate\": null, \"candidate_score\": 0.666}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 58, \"fields\": {\"first_name\": \"Louis T.\", \"last_name\": \"Byers\", \"election\": 4, \"party\": \"National Progressive Pact - American National Vanguard\", \"state\": \"Pennsylvania\", \"priority\": 33, \"description\": \"n/a\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://static.tvtropes.org/pmwiki/pub/images/louis_t_byers.png\", \"electoral_victory_message\": \"n/a\", \"electoral_loss_message\": \"n/a\", \"no_electoral_majority_message\": \"n/a\", \"description_as_running_mate\": \"<p>Louis T. Byers is one of your most fervent supporters and a representative from New York. Before jumping to the ANV, Byers was a fervent supporter of George Wallace but defected to you and the ANV after you had become a politically relevant figure. In 1970, he managed to wrestle control of New Yorks 23rd District after dethroning the NPP incumbent in the primaries.<br><p>Byers is practically your lapdog and would do nothing but reinforce your image as an orthodox Nazi in this election. One notable thing is that during his time on the House Committee on Organized Crime, he spearheaded an assault on the Italian mafia present in New York City. He won't do much to expand your voter appeal, but its your choice to make.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 60, \"fields\": {\"first_name\": \"John G.\", \"last_name\": \"Crommelin\", \"election\": 4, \"party\": \"National Progressive Pact - American National Vanguard\", \"state\": \"Alabama\", \"priority\": 35, \"description\": \"n/a\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/LJF04gg.jpeg\", \"electoral_victory_message\": \"n/a\", \"electoral_loss_message\": \"n/a\", \"no_electoral_majority_message\": \"n/a\", \"description_as_running_mate\": \"<p>In any other world, John G. Crommelin would be a simple segregationist and politically irrelevant, but this is not any other world. Crommelin is one of the few moderate figures within the ANV. A veteran of the Pacific, Crommelin's two brothers were killed whilst fighting against the Japanese, which prompted the young Crommelin to go on a rampage throughout the Pacific even as the US continued losing the war. </p><p> More importantly, Crommelin DESPISES detente with Germany and Germany in general, seeing them as no different from the Japanese which could spark tensions between you and the admiral should you win the election. However, he would moderate your image somewhat in order to secure wavering conservatives and segregationists not already in your column. Picking Crommelin will give you a shot at a landslide and dampen any attacks about you being a Nazi puppet, but it's your choice whether or not to sacrifice ideological purity for political gain.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 61, \"fields\": {\"first_name\": \"James H.\", \"last_name\": \"Madole\", \"election\": 4, \"party\": \"National Progressive Pact - American National Vanguard\", \"state\": \"New York\", \"priority\": 36, \"description\": \"n/a\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://i.imgur.com/ll0OY4b.jpeg\", \"electoral_victory_message\": \"n/a\", \"electoral_loss_message\": \"n/a\", \"no_electoral_majority_message\": \"n/a\", \"description_as_running_mate\": \"<p>James H. Madole would be an interesting pick to the say the least. An ex-shopping clerk who used to live with his mother in his 30's, the sheer disgust radiating from his beliefs is matched only by his preference for junk food and his poor social skills. Madole has expressed fervent support for Burgundy and Himmler before the Ordenstaats collapse, and there are rumors that he was a Burgundian asset but he has denied this.</p><p>Madoles radical views would leave your campaign dead on arrival and essentially be the end of the NPP should you lose by the margains that everyone has predicted. However, should you get into power with Madole as your VP, you will have vindicated the NPP-ANV's image as a frigne faction and make the NPP yours to shape and mold. And if you do, then you will have cemented your status as the greatest villain in all of American history.\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 24, \"fields\": {\"first_name\": \"George W.\", \"last_name\": \"Romney\", \"election\": 4, \"party\": \"Republican-Democrat Coalition - Republican\", \"state\": \"Romney\", \"priority\": 2, \"description\": \"<p>George Romney is the current governor of Michigan and a major figure within the automobile industrial scene- Hey, who the hell are you! And how are you seeing this?!</p>\", \"color_hex\": \"#8B0000\", \"secondary_color_hex\": \"#ff981a\", \"is_active\": 0, \"image_url\": \"https://static.wikia.nocookie.net/the-new-order-the-last-days-of-europe/images/0/05/Portrait_USA_George_Romney.png\", \"electoral_victory_message\": \"<h3>Congratulations! You have won the 1968 election!</h3><p>Here we go. Not even you could figure out if this day would effectively come, and yet it came: the first socialist president in the whole United States History. As Mr. Goldwater sadly congratulates to you, and Newsweek runs a cover saying “Socialism Won(?)”, you get ready to move to the White House, in order to finish in history books as the guy who eradicated poverty, as you stomped in books already as the President with the most ambitious domestic programme ever.</p>\", \"electoral_loss_message\": \"<h3>Sorry, you have lost the 1968 election.</h3><p>Well, nothing new here. A socialist lost another election in America, how new. Surely, this time will inspire a new generation of socialist activists and politicians, even in the National Progressive Party, but word is breaking out that mr. Wallace and Margaret Smith are the new frontrunners in 1972. Indeed, you did your own little revolution, and the Senate Majority will have a fun time vetoing every goddamn bill Goldwater will try to pass (Scoop’s words, not mine), but you still are senator for the State of Missouri, so I guess you could try it again in 1972, but you would need a second miracle, to win even this.</p>\", \"no_electoral_majority_message\": \"<h3>Oh my god. Noone has achieved a majority within the electoral college.</h3><p>Despite the best efforts of you and Romney, neither of you have achieved an electoral majority. Any hopes of compromise between you and him are non-existent considering your views.</p><p>Noone knows what will follow next, but the mood in the air is tense. Riots have already begun, calls of voter fraud and voter supression ring out from both sides and hopes of reonciliation plummet by the minute. <p>And then, on January 2nd, to the horror of everyone, you declare the establishment of the North American Imperium in the Deep South, with several states which voted overwhelmingly for you joining. <b><i>And the rest as they say, is history.</b></i></p>\", \"description_as_running_mate\": null, \"candidate_score\": 0.7}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 8739619, \"fields\": {\"first_name\": \"Gus\", \"last_name\": \"Hall\", \"election\": 4, \"party\": \"Communist Party USA\", \"state\": \"Minnesota\", \"priority\": 2, \"description\": \"<p>communism is gvmer</p>\", \"color_hex\": \"#400000\", \"secondary_color_hex\": \"#ff981a\", \"is_active\": 0, \"image_url\": \"https://media.discordapp.net/attachments/842208012727091230/1128498154464084089/HallALT.jpg\", \"electoral_victory_message\": \"\", \"electoral_loss_message\": \"\", \"no_electoral_majority_message\": \"\", \"description_as_running_mate\": null, \"candidate_score\": 0.7}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 8739675, \"fields\": {\"first_name\": \"`\", \"last_name\": \"John Schmitz/Other Candidates\", \"election\": 4, \"party\": \"Nationalist Party/Independent\", \"state\": \"California\", \"priority\": 2, \"description\": \"<p>yock bad so 3rd party is bvsed</p>\", \"color_hex\": \"#808080\", \"secondary_color_hex\": \"#ff981a\", \"is_active\": 0, \"image_url\": \"https://media.discordapp.net/attachments/842208012727091230/1128498155407814773/SchmitzALT.png\", \"electoral_victory_message\": \"\", \"electoral_loss_message\": \"\", \"no_electoral_majority_message\": \"\", \"description_as_running_mate\": null, \"candidate_score\": 0.7}}]");
+campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 58, \"fields\": {\"candidate\": 23, \"running_mate\": 58}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 59, \"fields\": {\"candidate\": 23, \"running_mate\": 61}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 61, \"fields\": {\"candidate\": 23, \"running_mate\": 60}}]");
+campaignTrail_temp.opponents_default_json = JSON.parse("[{\"election\": 4, \"candidates\": [24, 23, 8739619, 8739675]}]");
+campaignTrail_temp.opponents_weighted_json = JSON.parse("[{\"election\": 4, \"candidates\": [24, 23, 8739619, 8739675]}]");
+campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.12, \"start_point\": 0.94, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.01, \"state_variance\": 0.005, \"question_count\": 30, \"default_map_color_hex\": \"#C9C9C9\", \"no_state_map_color_hex\": \"#999999\"}}]");
+campaignTrail_temp.temp_election_list = [{"id": 4, "year": 1972, "is_premium": 0, "display_year": "1972TNO"}];
+ var changeGameDisp = (hide) => {
+  disp = "";
+  if (hide) {
+    disp = "none";
+  }
+  document.getElementsByClassName("inner_window_w_desc")[0].style.display = disp
+};
+
+var changeGameDisp = (hide) => {
+  disp = "";
+  if (hide) {
+    disp = "none";
+  }
+  document.getElementsByClassName("inner_window_w_desc")[0].style.display = disp
+};
+var changeGameDisp = (hide) => {
+    disp = "";
+    if (hide) {
+      disp = "none";
+    }
+    document.getElementsByClassName("inner_window_w_desc")[0].style.display = disp
+  };
+  e.creditsPage = () => {
+    credits_html = `
+      <h2 style='color: #000000;'>Main Dev</h2>
+      <p style='color: #000000;'>marin#3730 (u/marinBlackMesa)</p>
+      <h2 style='color: #000000;'>Contributors</h2>
+      <p style='color: #000000;'>Aiden (Coding advice, implementing 2000N credits code, troubleshooting)</p>
+      <p style='color: #000000;'>Gardfeld (Coding the entireity of the Code 1 theme, coding and writing advice, implementation of 3rd parties)</p>
+      <p style='color: #000000;'>Rubix (CYOA Help)</p>
+      <p style='color: #000000;'>Decstar (Implementing the 2000N Ending Pages, making ending text look nicer)</p>
+      <h2 style='color: #000000;'>GFX Designers</h2>
+      <p style='color: #000000;'>bonbishka (Yockey, Byers, Crommelin and Madole portraits)</p>
+      <p style='color: #000000;'>Calgar77 (Unused Madole portrait)</p>
+      <h2 style='color: #000000;'>Playtesters</h2>
+      <p style='color: #000000;'>Aiden (From Red)</p>
+      <p style='color: #000000;'>cokelivesmatter</p>
+      <p style='color: #000000;'>WNDIUA</p>
+      <p style='color: #000000;'>SkyBlue#3951</p>
+      <p style='color: #000000;'>bip1874</p>
+      <p style='color: #000000;'>pedrocheems</p>
+      <p style='color: #000000;'>china1453</p>
+      <h2 style='color: #000000;'>Coding Contributions</h2>
+      <p style='color: #000000;'>Decstar (2000N Credits Code)</p>
+    `
+    changeGameDisp(true);
+    var spacer = document.createElement("amongusspacerthisisntarealelement");
+    spacer.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+    document
+      .getElementsByClassName("inner_window_w_desc")[0]
+      .children[1].appendChild(spacer);
+      changeGameDisp(true);
+      var menuHeader = document.createElement("div");
+      menuHeader.classList.add("inner_window_front");
+      menuHeader.innerHTML = `<h1 style='font-family: "Cinzel";'>Credits</font></h1>`;
+      menuHeader.id = "SOTUheader";
+      menuHeader.style = "height: 50px;background-color:#A9A9A9";
+      var newMenu = document.createElement("div");
+      newMenu.classList.add("inner_window_front");
+      newMenu.id = "SOTUmenu";
+      newMenu.style = `height:260px;background-color:#A9A9A9;color:white;overflow-y: scroll;`;
+  
+      newMenu.innerHTML = credits_html;
+      let z = document.getElementById("game_window");
+      var backButton = document.createElement("button");
+      backButton.style =
+        "position: relative; bottom: -13px; left: -380px; width: 150px; height: 80px;font-size:40px;padding-top:5px;padding-left:8px";
+      backButton.id = "backSOTUBtn";
+      backButton.innerHTML = `<b>BACK</b>`;
+      backButton.onclick = function () {
+        document.getElementById("SOTUheader").remove();
+        document.getElementById("SOTUmenu").remove();
+        document.getElementById("backSOTUBtn").remove();
+        changeGameDisp(false);
+      };
+      z.appendChild(menuHeader);
+      z.appendChild(newMenu);
+      z.appendChild(backButton);
+  
+}
+
+e.credits = "<button onclick='e.creditsPage()'>Credits</button>"
+document.body.style.backgroundSize="cover"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#222222"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#734D31"
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
+$(".container")[0].style.backgroundColor = "#3C1323"
+document.getElementById("header").src = "https://i.imgur.com/RSm44tb.png"
+document.body.background = "https://i.imgur.com/nK7cX1P.png"
+$("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/95Obp1f.png)"
+HistHexcolour=["#481f01","#99261f","#808080","#60100b"];
+HistName=["Francis Parker Yockey","George Romney","John Schmitz/Other Candidates","Gus Hall"];
+        HistEV=[269,252,0,13];
+        HistPV=["27,947,878","30,515,269","4,254,532","10,636,331"];
+        HistPVP=["38.1%","41.6%","5.8%","14.5%"];
+RecReading=true
+var music = new Audio('https://audio.jukehost.co.uk/KhRcsIzcgo79MCz7OgG5IO2LeXlEuHja');
+music.loop = true; // Set the loop property to true
+music.play();
+
+
+quotes = ["<q>The question of who strikes first in a war is on the same level as who strikes first in a boxing contest.</q> - Francis Parker Yockey"]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+
+corrr=`\n<h2>IMPERIVM</h2><font id='wittyquote' size='3.5' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#222222",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#000000",
+  "description_background_color": "#3C1323",
+  "main_color": "#3C1323",
+  "secondary_color": "#734D31",
+ "ui_text_color": "#ffffff"
+}
