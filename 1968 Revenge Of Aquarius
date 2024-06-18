@@ -457,31 +457,15 @@ var soundtracks = {
 
   0: {
 
-    name: "Opening",
+    name: "Opening Song",
 
     tracklist: [
 
       {
 
-        name: "My Generation - The Who",
+        name: "My Generation (The Who)",
 
         url: "https://audio.jukehost.co.uk/n92G2VOjXYPiyJ9M1vEpvspik3fVCnY4",
-
-      },
-
-      {
-
-        name: "I Wanna Be Your Dog - The Stooges",
-
-        url: "https://audio.jukehost.co.uk/JUnJzDEB88l1a4VkmM1pgtZUIzHg2kJ2",
-
-      },
-
-      {
-
-        name: "Helter Skelter - The Beatles",
-
-        url: "https://audio.jukehost.co.uk/1GBTfK3wiBNMkUnjmrp4ZEDemGK2FRe0",
 
       },
 
@@ -491,31 +475,47 @@ var soundtracks = {
 
   1: {
 
-      name: "Kennedy",
+      name: "Reagan Revolution",
 
       tracklist: [
 
         {
 
-          name: "Get Ready - The Temptations",
+          name: "Bad Moon Rising (Creedence Clearwater Revival)",
 
-          url: "https://audio.jukehost.co.uk/5DzqqdgNF5t84QmBbE2Gcbz90aQ3KaA7",
-
-        },
-
-        {
-
-          name: "Volunteers - Jefferson Airplane",
-
-          url: "https://audio.jukehost.co.uk/DvV1N6FLo4CGGCrwfopjMytsqrXLHQJs",
+          url: "https://audio.jukehost.co.uk/uEdju8yqORHtAPkQ21ovaLoygc9NgL8S",
 
         },
 
         {
 
-          name: "The Sounds of Silence - Simon & Garfunkel",
+          name: "Going To Vietnam (Big Amos)",
 
-          url: "https://audio.jukehost.co.uk/Fkvv9ZaGfmKf3t93BVAKuCR2L1wJfKJl",
+          url: "https://audio.jukehost.co.uk/Ya9fPDVIns3fE7dlVGLWxDIyz6f5tXak",
+
+        },
+
+        {
+
+name: "California Dreamin' (The Mamas & The Papas)",
+
+          url: "https://files.catbox.moe/50zp5f.mp3",
+
+        },
+
+        {
+
+name: "It's Alright, Ma (Bob Dylan)",
+
+          url: "https://audio.jukehost.co.uk/MB6djT4jfe1xQnmVm6OVEeKbG9LtELar",
+
+        },
+
+        {
+
+          name: "I Wanna Be Your Dog (The Stooges)",
+
+          url: "https://audio.jukehost.co.uk/JUnJzDEB88l1a4VkmM1pgtZUIzHg2kJ2",
 
         },
 
@@ -525,13 +525,79 @@ var soundtracks = {
 
   2: {
 
-      name: "Ending",
+      name: "A Great Society",
 
       tracklist: [
 
         {
 
-          name: "Gimmie Shelter - The Rolling Stones",
+          name: "Napoleon Of Texas (Morry Goodson)",
+
+          url: "https://audio.jukehost.co.uk/d6rU0FWJiLV7BCubUyxEI11kkybdC93q",
+
+        },
+
+        {
+
+name: "Get Ready (The Temptations)",
+
+          url: "https://audio.jukehost.co.uk/5DzqqdgNF5t84QmBbE2Gcbz90aQ3KaA7",
+
+        },
+
+        {
+
+name: "Us And Them (Pink Floyd)",
+
+          url: "https://audio.jukehost.co.uk/lwm0wRTz8o5yytd7Zj43ZpAUerYcn6SO",
+
+        },
+
+        {
+
+name: "Sounds Of Silence (Simon & Garfunkel)",
+
+          url: "https://audio.jukehost.co.uk/Fkvv9ZaGfmKf3t93BVAKuCR2L1wJfKJl",
+
+        },
+
+        {
+
+          name: "LBJ & Liberty (Roger Dewey)",
+
+          url: "https://audio.jukehost.co.uk/XmyCXMteFTcMSgz8MtsWwQEzeobA1lmj",
+
+        },
+
+      ],
+
+    },
+
+3: {
+
+      name: "Kennedy For Us",
+
+      tracklist: [
+
+        {
+
+          name: "Here Comes The Sun (The Beatles)",
+
+          url: "https://audio.jukehost.co.uk/JzyokKpIaUetrbYj2b0c3rl05EcJu5Fj",
+
+        },
+
+        {
+
+name: "Eve Of Destruction (Barry McGuire)",
+
+          url: "https://audio.jukehost.co.uk/Y0JZqpMSbErxTtiEkFPr8Ckeiqw0RxWf",
+
+        },
+
+        {
+
+name: "Gimme Shelter (The Rolling Stones)",
 
           url: "https://audio.jukehost.co.uk/rFDtDUj4nfB3jWZxHd9LQ59VgBtO4uHg",
 
@@ -539,9 +605,17 @@ var soundtracks = {
 
         {
 
-          name: "What's Going On - Marvin Gaye",
+name: "Volunteers (Jefferson Airplane)",
 
-          url: "https://audio.jukehost.co.uk/8vA9QIPwrkwhBDkF1BKTOHtGe4bCiDws",
+          url: "https://audio.jukehost.co.uk/DvV1N6FLo4CGGCrwfopjMytsqrXLHQJs",
+
+        },
+
+        {
+
+          name: "Ohio (Crosby, Stills, Nash, & Young)",
+
+          url: "https://audio.jukehost.co.uk/Wf9WdZYO9xOI2eRF337Nq6o6auA6XqwH",
 
         },
 
