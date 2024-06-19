@@ -75,6 +75,12 @@ campaignTrail_temp.modBoxTheme = {
  "ui_text_color": "#ffffff"
 }
 
+HistHexcolour=["0cfa4c","#fa0c0c","#0c7ffa","#d17428"];
+    HistName=[" Robert F. Kennedy"," Ronald W. Reagan"," Lyndon B. Johnson"," Ross Barnett / Other Candidates"];
+    HistEV=[278,164,96,0];
+    HistPV=["26,295,500","24,943,160","23,140,040","751,300"];
+    HistPVP=["35.0%","33.2%","30.8%","1.0%"];
+
 musicMode = () => {
 
   // Initialise custom music
