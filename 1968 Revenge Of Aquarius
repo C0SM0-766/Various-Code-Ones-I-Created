@@ -30,7 +30,7 @@ campaignTrail_temp.show_premium = true;
 campaignTrail_temp.premier_ab_test_version = -1;
 
 
-document.getElementById("header").src = "https://i.imgur.com/KIfe1qP.png";
+document.getElementById("header").src = "https://imgur.com/oEWFkb6.png";
 
 document.body.background = "https://api.time.com/wp-content/uploads/2018/08/chicago-1968.jpeg?quality=150&w=2780"
 
