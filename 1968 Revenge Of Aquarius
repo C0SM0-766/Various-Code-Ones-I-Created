@@ -39,7 +39,7 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#283a57"
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#FA2335"
 
-$("#game_window")[0].style.backgroundImage = "url(https://imgur.com/vMG1J2f.png)"
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/kccm3e.jpg)"
 
 $("#game_window")[0].style.borderColor = "#000000"
 
