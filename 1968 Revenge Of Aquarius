@@ -81,6 +81,27 @@ HistHexcolour=["#0cfa4c","#fa0c0c","#0c7ffa","#d17428"];
     HistPV=["26,295,506","24,943,164","23,140,049","751,301"];
     HistPVP=["35.0%","33.2%","30.8%","1.0%"];
 
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #283a57;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
 musicMode = () => {
 
   // Initialise custom music
