@@ -47,7 +47,7 @@ footer.insertBefore(button, footer.firstChild);
 
 button.onclick = changeBanner;
 
-HistHexcolour=["#bd3c35","#3e47c2","#e38242","#3cbf37"];
+HistHexcolour=["#cb2c30","#7ea8da","#f1be48","#4b772a"];
     HistName=[" Robert A. Taft"," Henry A. Wallace"," Harry F. Byrd"," Unpledged/Thomas/Others"];
     HistEV=[267,194,70,0];
     HistPV=["22,645,590","22,403,132","2,957,989","437,152"];
