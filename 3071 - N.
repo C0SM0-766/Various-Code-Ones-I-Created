@@ -1,0 +1,93 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#0d0d0d";
+
+$("#game_window")[0].style.backgroundColor = "#c4c4c4"
+
+$("#game_window")[0].style.borderColor = "#FFFFFF"
+            document.getElementById("header").src = "https://preview.redd.it/8io0pm3fr9jb1.png?width=1500&format=png&auto=webp&s=54cc927b4d0a6d130b0a36455bdd7971d57e648c";
+
+            document.body.background = "https://wallpapercave.com/wp/wp12384138.jpg";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":9,"fields":{"year":2000,"summary":"<p>So-called \"President\" N has oversaw disaster after disaster after he and Uzi Doorman staged a coup against this Worker Drone colony. Long gone is the promise of \"reconciliation & peace with Disassembly Drones\". Instead of helping the colony unite, N had just opened the wound wider, and calls for a revolution against this genocidal drone continues to gain more and more traction.<br><br>The calls are getting louder for \"President\" N to stand down, and it seems that the reconciliation experiment has failed. To stay as the leader of this colony, N will have to navigate through a hostile populace to get whatever of his domestic agenda passed and sell his soul away from the company and into Veep Doorman and Secretary V's hands.","image_url":"https://files.catbox.moe/9fms87.jpg","winning_electoral_vote_number":270,"advisor_url":"https://files.catbox.moe/x0hfjn.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":9,"year":2000,"is_premium":0,"display_year":"3071 - N."}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":28,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Serial Designation","last_name":"N","election":9,"party":"Nonpartisan","state":"Colony SC-09","priority":1,"description":"<p>Crowned with a hair of white and a pilot hat, dressed in black, and having an arsenal of a platoon, Serial Designation N has been looked down upon his entire life, as rightfully so. He couldn't do his job properly killing us Worker Drones like V or J. He's related to a world-ending phenomenon, unlike most. He's easily swayed into the ideas of Veep Doorman. Still, he got power after overthrowing our already good government and the persuasion of Khan's daughter. He's only our leader since he has those charms and likeability. Still, N believes he still has the ability to turn bad things around.<br><br>And he needs to. This election is the first (and probably only) time N can prove those doubters wrong. The Worker Drones, the Disassembly Drones, you name it. You don't need to be a gullible genocidal maniac to get into power. All it takes is determination. He'll get the approval of J-even if he needs to destroy us all to achieve this goal.","color_hex":"#edaf11","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/ifqcqm.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Uzi","last_name":"Doorman","election":9,"party":"Nationalist","state":"Colony SC-09","priority":1,"description":"<p>Your girlfriend, right hand woman, and advisor. Surprising to see her in this predicament, since she's your complete opposite-arrogant, angsty, and a bit annoying. Thanks to her manipulative abilities, you have your current crown. At this point, why even stay the leader when you do almost everything Uzi says? Uzi essentially wants to become a dictator: suppressing dissent, wants to colonize the rest of Copper-9, the whole shebang.<br><br>Uzi's worked so hard for your position. You better do herself a favor. She thinks it's a sham that people have criticized you, her, and all of the hard work you two have together, if you even accomplished anything at all. Uzi wants to trade her trash school years for something greater, bigger, ambitious. Uzi accepted to be your Veep knowing she'll be controlling everything around. Keep her happy, and you'll be on top of the world... controlled by chains under her.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/6mcyzh.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Your girlfriend, right hand woman, and advisor. Surprising to see her in this predicament, since she's your complete opposite-arrogant, angsty, and a bit annoying. Thanks to her manipulative abilities, you have your current crown. At this point, why even stay the leader when you do almost everything Uzi says? Uzi essentially wants to become a dictator: suppressing dissent, wants to colonize the rest of Copper-9, the whole shebang.<br><br>Uzi's worked so hard for your position. You better do herself a favor. She thinks it's a sham that people have criticized you, her, and all of the hard work you two have together, if you even accomplished anything at all. Uzi wants to trade her trash school years for something greater, bigger, ambitious. Uzi accepted to be your Veep knowing she'll be controlling everything around. Keep her happy, and you'll be on top of the world... controlled by chains under her.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1002}}];
+
+quotes = ["", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>N.</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#000000",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#000000",
+  "description_background_color": "#ffffff",
+  "main_color": "#c4c4c4",
+  "secondary_color": "#0d0d0d",
+ "ui_text_color": "#ffffff"
+}
+
+campaignTrail_temp.achievements = {
+    "No Russian" : {
+      "image" : "https://files.catbox.moe/pjitw1.jpg",
+      "description" : "Face Doll for re-election.",
+      "cannotBeCheated" : true
+    },
+    "Dizzy Ms. Lizzy" : {
+      "image" : "https://files.catbox.moe/asc8iy.jpg",
+      "description" : "Face Lizzy for re-election.",
+      "cannotBeCheated" : true
+    },
+    "Crab Rave" : {
+      "image" : "https://files.catbox.moe/ixaclk.jpg",
+      "description" : "Face Nori for re-election.",
+      "cannotBeCheated" : true
+    },
+    "Frenemy" : {
+      "image" : "https://files.catbox.moe/q2dqj0.jpg",
+      "description" : "Face Tessa for re-election.",
+      "cannotBeCheated" : true
+    },
+    "GigaThad" : {
+      "image" : "https://files.catbox.moe/wjd8j6.jpg",
+      "description" : "Face Thad for re-election.",
+      "cannotBeCheated" : true
+    },
+    "Call Of Duty" : {
+      "image" : "https://files.catbox.moe/czupd8.jpg",
+      "description" : "Face Spec for re-election.",
+      "cannotBeCheated" : true
+    },
+    "Doors" : {
+      "image" : "https://files.catbox.moe/3yvt7p.jpg",
+      "description" : "Face Khan for re-election.",
+      "cannotBeCheated" : true
+    },
+    "Rusty Copper" : {
+      "image" : "https://files.catbox.moe/s8rzub.jpg",
+      "description" : "At your lowest, face someone else for re-election.",
+      "cannotBeCheated" : true
+    },
+    "Cyclops" : {
+      "image" : "https://files.catbox.moe/neqm5c.jpg",
+      "description" : "Kickstart a powerful foe.",
+      "cannotBeCheated" : true
+    },
+    "Commando" : {
+      "image" : "https://files.catbox.moe/6jy02k.jpg",
+      "description" : "Face a military coup.",
+      "cannotBeCheated" : true
+    },
+    "Back Home In Elliott Manor" : {
+      "image" : "https://files.catbox.moe/u8rot3.jpg",
+      "description" : "Make J proud.",
+      "cannotBeCheated" : false
+    }
+    }
