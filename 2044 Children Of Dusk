@@ -616,7 +616,7 @@ var soundtracks = {
         "url": "https://audio.jukehost.co.uk/hcimBTl6ngY9jkLbTOOVtqpWFMsqwqA5"
       },
 	  {
-        "name": "Hold Back the Night (The Protomen)",
+        "name": "Hold Back The Night (The Protomen)",
         "url": "https://audio.jukehost.co.uk/0CWnsgkyk5ob6TBwssPmWM0VwGxlxhRG"
       },
 	  {
@@ -786,5 +786,5 @@ campaignTrail_temp.modBoxTheme = {
   "description_background_color": "#1d2363",
   "main_color": "#171245",
   "secondary_color": "#02003a",
- "ui_text_color": "#bbbbbb"
+ "ui_text_color": "#ffffff"
 }
