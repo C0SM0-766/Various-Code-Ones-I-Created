@@ -22,6 +22,16 @@ customquote = quotes[Math.floor((Math.random() * quotes.length))]
 
 corrr=`\n<h2>ELECTION THEORY</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
 
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#00a800",
+  "header_text_color": "#000000",
+  "description_text_color": "#000000",
+  "description_background_color": "#498749",
+  "main_color": "#005c00",
+  "secondary_color": "#498749",
+ "ui_text_color": "#ffffff"
+}
+
 musicMode = () => {
     // Initialise custom music
   
