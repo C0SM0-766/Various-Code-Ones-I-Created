@@ -32,7 +32,7 @@ campaignTrail_temp.premier_ab_test_version = -1;
 
 document.getElementById("header").src = "https://imgur.com/oEWFkb6.png";
 
-document.body.background = "https://api.time.com/wp-content/uploads/2018/08/chicago-1968.jpeg?quality=150&w=2780"
+document.body.background = "https://i.imgur.com/Pqcn1eI.jpeg"
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#283a57"
