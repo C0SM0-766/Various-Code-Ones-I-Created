@@ -516,9 +516,9 @@ var soundtracks = {
 
         {
 
-          name: "Going To Vietnam (Big Amos)",
+          name: "Paranoid (Black Sabbath)",
 
-          url: "https://audio.jukehost.co.uk/Ya9fPDVIns3fE7dlVGLWxDIyz6f5tXak",
+          url: "https://files.catbox.moe/8hofnp.mp3",
 
         },
 
@@ -535,6 +535,15 @@ name: "California Dreamin' (The Mamas & The Papas)",
 name: "It's Alright, Ma (Bob Dylan)",
 
           url: "https://audio.jukehost.co.uk/MB6djT4jfe1xQnmVm6OVEeKbG9LtELar",
+
+        },
+
+        {
+
+
+name: "Helter Skelter (The Beatles)",
+
+          url: "https://files.catbox.moe/90xefr.mp3",
 
         },
 
@@ -574,9 +583,9 @@ name: "Get Ready (The Temptations)",
 
         {
 
-name: "Us And Them (Pink Floyd)",
+name: "Going To Vietnam (Big Amos)",
 
-          url: "https://audio.jukehost.co.uk/lwm0wRTz8o5yytd7Zj43ZpAUerYcn6SO",
+          url: "https://audio.jukehost.co.uk/Ya9fPDVIns3fE7dlVGLWxDIyz6f5tXak",
 
         },
 
@@ -590,9 +599,17 @@ name: "Sounds Of Silence (Simon & Garfunkel)",
 
         {
 
-          name: "LBJ & Liberty (Roger Dewey)",
+name: "LBJ & Liberty (Roger Dewey)",
 
           url: "https://audio.jukehost.co.uk/XmyCXMteFTcMSgz8MtsWwQEzeobA1lmj",
+
+        },
+
+        {
+
+          name: "Everything's O.K On The LBJ (Lawton Williams)",
+
+          url: "https://files.catbox.moe/9zhl85.mp3",
 
         },
 
@@ -608,9 +625,9 @@ name: "Sounds Of Silence (Simon & Garfunkel)",
 
         {
 
-          name: "Here Comes The Sun (The Beatles)",
+          name: "All Along The Watchtower (Jimi Hendrix)",
 
-          url: "https://audio.jukehost.co.uk/JzyokKpIaUetrbYj2b0c3rl05EcJu5Fj",
+          url: "https://audio.jukehost.co.uk/H9boMg2Xqca8sfKuHEd5SPlVIHn4JD4q",
 
         },
 
@@ -635,6 +652,14 @@ name: "Gimme Shelter (The Rolling Stones)",
 name: "Volunteers (Jefferson Airplane)",
 
           url: "https://audio.jukehost.co.uk/DvV1N6FLo4CGGCrwfopjMytsqrXLHQJs",
+
+        },
+
+        {
+
+name: "For What It's Worth (Buffalo Springfield)",
+
+          url: "https://audio.jukehost.co.uk/dm5QT92Pb7PG28duUsIOFgaszg8XiWxE",
 
         },
 
