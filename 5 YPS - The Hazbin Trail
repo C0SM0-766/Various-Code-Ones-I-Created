@@ -10,7 +10,7 @@ e = campaignTrail_temp;
 
             $(".container")[0].style.backgroundColor = "#4a0119";
 
-$("#game_window")[0].style.backgroundColor = "#802634"
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/4nmu0f.jpg)"
             document.getElementById("header").src = "https://files.catbox.moe/cz67tb.jpg";
 
             document.body.background = "https://files.catbox.moe/c4xgqq.jpg";
@@ -50,7 +50,7 @@ campaignTrail_temp.modBoxTheme = {
   "description_background_color": "#990052",
   "main_color": "#4a0119",
   "secondary_color": "#802634",
- "ui_text_color": "#bbbbbb"
+ "ui_text_color": "#ffffff"
 }
 
 $("#game_start").click((event) => {
@@ -308,6 +308,38 @@ $("#game_start").click((event) => {
         name: "More Than Anything",
 
         url: "https://files.catbox.moe/ydtjly.mp3",
+
+      },
+
+      {
+
+        name: "Poison",
+
+        url: "https://files.catbox.moe/rcnpmc.mp3",
+
+      },
+
+      {
+
+        name: "Loser, Baby",
+
+        url: "https://files.catbox.moe/2y93h7.mp3",
+
+      },
+
+      {
+
+        name: "Out For Love",
+
+        url: "https://files.catbox.moe/7ywgoj.mp3",
+
+      },
+
+      {
+
+        name: "Hell's Greatest Dad",
+
+        url: "https://files.catbox.moe/vn5qjv.mp3",
 
       },
 
