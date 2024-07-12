@@ -349,7 +349,7 @@ $("#game_start").click((event) => {
 
       {
 
-        name: "Hell's Greatest Dad (Jeremy Jordan, Amir Talai, & Erika Henningsen)",
+        name: "Hell's Greatest Dad (Jeremy Jordan, Amir Talai, Sarah Stiles, & Erika Henningsen)",
 
         url: "https://files.catbox.moe/vn5qjv.mp3",
 
