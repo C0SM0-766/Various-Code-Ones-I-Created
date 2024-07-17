@@ -1,0 +1,792 @@
+const gameThemes = {
+    "A Chaotic Election" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5c76b8" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1e2840" 
+        $(".container")[0].style.backgroundColor = "#0b2566"
+        $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/59jslw.jpg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#C1834D" 
+        document.body.background = "https://news.virginia.edu/sites/default/files/article_image/us_capitol_architect_of_the_capitol_header.jpg" 
+        document.getElementById("header").src = "https://files.catbox.moe/gb3o4a.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+        $(".container")[0].style.backgroundColor = "#0a5082";
+        
+        const gameThemes = {
+    "A Chaotic Election" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#5c76b8" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1e2840" 
+        $(".container")[0].style.backgroundColor = "#0b2566"
+        $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/59jslw.jpg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#C1834D" 
+        document.body.background = "https://news.virginia.edu/sites/default/files/article_image/us_capitol_architect_of_the_capitol_header.jpg" 
+        document.getElementById("header").src = "https://files.catbox.moe/gb3o4a.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+        $(".container")[0].style.backgroundColor = "#0a5082";
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #0a5082;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        quotes = ["'RonDestablishment and Sleepy Joe had it out for me since the start, trust me folks, we won't go down that easily!' ~ Donald J. Trump","'This is a big fucking deal.' ~ Joseph R. Biden Jr.", "'Look, Hollywood is a cesspool.' ~ Ronald D. DeSantis", "'You stupid son of a bitch.' ~ Joseph R. Biden Jr.", "'While communism is the control of business by government, fascism is the control of government by business.' ~ Robert F. Kennedy Jr.", "'No daily drama, focus on the big picture, and put points on the board.' ~ Ronald D. DeSantis","'Florida is where Woke goes to die!' ~ Ronald D. DeSantis","'Failure at some point in your life is inevitable, but giving up is unforgivable.' ~ Joseph R. Biden Jr.","'There is nothing that this nation cannot achieve.' ~ Donald J. Trump", "'Florida sun now serves as a beacon of light to those who yearn for freedom.' ~ Ronald D. DeSantis","'The press is owned by five giant corporations.' ~ Robert F. Kennedy Jr.", "'The American dream belongs to all of us.' ~ Kamala D. Harris", "'What stands in the way of American progress right now is the federal government.' ~ Timothy E. Scott","'Miracles begin when we consider the possibility that there might be another way.' ~ Marianne D. Williamson", "'It's unfair, it's wrong and we can fix it. This is not rocket science.' ~ Kari Lake", "'We are America, second to none, and we own the finish line. Don’t forget it.' ~ Joseph R. Biden Jr.", "'Nothing we want for our future is beyond our reach.' ~ Donald J. Trump", "'When somebody challenges you, fight back. Be brutal, be tough.' ~ Donald J. Trump" ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "Kennedy For Me" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#28a650" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#2b6b2e" 
+        $(".container")[0].style.backgroundColor = "#70c87e"
+        $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/a2gfrl.jpg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#C1834D" 
+        document.body.background = "https://static01.nyt.com/images/2023/07/03/multimedia/03pol-rfk-pacs-jhtf/03pol-rfk-pacs-jhtf-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=2100" 
+        document.getElementById("header").src = "https://files.catbox.moe/namrhh.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #70c87e;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        
+        quotes = ["'RonDestablishment and Sleepy Joe had it out for me since the start, trust me folks, we won't go down that easily!' ~ Donald J. Trump","'This is a big fucking deal.' ~ Joseph R. Biden Jr.", "'Look, Hollywood is a cesspool.' ~ Ronald D. DeSantis", "'You stupid son of a bitch.' ~ Joseph R. Biden Jr.", "'While communism is the control of business by government, fascism is the control of government by business.' ~ Robert F. Kennedy Jr.", "'No daily drama, focus on the big picture, and put points on the board.' ~ Ronald D. DeSantis","'Florida is where Woke goes to die!' ~ Ronald D. DeSantis","'Failure at some point in your life is inevitable, but giving up is unforgivable.' ~ Joseph R. Biden Jr.","'There is nothing that this nation cannot achieve.' ~ Donald J. Trump", "'Florida sun now serves as a beacon of light to those who yearn for freedom.' ~ Ronald D. DeSantis","'The press is owned by five giant corporations.' ~ Robert F. Kennedy Jr.", "'The American dream belongs to all of us.' ~ Kamala D. Harris", "'What stands in the way of American progress right now is the federal government.' ~ Timothy E. Scott","'Miracles begin when we consider the possibility that there might be another way.' ~ Marianne D. Williamson", "'It's unfair, it's wrong and we can fix it. This is not rocket science.' ~ Kari Lake", "'We are America, second to none, and we own the finish line. Don’t forget it.' ~ Joseph R. Biden Jr.", "'Nothing we want for our future is beyond our reach.' ~ Donald J. Trump", "'When somebody challenges you, fight back. Be brutal, be tough.' ~ Donald J. Trump" ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "Building Back Better" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#25387c" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#425590" 
+        $(".container")[0].style.backgroundColor = "#606d97"
+        $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/evazm0.jpg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#505155" 
+        document.body.background = "https://www.japantimes.co.jp/uploads/imported_images/uploads/2022/09/np_file_179970.jpeg" 
+        document.getElementById("header").src = "https://files.catbox.moe/1st01i.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #606d97;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        
+        quotes = ["'RonDestablishment and Sleepy Joe had it out for me since the start, trust me folks, we won't go down that easily!' ~ Donald J. Trump","'This is a big fucking deal.' ~ Joseph R. Biden Jr.", "'Look, Hollywood is a cesspool.' ~ Ronald D. DeSantis", "'You stupid son of a bitch.' ~ Joseph R. Biden Jr.", "'While communism is the control of business by government, fascism is the control of government by business.' ~ Robert F. Kennedy Jr.", "'No daily drama, focus on the big picture, and put points on the board.' ~ Ronald D. DeSantis","'Florida is where Woke goes to die!' ~ Ronald D. DeSantis","'Failure at some point in your life is inevitable, but giving up is unforgivable.' ~ Joseph R. Biden Jr.","'There is nothing that this nation cannot achieve.' ~ Donald J. Trump", "'Florida sun now serves as a beacon of light to those who yearn for freedom.' ~ Ronald D. DeSantis","'The press is owned by five giant corporations.' ~ Robert F. Kennedy Jr.", "'The American dream belongs to all of us.' ~ Kamala D. Harris", "'What stands in the way of American progress right now is the federal government.' ~ Timothy E. Scott","'Miracles begin when we consider the possibility that there might be another way.' ~ Marianne D. Williamson", "'It's unfair, it's wrong and we can fix it. This is not rocket science.' ~ Kari Lake", "'We are America, second to none, and we own the finish line. Don’t forget it.' ~ Joseph R. Biden Jr.", "'Nothing we want for our future is beyond our reach.' ~ Donald J. Trump", "'When somebody challenges you, fight back. Be brutal, be tough.' ~ Donald J. Trump" ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "The Great Comeback" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#94383b" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#6a0f14" 
+        $(".container")[0].style.backgroundColor = "#d86e70"
+        $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/nbvquj.jpg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#390654" 
+        document.body.background = "https://static01.nyt.com/images/2022/11/07/multimedia/07midterms-live-desantis-video-topart-1-2d3d/07midterms-live-desantis-video-topart-1-2d3d-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=2100" 
+        document.getElementById("header").src = "https://files.catbox.moe/eikk6d.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #d86e70;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        
+        quotes = ["'RonDestablishment and Sleepy Joe had it out for me since the start, trust me folks, we won't go down that easily!' ~ Donald J. Trump","'This is a big fucking deal.' ~ Joseph R. Biden Jr.", "'Look, Hollywood is a cesspool.' ~ Ronald D. DeSantis", "'You stupid son of a bitch.' ~ Joseph R. Biden Jr.", "'While communism is the control of business by government, fascism is the control of government by business.' ~ Robert F. Kennedy Jr.", "'No daily drama, focus on the big picture, and put points on the board.' ~ Ronald D. DeSantis","'Florida is where Woke goes to die!' ~ Ronald D. DeSantis","'Failure at some point in your life is inevitable, but giving up is unforgivable.' ~ Joseph R. Biden Jr.","'There is nothing that this nation cannot achieve.' ~ Donald J. Trump", "'Florida sun now serves as a beacon of light to those who yearn for freedom.' ~ Ronald D. DeSantis","'The press is owned by five giant corporations.' ~ Robert F. Kennedy Jr.", "'The American dream belongs to all of us.' ~ Kamala D. Harris", "'What stands in the way of American progress right now is the federal government.' ~ Timothy E. Scott","'Miracles begin when we consider the possibility that there might be another way.' ~ Marianne D. Williamson", "'It's unfair, it's wrong and we can fix it. This is not rocket science.' ~ Kari Lake", "'We are America, second to none, and we own the finish line. Don’t forget it.' ~ Joseph R. Biden Jr.", "'Nothing we want for our future is beyond our reach.' ~ Donald J. Trump", "'When somebody challenges you, fight back. Be brutal, be tough.' ~ Donald J. Trump" ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "America, Great Again" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#96875e" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#b39b55"  
+        $(".container")[0].style.backgroundColor = "#b6ae99"
+        $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/6a0n84.jpg)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#2C5782" 
+        document.body.background = "https://static01.nyt.com/images/2020/06/20/us/politics/20vid-tulsa-rallyvid1/20vid-tulsa-rallyvid1-videoSixteenByNine3000.jpg" 
+        document.getElementById("header").src = "https://files.catbox.moe/r5sb8t.png" 
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #b6ae99;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        
+        
+        quotes = ["'RonDestablishment and Sleepy Joe had it out for me since the start, trust me folks, we won't go down that easily!' ~ Donald J. Trump","'This is a big fucking deal.' ~ Joseph R. Biden Jr.", "'Look, Hollywood is a cesspool.' ~ Ronald D. DeSantis", "'You stupid son of a bitch.' ~ Joseph R. Biden Jr.", "'While communism is the control of business by government, fascism is the control of government by business.' ~ Robert F. Kennedy Jr.", "'No daily drama, focus on the big picture, and put points on the board.' ~ Ronald D. DeSantis","'Florida is where Woke goes to die!' ~ Ronald D. DeSantis","'Failure at some point in your life is inevitable, but giving up is unforgivable.' ~ Joseph R. Biden Jr.","'There is nothing that this nation cannot achieve.' ~ Donald J. Trump", "'Florida sun now serves as a beacon of light to those who yearn for freedom.' ~ Ronald D. DeSantis","'The press is owned by five giant corporations.' ~ Robert F. Kennedy Jr.", "'The American dream belongs to all of us.' ~ Kamala D. Harris", "'What stands in the way of American progress right now is the federal government.' ~ Timothy E. Scott","'Miracles begin when we consider the possibility that there might be another way.' ~ Marianne D. Williamson", "'It's unfair, it's wrong and we can fix it. This is not rocket science.' ~ Kari Lake", "'We are America, second to none, and we own the finish line. Don’t forget it.' ~ Joseph R. Biden Jr.", "'Nothing we want for our future is beyond our reach.' ~ Donald J. Trump", "'When somebody challenges you, fight back. Be brutal, be tough.' ~ Donald J. Trump" ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "Classic" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e8fbff" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016"  
+        $(".container")[0].style.backgroundColor = "#fff"
+        $("#game_window")[0].style.backgroundColor = "#ffffff"
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#ffffff" 
+        document.body.background = "" 
+        document.getElementById("header").src = "https://www.newcampaigntrail.com/static/images/banner_classic.png" 
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #fea0a0;
+  }
+  a:-webkit-any-link {
+    color: #4287f5;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+        document.getElementById("wittyquote").color = "white" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+        $("#game_window")[0].style.backgroundImage = "url(https://www.colorhexa.com/bee6ff.png"
+        
+        quotes = ["" ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    }
+}
+
+// Replace old theme picker
+const themePicker = document.getElementById("themePicker");
+const newThemePicker = document.createElement("select");
+newThemePicker.id = "themePicker";
+newThemePicker.addEventListener("change", gameThemePicked);
+let newInnerHTML = "";
+for(theme in gameThemes) {
+    newInnerHTML += `<option value="${theme}">${theme}</option>`;
+}
+newThemePicker.innerHTML = newInnerHTML;
+themePicker.replaceWith(newThemePicker);
+
+function gameThemePicked() {
+    gameThemes[newThemePicker.value]();
+}
+
+gameThemePicked();
+
+
+    },
+    "Kennedy For Me" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#28a650" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#2b6b2e" 
+        $(".container")[0].style.backgroundColor = "#70c87e"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/iW8MBwl.png)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#C1834D" 
+        document.body.background = "https://static01.nyt.com/images/2023/07/03/multimedia/03pol-rfk-pacs-jhtf/03pol-rfk-pacs-jhtf-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=2100" 
+        document.getElementById("header").src = "https://files.catbox.moe/namrhh.png" 
+        document.getElementById("wittyquote").color = "red" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+        
+        
+        quotes = ["'RonDestablishment and Sleepy Joe had it out for me since the start, frust me folks, we won't go down that easily!' ~ Donald J. Trump","'This is a big fucking deal.' ~ Joseph R. Biden Jr.", "'Look, Hollywood is a cesspool.' ~ Ronald D. DeSantis", "'You stupid son of a bitch.' ~ Joseph R. Biden Jr.", "'While communism is the control of business by government, fascism is the control of government by business.' ~ Robert F. Kennedy Jr.", "'No daily drama, focus on the big picture, and put points on the board.' ~ Ronald D. DeSantis","'Florida is where Woke goes to die!' ~ Ronald D. DeSantis","'Failure at some point in your life is inevitable, but giving up is unforgivable.' ~ Joseph R. Biden Jr.","'There is nothing that this nation cannot achieve.' ~ Donald J. Trump", "'Florida sun now serves as a beacon of light to those who yearn for freedom.' ~ Ronald D. DeSantis","'The press is owned by five giant corporations.' ~ Robert F. Kennedy Jr.", "'The American dream belongs to all of us.' ~ Kamala D. Harris", "'What stands in the way of American progress right now is the federal government.' ~ Timothy E. Scott","'Miracles begin when we consider the possibility that there might be another way.' ~ Marianne D. Williamson", "'It's unfair, it's wrong and we can fix it. This is not rocket science.' ~ Kari Lake", "'We are America, second to none, and we own the finish line. Don’t forget it.' ~ Joseph R. Biden Jr.", "'Nothing we want for our future is beyond our reach.' ~ Donald J. Trump", "'When somebody challenges you, fight back. Be brutal, be tough.' ~ Donald J. Trump" ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "Building Back Better" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#25387c" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#425590" 
+        $(".container")[0].style.backgroundColor = "#606d97"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/2GZk1LF.png)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#505155" 
+        document.body.background = "https://www.japantimes.co.jp/uploads/imported_images/uploads/2022/09/np_file_179970.jpeg" 
+        document.getElementById("header").src = "https://files.catbox.moe/1st01i.png" 
+        document.getElementById("wittyquote").color = "red" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+        
+        
+        quotes = ["'RonDestablishment and Sleepy Joe had it out for me since the start, frust me folks, we won't go down that easily!' ~ Donald J. Trump","'This is a big fucking deal.' ~ Joseph R. Biden Jr.", "'Look, Hollywood is a cesspool.' ~ Ronald D. DeSantis", "'You stupid son of a bitch.' ~ Joseph R. Biden Jr.", "'While communism is the control of business by government, fascism is the control of government by business.' ~ Robert F. Kennedy Jr.", "'No daily drama, focus on the big picture, and put points on the board.' ~ Ronald D. DeSantis","'Florida is where Woke goes to die!' ~ Ronald D. DeSantis","'Failure at some point in your life is inevitable, but giving up is unforgivable.' ~ Joseph R. Biden Jr.","'There is nothing that this nation cannot achieve.' ~ Donald J. Trump", "'Florida sun now serves as a beacon of light to those who yearn for freedom.' ~ Ronald D. DeSantis","'The press is owned by five giant corporations.' ~ Robert F. Kennedy Jr.", "'The American dream belongs to all of us.' ~ Kamala D. Harris", "'What stands in the way of American progress right now is the federal government.' ~ Timothy E. Scott","'Miracles begin when we consider the possibility that there might be another way.' ~ Marianne D. Williamson", "'It's unfair, it's wrong and we can fix it. This is not rocket science.' ~ Kari Lake", "'We are America, second to none, and we own the finish line. Don’t forget it.' ~ Joseph R. Biden Jr.", "'Nothing we want for our future is beyond our reach.' ~ Donald J. Trump", "'When somebody challenges you, fight back. Be brutal, be tough.' ~ Donald J. Trump" ]
+
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+    },
+    "The Great Comeback" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#94383b" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#6a0f14" 
+        $(".container")[0].style.backgroundColor = "#d86e70"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/Xj0lFYc.png)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#390654" 
+        document.body.background = "https://static01.nyt.com/images/2022/11/07/multimedia/07midterms-live-desantis-video-topart-1-2d3d/07midterms-live-desantis-video-topart-1-2d3d-mobileMasterAt3x.jpg?quality=75&auto=webp&disable=upscale&width=2100" 
+        document.getElementById("header").src = "https://files.catbox.moe/eikk6d.png" 
+        document.getElementById("wittyquote").color = "red" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+        
+        
+        quotes = [""]
+        customquote = quotes[Math.floor((Math.random() * quotes.length))]
+        
+        corrr = `\n<h2>The Campaign Trail</h2><font id='wittyquote' size='90' <em>` + customquote + `</em></font>`
+    },
+    "America, Great Again" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#96875e" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#b39b55"  
+        $(".container")[0].style.backgroundColor = "#b6ae99"
+        $("#game_window")[0].style.backgroundImage = "url(https://i.imgur.com/TzOoFdE.png)" 
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#2C5782" 
+        document.body.background = "https://static01.nyt.com/images/2020/06/20/us/politics/20vid-tulsa-rallyvid1/20vid-tulsa-rallyvid1-videoSixteenByNine3000.jpg" 
+        document.getElementById("header").src = "https://files.catbox.moe/r5sb8t.png" 
+        document.getElementById("wittyquote").color = "red" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+        
+        
+        quotes = [""]
+        customquote = quotes[Math.floor((Math.random() * quotes.length))]
+        
+        corrr = `\n<h2>The Campaign Trail</h2><font id='wittyquote' size='90' <em>` + customquote + `</em></font>`
+    },
+    "Classic" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff" 
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000"  
+        $(".container")[0].style.backgroundColor = "#282929"
+        $("#game_window")[0].style.backgroundColor = "#ffffff"
+        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.coloring_window = "#ffffff" 
+        document.body.background = "https://wallpapers.com/images/featured-small/pure-black-background-py9pa0f1mlsscm9s.webp" 
+        document.getElementById("header").src = "https://files.catbox.moe/hawfhj.png" 
+        document.getElementById("wittyquote").color = "red" 
+        nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+        $("#game_window")[0].style.backgroundImage = "url(https://wallpapers.com/images/featured-small/pure-black-background-py9pa0f1mlsscm9s.webp"
+        
+        quotes = [""]
+        customquote = quotes[Math.floor((Math.random() * quotes.length))]
+        
+        corrr = `\n<h2>The Campaign Trail</h2><font id='wittyquote' size='90' <em>` + customquote + `</em></font>`
+    }
+}
+
+// Replace old theme picker
+const themePicker = document.getElementById("themePicker");
+const newThemePicker = document.createElement("select");
+newThemePicker.id = "themePicker";
+newThemePicker.addEventListener("change", gameThemePicked);
+let newInnerHTML = "";
+for(theme in gameThemes) {
+    newInnerHTML += `<option value="${theme}">${theme}</option>`;
+}
+newThemePicker.innerHTML = newInnerHTML;
+themePicker.replaceWith(newThemePicker);
+
+function gameThemePicked() {
+    gameThemes[newThemePicker.value]();
+}
+
+gameThemePicked();
+
+
+
+
+e = campaignTrail_temp;
+e.election_json = [{"model":"campaign_trail.election","pk":20,"fields":{"year":2016,"summary":"<p>The Sixth Party System has died. And in it's ashes, rises a new system, one that is unprecedented in our nation's history. Two presidents, one incumbent and one former, set to change the status quo.<br><br>President Joe Biden, now at the head of the ''Liberal Party'' ticket, faces the challenge of maintaining his large polling lead, and avoiding bleeding progressive support to Robert F. Kennedy Jr. Meanwhile, RFK Jr. needs to do the inverse, appealing to progressives while downplaying his anti-vaccine activism. Ron DeSantis struggles to maintain his direction of ''Trumpism without Trump'', while Donald Trump seeks to keep the Trump name on the ballot for yet another cycle.<br><br><button onclick='next0()'><b>MORE INFO:</b> Background</button></p>","image_url":"https://imgur.com/rzhP9i9.png","winning_electoral_vote_number":270,"advisor_url":"https://s7d2.scene7.com/is/image/TWCNews/D2024_social_1920x1080_2-1?wid=1050&hei=590&$wide-bg$","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":20,"year":2016,"is_premium":0,"display_year":"2024-Way"}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":35,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Robert F.","last_name":"Kennedy Jr.","election":20,"party":"Democratic","state":"California","priority":1,"description":"<p>The Kennedy name is synonymous with the presidency and progressivism. Not so much with Robert Francis Kennedy Jr., who has taken plenty of conservative stances over the years. Upholding conspiracy theories about vaccines in the air and breaking with Democrats to support conservative ideals, It seems that Kennedy getting the Democratic nomination was nothing but a mistake for the party of the donkey.<br><br>Kennedy's in a weird predicament. His voter base consists of moderates, conservative Democrats, Anti-Biden liberals, & loyal Democrats. All have the potential to break away from Bobby Jr. If he isn't careful by what he says. Plus, his past bizarre statements and renunciation by his family will come to haunt Bobby Jr. and will be an unavoidable topic. Kennedy's a free thinker, a maverick. He doesn't care about breaking with the establishment who control everything we do. He cares about us, We The People. And he's determined to win it.","color_hex":"#2f54c4","secondary_color_hex":null,"is_active":1,"image_url":"https://imgur.com/Egbh4Gp.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Joe","last_name":"Biden","election":20,"party":"Liberal","state":"Delaware","priority":1,"description":"<p>Aged and unpopular, Joseph Robinette Biden Jr. Thought soon, he'll be done with politics after dropping out of the Democratic primaries. Unfortunately, that wasn't the case. He may be unpopular nationwide, but within the Democratic party, it's quite the opposite. Many now blame Biden for making Kennedy the Democratic nominee, due to his quietness on the man. Pressured, he launches a new political party; one that upholds his views, achievements, and policy.<br><br>Biden's old and is losing it. But still, he had thrusted himself onto another election cycle. As the incumbent president, it's expected to see all other candidates dogpile that is the failures of Joe's administration. Biden also has the potential to slip up on the campaign trail and his advanced age concerns many. Still, Biden holds a very fragile lead against the rest of the candidates, and mustn't let any group he has in his camp drift away into the likes of Kennedy, DeSantis, or Trump.","color_hex":"#31bd3d","secondary_color_hex":null,"is_active":1,"image_url":"https://imgur.com/UySnPhC.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"Ron","last_name":"DeSantis","election":20,"party":"Republican","state":"Florida","priority":1,"description":"<p>For a while, plenty of Republicans favored Florida Governor Ronald Dion DeSantis over Donald Trump. But ever since Trump increased his nasty attacks on the Governor, his favorability has waned within the party. But still even after all this, DeSantis narrowly clutched the GOP nomination. Ever since Biden launched a third party, it all seemed like a lock for Ron. That is, until Trump, that bitter loser, ran again. And many people, who would've voted DeSantis, voted for Trump and the so-called \"Patriot\" party.<br><br>Like Kennedy, DeSantis starts off in an unfavorable position. His unlikeability towards liberals and moderates due to his controversial ''Don't Say Gay'' bill and DeSantis' focus on the culture war all haunt him. The Trumpist base is outraged too, seeing Ron as the man who stopped an inevitable Trump victory this year. Ron had faced rough challenges since 2018. It now seems that this is the biggest hurdle Ron will take.","color_hex":"#b83333","secondary_color_hex":null,"is_active":1,"image_url":"https://imgur.com/CVbntxb.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"Donald","last_name":"Trump","election":20,"party":"Patriot","state":"Florida","priority":1,"description":"What a disgrace this election is.<br><p>Since 2016, the Donald has controlled the Republican party like a personal fief. Telling his loyal supporters what to believe, what to do, who to support, etc. Now, it all seems to be tumbling down. Trump, once the leader of the free world, has been convicted and left to rot by the Republicans. Not anymore.<br><br>As what was rumored to be the case in 2016 & 2024 if Trump didn't become the nominee, Trump started a new political party, hoping to see his loyal patriots follow his cause and defeat the clowns in the arena: Kennedy, the grifter with a disgusting voice. DeSantis, the raising-taxes pudding traitor. Biden, that sleepy slow dementic criminal imbecile. All crooks who hate our beloved American people. Trump knows this, and hopes to put our country back on track and pull us out of this American carnage and tear down this sham system once and for all.","color_hex":"#7031bd","secondary_color_hex":null,"is_active":1,"image_url":"https://imgur.com/eolQJkW.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"Marianne","last_name":"Williamson","election":20,"party":"Democratic","state":"California","priority":1,"description":"<p>Friend of Oprah Winfrey, author, & spiritual leader. These describe Marianne Williamson. And she may as well be one of your last lifelines with the staunch liberals in the party, or whatever of it is left. Williamson is a solid liberal on many issues of the day, and will draw sone support away from Biden and into the Kennedy and Democratic banner.<br><br>Her biggest drawbacks with her are that she has never held any political office in her lifetime, is treated like a joke in the media, & the tension between you and her. You two disagree on plenty of issues plaguing America. But perhaps that's needed in order to win an already uphill battle against the other three candidates.<br><br>Yeah, and also don't forget to switch your state of residence.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/49AmSbG.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Friend of Oprah Winfrey, author, & spiritual leader. These describe Marianne Williamson. And she may as well be one of your last lifelines with the staunch liberals in the party, or whatever of it is left. Williamson is a solid liberal on many issues of the day, and will draw sone support away from Biden and into the Kennedy and Democratic banner.<br><br>Her biggest drawbacks with her are that she has never held any political office in her lifetime, is treated like a joke in the media, & the tension between you and her. You two disagree on plenty of issues plaguing America. But perhaps that's needed in order to win an already uphill battle against the other three candidates.<br><br>Yeah, and also don't forget to switch your state of residence.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"Ilhan","last_name":"Omar","election":20,"party":"Democratic","state":"Minnesota","priority":1,"description":"<p>You desperately need progressives to support you in order to win this damn election. Who else can get them into your camp then Ilhan Omar? Omar is a Progressive to her core, with her even being unofficially a part of \"The Squad\" in congress. She would be a good choice to claw back at supporters who were originally in Biden's camp and unite the party.<br><br>One major drawback to her selection: she's actually ineligible to become Vice President. Omar isn't a natural-born citizen of this country, therefore voiding her for the office. This will also fuel attacks that you're too inexperienced for the job for picking someone who can't even become Vice President. Let's just hope the \"natural-born citizen\" problem is just vague enough for her to fend off attacks for her at least up until election day...","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/jizGrKe.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>You desperately need progressives to support you in order to win this damn election. Who else can get them into your camp then Ilhan Omar? Omar is a Progressive to her core, with her even being unofficially a part of \"The Squad\" in congress. She would be a good choice to claw back at supporters who were originally in Biden's camp and unite the party.<br><br>One major drawback to her selection: she's actually ineligible to become Vice President. Omar isn't a natural-born citizen of this country, therefore voiding her for the office. This will also fuel attacks that you're too inexperienced for the job for picking someone who can't even become Vice President. Let's just hope the \"natural-born citizen\" problem is just vague enough for her to fend off attacks for her at least up until election day...","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":"Kyrsten","last_name":"Sinema","election":20,"party":"Independent","state":"Arizona","priority":1,"description":"<p>Kyrsten Sinema left the Democratic party recently. She has one of the most conservative voting records in the Senate, leaving some wondering why she even considered being a Democrat in the first place. Nevertheless, ever since your nomination, Sinema has expressed support for being your running mate. <br><br>Sinema can help reel in moderates, and especially in her home state of Arizona. With her on the ticket, the direction of your campaign will be clear: one of liberal conservatism. Unfortunately, this may as well just made the last Progressives within the party to leave and vote for Biden.<br><br>If you're looking to expand your conservative ideals, go with Sinema. But otherwise, advisors recommend to not choose her.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/dUg39Qg.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Kyrsten Sinema left the Democratic party recently. She has one of the most conservative voting records in the Senate, leaving some wondering why she even considered being a Democrat in the first place. Nevertheless, ever since your nomination, Sinema has expressed support for being your running mate. <br><br>Sinema can help reel in moderates, and especially in her home state of Arizona. With her on the ticket, the direction of your campaign will be clear: one of liberal conservatism. Unfortunately, this may as well just made the last Progressives within the party to leave and vote for Biden.<br><br>If you're looking to expand your conservative ideals, go with Sinema. But otherwise, advisors recommend to not choose her.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"Aaron","last_name":"Rodgers","election":20,"party":"Independent","state":"New Jersey","priority":1,"description":"<p>Aaron Rodgers? The football quarterback? He's going to be Kennedy's running mate?<br><br>Well, if he ask him out, he indeed is. Rodgers has been a vocal supporter of you and your campaign since the start. His name recognition and star status can attract many voters nationwide. Both of you also have expressed support for various conspiracy theories.<br><br>On the drawback, he has never been elected in any office. He also claims that COVID was manmade and that the Sandy Hook school shooting was staged. Both would hurt your credibility among moderates even more and wouldn't unite a quickly dividing party.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/2ERfvyx.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Aaron Rodgers? The football quarterback? He's going to be Kennedy's running mate?<br><br>Well, if he ask him out, he indeed is. Rodgers has been a vocal supporter of you and your campaign since the start. His name recognition and star status can attract many voters nationwide. Both of you also have expressed support for various conspiracy theories.<br><br>On the drawback, he has never been elected in any office. He also claims that COVID was manmade and that the Sandy Hook school shooting was staged. Both would hurt your credibility among moderates even more and wouldn't unite a quickly dividing party.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1009,"fields":{"first_name":"Jimmy","last_name":"Dore","election":20,"party":"People's","state":"Illinois","priority":1,"description":"<p>Jimmy Dore is a... well, an unexpected choice, to say the least. Dore is a stand-up comedian, commentator, and like you, a conspiracy theorist. He espouses the same conspiracy theories about vaccines that you had said. Unfortunately though, he's been through a ton of controversy, from making downright dubious claims to interviewing the Alt-right.<br><br>Despite your differences, you two are friends. You've gone on his show multiple times and spread your fair share of conspiracies. With that being said, if Jimmy Dore could not go to heaven without joining the Democratic Party, he would not go there at all. Would Jimmy Dore accept the nomination for a party that he considers ''corporate'' and an oligarchic organization?<br><br>Well... for the sake of a joke, he just might.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/PoYROto.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Jimmy Dore is a... well, an unexpected choice, to say the least. Dore is a stand-up comedian, commentator, and like you, a conspiracy theorist. He espouses the same conspiracy theories about vaccines that you had said. Unfortunately though, he's been through a ton of controversy, from making downright dubious claims to interviewing the Alt-right.<br><br>Despite your differences, you two are friends. You've gone on his show multiple times and spread your fair share of conspiracies. With that being said, if Jimmy Dore could not go to heaven without joining the Democratic Party, he would not go there at all. Would Jimmy Dore accept the nomination for a party that he considers ''corporate'' and an oligarchic organization?<br><br>Well... for the sake of a joke, he just might.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1010,"fields":{"first_name":"Kamala","last_name":"Harris","election":20,"party":"Liberal","state":"California","priority":1,"description":"<div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'>Despite some setback from within the newly found Liberal party, Kamala Harris is expected to be your running mate, and it seems that there's no turning back away from her now.<br><p>There's many other candidates you could choose from, but you know that dropping Harris will only signal you being more indecisive and weak then ever. Best not to rock the boat, right?<br><br>Kamala has been a Senator & Attorney General of California before eying to run for president. You picked her as your running mate in 2020 to quash your racist history, something Kamala has exploited during the 2020 primaries.<br><br>But forget that. Kamala has a weird and unlikable personality and has done a poor job as Veep. This has left her even more despised by the American public then you are. Picking her again will give plenty of ammunition for the other candidates. Oh well, good luck with her.</div></div></div></div></div></div></div></div></div></div></div></div></div>","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/cOHiM1N.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'><div style='overflow-y:scroll;height:200px;'>Despite some setback from within the newly found Liberal party, Kamala Harris is expected to be your running mate, and it seems that there's no turning back away from her now.<br><p>There's many other candidates you could choose from, but you know that dropping Harris will only signal you being more indecisive and weak then ever. Best not to rock the boat, right?<br><br>Kamala has been a Senator & Attorney General of California before eying to run for president. You picked her as your running mate in 2020 to quash your racist history, something Kamala has exploited during the 2020 primaries.<br><br>But forget that. Kamala has a weird and unlikable personality and has done a poor job as Veep. This has left her even more despised by the American public then you are. Picking her again will give plenty of ammunition for the other candidates. Oh well, good luck with her.</div></div></div></div></div></div></div></div></div></div></div></div></div>","candidate_score":1,"running_mate":true,"scrollable":true,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1011,"fields":{"first_name":"Tim","last_name":"Scott","election":20,"party":"Republican","state":"South Carolina","priority":1,"description":"<p>Tim Scott is the only black Republican in the Senate. As the man hails from South Carolina, Scott can attract many voters: Republicans & moderates alike. He'll also be palatable towards the MAGA base, as he commended both you & Trump. He could've also been a possible running mate for Trump had he didn't praise you and if he was willing to accept. He'll also help in South Carolina, which is looking to be competitive this year.<br><br>There's one drawback with him, though. As a Bachelor, Scott will have hard time getting Evangelicals on board with you, letting Trump to possibly sweep plenty of southern states like Alabama, Arkansas, & Mississippi.<br><br>Overall, Scott is safe, effective choice as your running mate if you're looking to boarden your appeal nationwide.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/lXX1OQD.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Tim Scott is the only black Republican in the Senate. As the man hails from South Carolina, Scott can attract many voters: Republicans & moderates alike. He'll also be palatable towards the MAGA base, as he commended both you & Trump. He could've also been a possible running mate for Trump had he didn't praise you and if he was willing to accept. He'll also help in South Carolina, which is looking to be competitive this year.<br><br>There's one drawback with him, though. As a Bachelor, Scott will have hard time getting Evangelicals on board with you, letting Trump to possibly sweep plenty of southern states like Alabama, Arkansas, & Mississippi.<br><br>Overall, Scott is safe, effective choice as your running mate if you're looking to boarden your appeal nationwide.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1012,"fields":{"first_name":"Nikki","last_name":"Haley","election":20,"party":"Republican","state":"South Carolina","priority":1,"description":"<p>Nikki Haley had released your delegates to you in a last-ditch attempt to prevent Trump into getting the nomination. And it worked. In the wake of that however, you may feel you owe Haley something...<br><br>And with this choice, you've decided to reward her as your running mate. Nikki Haley had served under the Trump administration and was the former governor of South Carolina. She had placed third in the brutal primaries, and you've debated with her multiple times. She's seen as a ''moderate'' even though that isn't the case. With her pick, Trump calling the nomination ''rigged'' will attract even more support while her plentiful share of weird statements will continue to harm your campaign. Not to mention, your previous feud between each other can make your campaign DOA, even if she backed you previously.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/OV4LUxI.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Nikki Haley had released your delegates to you in a last-ditch attempt to prevent Trump into getting the nomination. And it worked. In the wake of that however, you may feel you owe Haley something...<br><br>And with this choice, you've decided to reward her as your running mate. Nikki Haley had served under the Trump administration and was the former governor of South Carolina. She had placed third in the brutal primaries, and you've debated with her multiple times. She's seen as a ''moderate'' even though that isn't the case. With her pick, Trump calling the nomination ''rigged'' will attract even more support while her plentiful share of weird statements will continue to harm your campaign. Not to mention, your previous feud between each other can make your campaign DOA, even if she backed you previously.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1013,"fields":{"first_name":"Kim","last_name":"Reynolds","election":20,"party":"Republican","state":"Iowa","priority":1,"description":"<p>You desperately need Trumplicans to stay red this election year, and who else can do that better then Kim Reynolds? Reynolds currently holds the office of Iowa governor. She's been considered as a VP pick by Trump before the nasty hoedown that was the Republican Primaries.<br><br>Reynolds is well liked across all spectrums of the Republican party, and can cut into Trump's appeal in her home state of Iowa and in the midwest in general. She can also make up with the fact that you generally have poor approval with midwesterners and blue-collar workers. She'll also help you in the female vote and with Independents. However, she has been charged for 2 DUIs in 1999 & 2000 and has opposed COVID restrictions. But let's be honest, the only people who care about this are liberals. Right?","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/JJQbzX0.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>You desperately need Trumplicans to stay red this election year, and who else can do that better then Kim Reynolds? Reynolds currently holds the office of Iowa governor. She's been considered as a VP pick by Trump before the nasty hoedown that was the Republican Primaries.<br><br>Reynolds is well liked across all spectrums of the Republican party, and can cut into Trump's appeal in her home state of Iowa and in the midwest in general. She can also make up with the fact that you generally have poor approval with midwesterners and blue-collar workers. She'll also help you in the female vote and with Independents. However, she has been charged for 2 DUIs in 1999 & 2000 and has opposed COVID restrictions. But let's be honest, the only people who care about this are liberals. Right?","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1014,"fields":{"first_name":"Kevin","last_name":"Stitt","election":20,"party":"Republican","state":"Oklahoma","priority":1,"description":"<p>Perhaps the man who won the Culture War needs some backup, and Kevin Stitt can help you on that front. The current governor of Oklahoma, Stitt has fought as an Anti-Woke soldier. Banning CRT, making abortion a crime, you name it. He endorsed and campaigned for you in his native state, and despite still losing the state, he's been proven to be an effective campaigner nevertheless.<br><br>There's some trade-offs with him, though. First, with his extreme social policies, plenty of moderates wouldn't be pleased. Second, he won't branch your appeal elsewhere other then your core base. Third, he has plenty of baggage on some issues, such as reducing the penalty for cockfighting & for presumably breaking the Open Meetings act. <br><br>Kevin won't do you very big favors this election cycle.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/ZGc4hha.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Perhaps the man who won the Culture War needs some backup, and Kevin Stitt can help you on that front. The current governor of Oklahoma, Stitt has fought as an Anti-Woke soldier. Banning CRT, making abortion a crime, you name it. He endorsed and campaigned for you in his native state, and despite still losing the state, he's been proven to be an effective campaigner nevertheless.<br><br>There's some trade-offs with him, though. First, with his extreme social policies, plenty of moderates wouldn't be pleased. Second, he won't branch your appeal elsewhere other then your core base. Third, he has plenty of baggage on some issues, such as reducing the penalty for cockfighting & for presumably breaking the Open Meetings act. <br><br>Kevin won't do you very big favors this election cycle.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1015,"fields":{"first_name":"Kari","last_name":"Lake","election":20,"party":"Patriot","state":"Arizona","priority":1,"description":"<p>The Patriot party has been just formed, and many Republicans decided to jump ship, either due to their loyalty to you or to not lose their political careers. Kari Lake jumped ship due to the former.<br><br>Lake has been staunch defender of you and a loyal supporter throughout all these years. Despite losing the Arizona gubernatorial election in 2022, she's still politically active. Picking her signals a doubling down on your base, but the prospects of getting more supporters from the other camps becomes unlikely. She also buys into many of your conspiracies, something the moderate American wouldn't be able to stomach.<br><br>Lake is a good soldier of yours, but perhaps you need someone to balance the ticket.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/qBilRbo.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>The Patriot party has been just formed, and many Republicans decided to jump ship, either due to their loyalty to you or to not lose their political careers. Kari Lake jumped ship due to the former.<br><br>Lake has been staunch defender of you and a loyal supporter throughout all these years. Despite losing the Arizona gubernatorial election in 2022, she's still politically active. Picking her signals a doubling down on your base, but the prospects of getting more supporters from the other camps becomes unlikely. She also buys into many of your conspiracies, something the moderate American wouldn't be able to stomach.<br><br>Lake is a good soldier of yours, but perhaps you need someone to balance the ticket.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"3"}},{"model":"campaign_trail.candidate","pk":1016,"fields":{"first_name":"Mike","last_name":"Lendell","election":20,"party":"Patriot","state":"Minnesota","priority":1,"description":"<p>You know him. You love him. It's Mike Lendell!<br><br>The founder of MyPillow and one of your strongest supporters, Mike Lendell has stood by your side. Every decision, everything said. You may've been knocked down, but Lindell ensures he'll help you get back on your feet.<br><br>Lindell's very loyal, perhaps too loyal to your cause, which could be both a blessing and a curse. He may get more voters away from DeSantis and into your camp, but besides that, he won't expand your base much. Plus, he isn't the most politically solvent man who's interested in politics and may make plenty of gaffes among the campaign trail. Overall, Lindell is a good but pretty risk choice for Veep.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/WZ72TaN.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>You know him. You love him. It's Mike Lendell!<br><br>The founder of MyPillow and one of your strongest supporters, Mike Lendell has stood by your side. Every decision, everything said. You may've been knocked down, but Lindell ensures he'll help you get back on your feet.<br><br>Lindell's very loyal, perhaps too loyal to your cause, which could be both a blessing and a curse. He may get more voters away from DeSantis and into your camp, but besides that, he won't expand your base much. Plus, he isn't the most politically solvent man who's interested in politics and may make plenty of gaffes among the campaign trail. Overall, Lindell is a good but pretty risk choice for Veep.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"3"}},{"model":"campaign_trail.candidate","pk":1017,"fields":{"first_name":"Marjorie Taylor","last_name":"Greene","election":20,"party":"Patriot","state":"Georgia","priority":1,"description":"<p>If you gave a medal to your most loyal supporters, Majorie Taylor Greene would get the Medal of Honor. Despite being a lowly representative hailing from the Peach State, she has gained notoriety for being your most loyal supporter. Perhaps too loyal.<br><br>Take everything you believe and multiply it by two mask it behind a woman. That's basically MTG. She's everything you believe for a running mate.<br><br>Unfortunately, the radical left tries to paint her as a reactionary and a Fascist. And some moderates are buying it. MTG is loathed by everyone except your base, and her unfortunate share of gaffes and quirky moments can curse your winning chances.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/DJzHpMi.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>If you gave a medal to your most loyal supporters, Majorie Taylor Greene would get the Medal of Honor. Despite being a lowly representative hailing from the Peach State, she has gained notoriety for being your most loyal supporter. Perhaps too loyal.<br><br>Take everything you believe and multiply it by two mask it behind a woman. That's basically MTG. She's everything you believe for a running mate.<br><br>Unfortunately, the radical left tries to paint her as a reactionary and a Fascist. And some moderates are buying it. MTG is loathed by everyone except your base, and her unfortunate share of gaffes and quirky moments can curse your winning chances.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"3"}},{"model":"campaign_trail.candidate","pk":1018,"fields":{"first_name":"Ben","last_name":"Carson","election":20,"party":"Patriot","state":"Michigan","priority":1,"description":"<p>Ben Carson is a tough guy. He has faithfully served as your HUD secretary throughout most of your previous administration & prior to that, has been a brain surgeon. He ran against you back in 2016, but since converted into being a loyal supporter of you. Noticing a pattern with all these running mates?<br><br>Anyways, he'll invite some African-American support into your camp and polls well with evangelical groups and with the majority of Republicans nationwide, likely pulling voters away from DeSantis and into your camp. But note about the possibility of potential slip-ups and gaffes with Carson. To add on, he'll be vulnerable to a sustained attack campaign, both against you or against the other candidates. Perhaps it's best to keep Carson behind the scenes, Donald.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://imgur.com/T01SA9s.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Ben Carson is a tough guy. He has faithfully served as your HUD secretary throughout most of your previous administration & prior to that, has been a brain surgeon. He ran against you back in 2016, but since converted into being a loyal supporter of you. Noticing a pattern with all these running mates?<br><br>Anyways, he'll invite some African-American support into your camp and polls well with evangelical groups and with the majority of Republicans nationwide, likely pulling voters away from DeSantis and into your camp. But note about the possibility of potential slip-ups and gaffes with Carson. To add on, he'll be vulnerable to a sustained attack campaign, both against you or against the other candidates. Perhaps it's best to keep Carson behind the scenes, Donald.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"3"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1005}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1001,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1001,"running_mate":1007}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1001,"running_mate":1008}},{"model":"campaign_trail.running_mate","pk":2005,"fields":{"candidate":1001,"running_mate":1009}},{"model":"campaign_trail.running_mate","pk":2006,"fields":{"candidate":1002,"running_mate":1010}},{"model":"campaign_trail.running_mate","pk":2007,"fields":{"candidate":1003,"running_mate":1011}},{"model":"campaign_trail.running_mate","pk":2008,"fields":{"candidate":1003,"running_mate":1012}},{"model":"campaign_trail.running_mate","pk":2009,"fields":{"candidate":1003,"running_mate":1013}},{"model":"campaign_trail.running_mate","pk":2010,"fields":{"candidate":1003,"running_mate":1014}},{"model":"campaign_trail.running_mate","pk":2011,"fields":{"candidate":1004,"running_mate":1015}},{"model":"campaign_trail.running_mate","pk":2012,"fields":{"candidate":1004,"running_mate":1016}},{"model":"campaign_trail.running_mate","pk":2013,"fields":{"candidate":1004,"running_mate":1017}},{"model":"campaign_trail.running_mate","pk":2014,"fields":{"candidate":1004,"running_mate":1018}}];
+
+next0 = function() {
+
+        text = "<div style='overflow-y:scroll;height:200px;'><p>Joe Biden has dropped out of the Democratic nomination after winning less then 80% of the vote in Michigan and after many Democrats in congress called for his withdrawal, emphasizing the need for party unity. Unfortunately, a cluster of various other candidates, all splitting the vote, led to the nomination of Robert F. Kennedy Jr., a man who is considered a DINO by the American left. Motivated by this event, Biden, Harris, and other Democratic politicians left the party to create the Liberal party to represent leftist ideals.<br><br>Meanwhile, Florida governor Ron DeSantis has won the Republican nomination after a nasty fight between former president Donald Trump, thanks to Trump being convicted during the primaries and after most of the other candidates backed Ron. Unfortunately, the Donald and his most diehard supporters didn't take this lightly, claiming DeSantis had stolen the nomination from him and demanded he drop out and make him the nominee. DeSantis declined. Furious, he staged a walkout at the RNC, and made a new party, for himself and his supporters. The Patriots.<br><br>With four different candidates all fighting to get past 270 electoral votes, many ponder if the election will have the same outcome 200 years prior: a deadlock.<br><br></li></ul><button onclick='back0()'>The Election</button></p>"
+
+        document.getElementById("election_summary").innerHTML = text
+
+}
+
+
+back0 = function() {
+
+        text = "<p>The sixth party system has died. And in its ashes, rises a new system, one that is unprecedented in our nation's history. Two presidents, one incumbent and one former, set to change the status quo.<br><br>President Joe Biden, now at the head of the ''Liberal Party'' ticket, faces the challenge of maintaining his large polling lead, and avoiding bleeding progressive support to RFK Jr. Meanwhile, RFK Jr. needs to do the inverse, appealing to progressives while downplaying his anti-vaccine activism. DeSantis struggles to maintain his direction of ''Trumpism without Trump'', while Trump seeks to keep the Trump name on the ballot for yet another cycle.<br><br><button onclick='next0()'><b>MORE INFO:</b> Background</button></p>"
+
+        document.getElementById("election_summary").innerHTML = text
+
+}
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#1e2840",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#5c76b8",
+  "main_color": "#0b2566",
+  "secondary_color": "#1e2840",
+ "ui_text_color": "#ffffff"
+}
+
+HistHexcolour=["#3d9530","#1a365e","#b22e29","#583095"];
+    HistName=[" Joseph R. Biden Jr."," Robert F. Kennedy Jr."," Ronald D. DeSantis"," Donald J. Trump"];
+    HistEV=[209,127,107,94];
+    HistPV=["49,588,315","36,986,664","42,060,056","35,022,770"];
+    HistPVP=["30.3%","22.6%","25.7%","21.4%"];
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+  credits = function() {
+    credits = ["CREDITS", "C0SM0 - Writing & Coding", "NeoIntenew - Original mod idea, Writing, and various images", "DecStarG - Many different codes"]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+$("#game_start").click((event) => {
+    event.preventDefault();
+    musicMode()  
+  })
+  
+  // MUSIC MODE
+  
+  musicMode = () => {
+    // Initialise custom music
+  
+    $("#music_player")[0].children[0].style.display = "none"
+    $("#music_player")[0].children[1].style.display = "none"
+  
+    document.getElementById("modLoadReveal").style.display = "none"
+    document.getElementById("modloaddiv").style.display = "none"
+  
+    musicBox = document.getElementById("music_player")
+    musicBox.style.display = ""
+  
+    var trackSel;
+    e = campaignTrail_temp
+    e.selectedSoundtrack = 0
+  
+    toTime = (seconds) => {
+        var date = new Date(null);
+        date.setSeconds(seconds);
+        return date.toISOString().substr(11, 8);
+    }
+  
+    generateTime = () => {
+        // Get the audio element
+        var audio = document.getElementById("campaigntrailmusic");
+  
+        timeTracker = document.createElement("div");
+        timeTracker.style = `
+  text-align:left;
+  border-style:solid;
+  border-width:3px;
+  height:150px;
+  width:200px;
+  background-color:#5c76b8;
+  float:right;
+  padding: 10px;
+  `
+        $("#trackSelParent")[0].prepend(timeTracker);
+        $("#trackSelParent")[0].prepend(document.createElement("br"));
+  
+        // Create a new element to display the current position of the audio
+        var positionDisplay = document.createElement("gg");
+        positionDisplay.id = "position-display";
+  
+        // Create a new slider element to change the time
+        var timeSlider = document.createElement("input");
+        timeSlider.type = "range";
+        timeSlider.min = 0;
+        timeSlider.max = 1;
+        timeSlider.step = 0.001;
+        timeSlider.value = 0;
+        timeSlider.style.width = "200px";
+        timeSlider.id = "time-slider";
+  
+        var pausePlay = document.createElement("button");
+        pausePlay.id = "position-display";
+        pausePlay.innerHTML = "<b>Pause</b>"
+        pausePlay.style.width = "100%";
+  
+  
+        pausePlay.addEventListener("click", event => {
+            event.preventDefault();
+            updatePositionDisplay();
+            let audio = document.getElementById("campaigntrailmusic");
+            if (audio.paused) {
+                audio.play();
+                event.target.innerHTML = "<b>Pause</b>";
+                return;
+            }
+            audio.pause();
+            event.target.innerHTML = "<b>Play</b>";
+            return;
+        })
+  
+        var volumeLabel = document.createElement("gg");
+        volumeLabel.id = "volume-label";
+        volumeLabel.innerHTML = "<br><b>Volume: </b>"
+  
+        var volumeSlider = document.createElement("input");
+        volumeSlider.type = "range";
+        volumeSlider.min = 0;
+        volumeSlider.max = 1;
+        volumeSlider.step = 0.001;
+        volumeSlider.value = 0;
+        volumeSlider.style.width = "200px";
+        volumeSlider.id = "volume-slider";
+  
+        volumeSlider.value = audio.volume;
+  
+        timeTracker.appendChild(pausePlay);
+        timeTracker.appendChild(document.createElement("br"));
+        timeTracker.appendChild(document.createElement("br"));
+        timeTracker.appendChild(positionDisplay);
+        timeTracker.appendChild(timeSlider);
+        timeTracker.appendChild(volumeLabel);
+        timeTracker.appendChild(volumeSlider);
+  
+        updatePositionDisplay();
+  
+        //for (let i = 0; i < 10; i++)
+        //timeTracker.append(document.createElement("br"));
+  
+  
+        // Function to update the position display
+        function updatePositionDisplay() {
+            positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+            timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+        }
+  
+        // Function to change the time of the audio
+        function changeTime() {
+            positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+            audio.currentTime = timeSlider.value * audio.duration;
+        }
+  
+        updateVolume = event => {
+            audio.volume = event.target.value;
+        }
+  
+        // Update the position display and slider every second
+        setInterval(updatePositionDisplay, 1000);
+  
+        // Listen for changes to the time slider and change the time of the audio
+        timeSlider.addEventListener("input", changeTime);
+        volumeSlider.addEventListener("input", updateVolume)
+    }
+  
+    function newMusicPlayer() {
+        trackSel = document.createElement("div");
+        trackSel.id = "trackSelParent"
+        let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#5c76b8;float:right;">`
+        z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
+        for (i in soundtracks) {
+            if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+                z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
+            }
+        }
+        z += `</select></b><br><br>`
+            // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+        for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+            let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+            let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
+            z += b
+        }
+        z += "</div><br><br>"
+        trackSel.innerHTML = z
+  
+        // select correct song
+  
+        musicBox.appendChild(trackSel);
+        Array.from(document.getElementById("trackSel").children).filter(f => {
+            return f.tagName == "LABEL"
+        }).map(f => f.children[0])[0].checked = true
+  
+        // set soundtrack changer
+  
+        soundtrackSelector = document.getElementById("selectSoundtrack")
+        soundtrackSelector.onchange = function() {
+            for (i in soundtracks) {
+                if (soundtracks[i].name == soundtrackSelector.value) {
+                    e.selectedSoundtrack = i
+                    break
+                }
+            }
+            document.getElementById("trackSelParent").remove()
+            newMusicPlayer()
+        }
+  
+        var matches = document.querySelectorAll('.trackSelector');
+  
+        for (match in matches) {
+            matches[match].onchange = function() {
+                audio = $("#campaigntrailmusic")[0];
+                audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+                audio.currentTime = 0
+            }
+        }
+  
+        musicBox.children[2].loop = false
+        musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+  
+        musicBox.children[2].onended = function() {
+            console.log("next track")
+            let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+            let newSel = clamp(selected + 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0)
+            let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                    return f.tagName == "LABEL"
+                }).map(f => f.children[0])
+                //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+            buttons[newSel].click()
+        }
+  
+        for (w = 0; w < 7; w++) {
+            document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+        }
+  
+        generateTime();
+    }
+  
+    clamp = function(a, max, min, overflow = true) {
+        if (overflow) {
+            return a > max ? min : a < min ? max : a;
+        }
+        return a > max ? max : a < min ? min : a;
+    }
+  
+  
+    // Track list
+  
+    var soundtracks = {
+        0: {
+            name: "Opening Song",
+            tracklist: [
+              {
+                "name": "Livin' La Vida Loca (Ricky Martin)",
+                "url": "https://file.garden/ZRcfmLUQNGkxIJds/Ricky%20Martin%20-%20Livin'%20La%20Vida%20Loca%20(Audio).mp3"
+              }
+          ]
+        },
+        1: {
+          name: "Kennedy For Me",
+          tracklist: [
+            {
+              "name": "Real American (Rick Derringer)",
+              "url": "https://files.catbox.moe/zsk569.mp3"
+            },
+            {
+              "name": "Free Bird (Lynyrd Skynyrd)",
+              "url": "https://files.catbox.moe/85tfr7.mp3"
+            },
+            {
+              "name": "City Of Blinding Lights (U2)",
+              "url": "https://files.catbox.moe/5vccxe.mp3"
+            },
+            {
+              "name": "Politicians In My Eyes (Death)",
+              "url": "https://files.catbox.moe/zrfrmp.mp3"
+            },
+            {
+              "name": "Sympathy For The Devil (The Rolling Stones)",
+              "url": "https://files.catbox.moe/adn3zl.mp3"
+            },
+            {
+              "name": "Everybody Wants To Rule The World (Tears For Fears)",
+              "url": "https://file.garden/ZRcfmLUQNGkxIJds/Everybody%20Wants%20To%20Rule%20The%20World.mp3"
+            }
+        ]
+      },
+      2: {
+        name: "Building Back Better",
+        tracklist: [
+          {
+            "name": "We Take Care Of Our Own (Bruce Springsteen)",
+            "url": "https://files.catbox.moe/236h17.mp3"
+          },
+          {
+            "name": "We The People (The Staple Singers)",
+            "url": "https://files.catbox.moe/7iwdeo.mp3"
+          },
+          {
+            "name": "Higher And Higher (Jackie Wilson)",
+            "url": "https://files.catbox.moe/ncmdhh.mp3"
+          },
+          {
+            "name": "Move On Up (Curtis Mayfield)",
+            "url": "https://files.catbox.moe/flutfl.mp3"
+          },
+          {
+            "name": "The Edge Of Glory (Lady Gaga)",
+            "url": "https://files.catbox.moe/ra1lq6.mp3"
+          },
+          {
+            "name": "A Sky Full Of Stars (Coldplay)",
+            "url": "https://files.catbox.moe/jo1i8l.mp3"
+            }
+        ]
+      },
+      3: {
+        name: "The Great Comeback",
+        tracklist: [
+          {
+            "name": "Sweet Florida (Van Zant)",
+            "url": "https://files.catbox.moe/jvq3tf.mp3"
+          },
+          {
+            "name": "Only In America (Brooks & Dunn)",
+            "url": "https://files.catbox.moe/lw8coi.mp3"
+          },
+          {
+            "name": "I Won't Back Down (Johnny Cash)",
+            "url": "https://files.catbox.moe/t4lcpn.mp3"
+          },
+          {
+            "name": "Answer To No One (Colt Ford)",
+            "url": "https://files.catbox.moe/qej0r2.mp3"
+          },
+          {
+            "name": "Wave On Wave (Pat Green)",
+            "url": "https://files.catbox.moe/bzmpaw.mp3"
+          },
+          {
+            "name": "The Boys Are Back In Town (Thin Lizzy)",
+            "url": "https://files.catbox.moe/kiejct.mp3"
+            }
+        ]
+      },
+      4: {
+        name: "America, Great Again",
+        tracklist: [
+          {
+            "name": "Back In Black (AC/DC)",
+            "url": "https://audio.jukehost.co.uk/yrFwbMBODjep4jiIwbIjtzjyp82PGtcn"
+          },
+          {
+            "name": "We The People (Billy Ray Cyrus)",
+            "url": "https://files.catbox.moe/j9ozoy.mp3"
+          },
+          {
+            "name": "Here Comes The Hotstepper (Ini Kamoze)",
+            "url": "https://files.catbox.moe/4t896f.mp3"
+          },
+          {
+            "name": "Hold On, I'm Coming (Sam & Dave)",
+            "url": "https://files.catbox.moe/ps1cgs.mp3"
+          },
+          {
+            "name": "We're Not Gonna Take It (Twisted Sister)",
+            "url": "https://files.catbox.moe/aqlwh9.mp3"
+          },
+          {
+            "name": "Sovereignty & Blood (Legionary Choir)",
+            "url": "https://files.catbox.moe/kehgwi.mp3"
+          }
+      ]
+    },
+    }
+  
+    // Set up new music player
+  
+    newMusicPlayer()
+  }
