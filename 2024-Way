@@ -220,7 +220,7 @@ corrr=`\n<h2>THE CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'
         nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016"  
         $(".container")[0].style.backgroundColor = "#fff"
         $("#game_window")[0].style.backgroundColor = "#ffffff"
-        $("#game_window")[0].style.borderColor = "#ffffff"
+        $("#game_window")[0].style.borderColor = "#c9c9c9"
         $("#game_window")[0].style.coloring_window = "#ffffff" 
         document.body.background = "" 
         document.getElementById("header").src = "https://www.newcampaigntrail.com/static/images/banner_classic.png" 
@@ -234,7 +234,7 @@ style.innerHTML = `
     background-color: #fea0a0;
   }
   a:-webkit-any-link {
-    color: #4287f5;
+    color: #551a8c;
   }
 `;
 
