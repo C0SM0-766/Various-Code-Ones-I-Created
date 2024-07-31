@@ -1,0 +1,820 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 14,
+        "fields": {
+            "year": 1916,
+            "summary": "<p>President Roosevelt, having shattered records with his unprecedented tenure, will stand as a towering figure in American history. His leadership during an era of international upheaval and his relentless drive for progressivism have left an indelible mark on the nation.<br><br>As the country approaches the dawn of the Roaring '20s, the people eagerly anticipate the emergence of new leadership to navigate the exhilarating and unpredictable times ahead.</p>",
+            "image_url": "https://imgur.com/vgKVYCw.jpg",
+            "winning_electoral_vote_number": 266,
+            "advisor_url": "https://imgur.com/UpHWHxh.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>A. Scott Berg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0425270068/amhius20-20\" target=\"_blank\">Wilson</a></br>Arthur Link - <a href=\"B00350CVHM\" target=\"_blank\">Woodrow Wilson and the Progressive Era, 1910-1917</a></br><a href=\"https://presidentialcampaignselectionsreference.wordpress.com/overviews/20th-century/1916-overview/\" target=\"_blank\">Presidential Campaigns and Elections - 1916</a></br><a href=\"http://millercenter.org/president/biography/wilson-campaigns-and-elections\" target=\"_blank\">Woodrow Wilson's Campaigns</a></br><a href=\"http://articles.latimes.com/2005/oct/23/opinion/oe-shaffer23\" target=\"_blank\">The Great GOP Spat -- of 1916</a></br><a href=\"http://maxkade.iupui.edu/adams/chap8.html\" target=\"_blank\">German-Americans as Voters and Office-Seekers</a></br><a href=\"http://www.jstor.org/stable/1900319?seq=1#page_scan_tab_contents\">Woodrow Wilson, Irish-Americans, and the Election of 1916</a></br><a href=\"https://feminist.org/blog/index.php/2014/07/08/july-8-1916-alice-paul-pushes-presidential-nominee-to-support-suffrage/\" target=\"_blank\">July 8, 1916: Alice Paul Pushes Presidential Nominee to Support Suffrage</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1920"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 142,
+        "fields": {
+            "first_name": "Henry",
+            "last_name": "Ford",
+            "election": 14,
+            "party": "Democrat",
+            "state": "Michigan",
+            "priority": 1,
+            "description": "<p>Senator Henry Ford is a man who needs no introduction. If one has not heard his name, they have most certainly driven his automobile. After spending decades in manufacturing perfecting the process of mass production of the automobile, Ford jumped into the politics and won a senate seat just two years ago. During his brief tenure in the senate Ford has clashed numerous times with President Roosevelt, especially on the issue of America’s role in the world and intervention in foreign wars. <p>The automobile legend will face off against esteemed General Leonard Wood come November. The General has the full support of the President and is well respected among the public for his service in The Great War and other conflicts.  If Ford is to be the first Democrat to win the White House since Grover Cleveland, he will have to convince the American people he is more than just a big business crony man.</p>",
+            "color_hex": "#f7e7ce",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://imgur.com/P5Dk76F.jpg",
+            "electoral_victory_message": "<h3>Henry Ford Wins Presidential Election in Historic Upset</h3><p>The New York Times<p>November 3, 1920<p>Detroit, MI - In a stunning turn of events, Henry Ford, the Democratic candidate, has emerged victorious in the 1920 presidential election, defeating General Leonard Wood, the Republican nominee. This historic upset marks a significant shift in the political landscape.</p>",
+            "electoral_loss_message": "<h3>General Leonard Wood Wins Presidential Election in Resounding Victory</h3><p>The New York Times<p>November 3, 1920</p><p>New York, NY - General Leonard Wood, the Republican candidate, has secured a decisive victory in the 1920 presidential election, defeating Henry Ford, the Democratic nominee. This outcome reaffirms the nation’s confidence in experienced leadership and continuity, following the tenure of President Theodore Roosevelt.</p>",
+            "no_electoral_majority_message": "<h3>Presidential Election Deadlock: Neither Ford Nor Wood Secures Electoral Majority</h3><p>The New York Times<p>November 3, 1920<p>Washington, D.C. - In a dramatic and unprecedented turn of events, the 1920 presidential election has ended without either candidate securing an electoral majority. Henry Ford, the Democratic nominee, and General Leonard Wood, the Republican candidate, have both fallen short of the required 266 electoral votes, plunging the nation into political uncertainty</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 143,
+        "fields": {
+            "first_name": "Leonard",
+            "last_name": "Wood",
+            "election": 14,
+            "party": "Republican",
+            "state": "New Hampshire",
+            "priority": 2,
+            "description": "'",
+            "color_hex": "#637c65",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://imgur.com/d21WTxC.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 144,
+        "fields": {
+            "first_name": "Parley",
+            "last_name": "Christensen/Other",
+            "election": 14,
+            "party": "Farmer-Labor",
+            "state": "Illinois",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#ffb162",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 145,
+        "fields": {
+            "first_name": "Eugene",
+            "last_name": "Debbs",
+            "election": 14,
+            "party": "Socialist",
+            "state": "Indiana",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#684141",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 146,
+        "fields": {
+            "first_name": "Al",
+            "last_name": "Smith",
+            "election": 14,
+            "party": "Democrat",
+            "state": "New York",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#f7e7ce",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://imgur.com/5nFR8DM.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>The governor of New York, Al Smith represents what true American grit and hard work can get you. Born into poverty in New York City, Smith has risen through the rank’s society. Smith entered politics by winning a seat in the New York State Assembly in 1904, serving until 1915. Known for his labor rights and social welfare advocacy, he became Majority Leader in 1913, focusing on labor conditions and government transparency reforms. Elected Sheriff of New York County in 1915, he expanded his influence through progressive policies. In 1917, Smith became President of the New York City Board of Aldermen, furthering his popularity. Elected Governor of New York in 1918.<p>Al Smith could use his considerable influence in New York to put the state firmly in the Democratic camp on election night. However, Smith comes with baggage. He is a  catholic which to many voters is a major turn off. </p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 148,
+        "fields": {
+            "first_name": "Herbert",
+            "last_name": "Hoover",
+            "election": 14,
+            "party": "Republican",
+            "state": "Iowa",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#637c65",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://imgur.com/QMjSWM1.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 150,
+        "fields": {
+            "first_name": "Max",
+            "last_name": "Hayes",
+            "election": 14,
+            "party": "Farmer-Labor",
+            "state": "Ohio",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#ffb162",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 151,
+        "fields": {
+            "first_name": "Seymour",
+            "last_name": "Stedman",
+            "election": 14,
+            "party": "Socialist",
+            "state": "Illinois",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#684141",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 96,
+        "fields": {
+            "candidate": 144,
+            "running_mate": 150
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 97,
+        "fields": {
+            "candidate": 145,
+            "running_mate": 151
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 94,
+        "fields": {
+            "candidate": 143,
+            "running_mate": 148
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 92,
+        "fields": {
+            "candidate": 142,
+            "running_mate": 146
+        }
+    }
+]
+
+campaignTrail_temp.credits = "u/PalmettoPolitics"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 14,
+        "candidates": [
+            142,
+            143,
+            144,
+            145
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 14,
+        "candidates": [
+            142,
+            143,
+            144,
+            145
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 14,
+        "year": 1916,
+        "is_premium": 0,
+        "display_year": "1920"
+    }
+]
+
+jet_data = {
+    "headerColor": "#007f78",
+    "windowColor": "#eeb3a3",
+    "containerColor": "#b81f29",
+    "innerWindowColor": "#b3912d",
+    "bannerImageUrl": "https://imgur.com/yMeVAlC.jpg",
+    "backgroundImageUrl": "https://imgur.com/IQC1a0I.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "\"Speak Softly and Carry a Big Stick; You Will Go Far\"",
+    "gameTitle": "Era of Innovation "
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>Era of Innovation </h2><font id="wittyquote" size="4" color="white"><em>"Speak Softly and Carry a Big Stick; You Will Go Far"</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#007f78";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#eeb3a3";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#b81f29";
+
+document.getElementById("header").src = "https://imgur.com/yMeVAlC.jpg";
+
+document.body.background = "https://imgur.com/IQC1a0I.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#b3912d!important;}</style>";
+
+//#endcode
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #b81f29;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#007f78",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#000000",
+  "description_background_color": "#eeb3a3",
+  "main_color": "#b81f29",
+  "secondary_color": "#eeb3a3",
+ "ui_text_color": "#ffffff"
+}
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>PalmettoPolitics</button>";
+  
+  credits = function() {
+    credits = ["Credits", "u/PalmettoPolitics - Writing & Coding", "C0SM0 - Coding & Mod Idea", "DecstarG - Various Different Codes"]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#eeb3a3;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#eeb3a3;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "The Henry Ford Collection",
+
+    tracklist: [
+
+      {
+
+        name: "Henry Ford (Brian Stokes Mitchell)",
+
+        url: "https://files.catbox.moe/342mv9.mp3",
+
+      },
+
+      {
+
+        name: "The Ballad Of Henry Ford (Thomas Maguire)",
+
+        url: "https://files.catbox.moe/sx4sb3.mp3",
+
+      },
+
+      {
+
+        name: "Henry Ford Blues (Roosevelt Sykes)",
+
+        url: "https://files.catbox.moe/ddkf6t.mp3",
+
+      },
+
+      {
+
+        name: "On The Old Back Seat Of The Henry Ford (Arthur Collins)",
+
+        url: "https://files.catbox.moe/f7nwvk.mp3",
+
+      },
+
+      {
+
+        name: "Sixteen Tons (Tennessee Ernie Ford)",
+
+        url: "https://files.catbox.moe/3jv4r8.mp3",
+
+      },
+
+      {
+
+        name: "I Didn't Raise My Boy To Be A Soldier (Alfred Bryan)",
+
+        url: "https://files.catbox.moe/fyi5fo.mp3",
+      
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
