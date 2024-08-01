@@ -11,7 +11,7 @@ e = campaignTrail_temp;
             $(".container")[0].style.backgroundColor = "#004028";
 
 $("#game_window")[0].style.backgroundImage = "url(https://i.postimg.cc/tTyHRctf/20240426-115237.jpg)"
-            document.getElementById("header").src = "https://i.postimg.cc/bJxMXbYx/20240426-112833.jpg";
+            document.getElementById("header").src = "https://imgur.com/u0iEwLI.png";
 
             document.body.background = "https://images.squarespace-cdn.com/content/v1/57cf18ae6b8f5ba693497e1a/1490198467519-F958MEAXWQPEEA8SC1AZ/AP17062004061709+copy.jpg?format=1000w";
 
