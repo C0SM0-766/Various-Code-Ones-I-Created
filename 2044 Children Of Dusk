@@ -21,7 +21,7 @@ campaignTrail_temp.achievements = {
         "description" : "Win the debate against Cortez on national security issues.",
         "cannotBeCheated" : true
     },
-	"Communism Death" : {
+	"Communist Death" : {
         "image" : "https://i.imgur.com/sNOLWSr.png",
         "description" : "Destroy the Havana Internationale.",
         "cannotBeCheated" : true
@@ -296,11 +296,11 @@ e.election_json = [
 					"color_hex":"#0000ff",
 					"secondary_color_hex":null,
 					"is_active":0,
-					"image_url":"../static/images/barack-obama-2012.jpg",
+					"image_url":"https://imgur.com/DaBJnqZ.png",
 					"electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>",
 					"electoral_loss_message":"<h3>Fake News?</h3>",
 					"no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>",
-					"description_as_running_mate":"",
+					"description_as_running_mate":"A figure from South Carolina who's willing to be Cortez's running mate.",
 					"candidate_score":1,
 					"running_mate":true,
 					"scrollable":false,
@@ -321,7 +321,7 @@ e.election_json = [
 					"color_hex":"#63d971",
 					"secondary_color_hex":null,
 					"is_active":0,
-					"image_url":"../static/images/barack-obama-2012.jpg",
+					"image_url":"https://pyxis.nymag.com/v1/imgs/098/f46/f25a4b6469e5b3d56aceeff13af92e18d6-02-alexandria-ocasio-cortez.2x.rsquare.w400.jpg",
 					"electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>",
 					"electoral_loss_message":"<h3>Fake News?</h3>",
 					"no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>",
@@ -340,13 +340,13 @@ e.election_json = [
 					"last_name":"Other Candidates",
 					"election": 21,
 					"party":"Independent",
-					"state":"idk lol",
+					"state":"Various",
 					"priority":1,
 					"description":"<div style='overflow-y:scroll;height:200px;'>cock and balls</div>",
 					"color_hex":"#bbbbbb",
 					"secondary_color_hex":null,
 					"is_active":0,
-					"image_url":"",
+					"image_url":"https://www.mlive.com/resizer/v2/IXBYZXVFABHDFKUEC7Y7MY6J34.jpg?auth=d0151b0a628f94e8a075a9dc8d536b852497876a7c035bec56457aad147699c2&width=1280&quality=90",
 					"electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>",
 					"electoral_loss_message":"<h3>Fake News?</h3>",
 					"no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>",
@@ -371,7 +371,7 @@ e.election_json = [
 					"color_hex":"#249991",
 					"secondary_color_hex":null,
 					"is_active":0,
-					"image_url":"../static/images/barack-obama-2012.jpg",
+					"image_url":"https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/John_WhiteAK2022.jpeg",
 					"electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>",
 					"electoral_loss_message":"<h3>Fake News?</h3>",
 					"no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>",
@@ -398,6 +398,28 @@ document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_st
 $(".container")[0].style.backgroundColor = "#102030"
 document.body.background = "https://i.imgur.com/mlvQ6mE.png" 
 $("#game_window")[0].style.backgroundImage = "url(https://raw.githubusercontent.com/newcampaigntrail/newcampaigntrail.github.io/main/static/images/window_battleship.png)"
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #171745;
+  }
+  a:-webkit-any-link {
+    color: #171745;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
 
 // Initialise custom music
 
@@ -431,7 +453,7 @@ generateTime = () => {
       border-width:3px;
       height:150px;
       width:200px;
-      background-color:#999999;
+      background-color:#102030;
       float:right;
       padding: 10px;
     `
@@ -528,7 +550,7 @@ generateTime = () => {
 function newMusicPlayer() {
   trackSel = document.createElement("div");
   trackSel.id = "trackSelParent"
-  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#102030;float:right;">`
   z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
   for (i in soundtracks) {
     if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
@@ -609,7 +631,7 @@ clamp = function(a, max, min, overflow=true) {
 
 var soundtracks = {
   0: {
-	name: "Upon the Cross of Democracy",
+	name: "Upon The Cross Of Democracy",
     tracklist: [
 	  {
         "name": "Resistance (Skillet)",
@@ -777,7 +799,7 @@ HistPVP=["57.0%","42.4%","0.6%","0.0%"];
 quotes = ["BY GOD, WE'LL HAVE OUR HOME AGAIN", "To the Bolls that will save our land.", "I will say of the LORD, He is my refuge and my fortress; My God, in Him I will trust.", "We are saved by faith alone, but the faith that saves is never alone. -Martin Luther", "And fear not them which kill the body, but are not able to kill the soul: but rather fear him which is able to destroy both soul and body in hell. -Matthew 10:28", "This is the account of Noah and his family. Noah was a righteous man, blameless among the people of his time, and he walked faithfully with God. -Genesis 6:9","If you fully obey the LORD your God and carefully follow all his commands I give you today, the LORD your God will set you high above all the nations on earth. -Deuteronomy 28:1","The stakes are too high for you to stay at home.","I tremble for my country when reflect that God is just: that his justice cannot sleep forever. -Thomas Jefferson","if a house is divided against itself, that house will not be able to stand. -Mark 3:25","Sovereignty and Blood Forever.","There never was a democracy yet that did not commit suicide. -John Adams"  ]
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
                                    
-corrr=`\n<h2>CHILDREN OF DUSK</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+corrr=`\n<h2>CHILDREN OF DUSK</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
 
 campaignTrail_temp.modBoxTheme = {
   "header_color": "#02003a",
