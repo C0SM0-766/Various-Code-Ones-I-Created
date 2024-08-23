@@ -286,14 +286,14 @@ $("#game_start").click((event) => {
             name: "Hazbin Hotel OST",
             tracklist: [
               {
-                "name": "The Show Must Go On (Hazbin Hotel Cast)",
+                "name": "Hazbin Hotel Finale",
                 "url": "https://files.catbox.moe/afbgsb.mp3"
 
       },
 
       {
 
-        name: "Stayed Gone (Christian Borle, Amir Talai, & Joel Perez)",
+        name: "Stayed Gone",
 
         url: "https://files.catbox.moe/l9lhic.mp3",
 
@@ -301,7 +301,7 @@ $("#game_start").click((event) => {
 
       {
 
-        name: "Hell Is Forever (Alex Brightman & Erika Henningsen)",
+        name: "Hell Is Forever",
 
         url: "https://files.catbox.moe/m1rl2e.mp3",
 
@@ -309,7 +309,7 @@ $("#game_start").click((event) => {
 
       {
 
-        name: "Happy Day In Hell (Erika Henningsen & Others)",
+        name: "Happy Day In Hell",
 
         url: "https://files.catbox.moe/eanwaw.mp3",
 
@@ -317,7 +317,7 @@ $("#game_start").click((event) => {
 
       {
 
-        name: "More Than Anything (Erika Henningsen & Jeremy Jordan)",
+        name: "More Than Anything",
 
         url: "https://files.catbox.moe/ydtjly.mp3",
 
@@ -325,7 +325,15 @@ $("#game_start").click((event) => {
 
       {
 
-        name: "Poison (Blake Roman)",
+        name: "Respectless",
+
+        url: "https://files.catbox.moe/uy9pkb.mp3",
+
+      },
+
+      {
+
+        name: "Poison",
 
         url: "https://files.catbox.moe/rcnpmc.mp3",
 
@@ -333,7 +341,7 @@ $("#game_start").click((event) => {
 
       {
 
-        name: "Loser, Baby (Keith David & Blake Roman)",
+        name: "Loser, Baby",
 
         url: "https://files.catbox.moe/2y93h7.mp3",
 
@@ -341,7 +349,7 @@ $("#game_start").click((event) => {
 
       {
 
-        name: "Out For Love (Daphne Rubin-Vega)",
+        name: "Out For Love",
 
         url: "https://files.catbox.moe/7ywgoj.mp3",
 
@@ -349,7 +357,7 @@ $("#game_start").click((event) => {
 
       {
 
-        name: "Hell's Greatest Dad (Jeremy Jordan, Amir Talai, Sarah Stiles, & Erika Henningsen)",
+        name: "Hell's Greatest Dad",
 
         url: "https://files.catbox.moe/vn5qjv.mp3",
 
@@ -357,7 +365,7 @@ $("#game_start").click((event) => {
 
       {
 
-        name: "Ready For This (Erika Henningsen, Amir Talai, Kimiko Glenn, & Leslie Rodriguez Kritzer)",
+        name: "Ready For This",
 
         url: "https://files.catbox.moe/b6pfd7.mp3",
 
