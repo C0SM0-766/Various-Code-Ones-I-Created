@@ -35,9 +35,9 @@ document.getElementById("header").src = "https://i.imgur.com/oEWFkb6.jpg";
 document.body.background = "https://i.imgur.com/Pqcn1eI.jpeg"
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#283a57"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#262626"
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#FA2335"
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#4a3f29"
 
 $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/kccm3e.jpg)"
 
@@ -45,7 +45,7 @@ $("#game_window")[0].style.borderColor = "#000000"
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
 
-$(".container")[0].style.backgroundColor = "#6884F2"
+$(".container")[0].style.backgroundColor = "#4f6e4c"
 
 quotes = ["'Chicago is gonna burn. Dig it in the kids and pigs are gonna throw down in the streets.' ~ Ellis Marston", "'Tragedy is a tool for the living to gain wisdom, not a guide by which to live.' ~ Robert F. Kennedy","HELL NO, WE WON'T GO!", "'Only those who dare to fail greatly can ever achieve greatly.' ~ Robert F. Kennedy", "'Change, although it involves risks, is the law of life.' ~ Robert F. Kennedy", "'A revolution which is coming whether we will it or not.' ~ Robert F. Kennedy","'Freedom is never more than one generation away from extinction.' ~ Ronald Reagan", "'There is nothing new in the idea of a government being Big Brother to us all.' ~ Ronald Reagan","'I favor the Civil Rights Act of 1964 and it must be enforced at the point of a bayonet.' ~ Ronald Reagan", "'You and I have a rendezvous with destiny.' ~ Ronald Reagan","'The war in Vietnam is not like these other wars. Yet, finally, war is always the same.' ~ Lyndon B. Johnson", "'Make no mistake about it... We are going to win.' ~ Lyndon B. Johnson", "'I am going to build the kind of nation that President Roosevelt hoped for.' ~ Lyndon B. Johnson","'I would say to all my fellow Americans, let us continue.' ~ Lyndon B. Johnson", "'All we are saying is give peace a chance.' ~ John Lennon", "'Declare the United States the winner and begin de-escalation.' ~ George Aiken", "It's better to break the law then to break the poor.", "The Times, They Are A-Changin'...", ]
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
@@ -87,7 +87,7 @@ style.id = 'dynamic-style';
 
 style.innerHTML = `
   .campaign_trail_start_emphasis {
-    background-color: #283a57;
+    background-color: #4f6e4c;
   }
   a:-webkit-any-link {
     color: #000000;
