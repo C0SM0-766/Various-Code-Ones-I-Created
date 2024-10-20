@@ -1,0 +1,509 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#2a3d6b";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#34528a";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#5c5c5c";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/r7q2ir.png)"
+
+$("#game_window")[0].style.borderColor = "#454444"
+            document.getElementById("header").src = "https://files.catbox.moe/30r6qr.png";
+
+            document.body.background = "https://files.catbox.moe/zcxjyy.jpg";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":11,"fields":{"year":1960,"summary":"The young and hopeful John F. \"Jack\" Kennedy was elected president in 1960. Jack's Charismatic, energetic, & good-looking. Despite some blunders and close calls, Kennedy was generally liked by the people. Until that fateful day: November 22th, 1963.<br><br>Now damaged and broken down, the miserable and paralyzed Jack Kennedy sees himself fighting multiple battles on many fronts. The fight for Civil Rights, the fight for his New Frontier programs, the fight for his <i>legacy.</i><br><br>If Kennedy loses it all, it may have been better for him to have been killed in Dallas then to live another day in agonizing pain, and in a job he can't keep up with.<br><br><b>Camelot's A Dream</b>, and the Kennedy legacy is collapsing...","image_url":"https://s.abcnews.com/images/Politics/GTY_john_f_kennedy_150044144_jt_131117_16x9_992.jpg","winning_electoral_vote_number":270,"advisor_url":"https://files.catbox.moe/ostwcc.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":11,"year":1960,"is_premium":0,"display_year":"1964 - Camelot's A Dream"}];e.credits = "Kermity";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":30,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"John F.","last_name":"Kennedy","election":11,"party":"Democratic","state":"Massachusetts","priority":1,"description":"<p>November 22nd, 1963–A day to live in infamy, for you at least. On that day, your world was flipped upside down. Paralyzed from the waist down, you couldn't feel a thing. Now, you are confined to a wheelchair. No man will be respected in a wheelchair, no they wouldn't respect a cripple. But, they did they did once. Franklin Roosevelt was in your position, and he made America shine, you can too, Jack, you can too.<br><br>The '64 season has kicked off for both parties. Democrats are sure to choose you, but backroom dealings are putting your position in jeopardy. Those DNC regulars, they want a man like Lyndon, not a man like Jack. Maybe your charm and charisma can go far, or maybe it's sparkle will wear out. You aren't the same Jack Kennedy from 1960, you're a different, hardened Jack. You'll give all of 'em hell, I know you will.","color_hex":"#3a51a6","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/101hzz.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Lyndon B.","last_name":"Johnson","election":11,"party":"Democratic","state":"Texas","priority":1,"description":"<p>Lyndon Baines Johnson and his thrist for power has only grown ever since you've been paralyzed.<br><br>Lyndon has been a throne in your side ever since you picked him. You are polar opposites, forced to share a house. Lyndon, his opinions on you are well known. He hates you, and frankly, you hate him back. But he did the dirty work, and he got you here. He'll remind you that he's your only hope, and he'll always remind you of that fact.<br><br>No reasons to drop Lyndon, you can't do it without fallout. Lyndon has his scandals, they are choking him out at this point. But you can't drop him, that'll make you look weak - indecisive even. You can't have that looming over you, no you can't. Keep Lyndon on, Jack, but keep him low profile. We can't let him mess it all up, we just can't.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/y0nu3g.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Lyndon Baines Johnson and his thrist for power has only grown ever since you've been paralyzed.<br><br>Lyndon has been a throne in your side ever since you picked him. You are polar opposites, forced to share a house. Lyndon, his opinions on you are well known. He hates you, and frankly, you hate him back. But he did the dirty work, and he got you here. He'll remind you that he's your only hope, and he'll always remind you of that fact.<br><br>No reasons to drop Lyndon, you can't do it without fallout. Lyndon has his scandals, they are choking him out at this point. But you can't drop him, that'll make you look weak - indecisive even. You can't have that looming over you, no you can't. Keep Lyndon on, Jack, but keep him low profile. We can't let him mess it all up, we just can't.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"The","last_name":"Republicans","election":11,"party":"Republican","state":"Nationwide","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#9c3d3d","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/1/1e/1964_RNC_logo.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"The","last_name":"Dixiecrats","election":11,"party":"Various","state":"The Old South","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://www.hakes.com/Image/LowRes/109072/1/image.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"The","last_name":"GOP Running Mate","election":11,"party":"Republican","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/barack-obama-2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"The","last_name":"Dixiecrat Running Mate","election":11,"party":"TBD","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/barack-obama-2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"3"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1002}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1003,"running_mate":1005}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1004,"running_mate":1006}}];
+
+quotes = ["''Do not pray for easy lives. Pray to be stronger men.'' ~ Jack Kennedy", "''Do not pray for tasks equal to your powers. Pray for powers equal to your tasks.'' ~ Jack Kennedy", "''Then the doing of your work shall be no miracle, but you shall be the miracle.'' ~ Jack Kennedy", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>CAMELOT'S A DREAM</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>Kermity & C0SM0</button>";
+  
+  credits = function() {
+    credits = ["This was made by...", "Kermity, for the original mod concept and writing.", "C0SM0, for the code 1, images, & some writing.", "AuH20 on Discord for the banner.", "And DecStarG for the various codes, of course."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#2a3d6b",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#000000",
+  "description_background_color": "#ffffff",
+  "main_color": "#5c5c5c",
+  "secondary_color": "#454444",
+ "ui_text_color": "#ffffff"
+}
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #454444;
+  }
+  a:-webkit-any-link {
+    color: #2a3d6b;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#999999;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "Camelot's Coming Down",
+
+    tracklist: [
+
+      {
+
+        name: "A Hard Day's Night (The Beatles)",
+
+        url: "https://file.garden/Zrv1pPC1HzBK0svl/A%20Hard%20Day's%20Night%20(Remastered%202009).mp3",
+
+      },
+
+      {
+
+        name: "Don't Back Down (The Beach Boys)",
+
+        url: "https://audio.jukehost.co.uk/K36ivX95xA2Dx5OittiTaX04deXGCdJ7",
+
+      },
+
+      {
+
+        name: "Keep On Pushing (The Impressions)",
+
+        url: "https://audio.jukehost.co.uk/59vg74qjhDxK2QlXOfhhHC0foUuQt6Lj",
+
+      },
+
+      {
+
+        name: "The Wanderer (Dion)",
+
+        url: "https://audio.jukehost.co.uk/EDRgryIgbx3vZQg9t2Fc1ZJ7EffI6Oj8",
+
+      },
+
+      {
+
+        name: "It's Alright, Ma (Bob Dylan)",
+
+        url: "https://files.catbox.moe/ncaqvz.mp3",
+
+      },
+
+      {
+
+        name: "High Hopes [With Jack Kennedy] (Frank Sinatra)",
+
+        url: "https://files.catbox.moe/09drgk.mp3",
+      
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
