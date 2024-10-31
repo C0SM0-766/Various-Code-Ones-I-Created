@@ -25,7 +25,7 @@ corrr=`\n<h2>HELL UNDER HER</h2><font id='wittyquote' size='3' color='white'><em
 campaignTrail_temp.modBoxTheme = {
   "header_color": "#575757",
   "header_text_color": "#ffffff",
-  "description_text_color": "#000000",
+  "description_text_color": "#ffffff",
   "description_background_color": "#2e4163",
   "main_color": "#000000",
   "secondary_color": "#575757",
@@ -326,7 +326,7 @@ backe2 = function() {
             tracklist: [
               {
               "name": "Blinding Lights (The Weeknd)",
-              "url": "https://ia803404.us.archive.org/24/items/the-weeknd-blinding-lights-official-audio_202103/The%20Weeknd%20-%20Blinding%20Lights%20%28Official%20Audio%29.mp3"
+              "url": "https://files.catbox.moe/gh1qow.mp3"
             },
           ]
         },
