@@ -1,0 +1,471 @@
+// Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "Heaven Knows I'm Miserable Now",
+      "The Smiths",
+      "https://files.catbox.moe/2vvs0v.jpg",
+      "https://files.catbox.moe/7o7j8p.mp3"
+    );
+    
+    const song2 = new Song(
+      "Hail To The Chief",
+      "Prophets Of Rage",
+      "https://files.catbox.moe/jm7mcv.jpg",
+      "https://files.catbox.moe/vwdtfy.mp3"
+    );
+  
+    const song3 = new Song(
+      "Griftwood",
+      "Ghost",
+      "https://files.catbox.moe/ledcnj.webp",
+      "https://files.catbox.moe/4ls6uj.mp3"
+    );
+  
+    const song4 = new Song(
+      "Why Did It Have To Be Me",
+      "ABBA",
+      "https://files.catbox.moe/ygc10v.jpg",
+      "https://files.catbox.moe/7efb06.mp3"
+    );
+  
+    const song5 = new Song(
+      "East Jesus Nowhere",
+      "Green Day",
+      "https://upload.wikimedia.org/wikipedia/en/0/02/Green_Day_East_Jesus_Nowhere_cover.jpg",
+      "https://files.catbox.moe/a6hyqw.mp3"
+    );
+  
+    const song6 = new Song(
+      "With God On Our Side",
+      "Bob Dylan",
+      "https://files.catbox.moe/m14j0g.jpg",
+      "https://files.catbox.moe/60wa17.mp3"
+    );
+  
+    const song7 = new Song(
+      "American Jesus",
+      "Bad Religion",
+      "https://files.catbox.moe/f1krc6.jpg",
+      "https://files.catbox.moe/ywkjhh.mp3"
+    );
+  
+  
+    const song8 = new Song(
+      "Should I Stay Or Should I Go",
+      "The Clash",
+      "https://upload.wikimedia.org/wikipedia/en/0/07/The_Clash_-_Combat_Rock.jpg",
+      "https://audio.jukehost.co.uk/BBAZmO9SsPl1tKzl6oQMmUEURCedVicc"
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+    playlist.addSong(song8);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://i.imgur.com/BB1ejv6.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+  
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 1; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+      let currentVolume = 1; // Initial volume
+  
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+    });
+  
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #C9C9C9; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://i.imgur.com/Ok791w6.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+  
+    }
+    .is-vertical #volumeSlider {
+    width: 16px;
+    appearance: slider-vertical;
+  }
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+    
+  `;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
+
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#838377";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#f0f0f0";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#fcfee6";
+
+$("#game_window")[0].style.backgroundColor = "#dcdfce"
+            document.getElementById("header").src = "https://files.catbox.moe/w0akwa.jpg";
+
+            document.body.background = "https://files.catbox.moe/0n3czi.jpg";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":20,"fields":{"year":2016,"summary":"<div style='overflow-y:scroll;height:200px;'><p><strong style='font-size: 1.2em;'>Donald Trump is dead.</strong> In his ashes, rises the current Vice President. Mike Pence. The homophobic, liberty hating bastard, has now risen to the top. But don't worry he won't be in the White House for long. Except... he will be.<br><br>Whatever happened in the election of 2020 was terrible. How could it happen? BLM, the economy, COVID! And yet, people thought that Mike Pence, out of all people, could help extinguish the flames?<br><br>Can you imagine a fraudulent president who thinks God is on his side to lead the free world during these trying times?<br><br>Well, that's reality now. And to that question, <b>The Gospel Of Mike</b> says yes.</div>","image_url":"https://www.politico.com/dims4/default/e5f610f/2147483647/strip/true/crop/2000x1333+0+0/resize/1532x1022!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F7f%2F51%2F90c098344a0ab54035a0d3585a1a%2Fpolitico-mike-pence-final.jpg","winning_electoral_vote_number":270,"advisor_url":"https://cdn.cnn.com/cnnnext/dam/assets/210914134009-dan-quayle-2016-super-169.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":20,"year":2016,"is_premium":0,"display_year":"2024 - The Gospel Of Mike"}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":32,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Mike","last_name":"Pence","election":20,"party":"Republican","state":"Indiana","priority":1,"description":"<p><b style=\\\"font-size: 1.2em;\\>Failed Indiana governor, Trump's loyal protégé, and now President.</b> Mike Pence has seen it all, and then some.<br><br>Whatever happened, it worked. Pence has defeated mayor Pete. Pence has now unvealed his new conservative agenda–one laced with homophobia, anti-abortion laws, and disregard to the separation of Church & State. Everyone's tired of his rambling, Democrats and Fascists alike.<br><br>The Trump family may endorse another GOP candidate in the primaries. The Democrats could choose any candidate from a wide array of choices that could easily send the president packing. Mother may or may not be happy.<br><br>Perhaps... there <i>is</i> a solution to this madness.</div>","color_hex":"#a33c3c","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/1knksi.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":" ","last_name":"Vacant","election":20,"party":"Republican","state":"TBD","priority":1,"description":"<div style=\\\"max-height: 200px; overflow-y: auto;\\\"><p><b style=\\\"font-size: 1.2em;\\\">Trump has died. Too close to the election.</b> You won before the RNC could decide your running mate. Several ballots still have you labeled as the running mate to a dead man.<br><br>The Democrats took the hill. They've won the house. The Senate remains in limbo thanks to Georgia. The kooks there won't just vote for you and your reactionary agenda if you don't do anything.<br><br>The Qanon conspiracy theorists wouldn't just give you their vote. Do something to appease these kooks and you may find yourself with a vice president -- or perhaps, a RINO. Worst case scenario, <i>no one at all.</i>","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/owd5dy.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<div style=\\\"max-height: 200px; overflow-y: auto;\\\"><p><b style=\\\"font-size: 1.2em;\\\">Trump has died. Too close to the election.</b> You won before the RNC could decide your running mate. Several ballots still have you labeled as the running mate to a dead man.<br><br>The Democrats took the hill. They've won the house. The Senate remains in limbo thanks to Georgia. The kooks there won't just vote for you and your reactionary agenda if you don't do anything.<br><br>The Qanon conspiracy theorists wouldn't just give you their vote. Do something to appease these kooks and you may find yourself with a vice president -- or perhaps, a RINO. Worst case scenario, <i>no one at all.</i>","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"The","last_name":"Democrats","election":20,"party":"Democratic","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#3769b0","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/US_Democratic_Party_Logo.svg/360px-US_Democratic_Party_Logo.svg.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"The","last_name":"Democrat Running Mate","election":20,"party":"Democratic","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/US_Democratic_Party_Logo.svg/360px-US_Democratic_Party_Logo.svg.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"The","last_name":"Libertarians","election":20,"party":"Libertarian","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#c7c55d","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Libertarian_Disc.svg/1280px-Libertarian_Disc.svg.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"The","last_name":"Libertarian Running Mate","election":20,"party":"Libertarian","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Libertarian_Disc.svg/1280px-Libertarian_Disc.svg.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"4"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":"The","last_name":"Greens","election":20,"party":"Green","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#44b851","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Green_Disc.svg/1280px-Green_Disc.svg.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"The","last_name":"Green Running Mate","election":20,"party":"Green","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Green_Disc.svg/1280px-Green_Disc.svg.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"6"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1002}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1003,"running_mate":1004}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1005,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1007,"running_mate":1008}}];
+
+quotes = ["Behind every great man is a woman rolling her eyes.", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>The Gospel Of Mike</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#838377",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#000000",
+  "description_background_color": "#f0f0f0",
+  "main_color": "#fcfee6",
+  "secondary_color": "#4f4f4a",
+ "ui_text_color": "#ffffff"
+}
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+  credits = function() {
+    credits = ["2024 Pence Credits", "This Code 1 was made by C0SM0. ", "Credit for Thatchmaster for the banner, theme, plenty of codes, and the original mod idea.", "DecStarG for some codes, of course."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
