@@ -1,0 +1,688 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#363636";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#000000";
+
+$("#game_window")[0].style.borderColor = "#192642"
+
+$(".container")[0].style.border = ".2em solid #192642"
+
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+
+$("#game_window")[0].style.backgroundImage = "url(https://i.makeagif.com/media/10-07-2017/Au5WCU.gif)"
+            document.getElementById("header").src = "https://files.catbox.moe/ktmm0y.png";
+
+            document.body.background = "https://files.catbox.moe/ughjho.jpg";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":20,"fields":{"year":2016,"summary":"<b>We live in Troubled Times.</b><br><p>In the wake of an economic depression and under four years of a Ron DeSantis presidency, both parties shift to the Extremes.<br><br>• Alexandria Ocasio-Cortez must detail her plans for an economic recovery and emphasize why her unbashed progressivism is a step in the right direction.<br><br>• Nick Fuentes shall unite his party after a chaotic primary season while trying to reel in moderates scared of his past comments.<br><br><button onclick='next0()'><b>Content Warning + Mod Note</button></b></p>","image_url":"https://files.catbox.moe/63mzxh.jpg","winning_electoral_vote_number":270,"advisor_url":"https://files.catbox.moe/7rrrxm.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":20,"year":2016,"is_premium":0,"display_year":"2036 - Troubled Times"}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":35,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Alexandria","last_name":"Ocasio-Cortez","election":20,"party":"Democratic","state":"New York","priority":1,"description":"<p>Dubbed \"The New Hillary Clinton\" by some, Alexandria Ocasio-Cortez's journey from 20 years ago to now has been eventful and plentiful.<br><br>Ocasio-Cortez, or AOC, has been crusading for a Progressive future for America ever since she's been in a political office. Attacked by the right constantly, she's not new to the same attacks Fuentes & DeSantis threw at her. <br><br>Now's her time to shine. She must. The Abyss is just around the corner of this country. America must reject fascism the same way it rejected it in 2017 and in 1941. The media will still bombard her with attacks, but she'll prove them all wrong. For a progressive future, and in the legacy of Bernie Sanders.","color_hex":"#071236","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/b7rccg.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Nick","last_name":"Fuentes","election":20,"party":"Republican","state":"Illinois","priority":1,"description":"<p>The moderate voters' worst nightmare. Reactionaries and the Alt-Right rejoice as Nick Fuentes takes the mantle.<br><br>The Republican party has fallen into the abyss of hatred. The party of Lincoln has now become the party of racists like Wallace, Thurmond, Duke, & Rockwell. Oh have the times have changed...<br><br>Nick Fuentes is a show host and a proponent of Neofascism. Fuentes has been constant with his racist & antisemitic remarks. Fuentes has revitalized the Alt-Right and has alienated a lot of major figures, including president DeSantis.<br><br>Could it happen here? If he wins, it <i>very much may.</i>","color_hex":"#360707","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/06ly9l.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"Adam","last_name":"Kinzinger","election":20,"party":"Independent","state":"Illinois","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#200736","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Adam_Kinzinger_-_117th_Congress.jpg/1280px-Adam_Kinzinger_-_117th_Congress.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"Austin","last_name":"Petersen/Others","election":20,"party":"Various","state":"Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#07361f","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Austin_Petersen_by_Gage_Skidmore_2_%28cropped%29.jpg/1280px-Austin_Petersen_by_Gage_Skidmore_2_%28cropped%29.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"Gretchen","last_name":"Whitmer","election":20,"party":"Democratic","state":"Michigan","priority":1,"description":"<p>The governor-turned-senator from Michigan is pleased to hear about that you've reached out to her. Whitmer has been a titan in Michigan state politics, winning her Gubernatorial & senatorial races comfortably beforehand. Whitmer has also been talked about as a possible nominee for president and running mate for former president Jon Ossoff.<br><br>Whitmer has fought for everyone, from minorities to the labor union. Her squeaky clean image is palatable for the American public, especially compared to the radical ideology of your opponent. Advisors agree she'll help you in the Midwest, cement yourself as a common sense candidate, and is a great choice to pick for the spot of number two.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/wy64zv.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>The governor-turned-senator from Michigan is pleased to hear about that you've reached out to her. Whitmer has been a titan in Michigan state politics, winning her Gubernatorial & senatorial races comfortably beforehand. Whitmer has also been talked about as a possible nominee for president and running mate for former president Jon Ossoff.<br><br>Whitmer has fought for everyone, from minorities to the labor union. Her squeaky clean image is palatable for the American public, especially compared to the radical ideology of your opponent. Advisors agree she'll help you in the Midwest, cement yourself as a common sense candidate, and is a great choice to pick for the spot of number two.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"Andy","last_name":"Kim","election":20,"party":"Democratic","state":"New Jersey","priority":1,"description":"<p>Andy Kim's a good choice as your running mate if you're trying to expand your appeal. Serving currently as a New Jersey Senator, Kim has supported both progressive & liberal policies alike. Seen as a respectable choice to many in the party and to undecided voters, your advisors agree that Kim can bring plenty on the ticket. Kim is also a symbolic choice, as he'll be the first ever Asian vice president.<br><br>One issue with him is that Kim doesn't come from a battleground state. But in a year where you're expected to win in a landslide, it won't matter too much.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/ff3gm6.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Andy Kim's a good choice as your running mate if you're trying to expand your appeal. Serving currently as a New Jersey Senator, Kim has supported both progressive & liberal policies alike. Seen as a respectable choice to many in the party and to undecided voters, your advisors agree that Kim can bring plenty on the ticket. Kim is also a symbolic choice, as he'll be the first ever Asian vice president.<br><br>One issue with him is that Kim doesn't come from a battleground state. But in a year where you're expected to win in a landslide, it won't matter too much.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":"Nanette","last_name":"Barragan","election":20,"party":"Democratic","state":"California","priority":1,"description":"<p>A surprising choice to some, considering how many in America have no idea about her. Nanette Barragan is a long serving representative from California and is a person to be reckoned with.<br><br>Barragan can help reel in the Hispanic vote, which looks to be in favor of you due to Fuentes. She can also appeal to voters in the southwest and is accepted by both progressives & liberals. However, Barragan is virtually unknown to many in the country, despite her serving in political office for a while. Despite this, her anonymity could also be a blessing. She could mold her image into something that voters will be attracted to. She also comes from California, a deep blue state.<br><br>If you play your cards wisefully, Barragan can help you in certain ways. Otherwise, look elsewhere.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/igxdt1.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>A surprising choice to some, considering how many in America have no idea about her. Nanette Barragan is a long serving representative from California and is a person to be reckoned with.<br><br>Barragan can help reel in the Hispanic vote, which looks to be in favor of you due to Fuentes. She can also appeal to voters in the southwest and is accepted by both progressives & liberals. However, Barragan is virtually unknown to many in the country, despite her serving in political office for a while. Despite this, her anonymity could also be a blessing. She could mold her image into something that voters will be attracted to. She also comes from California, a deep blue state.<br><br>If you play your cards wisely, Barragan can help you in certain ways. Otherwise, look elsewhere.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"Julia","last_name":"Salazar","election":20,"party":"Democratic / Democratic Socialists of America","state":"New York","priority":1,"description":"<p>The ultimate wild card pick. Julia Salazar is a former state Senator from New York who has consistently pushed for a progressive future, just you do. However, she calls openly calls herself a Socialists, as she's apart of the Democratic Socialists of America.<br><br>Choosing her over the rest mentioned in the shortlist is wrong on many fronts. Since she's a socialist, many people in red states, who look open into voting for you, will turn their heads away from you. Not only that, but liberals & moderates will be disappointed with Salazar on the ticket, leading to a surge in support for Fuentes & other third parties. Salazar will have to change her home state if she's on the ticket.<br><br>But perhaps our country is too divided for this to matter...","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/qhy6qo.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>The ultimate wild card pick. Julia Salazar is a former state Senator from New York who has consistently pushed for a progressive future, just you do. However, she calls openly calls herself a Socialists, as she's apart of the Democratic Socialists of America.<br><br>Choosing her over the rest mentioned in the shortlist is wrong on many fronts. Since she's a socialist, many people in red states, who look open into voting for you, will turn their heads away from you. Not only that, but liberals & moderates will be disappointed with Salazar on the ticket, leading to a surge in support for Fuentes & other third parties. Salazar will have to change her home state if she's on the ticket.<br><br>But perhaps our country is too divided for this to matter...","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1009,"fields":{"first_name":"Steven","last_name":"Crowder","election":20,"party":"Republican","state":"Michigan","priority":1,"description":"<p>The culture war has thrived on for years and years. Steven Crowder has helped make it thrive.<br><br>Crowder is a political commentator and representative who currently hosts his show/podcast \"Louder With Crowder\". He has debated against liberals among many issues. It's due to his debating skills and comedic moments that he has a large influence among conservatives today.<br><br>Crowder can help reel in some conservatives who are already reluctant to support your ticket. His debating skills could also be bought to good use in the upcoming VP debate. Still, his extreme stances on the culture and his use of slurs against minorities won't help you at all in crucial states like Texas & Florida.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/pwrlf9.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>The culture war has thrived on for years and years. Steven Crowder has helped make it thrive.<br><br>Crowder is a political commentator and representative who currently hosts his show/podcast \"Louder With Crowder\". He has debated against liberals among many issues. It's due to his debating skills and comedic moments that he has a large influence among conservatives today.<br><br>Crowder can help reel in some conservatives who are already reluctant to support your ticket. His debating skills could also be bought to good use in the upcoming VP debate. Still, his extreme stances on the culture and his use of slurs against minorities won't help you at all in crucial states like Texas & Florida.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1010,"fields":{"first_name":"Majorie Taylor","last_name":"Greene","election":20,"party":"Republican","state":"Georgia","priority":1,"description":"<p>Majorie Taylor Greene has been espousing her rhetoric for more then a decade, and what has changed? Nothing.<br><br>Greene, or MTG, has been crusading for a conservative agenda ever since President Biden won in 2020. She's been constantly portrayed as a clown with a blond wig on and as a reactionary fascist. To the right, she's a darling to them and savior to their people.<br><br>You need at least some of the media on your side to prevent a Blowout. MTG wouldn't do any such favors towards that. MTG is a kook, espousing the same conspiracy theories Qanon does. Plus, you will still be viewed as negatively the media already paints you as.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://i.imgur.com/DJzHpMi.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Majorie Taylor Greene has been espousing her rhetoric for more then a decade, and what has changed? Nothing.<br><br>Greene, or MTG, has been crusading for a conservative agenda ever since President Biden won in 2020. She's been constantly portrayed as a clown with a blond wig on and as a reactionary fascist. To the right, she's a darling to them and savior to their people.<br><br>You need at least some of the media on your side to prevent a Blowout. MTG wouldn't do any such favors towards that. MTG is a kook, espousing the same conspiracy theories Qanon does. Plus, you will still be viewed as negatively the media already paints you as.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1011,"fields":{"first_name":"Matt","last_name":"Gaetz","election":20,"party":"Republican","state":"Florida","priority":1,"description":"<p>Matt Gaetz is a superstar in the Republican party ever since he has won the Florida governorship, succeeding Ron DeSantis. Since then, he has been similar in policy to that of his predecessor, fighting the culture war and the Deep State. Gaetz might be the only one standing in the way of you and losing in a landslide.<br><br>Well liked in the Republican party, Gaetz can use his influence to stop the bleeding in traditional red states such as Kansas, Missouri, South Carolina, and his home state of Florida. Moderates won't budge with this pick, however. Not to mention his commitment to ideological purity and his previous scandals regarding pedophilia & sex trafficking will be dug up again and will be used as ammunition by AOC.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/ytsok2.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Matt Gaetz is a superstar in the Republican party ever since he has won the Florida governorship, succeeding Ron DeSantis. Since then, he has been similar in policy to that of his predecessor, fighting the culture war and the Deep State. Gaetz might be the only one standing in the way of you and losing in a landslide.<br><br>Well liked in the Republican party, Gaetz can use his influence to stop the bleeding in traditional red states such as Kansas, Missouri, South Carolina, and his home state of Florida. Moderates won't budge with this pick, however. Not to mention his commitment to ideological purity and his previous scandals regarding pedophilia & sex trafficking will be dug up again and will be used as ammunition by AOC.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1012,"fields":{"first_name":"Thomas","last_name":"Rousseau","election":20,"party":"Independent","state":"Texas","priority":1,"description":"<p>Disaster. It would be a disaster for you if you go ahead with this pick.<br><br>Thomas Ryan Rousseau is currently the leader of the Neofascist group, the Patriot Front. They have indulged in numerous marches and protests nationwide, and membership is in the low thousands. Antisemetic, regressive, white supremacist, and reactionary. The four pillars of the Front, of Rousseau, and of you.<br><br>If you think any existing supporter of you wouldn't vote for you already, then Rousseau will bring them back in the fold. That's literally his only benefit for your campaign. AOC & the democrats will have a field day with a Fuentes/Rousseau ticket.<br><br>Wanna see a map filled to the brim with blue? Be my guest, Nick.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/qfnzch.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Disaster. It would be a disaster for you if you go ahead with this pick.<br><br>Thomas Ryan Rousseau is currently the leader of the Neofascist group, the Patriot Front. They have indulged in numerous marches and protests nationwide, and membership is in the low thousands. Antisemetic, regressive, white supremacist, and reactionary. The four pillars of the Front, of Rousseau, and of you.<br><br>If you think any existing supporter of you wouldn't vote for you already, then Rousseau will bring them back in the fold. That's literally his only benefit for your campaign. AOC & the democrats will have a field day with a Fuentes/Rousseau ticket.<br><br>Wanna see a map filled to the brim with blue? Be my guest, Nick.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1013,"fields":{"first_name":"William","last_name":"McRaven","election":20,"party":"No Labels","state":"Texas","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/3/34/ADM_William_H._McRaven_2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1014,"fields":{"first_name":"Chase","last_name":"Oliver/Others","election":20,"party":"Libertarian/Various","state":"Georgia/Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Chase_Oliver_by_Gage_Skidmore_2.jpg/1280px-Chase_Oliver_by_Gage_Skidmore_2.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"3"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1005}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1001,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1001,"running_mate":1007}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1001,"running_mate":1008}},{"model":"campaign_trail.running_mate","pk":2005,"fields":{"candidate":1002,"running_mate":1009}},{"model":"campaign_trail.running_mate","pk":2006,"fields":{"candidate":1002,"running_mate":1010}},{"model":"campaign_trail.running_mate","pk":2007,"fields":{"candidate":1002,"running_mate":1011}},{"model":"campaign_trail.running_mate","pk":2008,"fields":{"candidate":1002,"running_mate":1012}},{"model":"campaign_trail.running_mate","pk":2009,"fields":{"candidate":1003,"running_mate":1013}},{"model":"campaign_trail.running_mate","pk":2010,"fields":{"candidate":1004,"running_mate":1014}}];
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#000000",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#171717",
+  "main_color": "#000000",
+  "secondary_color": "#242424",
+ "ui_text_color": "#ffffff"
+}
+
+quotes = ["''AOC is more America First then 99% of Republicans.'' ~ Nick Fuentes", "''White supremacy is a scourge and must be disavowed in all places.'' ~ AOC", "''You and me, and Rep. Massie, Candace Owens, and Bernie Sanders all agree that the Israel Lobby should not control our foreign policy.'' ~ Nick Fuentes", "''Could it happen here? I see no reason why it couldn't.'' ~ Bernie Sanders", "''If fascism came to America, it would come wrapped in the flag and whistling The Star Spangled Banner.'' ~ Harrison Evans Salisbury", "''The one absolutely certain way to bring this nation to ruin... would be to permit it to become a tangle of squabbling nationalities.'' ~ Theodore Roosevelt", "''A great democracy has got to be progressive or it will soon cease to be great or a democracy.'' ~ Theodore Roosevelt", "''Saying we should keep the two-party system simply because it is working is like saying the Titanic voyage was a success because a few people survived on life-rafts.'' ~ Eugene McCarthy","''If [America] was a startup, we'd understand how unfixable the situation is.'' ~ Michael Arrington", "We live in Troubled Times...","''There never was a Democracy yet that did not commit suicide.'' ~ John Adams", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+next0 = function() {
+
+        text = "<p>This code 1 features references, political figures, and images relating to Socialism & Fascism. Julia Salazar is apart of the Democratic Socialists of America. Steven Crowder is misogynistic. Nick Fuentes & Thomas Rousseau are both considered part of the Alt-Right. Rousseau also currently leads the Patriot Front, a Fascist & white supremacist organization.<br><br>This mod is supposed to paint the future of America in a bleak light, and isn't a reflection of the political views of the modder, nor does it try to praise any of these ideologies in the slightest. <br><br>If any of these makes you uncomfortable, feel free to reload the game at any point in time.<br><br></li></ul><button onclick='back0()'>Back</button></p>"
+
+        document.getElementById("election_summary").innerHTML = text
+
+}
+
+
+back0 = function() {
+
+        text = "<b>We live in Troubled Times.</b><br><p>In the wake of an economic depression and under four years of a Ron DeSantis presidency, both parties shift to the Extremes.<br><br>• Alexandria Ocasio-Cortez must detail her plans for an economic recovery and emphasize why her unbashed progressivism is a step in the right direction.<br><br>• Nick Fuentes shall unite his party after a chaotic primary season while trying to reel in moderates scared of his past comments.<br><br><button onclick='next0()'><b>Content Warning + Mod Note</button></p>"
+
+        document.getElementById("election_summary").innerHTML = text
+
+}
+
+HistHexcolour=["#071236","#360707","#200736","#07361f"];
+    HistName=[" Alexandria Ocasio-Cortez"," Nick Fuentes"," Adam Kinzinger"," Austin Petersen/Others"];
+    HistEV=[438,100,0,0];
+    HistPV=["88,778,769","61,276,651","9,810,697","964,987"];
+    HistPVP=["55.2%","38.1%","6.1%","0.6%"];
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+  credits = function() {
+    credits = ["This code 1 was made by C0SM0.", "Credit goes to WillyBilly on discord for the banner & the original mod idea.", "Window image taken from Slick '88.", "2278 Louisiana for the UI change code.", "DecStarG, for various different codes, of course."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<li><span style="color: white;">It's 2036, and America is in the abyss.</li><li><span style="color: white;">This scenario is set in an alternate timeline where America takes a drastic turn.</li><li><span style="color: white;">With America on the brink of uncertainty, it's unclear whether or not America can survive another day.</li><li><span style="color: white;">Content Warning: Racism, sexism, homophobia, misogyny, antisemitism, references to extremist figures, & profanity.</li><li><span style="color: white;">Good luck, and try to get the country out of <b><span style="color: white;">Troubled Times.</span></b></li>`;
+
+document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election_description_window {background-color:#000000!important} .campaign_trail_start_emphasis {background-color:#f2f2f2!important; color:#f2f2f2!important} .game_start {color:#f2f2f2!important} .inner_window_front {background-color:#000000!important}.inner_window_w_desc {background-color:#000000!important;} .person_description_window {background-color:#000000!important} .person_summary {color:#f2f2f2!important} .inner_window_w_desc {color:#f2f2f2!important} .description_window_small {background-color:#000000!important} </style>";
+
+    document.head.innerHTML += `<style>
+    h3 {
+      font-size:1.17em!important;
+      color: #f2f2f2;
+    }
+    h4 {
+      color: #f2f2f2;
+    }
+    h2 {
+      color: #f2f2f2;
+    }
+    h1 {
+      color: #f2f2f2;
+    }
+    p {
+        color: #f2f2f2;
+    }
+    tooltiptext {
+        color: #f2f2f2;
+    }
+    b {
+        color: #f2f2f2;
+    }
+    label {
+        color: #f2f2f2;
+    }
+    robco {
+        color: #f2f2f2;
+        font-size:1em!important;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif!important;
+    }
+    robcored {
+      font-family: Times New Roman;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #f2f2f2;
+    }
+    robcodeath {
+      font-family: Times New Roman;
+      font-size: 1em;
+      font-style: italic;
+      text-shadow: violet 1px 1px 1px;
+      color: #f2f2f2;
+    }
+    robcodeathlarge {
+      font-family: Times New Roman;
+      font-size: 2em;
+      font-style: italic;
+      text-shadow: violet 1px 1px 1px;
+      color: #f2f2f2;
+    }
+    label {
+      font-size:1em!important;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif!important;
+    }
+  body {display:flex!important;}
+  #game_window{max-width:1000px;}
+button {
+            appearance: none;
+            background-color: #000!important;
+            border: #0f1!important;
+            color: #f2f2f2;
+}
+button:active {
+            appearance: none;
+            background-color: #0f1!important;
+            border: #000!important;
+            color: #f2f2f2;
+}
+button:hover {
+            appearance: none;
+            background-color: #192642!important;
+            border: #192642!important;
+            color: #f2f2f2;
+}
+select {
+    color: #f2f2f2;
+    appearance: none;
+    box-sizing: border-box;
+    align-items: center;
+    -webkit-rtl-ordering: logical;
+    background-color: #000;
+    cursor: default;
+    margin: 0em;
+    white-space: pre;
+    border-width: 2px;
+    border-style: solid;
+    border-color: light-dark(rgb(242, 242, 242), rgb(242, 242, 242));
+    border-image: initial;
+    border-radius: 0px;
+}
+    </style>`
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#142b59;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#142b59;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "Opening Song",
+
+    tracklist: [
+
+      {
+
+        name: "Battle Hymn Of The Republic (Joshua James)",
+
+        url: "https://files.catbox.moe/fk2y9l.mp3",
+      
+
+      },
+
+    ],
+
+  },
+
+  1: {
+
+    name: "Songs For Equality",
+
+    tracklist: [
+
+      {
+
+        name: "We Shall Overcome (Paul S. Morton)",
+
+        url: "https://files.catbox.moe/cc5ccn.mp3",
+
+      },
+
+      {
+
+        name: "Not Ready To Make Nice (The Chicks)",
+
+        url: "https://files.catbox.moe/0ovbgk.mp3",
+
+      },
+
+      {
+
+        name: "Think (Aretha Franklin)",
+
+        url: "https://files.catbox.moe/15dik1.mp3",
+
+      },
+
+      {
+
+        name: "Diamond Studded Shoes (Yola)",
+
+        url: "https://files.catbox.moe/7nb99v.mp3",
+
+      },
+
+      {
+
+        name: "Which Side Are You On? (Megan Slankard & Lia Rose + ft. AOC)",
+
+        url: "https://files.catbox.moe/rnjw4h.mp3",
+
+      },
+
+      {
+
+        name: "Solidarity Forever (Tom Morello)",
+
+        url: "https://files.catbox.moe/j41wvd.mp3",
+
+      },
+
+    ],
+
+  },
+
+  2: {
+
+    name: "Songs For Sovereignty (CW)",
+
+    tracklist: [
+
+      {
+
+        name: "Liars, Cheats, & Crooks (Five Times August)",
+
+        url: "https://files.catbox.moe/b14mof.mp3",
+
+      },
+
+      {
+
+        name: "Don't Tread On Me (Metallica)",
+
+        url: "https://files.catbox.moe/0lvi60.mp3",
+
+      },
+
+      {
+
+        name: "These Are My People (Johnny Cash)",
+
+        url: "https://files.catbox.moe/5umne5.mp3",
+
+      },
+
+      {
+
+        name: "The Bolls That Will Save Our Land (Pine Tree Riots)",
+
+        url: "https://files.catbox.moe/ae2is2.mp3",
+
+      },
+
+      {
+
+        name: "Sovereignty & Blood Forever (Paddy Tarleton)",
+
+        url: "https://files.catbox.moe/nshrch.mp3",
+
+      },
+
+      {
+
+        name: "Avatar (Dresden)",
+
+        url: "https://files.catbox.moe/227131.mp3",
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
