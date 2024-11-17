@@ -1,0 +1,597 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#240c0c";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#1e2b42";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#611818";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/taaeyl.png)"
+
+$("#game_window")[0].style.borderColor = "#2f3b52"
+
+$(".container")[0].style.border = ".2em solid #522f2f"
+
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+            document.getElementById("header").src = "https://files.catbox.moe/44m9ms.jpeg";
+
+            document.body.background = "https://files.catbox.moe/c2s7r3.jpg";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":20,"fields":{"year":2016,"summary":"It's 2024, and America has fallen into the abyss.<br><br>Donald Trump has successfully persuaded the Supreme Court to repeal the 22nd amendment, allowing him the run for a third term. The democrats, the moderates, Trumps own vice president, condemn this act of tyranny.<br><br>As Trump purges the American justice system, and silences \"radical left lunatics\" to the left of him, it seems that American democracy is headed to be an Anocracy, headed by the eccentric New York billionaire.<br><br>Meanwhile, the Democrats turn to now independent Senator Mitt Romney to hold back the night and to reclaim America from the grasp of Trumps hands.","image_url":"https://files.catbox.moe/t44jyc.jpg","winning_electoral_vote_number":270,"advisor_url":"https://files.catbox.moe/jlmmfk.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":20,"year":2016,"is_premium":0,"display_year":"2024 - VINCERO"}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":35,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Donald J.","last_name":"Trump","election":20,"party":"Republican","state":"Florida","priority":1,"description":"<i>Sadly, the American dream is dead. But if I ever get elected president, I will bring it back, bigger and better than ever.</i><br><br>Donald Trump and his rise to power has been nothing less then breathtaking. Every time the Donald had done something, he's been harassed by the media. The fake news media has always done that. Facing growing unpopularity in the wake of 2020, many thought that Trump would lose re-election to Andrew Yang. False.<br><br>Trump would go on to sweep over 450 electoral votes. What a sight to behold. But still, the Donald thinks he hadn't done enough. After convincing the Supreme Court to repeal the 22nd amendment, Trump runs for a 3rd term, breaking tradition and the law, all in the name of \"Keeping America Great\".<br><br>America is changed forever. The Democrats are in disarray. But the reign of Trump marches on as the country tears itself apart...","color_hex":"#571010","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/3mwlij.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Mitt","last_name":"Romney","election":20,"party":"Independent / Democratic","state":"Utah","priority":1,"description":"<i>Trump's playing the American public for suckers: he gets a free ride to the White House and all we get is a lousy hat.</i><br><br>Once upon a time, Mitt Romney & Donald Trump were friends. Trump enthusiastically endorsed Romney in 2012, and after Barack Obama bested Mitt, Trump claimed the electoral college was a disaster for the country. Who knew that in just a couple of years, these two former friends would be running up against each other?<br><br>Mitt Romney is an unorthodox choice for the Democrats. Romney is a self-described independent candidate, and only excepted the nomination after a huge Draft Movement by the moderate bloc of the Democratic Party. Still, Romney takes the mantle and is willing to head into the cage, toe-to-toe with Trump, for the battle of America's Soul.<br><br>An independent Senator is a major partys only hope to go against the juggernaut that is the Trump campaign. Should Romney fail in his endeavor, then God save America from the Donald, <i>for no one else will.</i>","color_hex":"#67c282","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/hgprpc.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"Byron","last_name":"Donalds","election":20,"party":"Republican","state":"Florida","priority":1,"description":"<p>Traitor Mike Pence has dropped himself from the Vice Presidency upon hearing the totally legal decision to overturn the 22nd amendment. But that's alright. Who needs this old ineffective man being second-in-command anyway?<br><br>Fellow Patriot and Florida representative Byron Donalds could help fill the void left by Pence. Donalds has been vocal in defending the Supreme Court ever that fateful decision. His face appears on every screen, attacking the left and defending your actions.<br><br>With Donalds by your side, your base will be more riled up then ever at your rallies, but at the expense of moderates that went to you in 2020. Not to mention you and Byron are both from the same state, and you'll have to change your voter registration back to New York.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/bkf9ih.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Traitor Mike Pence has dropped himself from the Vice Presidency upon hearing the totally legal decision to overturn the 22nd amendment. But that's alright. Who needs this old ineffective man being second-in-command anyway?<br><br>Fellow Patriot and Florida representative Byron Donalds could help fill the void left by Pence. Donalds has been vocal in defending the Supreme Court ever that fateful decision. His face appears on every screen, attacking the left and defending your actions.<br><br>With Donalds by your side, your base will be more riled up then ever at your rallies, but at the expense of moderates that went to you in 2020. Not to mention you and Byron are both from the same state, and you'll have to change your voter registration back to New York.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"Majorie Taylor","last_name":"Greene","election":20,"party":"Republican","state":"Georgia","priority":1,"description":"Alternatively, representative Majorie Taylor Greene could help fill in the role of the Vice Presidency. But... oh boy, would it be a choice.<br><br>Greene, or MTG, is a loud-mouthed firebrand representative from Georgia. She has consistently played into and supported conspiracy theories brought up by Qanon and the far right. She's your strongest soldier, and has defended your actions every step of the way.<br><br>But the fake news media will have a field day will this pick. Everything she said will be replayed over and over again, from her endorsing conspiracy theories to her making downright dubious and outrageous claims.<br><br>This is a rare moment in history where you have everything under control. Please don't throw it all away with MTG as second-in-command.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/4kk9k5.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Alternatively, representative Majorie Taylor Greene could help fill in the role of the Vice Presidency. But... oh boy, would it be a choice.<br><br>Greene, or MTG, is a loud-mouthed firebrand representative from Georgia. She has consistently played into and supported conspiracy theories brought up by Qanon and the far right. She's your strongest soldier, and has defended your actions every step of the way.<br><br>But the fake news media will have a field day will this pick. Everything she said will be replayed over and over again, from her endorsing conspiracy theories to her making downright dubious and outrageous claims.<br><br>This is a rare moment in history where you have everything under control. Please don't throw it all away with MTG as second-in-command.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"Tucker","last_name":"Carlson","election":20,"party":"Republican","state":"Maine","priority":1,"description":"<p>The fake news media. It's all over the country, brainwashing peoples minds. But not for those who watch true patriots like Tucker Carlson, who's out there speaking the truth about what's right and what's wrong in America.<br><br>Carlson's TV show is watched by millions of true patriots. A conservative juggernaut in his own right. Tucker has always shown bias towards you ever since you've been elected. A Trump/Carlson ticket would make the media even more hungry for you to be on their screen.<br><br>However, be noted that Tucker has held no elected office prior to this, and holds some idiosyncratic beliefs contrary to yours. Despite this, Carlson is still praised by your people to be the vice president.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/6ukla9.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>The fake news media. It's all over the country, brainwashing peoples minds. But not for those who watch true patriots like Tucker Carlson, who's out there speaking the truth about what's right and what's wrong in America.<br><br>Carlson's TV show is watched by millions of true patriots. A conservative juggernaut in his own right. Tucker has always shown bias towards you ever since you've been elected. A Trump/Carlson ticket would make the media even more hungry for you to be on their screen.<br><br>However, be noted that Tucker has held no elected office prior to this, and holds some idiosyncratic beliefs contrary to yours. Despite this, Carlson is still praised by your people to be the vice president.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"Sherrod","last_name":"Brown","election":20,"party":"Democratic","state":"Ohio","priority":1,"description":"<p>A Saint for the Democratic Party in a state now considered to be a safe Republican state, Sherrod Brown will increase your odds at winning substantially.<br><br>Senator Sherrod Brown of Ohio has made a name for himself for being labeled a left-wing populist, with him consistently supporting liberal, progressive, and populist policies alike. Brown will appeal to all aspects of the party and greatly help you in the Midwest and with blue-collar workers alike.<br><br>The two major setbacks with this choice is that Brown is set up for re-election this year, and hes the only one that has a chance to win. The Senate seat Brown sits in will be doomed for control under the Republicans. Ohio also isn't likely to be predicted to go for the Democrats this election year on the presidential level.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/dxgp4m.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>A Saint for the Democratic Party in a state now considered to be a safe Republican state, Sherrod Brown will increase your odds at winning substantially.<br><br>Senator Sherrod Brown of Ohio has made a name for himself for being labeled a left-wing populist, with him consistently supporting liberal, progressive, and populist policies alike. Brown will appeal to all aspects of the party and greatly help you in the Midwest and with blue-collar workers alike.<br><br>The two major setbacks with this choice is that Brown is set up for re-election this year, and hes the only one that has a chance to win. The Senate seat Brown sits in will be doomed for control under the Republicans. Ohio also isn't likely to be predicted to go for the Democrats this election year on the presidential level.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":"Adam","last_name":"Schiff","election":20,"party":"Democratic","state":"California","priority":1,"description":"<p>For 8 years, Donald Trump has attempted to change the country into a reactionary anocratic state. For 8 years, Adam Schiff has stepped in the way.<br><br>Schiff currently holds a seat for the House of Representatives in California. Schiff has garnered huge media attention for his constant attacks on Trump and his attempts to stonewall his agenda. With Schiff by your side, your campaign will be another Referendum on Trump and his ideals, for better or for worse.<br><br>Schiff will appeal to disaffected democrats, who are already disappointed of someone like you not officially in the party winning the nomination. However, the House censuring Schiff for his past comments on Trump & Russia may hurt your ticket among undecided voters.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/agny8e.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>For 8 years, Donald Trump has attempted to change the country into a reactionary anocratic state. For 8 years, Adam Schiff has stepped in the way.<br><br>Schiff currently holds a seat for the House of Representatives in California. Schiff has garnered huge media attention for his constant attacks on Trump and his attempts to stonewall his agenda. With Schiff by your side, your campaign will be another Referendum on Trump and his ideals, for better or for worse.<br><br>Schiff will appeal to disaffected democrats, who are already disappointed of someone like you not officially in the party winning the nomination. However, the House censuring Schiff for his past comments on Trump & Russia may hurt your ticket among undecided voters.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"Elizabeth","last_name":"Warren","election":20,"party":"Democratic","state":"Massachusetts","priority":1,"description":"<p>To appeal to the progressive bloc of the Democratic Party, you might want to consider Senator Elizabeth Warren to be on the ticket for balance and to further appeal your voter base.<br><br>Hailing from Massachusetts, Warren has consistently paraded progressive ideals in the Senate chamber. Adopting a similar agenda to that of Bernie Sanders, Warren will without a doubt rile up the Progressives and persuade them to vote for you. She'll also reaffirm that the Democratic Party is behind you.<br><br>However, her progressive views make her an easy punching bag for Trump and the conservative media. Her dull speaking skills and anemic style of campaigning won't mitigate this drawback, and will hurt you in the long run.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/zjmzz9.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>To appeal to the progressive bloc of the Democratic Party, you might want to consider Senator Elizabeth Warren to be on the ticket for balance and to further appeal your voter base.<br><br>Hailing from Massachusetts, Warren has consistently paraded progressive ideals in the Senate chamber. Adopting a similar agenda to that of Bernie Sanders, Warren will without a doubt rile up the Progressives and persuade them to vote for you. She'll also reaffirm that the Democratic Party is behind you.<br><br>However, her progressive views make her an easy punching bag for Trump and the conservative media. Her dull speaking skills and anemic style of campaigning won't mitigate this drawback, and will hurt you in the long run.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1009,"fields":{"first_name":"Larry","last_name":"Hogan","election":20,"party":"Republican / No Labels","state":"Maryland","priority":1,"description":"<p>Despite not being apart of the Democratic Party, the name of governor Larry Hogan of Maryland has been floating around as a potential pick for running mate.<br><br>Hogan is what you call a RINO by \"Patriots\", or a free thinker and a Maverick by sane people, not drawn by the MAGA cult. Hogan is also affiliated with the No Labels party, which further ties his name with moderation. Moderates and people who are tired of the party duopoly will rejoice and come swinging to vote for you in droves.<br><br>The Progressive bloc of the Democratic Party will be dismayed with this choice, and turnout will be depressed if you don't throw a bone to them. Not to mention that your appeal won't be expanded much, as Hogan covers the same voter bases you have.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/n55qgg.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Despite not being apart of the Democratic Party, the name of governor Larry Hogan of Maryland has been floating around as a potential pick for running mate.<br><br>Hogan is what you call a RINO by \"Patriots\", or a free thinker and a Maverick by sane people, not drawn by the MAGA cult. Hogan is also affiliated with the No Labels party, which further ties his name with moderation. Moderates and people who are tired of the party duopoly will rejoice and come swinging to vote for you in droves.<br><br>The Progressive bloc of the Democratic Party will be dismayed with this choice, and turnout will be depressed if you don't throw a bone to them. Not to mention that your appeal won't be expanded much, as Hogan covers the same voter bases you have.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1010,"fields":{"first_name":"Chase","last_name":"Oliver","election":20,"party":"Libertarian","state":"Tennessee","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#b37b32","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Chase_Oliver_by_Gage_Skidmore_2.jpg/1280px-Chase_Oliver_by_Gage_Skidmore_2.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1011,"fields":{"first_name":"Mike","last_name":"Ter Maat","election":20,"party":"Libertarian","state":"Oreegon","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/4/4a/Mike_Ter_Maat_on_the_%22LibertyDad%22_Podcast.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"9"}},{"model":"campaign_trail.candidate","pk":1012,"fields":{"first_name":"Cornel","last_name":"West/Others","election":20,"party":"Green/Various","state":"New York/Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#396ea3","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cornel_West_by_Gage_Skidmore.jpg/1280px-Cornel_West_by_Gage_Skidmore.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1013,"fields":{"first_name":"Melina","last_name":"Abdullah/Various","election":20,"party":"Independent/Various","state":"California/Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/f/fa/Melina_Abdullah_%2827700459240%29_%28cropped%29.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"11"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1003}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1001,"running_mate":1004}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1001,"running_mate":1005}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1002,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2005,"fields":{"candidate":1002,"running_mate":1007}},{"model":"campaign_trail.running_mate","pk":2006,"fields":{"candidate":1002,"running_mate":1008}},{"model":"campaign_trail.running_mate","pk":2007,"fields":{"candidate":1002,"running_mate":1009}},{"model":"campaign_trail.running_mate","pk":2008,"fields":{"candidate":1010,"running_mate":1011}},{"model":"campaign_trail.running_mate","pk":2009,"fields":{"candidate":1012,"running_mate":1013}}];
+
+quotes = ["''There is nothing that this nation cannot achieve.'' ~ Donald J. Trump", "''Nothing we want for our future is beyond our reach.'' ~ Donald J. Trump", "''When somebody challenges you, fight back. Be brutal, be tough.'' ~ Donald J. Trump", "''When Fascism comes to America, it will be wrapped in the flag and carrying a cross.''", "''They say they don’t care about their lives. You have to take out their families.'' ~ Donald Trump", "''America is not better off than it was $1.8 trillion dollars ago.'' ~ Mitt Romney","''Counting every vote is at the heart of democracy.'' ~ Mitt Romney", "''Trumpism has become associated with racism, misogyny, bigotry, xenophobia, vulgarity and, most recently, threats and violence.'' ~ Mitt Romney","''On the other hand, if we make improvident choices, the bright horizon I foresee will never materialize.'' ~ Mitt Romney", "''In many cases, our allies are worse than our so-called enemies.'' ~ Donald Trump","''We're a failing nation. We're a nation that's in serious decline. We're being laughed at all over the world.'' ~ Donald Trump", "''If destruction be our lot, we must ourselves be its author and finisher.'' ~ Abraham Lincoln", "''As a nation of freemen, we must live through all time, or die by suicide.'' ~ Abraham Lincoln","''In the end, you're measured not by how much you undertake but by what you finally accomplish.'' ~ Donald Trump", "''If a house be divided against itself, that house cannot stand.'' ~ Mark 3:25", "''There never was a democracy yet that did not commit suicide.'' ~ John Adams", "''We live in troubled and dangerous times.'' ~ Mitt Romney", "''Donald Trump is a phony, a fraud. His promises are as worthless as a degree from Trump University.'' ~ Mitt Romney", "''There is no present or future–only the past, happening over and over again–now.'' ~ Eugene O'Neill", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>𝐕𝐢𝐧𝐜𝐞𝐫𝐨.</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+HistHexcolour=["#c0e283","#8f0911","#baa01e","#6a7788"];
+    HistName=[" Mitt Romney"," Donald J. Trump"," Chase Oliver"," Cornel West/Others"];
+    HistEV=[309,229,0,0];
+    HistPV=["86,482,595","69,537,762","4,055,755","2,027,878"];
+    HistPVP=["54.1%","43.5%","1.6%","0.8%"];
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>Welcome to Vincero.</li><li>An Alternate History scenario where Donald Trump was re-elected the 45th President of the United States by over 450 electoral votes.</li><li>You will answer questions about platforms, positions and campaign strategy for either Donald Trump or Mitt Romney.</li><li>The answers will affect each candidates popularity, both nationally and in individual states.</li><li>Alternatively, you can engage in corruption as either candidate, which can play out very well or very horribly.</li><li>Additionally, the game contains Choose Your Own Adventure elements, secret endings, and achievements.</li><li>Click the button below to SAVE AMERICA!</li>`;
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+  credits = function() {
+    credits = ["This Code 1 was made by...", "C0SM0, for writing and coding.", "Thatchmaster, for the banner & original mod idea.", "DecStarG, for the various codes, of course."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #240c0c;
+  }
+  a:-webkit-any-link {
+    color: #240c0c;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#240c0c",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#1e2b42",
+  "main_color": "#611818",
+  "secondary_color": "#240c0c",
+ "ui_text_color": "#ffffff"
+}
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#1e2b42;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#1e2b42;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "Opening Song",
+
+    tracklist: [
+
+      {
+
+        name: "Justice For All (J6 Prison Choir ft. Donald Trump)",
+
+        url: "https://file.garden/Zrv1pPC1HzBK0svl/Justice%20for%20All.mp3",
+      
+
+      },
+
+    ],
+
+  },
+
+  1: {
+
+    name: "Patriots In Control",
+
+    tracklist: [
+
+      {
+
+        name: "Trump Won (Natasha Owens)",
+
+        url: "https://audio.jukehost.co.uk/fvXjl2WyaoBZiZwnWCH94yKACB6EXBfD",
+
+      },
+
+      {
+
+        name: "You Can't Stop Me (Andy Mineo)",
+
+        url: "https://files.catbox.moe/ac5h9o.mp3",
+
+      },
+
+      {
+
+        name: "Bad Ass American (Colt Ford)",
+
+        url: "https://files.catbox.moe/zt3rjd.mp3",
+
+      },
+
+      {
+
+        name: "Never Come Down (Brave Shores)",
+
+        url: "https://files.catbox.moe/rhc9rf.mp3",
+
+      },
+
+      {
+
+        name: "No More Mr. Nice Guy (Alice Cooper)",
+
+        url: "https://files.catbox.moe/qvue4c.mp3",
+
+      },
+
+      {
+
+        name: "The Winner Takes It All (ABBA)",
+
+        url: "https://files.catbox.moe/i4rlms.mp3",
+
+      },
+
+    ],
+
+  },
+
+  2: {
+
+    name: "Returning To Sanity",
+
+    tracklist: [
+
+      {
+
+        name: "Whatever It Takes (Imagine Dragons)",
+
+        url: "https://files.catbox.moe/znpxsz.mp3",
+
+      },
+
+      {
+
+        name: "The American Dream Is Killing Me (Green Day)",
+
+        url: "https://files.catbox.moe/1drbed.mp3",
+
+      },
+
+      {
+
+        name: "Hands Held High (Linkin Park)",
+
+        url: "https://files.catbox.moe/8olcrl.mp3",
+
+      },
+
+      {
+
+        name: "Have We Forgotten (Darryl Worley)",
+
+        url: "https://files.catbox.moe/jbjti7.mp3",
+
+      },
+
+      {
+
+        name: "Looking For America (Lana Del Rey)",
+
+        url: "https://files.catbox.moe/ka60bx.mp3",
+
+      },
+
+      {
+
+        name: "Hold Back The Night (The Protomen)",
+
+        url: "https://audio.jukehost.co.uk/0CWnsgkyk5ob6TBwssPmWM0VwGxlxhRG",
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
