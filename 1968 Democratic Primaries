@@ -1,0 +1,755 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 4,
+        "fields": {
+            "year": 1968,
+            "summary": "<p>While the Johnson administration falters under the weight of Vietnam, the 1968 Democratic primaries are in full swing - the first since the landmark Fulbright-Muskie report was released that democratized the primaries.</p><p>As the arena is readied yet again, the Democratic Party braces itself for a brawl, with party stalwarts throwing their hats into the ring.</p><ul><li>President Johnson and Senator Kennedy each attempt to court the party insiders.</li><li>Meanwhile, Senator McCarthy and Governor Wallace each command vast movements yearning for change.</li></ul>",
+            "image_url": "https://i.imgur.com/aOIcsE8.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/scJy19M.png",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">General Resources</h4><a href=\"http://uselectionatlas.org/RESULTS/national.php?year=1968\" target=\"_blank\">Final 1968 Results</a><br>Theodore White - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061900648/amhius20-20\" target=\"_blank\">The Making of the President 1968 (Landmark Political)</a><br>Rick Perlstein - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B003E7ET0S/amhius20-20\" target=\"_blank\">Nixonland: The Rise of a President and the Fracturing of America</a><br><h4>By the Candidates</h4>Richard Nixon - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0448143747/amhius20-20\" target=\"_blank\">The Memoirs of Richard Nixon</a><br>Hubert Humphrey - <a href=\"http://www.youtube.com/watch?v=8nwIdIUVFm4\" target=\"_blank\">1948 Civil Rights speech</a><br>George Wallace - <a href=\"https://www.youtube.com/watch?v=DcNv4aQI_QQ\" target=\"_blank\">1967 speech on dissent and intellectualism</a><br><h4>The Vietnam War</h4> Stanley Karnow - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0140265473/amhius20-20\" target=\"_blank\" >Vietnam: A History</a><h4>Misceallany</h4><a href=\"http://www.jahrbuch2001.studien-von-zeitfragen.net/Weltmacht/Secret_of__68/secret_of__68.html\" target=\"_blank\">Secret of '68</a><br><a href=\"http://www.propublica.org/article/living-apart-how-the-government-betrayed-a-landmark-civil-rights-law\" target=\"_blank\">Living Apart: How the Government Betrayed a Landmark Civil Rights Law</a><br><a href=\"http://www.nytimes.com/2012/09/05/business/the-gops-journey-from-the-liberal-days-of-nixon.html\" target=\"_blank\">The G.O.P.'s Journey From the Liberal Days of Nixon</a><br><a href=\"http://www.umich.edu/~lawrace/votetour10.htm\" target=\"_blank\">George Wallace and the 1968 Election</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1968-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1968DNC"
+        }
+    }
+  ]
+  
+  
+  campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 23,
+        "fields": {
+            "first_name": "Lyndon B.",
+            "last_name": "Johnson",
+            "election": 4,
+            "party": "Democratic",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>You’re really in it now, Lyndon.\nThose damn kids hate your guts because they couldn’t point out patriotism if it hit them on the nose and drafted them, and the hicks have called you every name in the book ever since you signed that act Kennedy would’ve needed to offer at least 500 favors for.</p><p>Safe to say, things are looking bad, plus, you’re not exactly youthful and vibrant. You could stay the course and sail this ship while it sinks, or, perhaps, you could quit while you’re ahead? It’s up to you - that’s why you’re the damn president.\n</p>",
+            "color_hex": "#4c00ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/DHlmKbI.png",
+            "electoral_victory_message": "<h3>the ending codes broke sorry</h3><p>you won though good for you</p>",
+            "electoral_loss_message": "<h3>the ending codes broke sorry</h3><p>you lose though sorry</p>",
+            "no_electoral_majority_message": "<h3>the ending codes broke sorry</h3><p>also deadlock</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.666,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 24,
+        "fields": {
+            "first_name": "Robert F.",
+            "last_name": "Kennedy",
+            "election": 4,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 2,
+            "description": "<p>You didn’t plan on running, but that’s never stopped a Kennedy before now, has it Bobby?\n</p><p>Johnson seemed unshakeable in his position, but with the early success of McCarthy in the primaries you know that it's up to you to save what’s left of your brother’s legacy.</p><p>You’re not in this for yourself, you’re in this for the youthful vigor and new ideas your brother represents to the American people. For the disregarded inner city youths who Johnson won’t do anything about. For the Delano grape farmers. To right the ship from its perilous course. America is ready, Bobby.</p>",
+            "color_hex": "#2cdd08",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/AYuoBqT.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1968 election!</h3><p>It looked like a hopeless case as you accepted the nomination, but you have run an outstanding campaign in the interval.</p><p>Now you must press forward with your efforts to defend the Great Society and to end the war in Vietnam. Failure in the latter case could be devastating when you seek reelection in 1972. After all, just look at what happened to the once-lustrous reputation of Lyndon Johnson over the past four years...</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1968 election.</h3><p>You may have performed admirably under trying circumstances, but it was always a tough sell for you after the chaos at the Democratic Convention in Chicago.</p><p>Your only consolation is that Nixon himself is a former loser. Even so, this is a horrednous turn of events for Democrats after the landslide of 1964. The best you can do now is to plot a comeback to the Senate, or as a candidate for President in 1972.</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate achieved a majority in the electoral college.</h3><p>Fortunately for you the Democrats have won a majority of the nation's Congressional delegations. Unfortunately, you also have to deal with George Wallace. He will not allow the Southern states to support any candidate who advocates desegregation.</p><p>Your best chance, sadly, is to try to broker a deal with Nixon or with other moderate Republicans.</p><p>You are the likely winner, but who knows where this all ends?</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.7,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 25,
+        "fields": {
+            "first_name": "George C.",
+            "last_name": "Wallace",
+            "election": 4,
+            "party": "Democratic",
+            "state": "Alabama",
+            "priority": 3,
+            "description": "<p>They think you’re a racist, George.</p><p>But who gives a damn what those kids think? Who cares about what that traitor Texan and his lapdog have to say? This damn party needs to be reminded of its roots, of the promise of upholding states’ rights and resisting the treachery of those who would trample the Southern, no, the American way of life.\n</p><p>They think you’re just a washed-up demagogue? They think you can’t fight? That you’ll just die with the rest of the Dixiecrat breed? Well, the Texan and his cronies have something else coming…</p>",
+            "color_hex": "#dbb700",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/SwUMRCE.png",
+            "electoral_victory_message": "<h3>Wow! You have won the 1968 election in a shocker!</h3><p>Dixie forever! Even with the Long Hot Summer of 1967, nobody guessed that you could do well enough in the Northern states to win the election outright. You have instantly become most polarizing President-elect since Abraham Lincoln.</p>",
+            "electoral_loss_message": "<h3>Sorry, you did not prevent an electoral college majority.</h3><p>You put in a good effort, but your dream of brokering an end to desegregation will not come to fruition in 1968. No winning candidate will negotiate that point with you unless they absolutely have no choice.</p><p>The best you can do for now is continue to sound the call for a return to sanity in American politics. Perhaps if the riots and discord continue, you will have a better chance of making your voice heard in 1972.</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have deadlocked the electoral college with your votes in the South.</h3><p>In a close election, your electoral votes in the South have prevented either candidate from winning a majority. Get ready to put the squeeze on Humphrey and Nixon.</p><p>Of course, you still have to deal with the possibility that Humphrey and Nixon dislike you so much that they will simply strike a deal with each other. Whatever happens, it's sure to be interesting.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 55,
+        "fields": {
+            "first_name": "Eugene J.",
+            "last_name": "McCarthy",
+            "election": 4,
+            "party": "Democratic",
+            "state": "Minnesota",
+            "priority": 29,
+            "description": "<p>You hear the shouts grow louder and louder. “Clean For Gene! Clean For Gene!” they say.</p><p>You’ve been waiting for this for a long time. Ever since Johnson pulled a rabbit out of his ass and started that war. You even voted for the damn thing. But here’s your chance to make amends. You can end the war and get rid of Johnson while you’re at it.</p><p>Take your chance. Take it now, and prove them all wrong.</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/NAF7hze.png",
+            "electoral_victory_message": "the ending codes broke sorry",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Gene - the students are behind you, as well as most of the Vietnam vets. There is a slight problem - the other candidates are better known nationwide, and people… like them better. There’s a Kennedy, a sitting President, and a fearmongering racialist. However, you have a chance to beat Johnson in quite a few primaries, and in a one against one with Wallace, you’d win. If you can ride on the coattails of the anger from Vietnam, you have a shot. </p><p>The whole world’s watching, Gene.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 56,
+        "fields": {
+            "first_name": "The Johnson",
+            "last_name": "Campaign",
+            "election": 4,
+            "party": "Democratic",
+            "state": "Washington, D.C.",
+            "priority": 30,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/5aFoIWS.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>We’re in a weak spot, Mr. President. There’s a chance that we might lose the primaries to Bobby Kennedy. He’s surging in the polls, mainly because of Vietnam. He’s also a Kennedy, which means that he has good looks, a name that precedes him, and a very special brother. He’ll take the Northeast, and Wallace could take the South. Even then, you’ve got McCarthy to deal with, who’s traveling across the states and tarnishing your legacy - you’re all from the same party, for goodness’ sake!</p><p>However, you have one thing on your side - you’re the President, and come hell or high water, nothing’s stopping that.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 44,
+        "fields": {
+            "first_name": "The Kennedy",
+            "last_name": "Campaign",
+            "election": 4,
+            "party": "Democratic",
+            "state": "California",
+            "priority": 31,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/WeQIq6c.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Bobby - you’ve done it. You finally challenged that damn Southerner. He’s done nothing but chip at the Kennedy legacy and what John accomplished. But now - it’s your time. You’re up five, six, even twelve points across the nation, and Johnson has to face the people - not backrooms. You truly can’t lose. Not unless something truly terrible happens… \n</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 57,
+        "fields": {
+            "first_name": "The Wallace",
+            "last_name": "Campaign",
+            "election": 4,
+            "party": "Democratic",
+            "state": "Alabama",
+            "priority": 32,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/IM7TdRr.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>They didn’t expect you to make a splash, they didn’t even account for you at all. </p><p>But that’s what it’s all about: Proving them wrong. Sending them a message. Proving that the Southern democrats will not take the white house’s treason lying down. </p><p>It won’t be easy, Mr. Governor, and you can be certain that for every loyal supporter you may find in the South, there’s at least two yankees that hate your guts.</p><p>But if anyone can do this, it’s you.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 58,
+        "fields": {
+            "first_name": "The McCarthy",
+            "last_name": "Campaign",
+            "election": 4,
+            "party": "Democratic",
+            "state": "New Hampshire",
+            "priority": 33,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/NoV1rnM.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Gene - the students are behind you, as well as most of the Vietnam vets. There is a slight problem - the other candidates are better known nationwide, and people… like them better. There’s a Kennedy, a sitting President, and a fearmongering racialist. However, you have a chance to beat Johnson in quite a few primaries, and in a one against one with Wallace, you’d win. If you can ride on the coattails of the anger from Vietnam, you have a shot. </p><p>The whole world’s watching, Gene.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+  ]
+  
+  
+  campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 35,
+        "fields": {
+            "candidate": 23,
+            "running_mate": 56
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 101347,
+        "fields": {
+            "candidate": 24,
+            "running_mate": 44
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 140753,
+        "fields": {
+            "candidate": 25,
+            "running_mate": 57
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 113646,
+        "fields": {
+            "candidate": 55,
+            "running_mate": 58
+        }
+    }
+  ]
+  
+  
+  campaignTrail_temp.credits = "Right Behind You, DeadSet, Metheguy, Pizza and Van Nassau"
+  
+  
+  campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+  ]
+  
+  
+  campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 4,
+        "candidates": [
+            23,
+            24,
+            25,
+            55
+        ]
+    }
+  ]
+  
+  
+  campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 4,
+        "candidates": [
+            23,
+            24,
+            25,
+            55
+        ]
+    }
+  ]
+  
+  
+  campaignTrail_temp.temp_election_list = [
+    {
+        "id": 4,
+        "year": 1968,
+        "is_premium": 0,
+        "display_year": "1968DNC"
+    }
+  ]
+  
+  
+  jet_data = {
+    "headerColor": "#0044c9",
+    "windowColor": "#ebf7ff",
+    "containerColor": "#0044c9",
+    "innerWindowColor": "#4b6599",
+    "bannerImageUrl": "https://i.imgur.com/fzF8iry.png",
+    "backgroundImageUrl": "https://i.imgur.com/rYRZ35R.png",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+  }
+  
+  
+  //#startcode
+  
+  
+  nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#031f57";
+  
+  
+  nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#4b6599";
+  
+  
+  document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+  
+  
+  $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+  
+  
+  $(".container")[0].style.backgroundColor = "#0044c9";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/illevv.png)"
+
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+
+$("#game_window")[0].style.borderColor = "#324469"
+
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+  
+  
+  document.getElementById("header").src = "https://i.imgur.com/fzF8iry.png";
+  
+  
+  document.body.background = "https://i.imgur.com/rYRZ35R.png";
+  
+  
+  document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#4b6599!important;}</style>";
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#031f57",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#4b6599",
+  "main_color": "#0044c9",
+  "secondary_color": "#031f57",
+ "ui_text_color": "#ffffff"
+}
+
+quotes = ["''There is no issue of States rights or national rights. There is only the struggle for human rights.'' ~ Lyndon B. Johnson", "''Poverty must not be a bar to learning, and learning must offer an escape from poverty.'' ~ Lyndon B. Johnson", "''I do not find it easy to send the flower of our youth, our finest young men, into battle.'' ~ Lyndon B. Johnson", "''Change, although it involves risks, is the law of life.'' ~ Robert F. Kennedy", "''A revolution which is coming whether we will it or not. We can affect its character; we cannot alter its inevitability.'' ~ Robert F. Kennedy", "''Great change dominates the world, and unless we move with change we will become its victims.'' ~ Robert F. Kennedy","''Being in politics is like being a football coach. You have to be smart enough to understand the game, and dumb enough to think it's important.'' ~ Eugene J. McCarthy", "''It is dangerous for a national candidate to say things that people might remember.'' ~ Eugene J. McCarthy","''Remember that the worst accidents occur in the middle of the road.'' ~ Eugene J. McCarthy", "''If any demonstrator ever lays down in front of my car, it'll be the last car he'll ever lay down in front of.'' ~ George C. Wallace","''We shall continue to maintain segregation in Alabama completely and absolutely without violence or ill-will.'' ~ George C. Wallace", "''Segregation now, segregation tomorrow, and segregation forever!'' ~ George C. Wallace", "''The policeman isn’t there to create disorder; the policeman is there to preserve disorder.'' ~ Richard J. Daley","''How hard it is to accept the truth. How hard it is.'' ~ Abraham Ribicoff", "''The only real road to progress for free people is through the process of law.'' ~ Lyndon B. Johnson", "''No wrongs have ever been righted by riots and civil disorders.'' ~ Robert F. Kennedy", "''We do not need presidents who are bigger than the country, but rather ones who speak for it and support it.'' ~ Eugene J. McCarthy", "''Being governor don't mean a thing anymore in this country. We're nothing. Just high-paid ornaments is all.'' ~ George C. Wallace", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>WELCOME TO CHICAGO!</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #031f57;
+  }
+  a:-webkit-any-link {
+    color: #031f57;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+
+document.getElementById("inner_window_1").children[0].innerHTML = `<b>Do you have what it takes to win a Presidential Primary?</b>`;
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>In a historic first, the Presidential Primary system has been democratized.<li>Play as either <b><span style="color: #4c00ff;">Lyndon Johnson</span></b>, <b><span style="color: #2cdd08;">Robert Kennedy</span></b>, <b><span style="color: #ff0000;">Eugene McCarthy</span></b>, or <b><span style="color: #dbb700;">George Wallace</span></b>, and find out if you can win a historic primary.</li><li>You will answer questions about your platform and positions, and also about your campaign strategy.</li><li>Walk the fine line between appealing to your base and winning the majority of the delegates.</li><li>At the end of a round, choose <b>Go back to questions</b> to continue.</li><li>Good luck in this alternate history scenario!</li>`;
+
+  
+  
+  // Initialise custom music
+   
+  $("#music_player")[0].children[0].style.display = "none"
+  $("#music_player")[0].children[1].style.display = "none"
+  
+  
+  document.getElementById("modLoadReveal").style.display = "none"
+  document.getElementById("modloaddiv").style.display = "none"
+  
+  
+  musicBox = document.getElementById("music_player")
+  musicBox.style.display = ""
+  
+  
+  var trackSel;
+  e = campaignTrail_temp
+  e.selectedSoundtrack = 0
+  
+  
+  toTime = (seconds) => {
+      var date = new Date(null);
+      date.setSeconds(seconds);
+      return date.toISOString().substr(11, 8);
+  }
+  
+  
+  generateTime = () => {
+      // Get the audio element
+      var audio = document.getElementById("campaigntrailmusic");
+  
+  
+      timeTracker = document.createElement("div");
+      timeTracker.style = `
+  text-align:left;
+  border-style:solid;
+  border-width:3px;
+  height:150px;
+  width:200px;
+  background-color:#999999;
+  float:right;
+  padding: 10px;
+  `
+      $("#trackSelParent")[0].prepend(timeTracker);
+      $("#trackSelParent")[0].prepend(document.createElement("br"));
+  
+  
+      // Create a new element to display the current position of the audio
+      var positionDisplay = document.createElement("gg");
+      positionDisplay.id = "position-display";
+  
+  
+      // Create a new slider element to change the time
+      var timeSlider = document.createElement("input");
+      timeSlider.type = "range";
+      timeSlider.min = 0;
+      timeSlider.max = 1;
+      timeSlider.step = 0.001;
+      timeSlider.value = 0;
+      timeSlider.style.width = "200px";
+      timeSlider.id = "time-slider";
+  
+  
+      var pausePlay = document.createElement("button");
+      pausePlay.id = "position-display";
+      pausePlay.innerHTML = "<b>Pause</b>"
+      pausePlay.style.width = "100%";
+  
+  
+  
+  
+      pausePlay.addEventListener("click", event => {
+          event.preventDefault();
+          updatePositionDisplay();
+          let audio = document.getElementById("campaigntrailmusic");
+          if (audio.paused) {
+              audio.play();
+              event.target.innerHTML = "<b>Pause</b>";
+              return;
+          }
+          audio.pause();
+          event.target.innerHTML = "<b>Play</b>";
+          return;
+      })
+  
+  
+      var volumeLabel = document.createElement("gg");
+      volumeLabel.id = "volume-label";
+      volumeLabel.innerHTML = "<br><b>Volume: </b>"
+  
+  
+      var volumeSlider = document.createElement("input");
+      volumeSlider.type = "range";
+      volumeSlider.min = 0;
+      volumeSlider.max = 1;
+      volumeSlider.step = 0.001;
+      volumeSlider.value = 0;
+      volumeSlider.style.width = "200px";
+      volumeSlider.id = "volume-slider";
+  
+  
+      volumeSlider.value = audio.volume;
+  
+  
+      timeTracker.appendChild(pausePlay);
+      timeTracker.appendChild(document.createElement("br"));
+      timeTracker.appendChild(document.createElement("br"));
+      timeTracker.appendChild(positionDisplay);
+      timeTracker.appendChild(timeSlider);
+      timeTracker.appendChild(volumeLabel);
+      timeTracker.appendChild(volumeSlider);
+  
+  
+      updatePositionDisplay();
+  
+  
+      //for (let i = 0; i < 10; i++)
+      //timeTracker.append(document.createElement("br"));
+  
+  
+  
+  
+      // Function to update the position display
+      function updatePositionDisplay() {
+          positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+          timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+      }
+  
+  
+      // Function to change the time of the audio
+      function changeTime() {
+          positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+          audio.currentTime = timeSlider.value * audio.duration;
+      }
+  
+  
+      updateVolume = event => {
+          audio.volume = event.target.value;
+      }
+  
+  
+      // Update the position display and slider every second
+      setInterval(updatePositionDisplay, 1000);
+  
+  
+      // Listen for changes to the time slider and change the time of the audio
+      timeSlider.addEventListener("input", changeTime);
+      volumeSlider.addEventListener("input", updateVolume)
+  }
+  
+  
+  function newMusicPlayer() {
+      trackSel = document.createElement("div");
+      trackSel.id = "trackSelParent"
+      let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
+      z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
+      for (i in soundtracks) {
+          if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+              z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
+          }
+      }
+      z += `</select></b><br><br>`
+          // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+      for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+          let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+          let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
+          z += b
+      }
+      z += "</div><br><br>"
+      trackSel.innerHTML = z
+  
+  
+      // select correct song
+  
+  
+      musicBox.appendChild(trackSel);
+      Array.from(document.getElementById("trackSel").children).filter(f => {
+          return f.tagName == "LABEL"
+      }).map(f => f.children[0])[0].checked = true
+  
+  
+      // set soundtrack changer
+  
+  
+      soundtrackSelector = document.getElementById("selectSoundtrack")
+      soundtrackSelector.onchange = function() {
+          for (i in soundtracks) {
+              if (soundtracks[i].name == soundtrackSelector.value) {
+                  e.selectedSoundtrack = i
+                  break
+              }
+          }
+          document.getElementById("trackSelParent").remove()
+          newMusicPlayer()
+      }
+  
+  
+      var matches = document.querySelectorAll('.trackSelector');
+  
+  
+      for (match in matches) {
+          matches[match].onchange = function() {
+              audio = $("#campaigntrailmusic")[0];
+              audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+              audio.currentTime = 0
+          }
+      }
+  
+  
+      musicBox.children[2].loop = false
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+  
+  
+      musicBox.children[2].onended = function() {
+          console.log("next track")
+          let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+          let newSel = clamp(selected + 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0)
+          let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                  return f.tagName == "LABEL"
+              }).map(f => f.children[0])
+              //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+          buttons[newSel].click()
+      }
+  
+  
+      for (w = 0; w < 7; w++) {
+          document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+      }
+  
+  
+      generateTime();
+  }
+  
+  
+  clamp = function(a, max, min, overflow = true) {
+      if (overflow) {
+          return a > max ? min : a < min ? max : a;
+      }
+      return a > max ? max : a < min ? min : a;
+  }
+  
+  
+  
+  
+  // Track list
+  
+  
+  var soundtracks = {
+      0: {
+          name: "Staying the Course",
+          tracklist: [
+            {
+            "name": "Democratic March - Volunteers for Stevenson",
+            "url": "https://audio.jukehost.co.uk/exlMCu2j1Ke8TGHfFKjvMmN1jLTHlJjB"
+            },
+            {
+            "name": "Happy Days Are Here Again - Mitch Miller",
+            "url": "https://audio.jukehost.co.uk/35mCTcwxek5Yu1EM1O15ZU3zrJ3FX0kS"
+            },
+            {
+            "name": "The Ballad of the Green Berets - Barry Sadler",
+            "url": "https://audio.jukehost.co.uk/6Dio30IKA8peEUnu9mnsXWZfhdcqwpDR"
+            },
+            {
+              "name": "Hello, Lyndon! - Ed Ames",
+              "url": "https://audio.jukehost.co.uk/UDqS7Ge3tgfwalOtYvFgjD9IjvicnSgg"
+            },
+            {
+              "name": "The Yellow Rose of Texas - Mitch Miller",
+              "url": "https://audio.jukehost.co.uk/MWwa2B0YQwx7Aofw38GoPSqIDQx25k6y"
+            }
+        ]
+      },
+      1: {
+        name: "Camelot Comes Calling",
+        tracklist: [
+          {
+            "name": "Camelot - Camelot",
+            "url": "https://audio.jukehost.co.uk/5qNwWVu6Nzr0ZSDasOiYHC6QUFSTmIPD"
+          },
+          {
+            "name": "Strangers in the Night - Frank Sinatra",
+            "url": "https://audio.jukehost.co.uk/AIzRcizPgrKCp8NG5PVpbKkcTUQ7OOtz"
+          },
+          {
+          "name": "Spirit in the Sky - Norman Greenbaum",
+          "url": "https://audio.jukehost.co.uk/RdySJdzjpBGep8j3O2T4kYdpjuWM3VlC"
+          },
+          {
+            "name": "There'll Be a Hot Time in the Old Town Tonight - Louis Armstrong",
+            "url": "https://audio.jukehost.co.uk/bxTrsmrwZiQfBmkr4HwiFRJksJxnCBBe"
+          },
+          {
+            "name": "High Hopes - Frank Sinatra",
+            "url": "https://audio.jukehost.co.uk/A9PWTC3E2QBQ2uCJ5YYdHPSu8Pqp6t9Y"
+          }
+      ]
+    },
+    2: {
+      name: "Rage Against the Machine",
+      tracklist: [
+        {
+          "name": "Eugene McCarthy for President - Peter, Paul, and Mary",
+          "url": "https://audio.jukehost.co.uk/a9eDWsk8T8k5q8ZX5Fx5cR5SCrSzpsSs"
+        },
+        {
+          "name": "For What It’s Worth - Buffalo Springfield",
+          "url": "https://audio.jukehost.co.uk/CqqEzEWbGv7xj21tTmOCKZE0g1fbGiZr"
+        },
+        {
+          "name": "Lyndon Johnson Told the Nation - Tom Paxton",
+          "url": "https://audio.jukehost.co.uk/X8QerCJrtMBTXBMYnYKg864F8NL4Qb0S"
+        },
+        {
+          "name": "Love Me, I'm a Liberal - Phil Ochs",
+          "url": "https://audio.jukehost.co.uk/2raQh04yOiDfl20sPGYbMBrCzqQEqv6M"
+        },
+        {
+          "name": "Lucy In The Sky With Diamonds - The Beatles",
+          "url": "https://audio.jukehost.co.uk/PDI8E5wcy3eG5GeyTL4PEBygyhkX8q2v"
+        }
+    ]
+  },
+      3: {
+        name: "Send Them a Message!",
+        tracklist: [
+          {
+            "name": "Wallace in the White House - Lamar Morris",
+            "url": "https://audio.jukehost.co.uk/MfwLDTEEhV2NDCY37AN9eh3RsQ7Q2cj4"
+          },
+          {
+            "name": "Stand Up for America - Lamar Morris",
+            "url": "https://audio.jukehost.co.uk/3hxNQOPShNkWI3ITZsVddTa1KkRpw3Bk"
+          },
+          {
+            "name": "Ain’t I Right - Marty Robbins",
+            "url": "https://audio.jukehost.co.uk/wDALgBqAjEpCPLeuoTTIODL2ltQ3ScM0"
+          },
+          {
+            "name": "Sixteen Tons - Tennessee Ernie Ford",
+            "url": "https://audio.jukehost.co.uk/wQWfeKgX3jDFIZUg1SiWsi12jiEtXRlq"
+          },
+          {
+            "name": "Dixie - Tennessee Ernie Ford",
+            "url": "https://audio.jukehost.co.uk/9GCHtBPNbMlMGEIIdDWZEfzutm1bVXQO"
+          }
+      ]
+    }
+  }
+  
+  
+  // Set up new music player
+  
+  
+  newMusicPlayer()
+  
+  
+  //#endcode
+  
