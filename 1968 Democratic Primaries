@@ -643,7 +643,7 @@ document.getElementById("inner_window_1").children[1].innerHTML = `<li>In a hist
   
   var soundtracks = {
       0: {
-          name: "Staying the Course",
+          name: "Staying the Course - Johnson",
           tracklist: [
             {
             "name": "Democratic March - Volunteers for Stevenson",
@@ -662,13 +662,17 @@ document.getElementById("inner_window_1").children[1].innerHTML = `<li>In a hist
               "url": "https://audio.jukehost.co.uk/UDqS7Ge3tgfwalOtYvFgjD9IjvicnSgg"
             },
             {
+          "name": "The L.B.J. Waltz - Dr. Herman Silvers & Trio",
+          "url": "https://files.catbox.moe/9l8nfn.mp3"
+        },
+        {
               "name": "The Yellow Rose of Texas - Mitch Miller",
               "url": "https://audio.jukehost.co.uk/MWwa2B0YQwx7Aofw38GoPSqIDQx25k6y"
             }
         ]
       },
       1: {
-        name: "Camelot Comes Calling",
+        name: "Camelot Comes Calling - Kennedy",
         tracklist: [
           {
             "name": "Camelot - Camelot",
@@ -687,13 +691,17 @@ document.getElementById("inner_window_1").children[1].innerHTML = `<li>In a hist
             "url": "https://audio.jukehost.co.uk/bxTrsmrwZiQfBmkr4HwiFRJksJxnCBBe"
           },
           {
+          "name": "A Change Is Gonna Come - Sam Cooke",
+          "url": "https://files.catbox.moe/359q8r.mp3"
+        },
+        {
             "name": "High Hopes - Frank Sinatra",
             "url": "https://audio.jukehost.co.uk/A9PWTC3E2QBQ2uCJ5YYdHPSu8Pqp6t9Y"
           }
       ]
     },
     2: {
-      name: "Rage Against the Machine",
+      name: "Rage Against The Machine - McCarthy",
       tracklist: [
         {
           "name": "Eugene McCarthy for President - Peter, Paul, and Mary",
@@ -712,13 +720,17 @@ document.getElementById("inner_window_1").children[1].innerHTML = `<li>In a hist
           "url": "https://audio.jukehost.co.uk/2raQh04yOiDfl20sPGYbMBrCzqQEqv6M"
         },
         {
+          "name": "The Times They Are A-Changin' - Bob Dylan",
+          "url": "https://audio.jukehost.co.uk/44bvO5zSwvX0oSNVeSNPQGwgTZIL3Mqo"
+        },
+        {
           "name": "Lucy In The Sky With Diamonds - The Beatles",
           "url": "https://audio.jukehost.co.uk/PDI8E5wcy3eG5GeyTL4PEBygyhkX8q2v"
         }
     ]
   },
       3: {
-        name: "Send Them a Message!",
+        name: "Send Them a Message! - Wallace",
         tracklist: [
           {
             "name": "Wallace in the White House - Lamar Morris",
@@ -737,6 +749,10 @@ document.getElementById("inner_window_1").children[1].innerHTML = `<li>In a hist
             "url": "https://audio.jukehost.co.uk/wQWfeKgX3jDFIZUg1SiWsi12jiEtXRlq"
           },
           {
+          "name": "Johnny Reb - Johnny Cash",
+          "url": "https://files.catbox.moe/76pk3l.mp3"
+        },
+        {
             "name": "Dixie - Tennessee Ernie Ford",
             "url": "https://audio.jukehost.co.uk/9GCHtBPNbMlMGEIIdDWZEfzutm1bVXQO"
           }
