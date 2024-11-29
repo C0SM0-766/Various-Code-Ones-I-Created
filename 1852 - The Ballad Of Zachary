@@ -1,0 +1,554 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#cfc6a6";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ddde98";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#4f4f4f";
+
+$("#game_window")[0].style.backgroundColor = "#ce9084"
+
+$("#game_window")[0].style.borderColor = "#363636"
+
+$(".container")[0].style.border = ".2em solid #363636"
+            document.getElementById("header").src = "https://files.catbox.moe/zb24im.jpg";
+
+            document.body.background = "https://i.imgur.com/d7X2RiG.jpeg";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":8,"fields":{"year":1860,"summary":"As Zachary Taylor takes command, he notices the turmoil brought upon the Democratic experiment. With the nation divided over the issue of slavery, rising tensions between North and South, and unrest in the territories, it appears the United States is entering a period of terminal decline. President Taylor believes he is the only man who can preserve the Union and uphold the nation’s founding ideals, and he needs a full term to do it.<br><br>Horrified at what is perceived as the growing instability of the Republic, every decision Taylor has made is geared toward ensuring the nation’s survival. To unify the country, Taylor must bring an honorable resolution to the sectional crisis and make the type of bold decisions which will enshrine him as one of the great men of history. In an unprecedented time, the fate of the Union hangs in the balance.","image_url":"https://i.imgur.com/kPlHW9W.jpeg","winning_electoral_vote_number":270,"advisor_url":"https://i.imgur.com/UQCIAqF.jpeg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":0,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":8,"year":1860,"is_premium":0,"display_year":"1852 - The Ballad Of Zachary"}];e.credits = " ";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":27,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Zachary","last_name":"Taylor","election":8,"party":"Whiggery","state":"Louisiana","priority":1,"description":"<p>Elected as a way to ease the tension between North and south, Old Rough and Ready finds himself in the thick of a unprecedented time for America. The unlikely President and War Hero, now finds himself thrust into the center of the storm.<br><br>Despite his background as a slaveholder, Taylor has resisted calls to expand slavery into the newly acquired territories from Mexico. His refusal to commit to either the Northern or Southern cause has alienated extremists on both sides, yet he remains determined to hold the nation together. In an age of compromise and conflict, Taylor’s leadership may prove to be the Republic’s last, best hope.","color_hex":"#e6bb50","secondary_color_hex":null,"is_active":1,"image_url":"https://i.imgur.com/2Wp3IOf.jpeg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Millard","last_name":"Fillmore","election":8,"party":"Whiggery","state":"New York","priority":1,"description":"<p>Hailing from New York, Millard Fillmore and his long history brings balance to the Whig ticket. A champion of infrastructure, education, and commerce, Fillmore represents the interests of a growing and modernizing nation, bridging the gap between the agricultural South and the bustling cities of the North<br><br>As Vice President, Fillmore’s advocacy for progress, coupled with his measured restraint, promises to fortify the Republic during its most critical challenges. Together, Taylor and Fillmore offer the nation a partnership that combines courage with reason—a ticket poised to lead America into a new and uncertain future.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://i.imgur.com/Xl6QcD3.jpeg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Hailing from New York, Millard Fillmore and his long history brings balance to the Whig ticket. A champion of infrastructure, education, and commerce, Fillmore represents the interests of a growing and modernizing nation, bridging the gap between the agricultural South and the bustling cities of the North<br><br>As Vice President, Fillmore’s advocacy for progress, coupled with his measured restraint, promises to fortify the Republic during its most critical challenges. Together, Taylor and Fillmore offer the nation a partnership that combines courage with reason—a ticket poised to lead America into a new and uncertain future.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"The","last_name":"Democracy","election":8,"party":"Democracy","state":"Nationwide","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#4957d6","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"The","last_name":"Democracy's VP","election":8,"party":"Democracy","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"The","last_name":"Free Soilers","election":8,"party":"Free Soil","state":"The North","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#4ab555","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"The","last_name":"Free Soil VP","election":8,"party":"Free Soil","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"4"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":" Other","last_name":"Candidates","election":8,"party":"Various","state":"Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#9a47d6","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"Candidate","last_name":"VP","election":8,"party":"Various","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"6"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1002}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1003,"running_mate":1004}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1005,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1007,"running_mate":1008}}];
+
+quotes = ["", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>The Ballad Of Zachary</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>The Taylor Team</button>";
+  
+  credits = function() {
+    credits = ["This mod was made by...", "u/FitAd5739, for the original mod idea, as well as some writing & coding.", "C0SM0, for help with code 1 and images, as well as writing & coding help.", "Shelterok1535 did some writing. ", "", "", "", "", "", "", "", "Thanks to the playtesters.", "", "Metheguy on Discord provided the banner.", "Some codes taken from Daylight 1964, 1864, & 1972 Peace With Honor.", "DecStarG made various codes."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#cfc6a6",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#000000",
+  "description_background_color": "#ddde98",
+  "main_color": "#4f4f4f",
+  "secondary_color": "#cfc6a6",
+ "ui_text_color": "#000000"
+}
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #cfc6a6;
+  }
+  a:-webkit-any-link {
+    color: #551b8c;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#ce9084;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#ce9084;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "The Ballad Of Zachary",
+
+    tracklist: [
+
+      {
+
+        name: "Hard Times Come Again No More (2nd South Carolina String Band)",
+
+        url: "https://file.garden/Zrv1pPC1HzBK0svl/Hard%20Times%20Come%20Again%20No%20More.mp3",
+
+      },
+
+      {
+
+        name: "March Away (AConquistador)",
+
+        url: "https://files.catbox.moe/5vzclg.mp3",
+
+      },
+
+      {
+
+        name: "Freedom & For Texas (Edward Romans)",
+
+        url: "https://files.catbox.moe/wb10t1.mp3",
+
+      },
+
+      {
+
+        name: "Green Grows The Lilacs (Ed McCurdy)",
+
+        url: "https://files.catbox.moe/s9neea.mp3",
+
+      },
+
+      {
+
+        name: "The Maid Of Monterrey (Tom Roush)",
+
+        url: "https://files.catbox.moe/lq7g8e.mp3",
+
+      },
+
+      {
+
+        name: "The Yellow Rose Of Texas (Fireside Folksingers)",
+
+        url: "https://files.catbox.moe/n4ik4d.mp3",
+
+      },
+
+      {
+
+        name: "Oh! Susanna (Matthew Sabatella)",
+
+        url: "https://files.catbox.moe/bwd0r9.mp3",
+
+      },
+
+      {
+
+        name: "Rum-a-dum-dum (Oscar Brand)",
+
+        url: "https://files.catbox.moe/8xf5el.mp3",
+      
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
+
+document.styleSheets[0].insertRule(".game_header{ height:4.1em !important;}", 0);
+document.styleSheets[0].insertRule("#game_window{ height:41em !important;}", 0);
+document.getElementById("inner_window_1").children[1].innerHTML = `  <li>Select a year and a candidate to find out.</li>  <li>You will answer questions about your platform and positions, and also about your campaign strategy.</li>  <li>The answers will affect your popularity for better or worse, both nationally and in individual states.</li>  <li>Walk the fine line between appealing to your base and winning a majority of the votes.</li>`
+document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 1em 0 !important;padding-top: 0.5em !important;}", 0);
+document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 1em .7em !important;padding-top: 0.3em !important;}", 0);
+document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}", 0);
+
+function onGameWindowFixHistorical() {
+    const resultsTableHolder = document.getElementById("overall_details_container");
+
+    if(!resultsTableHolder || resultsTableHolder.classList.contains("done")) {
+        return;
+    }
+
+    resultsTableHolder.classList.add("done");
+    document.getElementById("overall_details_container").children[2].children[5].remove()
+    document.getElementById("overall_details_container").children[2].children[4].remove()
+    document.getElementById("overall_details_container").children[2].children[3].style.marginBottom = "0.4em"
+    console.log("DANXV FIX YOUR CODE")
+}
+
+const gameWindowNode = document.getElementById("game_window");
+const candidateWatcherConfig = { attributes: true, childList: true, subtree: true };
+
+const candidateObserver = new MutationObserver(onGameWindowFixHistorical);
+candidateObserver.observe(gameWindowNode, candidateWatcherConfig);
