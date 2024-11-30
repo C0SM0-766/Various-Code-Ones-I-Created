@@ -2,56 +2,39 @@ e = campaignTrail_temp;
 
             nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
 
-            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#1f1f1f";
 
             document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
             $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-            $(".container")[0].style.backgroundColor = "#0d0d0d";
+            $(".container")[0].style.backgroundColor = "#000000";
 
-$("#game_window")[0].style.backgroundColor = "#c4c4c4"
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/zlxt73.jpg)"
 
-$("#game_window")[0].style.borderColor = "#FFFFFF"
-            document.getElementById("header").src = "https://preview.redd.it/8io0pm3fr9jb1.png?width=1500&format=png&auto=webp&s=54cc927b4d0a6d130b0a36455bdd7971d57e648c";
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
 
-            document.body.background = "https://wallpapercave.com/wp/wp12384138.jpg";
+$(".container")[0].style.border = ".2em solid #101825"
 
-            e.election_json = [{"model":"campaign_trail.election","pk":9,"fields":{"year":2000,"summary":"<p>So-called \"President\" N has oversaw disaster after disaster after he and Uzi Doorman staged a coup against this Worker Drone colony. Long gone is the promise of \"reconciliation & peace with Disassembly Drones\". Instead of helping the colony unite, N had just opened the wound wider, and calls for a revolution against this genocidal drone continues to gain more and more traction.<br><br>The calls are getting louder for \"President\" N to stand down, and it seems that the reconciliation experiment has failed. To stay as the leader of this colony, N will have to navigate through a hostile populace to get whatever of his domestic agenda passed and sell his soul away from the company and into Veep Doorman and Secretary V's hands.","image_url":"https://files.catbox.moe/9fms87.jpg","winning_electoral_vote_number":270,"advisor_url":"https://files.catbox.moe/x0hfjn.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":9,"year":2000,"is_premium":0,"display_year":"3071 - N."}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":28,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Serial Designation","last_name":"N","election":9,"party":"Nonpartisan","state":"Colony SC-09","priority":1,"description":"<p>Crowned with a hair of white and a pilot hat, dressed in black, and having an arsenal of a platoon, Serial Designation N has been looked down upon his entire life, as rightfully so. He couldn't do his job properly killing us Worker Drones like V or J. He's related to a world-ending phenomenon, unlike most. He's easily swayed into the ideas of Veep Doorman. Still, he got power after overthrowing our already good government and the persuasion of Khan's daughter. He's only our leader since he has those charms and likeability. Still, N believes he still has the ability to turn bad things around.<br><br>And he needs to. This election is the first (and probably only) time N can prove those doubters wrong. The Worker Drones, the Disassembly Drones, you name it. You don't need to be a gullible genocidal maniac to get into power. All it takes is determination. He'll get the approval of J-even if he needs to destroy us all to achieve this goal.","color_hex":"#edaf11","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/ifqcqm.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Uzi","last_name":"Doorman","election":9,"party":"Nationalist","state":"Colony SC-09","priority":1,"description":"<p>Your girlfriend, right hand woman, and advisor. Surprising to see her in this predicament, since she's your complete opposite-arrogant, angsty, and a bit annoying. Thanks to her manipulative abilities, you have your current crown. At this point, why even stay the leader when you do almost everything Uzi says? Uzi essentially wants to become a dictator: suppressing dissent, wants to colonize the rest of Copper-9, the whole shabang.<br><br>Uzi's worked so hard for your position. You better do herself a favor. She thinks it's a sham that people have criticized you, her, and all of the hard work you two have together, if you even accomplished anything at all. Uzi wants to trade her trash school years for something greater, bigger, ambitious. Uzi accepted to be your Veep knowing she'll be controlling everything around. Keep her happy, and you'll be on top of the world... controlled by chains under her.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/6mcyzh.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Your girlfriend, right hand woman, and advisor. Surprising to see her in this predicament, since she's your complete opposite-arrogant, angsty, and a bit annoying. Thanks to her manipulative abilities, you have your current crown. At this point, why even stay the leader when you do almost everything Uzi says? Uzi essentially wants to become a dictator: suppressing dissent, wants to colonize the rest of Copper-9, the whole shebang.<br><br>Uzi's worked so hard for your position. You better do herself a favor. She thinks it's a sham that people have criticized you, her, and all of the hard work you two have together, if you even accomplished anything at all. Uzi wants to trade her trash school years for something greater, bigger, ambitious. Uzi accepted to be your Veep knowing she'll be controlling everything around. Keep her happy, and you'll be on top of the world... controlled by chains under her.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1002}}];
+$("#game_window")[0].style.borderColor = "#101825"
+            document.getElementById("header").src = "https://files.catbox.moe/vgdgb0.jpg";
+
+            document.body.background = "https://files.catbox.moe/8n8cih.jpg";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":20,"fields":{"year":2016,"summary":"<p>Our Worker Drone colony. Once peaceful and thriving, safe from the despair bought upon the explosion of Copper-9, has found the sword of Damocles piercing its body. Serial Designation N, along with his girlfriend Uzi Doorman & friend Serial Designation V, now rule the fragile colony, in the wake of quiet but growing opposition.<br><br>To stop backlash coming from the illegitimate presidency of N, he must navigate through tough waters to pass a vague and ineffective agenda. Whispers that N has idea what to do–and is under the control of Veep Doorman & secretary V lingers around, and opposition to his reign remains high.","image_url":"https://files.catbox.moe/19b4g5.jpg","winning_electoral_vote_number":270,"advisor_url":"https://files.catbox.moe/wc6hxd.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":20,"year":2016,"is_premium":0,"display_year":"3075 - N."}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":32,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Serial Designation","last_name":"N","election":20,"party":"Nonpartisan","state":"The Wasteland","priority":1,"description":"Serial Designation N. A complete bozo who fails at everything. A genocidal maniac. A robot who \"loves doing anything\". Underneath that fake persona N always wears on his face lies a heart that has rightfully seen tragedy. N wasn't a company suck up like J. Killing Drones didn't make him respected. Despite these odds, N has rigged the system, and is now President of our Worker Drone Colony, bringing feelings of doom and hopelessness into the minds of many.<br><br>N craves praise from anyone and everyone, and especially Serial Designation J. He must prove this odyssey was worth something, anything, to earn at least the tiniest amount of respect she can say to him. Passing a disastrous agenda–handpicked by his closest, improving relations with the colony, and winning the hearts of many are considered wins for him. And it's possible for him to win. It only takes more of his fake persona and violent capabilities to achieve this end goal.","color_hex":"#383838","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/ifqcqm.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Uzi","last_name":"Doorman","election":20,"party":"Nonpartisan","state":"The Colony","priority":1,"description":"<p>Uzi Doorman. A short gremlin. A nobody living in the shadow of her father. The definition of a social outcast. Now, she's second-in-command. She gets irritated when someone mentions politics. All she sees is two out-of-touch robots yapping about some non-existent issue. Instead, she would rather be... well, doing her own thing. Watching Anime, prevent herself from going insane, the whole shabang.<br><br>Now, she finds herself in a position she quickly regrets having. But she, knowing N better then most, realizes one thing: she can influence N's decisions as president. It's with this information that Uzi decides to stay on the ticket. With a powerful position in her hands, she can make or break lives, Relations, and perhaps even... N himself. As N scrambles desperately that his selection as Uzi for Veep was a good choice, Uzi is behind the scenes, plotting whatever godforsaken plan she has in store.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/6mcyzh.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Uzi Doorman. A short gremlin. A nobody living in the shadow of her father. The definition of a social outcast. Now, she's second-in-command. She gets irritated when someone mentions politics. All she sees is two out-of-touch robots yapping about some non-existent issue. Instead, she would rather be... well, doing her own thing. Watching Anime, prevent herself from going insane, the whole shabang.<br><br>Now, she finds herself in a position she quickly regrets having. But she, knowing N better then most, realizes one thing: she can influence N's decisions as president. It's with this information that Uzi decides to stay on the ticket. With a powerful position in her hands, she can make or break lives, Relations, and perhaps even... N himself. As N scrambles desperately that his selection as Uzi for Veep was a good choice, Uzi is behind the scenes, plotting whatever godforsaken plan she has in store.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"The","last_name":"Enemy","election":20,"party":"TBD","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#cacc43","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/barack-obama-2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"The","last_name":"Enemy's VP","election":20,"party":"TBD","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/barack-obama-2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"The","last_name":"Haters","election":20,"party":"TBD","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#3769ad","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/barack-obama-2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"The","last_name":"Haters' VP","election":20,"party":"TBD","state":"TBD","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/barack-obama-2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"4"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":"Other","last_name":"Candidates","election":20,"party":"Various","state":"Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#b32929","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/barack-obama-2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"Other","last_name":"Candidates' VP","election":20,"party":"Various","state":"Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/barack-obama-2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"6"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1002}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1003,"running_mate":1004}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1005,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1007,"running_mate":1008}}];
 
 quotes = ["", ]
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
                                    
-corrr=`\n<h2>N.</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
-
-let style = document.createElement('style');
-style.type = 'text/css';
-style.id = 'dynamic-style';
-
-style.innerHTML = `
-  .campaign_trail_start_emphasis {
-    background-color: #000000;
-  }
-  a:-webkit-any-link {
-    color: #000000;
-  }
-`;
-
-document.head.appendChild(style);
-
-next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
-back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
-
-
-RecReading=true
+corrr=`\n<h2>ℕ.</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
 
 campaignTrail_temp.modBoxTheme = {
-  "header_color": "#000000",
+  "header_color": "#1f1f1f",
   "header_text_color": "#ffffff",
-  "description_text_color": "#000000",
-  "description_background_color": "#ffffff",
-  "main_color": "#c4c4c4",
-  "secondary_color": "#0d0d0d",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#1f1f1f",
+  "main_color": "#000000",
+  "secondary_color": "#1f1f1f",
  "ui_text_color": "#ffffff"
 }
 
@@ -60,7 +43,7 @@ RecReading=true
   campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
   
   credits = function() {
-    credits = ["CREDITS:", "C0SM0 - Writing, Coding, & Conceptualizer", "u/catgirl_valkist - Original Mod Concept", "DecStarG - Various Codes", "CHARACTERS ARE PRODUCTS OF LIAM VICKERS AND ANIMATE-A-THING. I DON'T OWN THEM, NEITHER DO I CLAIM TO OWN THEM."]
+    credits = ["This code 1 was made by...", "C0SM0, for the writing & coding.", "u/Catgirl_valkist, for the original mod idea.", "", "Various different codes made by DecstarG, Danxv, & Thatchmaster."]
     text = "CREDITS:\n\n"
     for (i in credits) {
         text += credits[i] + "\n"
@@ -68,11 +51,460 @@ RecReading=true
     alert(text)
   }
 
-HistHexcolour=["#878786","#edaf11","#db8223","#2ca853"];
-    HistName=[" Serial Designation V"," Biscuit Boi"," Lt. John Wade"," u/Sufficient_Plant8689"];
-    HistEV=[75,23,2,0];
-    HistPV=["4,845","935","22","11"];
-    HistPVP=["83.8%","16.2%","0.3%","0.2%"];
+HistHexcolour=["#cacc43","#383838","#3769ad","#b32929"];
+    HistName=[" Serial Designation V"," Serial Designation N"," Ms. Lizzy"," u/Kokosak17"];
+    HistEV=[9,3,0,0];
+    HistPV=["3,177","1,743","633","50"];
+    HistPVP=["56.7%","31.1%","11.3%","0.9%"];
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>Welcome to N.</li><li>An Alternate History scenario where Serial Designation N takes control of our Worker Drone Colony.</li><li>You will answer questions about his platforms, positions and campaign strategy, between the years 3071 and 3075.</li><li>The answers will affect his popularity, both nationally and in individual districts.</li><li>These policies both their success and ideology will effect the candidate you face in the 3075 election.</li><li>Additionally, the game contains Choose Your Own Adventure elements, secret endings and achievements.</li><li>Too add on, you can engage in killings that, if done too much, can have disastrous consequences.</li><li>This mod is based off of the indie web show "Murder Drones" by Liam Vickers.</li>`;
+document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 1em 0 !important;padding-top: 0.5em !important;}", 0);
+document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 1em .7em !important;padding-top: 0.3em !important;}", 0);
+document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}", 0);
+
+function onGameWindowFixHistorical() {
+    const resultsTableHolder = document.getElementById("overall_details_container");
+
+    if(!resultsTableHolder || resultsTableHolder.classList.contains("done")) {
+        return;
+    }
+
+    resultsTableHolder.classList.add("done");
+    document.getElementById("overall_details_container").children[2].children[5].remove()
+    document.getElementById("overall_details_container").children[2].children[4].remove()
+    document.getElementById("overall_details_container").children[2].children[3].style.marginBottom = "0.4em"
+    console.log("DANXV FIX YOUR CODE")
+}
+
+const gameWindowNode = document.getElementById("game_window");
+const candidateWatcherConfig = { attributes: true, childList: true, subtree: true };
+
+const candidateObserver = new MutationObserver(onGameWindowFixHistorical);
+candidateObserver.observe(gameWindowNode, candidateWatcherConfig);
+
+// Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "It Has Begun",
+      "Starset",
+      "https://files.catbox.moe/qjoeqa.png",
+      "https://audio.jukehost.co.uk/xAmtGnNQVvFJrLL9TpRLaRcErgPgT5Vh"
+    );
+    
+    const song2 = new Song(
+      "Will Of The People",
+      "Muse",
+      "https://files.catbox.moe/miqktn.jpg",
+      "https://files.catbox.moe/g1oywo.mp3"
+    );
+  
+    const song3 = new Song(
+      "Take The Power Back",
+      "Rage Against The Machine",
+      "https://files.catbox.moe/9dulmd.jpg",
+      "https://files.catbox.moe/ovkere.mp3"
+    );
+  
+    const song4 = new Song(
+      "Blind",
+      "Talking Heads",
+      "https://files.catbox.moe/1mv3px.jpg",
+      "https://files.catbox.moe/1su5yd.mp3"
+    );
+  
+    const song5 = new Song(
+      "The Snake",
+      "Al Wilson",
+      "https://files.catbox.moe/m541el.jpg",
+      "https://audio.jukehost.co.uk/hgpeWDLhSasxHNNVU0QzWW0fGKIyXl3Z"
+    );
+  
+    const song6 = new Song(
+      "The Fight For Freedom",
+      "Manowar",
+      "https://files.catbox.moe/sicpaq.jpg",
+      "https://files.catbox.moe/00ufx4.mp3"
+    );
+  
+    const song7 = new Song(
+      "Imagine",
+      "A Perfect Circle",
+      "https://upload.wikimedia.org/wikipedia/en/b/b3/A_Perfect_Circle_-_eMOTIVe.jpg",
+      "https://files.catbox.moe/f8a487.mp3"
+    );
+  
+  
+    const song8 = new Song(
+      "Bite Me",
+      "AJ DiSpirito",
+      "https://files.catbox.moe/hlsza8.jpg",
+      "https://files.catbox.moe/hems09.mp3"
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+    playlist.addSong(song8);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://i.imgur.com/BB1ejv6.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+  
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 1; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+      let currentVolume = 1; // Initial volume
+  
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+    });
+  
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #C9C9C9; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://i.imgur.com/Ok791w6.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+  
+    }
+    .is-vertical #volumeSlider {
+    width: 16px;
+    appearance: slider-vertical;
+  }
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+    
+  `;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
 
 campaignTrail_temp.achievements = {
     "No Russian" : {
