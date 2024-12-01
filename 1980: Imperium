@@ -1,0 +1,589 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#121c33";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#000000";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/eergyk.png)"
+
+$(".container")[0].style.border = ".2em solid #dcdcdc"
+
+$("#game_window")[0].style.borderColor = "#dcdcdc"
+
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+            document.getElementById("header").src = "https://files.catbox.moe/jhwfy7.png";
+
+            document.body.background = "https://files.catbox.moe/fsn63m.jpg";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":15,"fields":{"year":1988,"summary":"It's midnight in America. For the past 8 years, the American National Vanguard has governed the country, slowly expanding expanding their own power even as much of Europe and Asia has democratized. The Republicans and Democrats have maintained their coalition, and seek a return to proper American democracy.<br><br>• Incumbent President Francis Parker Yockey is seeking a third term. The Vanguard is fully united behind him, and he holds a sizeable lead in the polls.<br><br>• Rev. Jesse Jackson has won the Republican-Democrat nomination in an upset. He will run a semi-underground campaign, and either try to seriously challenge Yockey, or simply keep the spirit of resistance alive until the next election.","image_url":"https://files.catbox.moe/p17ga3.jpg","winning_electoral_vote_number":270,"advisor_url":"https://files.catbox.moe/6qplqe.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":15,"year":1988,"is_premium":0,"display_year":"1980: Imperium"}];e.credits = "u/Budderyfish";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":30,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Francis Parker","last_name":"Yockey","election":15,"party":"American National Vanguard","state":"Illinois","priority":1,"description":"<p>Francis Parker Yockey is the President of the United States and is seeking a third term. He was an attorney and far- right political philosopher before winning the 1968 senate election in Illinois due to vote splitting. He would then go on to unseat President Rockefeller and fend off a challenge from former Governor Jimmy Carter.<br><br>Yockey's first two terms have been eventful. A staunch advocate of antisemitism and segregation, Yockey has passed many laws to combat the influence of \"Jewish big business\" and racial integration. His most recent major actions include passing the Communist Control Act and resegregating the armed forces. Although race relations have seriously deteriorated under his administration, he has lately surged in popularity among white voters due to an improving economy and a short yet successful war against Japan.","color_hex":"#7a5322","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/pwgkch.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Jesse","last_name":"Jackson","election":15,"party":"Republican-Democratic Coalition","state":"South Carolina","priority":1,"description":"<p>Reverend Jesse Jackson is a civil rights advocate and the founder of PUSH and the National Rainbow Coalition, which have nonviolently resisting the Yockey administration for quite some time. Despite pressure from both the Vanguard and the RD establishment, Jackson was able to pull through and win the party's nomination. He is a staunch progressive on most issues, and although he is seen as unelectable by many of the RD party bosses, he may be the only man who can convince liberals and minorities to actually vote.<br><br>Currently Jackson is trailing badly in the polls, not only is the economy improving and the country stabilizing, he is also being openly harassed by members of the Vanguard. President Yockey himself has even reportedly called him a terrorist and a member of the CPUSA in private. Jackson must find a way to save American democracy, and his own skin.","color_hex":"#521f8f","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/9ihh6b.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"Willis","last_name":"Carto","election":15,"party":"American National Vanguard","state":"Indiana","priority":1,"description":"<p>Willis Carto has been Vice President for the last 8 years, and is the expected to win the nomination again with zero opposition. Byers had worked to gain youth support for the Union Party in college campuses across the nation before joining the Vanguard after President Wallace's Impeachment.<br><br>During his time as Vice President, he has acted as somewhat of a translator to the American public, due to Yockey's academic rhetoric. It would be wise for Yockey to have him actively campaigning during this year's election.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/abkk4e.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Willis Carto has been Vice President for the last 8 years, and is the expected to win the nomination again with zero opposition. Byers had worked to gain youth support for the Union Party in college campuses across the nation before joining the Vanguard after President Wallace's Impeachment.<br><br>During his time as Vice President, he has acted as somewhat of a translator to the American public, due to Yockey's academic rhetoric. It would be wise for Yockey to have him actively campaigning during this year's election.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"Walter","last_name":"Mondale","election":15,"party":"Republican-Democratic Coalition","state":"Minnesota","priority":1,"description":"<p>Walter Mondale is a senator from Minnesota and the successor of Hubert Humphrey. He is one of the few sitting members of congress who is willing to be Jackson's running mate, which could provide a lot of legitimacy to his campaign. Mondale's presence on the ticket will help in the upper midwest, especially in his home state.<br><br>Mondale will expect some concessions before joining the campaign. Jackson must moderate his rhetoric on reparations and foreign policy. Mondale would also prefer if Jackson ran a more traditional campaign with rallies and and television appearances, no matter the risks.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/3ipk8w.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Walter Mondale is a senator from Minnesota and the successor of Hubert Humphrey. He is one of the few sitting members of congress who is willing to be Jackson's running mate, which could provide a lot of legitimacy to his campaign. Mondale's presence on the ticket will help in the upper midwest, especially in his home state.<br><br>Mondale will expect some concessions before joining the campaign. Jackson must moderate his rhetoric on reparations and foreign policy. Mondale would also prefer if Jackson ran a more traditional campaign with rallies and and television appearances, no matter the risks.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"Bernie","last_name":"Sanders","election":15,"party":"Liberty Union / Democratic Socialists of America","state":"Vermont","priority":1,"description":"<p>Bernie Sanders is a democratic socialist and activist from Vermont, who recently ran unsuccessfully for governor of his home state under the Liberty Union Party. Sanders will help the Jackson campaign in upper new england and New York, and will greatly increase enthusiasm among young voters.<br><br>Bernie however, is Jewish, and that is a very big problem in this day and age. Yockey so far has been treating Jackson like an irrelevant third party candidate, however a black man and a jew on the RD ticket will certainly draw his ire. If Jackson selects Sanders, it may be wise for him to keep his campaign underground and to rely on grassroots support.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/7nyahl.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Bernie Sanders is a democratic socialist and activist from Vermont, who recently ran unsuccessfully for governor of his home state under the Liberty Union Party. Sanders will help the Jackson campaign in upper new england and New York, and will greatly increase enthusiasm among young voters.<br><br>Bernie however, is Jewish, and that is a very big problem in this day and age. Yockey so far has been treating Jackson like an irrelevant third party candidate, however a black man and a jew on the RD ticket will certainly draw his ire. If Jackson selects Sanders, it may be wise for him to keep his campaign underground and to rely on grassroots support.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"Angela","last_name":"Davis","election":15,"party":"Communist","state":"California","priority":1,"description":"<p>Angela Davis is an author of multiple novels and a longtime member of the CPUSA. In recent times, she has had to go underground and lead an active resistance movement due to the passage of the Communist Control Act and assassination of Gus Hall.<br><br>By choosing Davis, Jackson is giving up any chance of legitimately winning and will likely have to flee abroad. However, Davis' selection will greatly radicalize Yockey's opposition in congress and in wider American society. If Jackson is seeking to play the long game, selecting Davis might not be such a bad idea, as the multitude of anti-Yockey resistance groups could take advantage of the chaos.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/ul48pd.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Angela Davis is an author of multiple novels and a longtime member of the CPUSA. In recent times, she has had to go underground and lead an active resistance movement due to the passage of the Communist Control Act and assassination of Gus Hall.<br><br>By choosing Davis, Jackson is giving up any chance of legitimately winning and will likely have to flee abroad. However, Davis' selection will greatly radicalize Yockey's opposition in congress and in wider American society. If Jackson is seeking to play the long game, selecting Davis might not be such a bad idea, as the multitude of anti-Yockey resistance groups could take advantage of the chaos.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":"John B.","last_name":"Anderson","election":15,"party":"National Unity","state":"Illinois","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#757575","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/John_B._Anderson_in_New_Jersey_%28cropped%29.jpg/1280px-John_B._Anderson_in_New_Jersey_%28cropped%29.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"Benjamin","last_name":"Spock","election":15,"party":"National Unity","state":"Connecticut","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Benjamin_McLane_Spock_%281976%29_02.jpg/1280px-Benjamin_McLane_Spock_%281976%29_02.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"6"}},{"model":"campaign_trail.candidate","pk":1009,"fields":{"first_name":"Lawrence","last_name":"Lar Daly/Others","election":15,"party":"America First/Various","state":"Illinois/Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#4e5e82","secondary_color_hex":null,"is_active":0,"image_url":"https://unrememberedhistory.com/wp-content/uploads/2016/01/1aa4.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1010,"fields":{"first_name":"Various","last_name":"VPs","election":15,"party":"Various","state":"Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/barack-obama-2012.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"8"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1003}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1002,"running_mate":1004}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1002,"running_mate":1005}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1002,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2005,"fields":{"candidate":1007,"running_mate":1008}},{"model":"campaign_trail.running_mate","pk":2006,"fields":{"candidate":1009,"running_mate":1010}}];
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #000000;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+quotes = ["''The challenge of the twenty-first century is not to demand equal opportunity to participate in the machinery of oppression.'' ~ Angela Davis", "''If you are sure you understand everything that is going on, you are hopelessly confused.'' ~ Walter Mondale", "''There are no 'human' oppressors. Oppressors have lost their humanity.'' ~ Bernie Sanders", "''If my mind can conceive it, if my heart can believe it, I know I can achieve it.'' ~ Jesse Jackson", "''You must not surrender. You may or may not get there, but just know that you're qualified and hold on and hold out.'' ~ Jesse Jackson", "''We must never surrender. America will get better and better.'' ~ Jesse Jackson","''Keep Hope Alive!'' ~ Jesse Jackson", "''Between Capitalism and Socialism, there is no relationship of true and false.'' ~ Francis Parker Yockey","''The question of who strikes first in a war is on the same level as who strikes first in a boxing contest.'' ~ Francis Parker Yockey", "''A nation shows that it is dying when it ceases to believe in its Mission and its superiority.'' ~ Francis Parker Yockey","''Under a tyranny, most friends are a liability.'' ~ Sinclair Lewis", "''When fascism comes to America, it will be wrapped in the flag and carrying a cross.''", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>1980: IMPERIUM</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>u/Budderyfish</button>";
+  
+  credits = function() {
+    credits = ["This code 1 was made by...", "u/Budderyfish, for the writing & mod concept.", "C0SM0,  for the coding & theme.", "Credit goes to RouteVenus for the banner.", "DecStarG created various codes, of course."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#121c33",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#121c33",
+  "main_color": "#000000",
+  "secondary_color": "#121c33",
+ "ui_text_color": "#ffffff"
+}
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#121c33;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#121c33;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "Opening Song",
+
+    tracklist: [
+
+      {
+
+        name: "House Of The Rising Sun (Ayden George)",
+
+        url: "https://files.catbox.moe/izlgea.mp3",
+      
+
+      },
+
+    ],
+
+  },
+
+  1: {
+
+    name: "Keep Hope Alive",
+
+    tracklist: [
+
+      {
+
+        name: "We Shall Overcome (Joan Baez)",
+
+        url: "https://files.catbox.moe/lx9q4y.mp3",
+
+      },
+
+      {
+
+        name: "Mississippi, Goddam (Nina Simone)",
+
+        url: "https://files.catbox.moe/zyqt4k.mp3",
+
+      },
+
+      {
+
+        name: "If There's A Hell Below (Curtis Mayfield)",
+
+        url: "https://files.catbox.moe/qbfoo9.mp3",
+
+      },
+
+      {
+
+        name: "Which Side Are You On (The Freedom Voices)",
+
+        url: "https://files.catbox.moe/ykf15y.mp3",
+
+      },
+
+      {
+
+        name: "What's Going On (Marvin Gaye)",
+
+        url: "https://audio.jukehost.co.uk/UoE3A3wN5wCdrp07VFQ9azednmoxZCQO",
+
+      },
+
+      {
+
+        name: "I Will Survive (Gloria Gaynor)",
+
+        url: "https://audio.jukehost.co.uk/pjrpbGYkql9KZM2egizvPfjKqdknWIWv",
+
+      },
+
+    ],
+
+  },
+
+  2: {
+
+    name: "The New Order",
+
+    tracklist: [
+
+      {
+
+        name: "Battle Hymn Of The Republic (Leonard Warren)",
+
+        url: "https://files.catbox.moe/pskdo3.mp3",
+
+      },
+
+      {
+
+        name: "Allison (Legionary Choir)",
+
+        url: "https://files.catbox.moe/3dzfpi.mp3",
+
+      },
+
+      {
+
+        name: "Wake Up, My People (The Crusader)",
+
+        url: "https://files.catbox.moe/3aanq9.mp3",
+
+      },
+
+      {
+
+        name: "Ain't I Right? (Marty Robbins)",
+
+        url: "https://audio.jukehost.co.uk/wDALgBqAjEpCPLeuoTTIODL2ltQ3ScM0",
+
+      },
+
+      {
+
+        name: "These Are My People (Johnny Cash)",
+
+        url: "https://files.catbox.moe/5umne5.mp3",
+
+      },
+
+      {
+
+        name: "By God, We'll Have Our Home Again (Pine Tree Riots)",
+
+        url: "https://files.catbox.moe/p1wyyk.mp3",
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
