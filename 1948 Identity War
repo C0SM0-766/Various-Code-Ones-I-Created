@@ -24,7 +24,7 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#630e6e"
 
 $(".container")[0].style.backgroundColor = "#006600"
 
-$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/y4gpb0.jpg)"
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/k7dgg9.jpg)"
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
 
