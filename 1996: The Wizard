@@ -1,0 +1,523 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#6b6b6b";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#dbdbdb";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#878787";
+
+            document.getElementById("header").src = "https://files.catbox.moe/ne0aoy.png";
+
+            document.body.background = "https://static01.nyt.com/images/2015/01/01/us/LOUISIANA1/LOUISIANA1-jumbo.jpg?quality=75&auto=webp";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":9,"fields":{"year":2000,"summary":"<p>As America enters its last election in the 20th century, President Bill Clinton enjoys high approval ratings, despite the Republican Revolution of 1994, sweeping the Midterm elections. But the majority may all come crumbling down thanks to one man: David Duke.<br><br>Has Satan rigged the GOP nomination? Has God left us? Nevertheless, by some way or another, David Duke has won the Republican nomination. Facing a popular incumbent and a major third party splinter from Senator Arlen Specter, it's no question that the GOP <i>will</i> lose this election.<br><br>Duke must contend with a heavily fractured party, a racist past and present, and the possibility of a blowout of the Grand Old Party.","image_url":"https://files.catbox.moe/bckqr6.jpg","winning_electoral_vote_number":270,"advisor_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/David_Duke_1992_presidential_campaign_logo.svg/1280px-David_Duke_1992_presidential_campaign_logo.svg.png","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":9,"year":2000,"is_premium":0,"display_year":"1996: The Wizard"}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":28,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"David","last_name":"Duke","election":9,"party":"Republican","state":"Louisiana","priority":1,"description":"<p>The Republican party has fallen. It's uncureable. What once has been the party of Lincoln has turned a 180. David Duke takes the mantle of an incredibly fractured party. For the first time since 1936, the Republicans are likely to not win a single state.<br><br>Duke is a former Lousiana representative & the former Grand Wizard of the Knights of the KKK. Duke portrays himself similar to that of George Wallace: anyone can back away from the realms of hate. Regularly renouncing his racist past... as if anyone will be persuaded by his words. He decided to go back and still espouse the same hateful rhetoric he had wailed during his Klan years: one of racism and antisemitism.<br><br>The stage is wrecked. The crowd is gone. But the Republican party must go on... with a Klansmen at the forefront.","color_hex":"#b03737","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/35q0gk.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"Pat","last_name":"Buchanan","election":9,"party":"Republican","state":"Virginia","priority":1,"description":"<p>No one wants to be your running mate. It'll be political suicide for their career. Well... except one, that is. Enter Patrick Joseph Buchanan. Former White House communications director and political commentator.<br><br>A charismatic demogaugue in his own right; hellbent on Washington cronyism. Buchanan reluctantly has decided to join your ticket for one reason only: to solidify support for the GOP to prevent a disaster. Millions flock to the camps of Clinton & Specter, afraid of the party that housed the likes of Bush, Reagan, & Lincoln. Buchanan hates to see that come to be.<br><br>Buchanan won't do you any favors for moderates who are already voting for Clinton or Specter. Buchanan also has controversial stances on isolationism and revisionism regarding World War 2. But as he's the only name mentioned on your VP shortlist, you may as well live with that.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/w4smmz.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>No one wants to be your running mate. It'll be political suicide for their career. Well... except one, that is. Enter Patrick Joseph Buchanan. Former White House communications director and political commentator.<br><br>A charismatic demogaugue in his own right; hellbent on Washington cronyism. Buchanan reluctantly has decided to join your ticket for one reason only: to solidify support for the GOP to prevent a disaster. Millions flock to the camps of Clinton & Specter, afraid of the party that housed the likes of Bush, Reagan, & Lincoln. Buchanan hates to see that come to be.<br><br>Buchanan won't do you any favors for moderates who are already voting for Clinton or Specter. Buchanan also has controversial stances on isolationism and revisionism regarding World War 2. But as he's the only name mentioned on your VP shortlist, you may as well live with that.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"Bill","last_name":"Clinton","election":9,"party":"Democratic","state":"Arkansas","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#3a50a6","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Bill_Clinton.jpg/1280px-Bill_Clinton.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"Al","last_name":"Gore","election":9,"party":"Democratic","state":"Tennessee","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Al_Gore%2C_Vice_President_of_the_United_States%2C_official_portrait_1994.jpg/1280px-Al_Gore%2C_Vice_President_of_the_United_States%2C_official_portrait_1994.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"Arlen","last_name":"Specter","election":9,"party":"Reform / Republican","state":"Pennsylvania","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#c77e30","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/d/d0/Arlen_Specter%2C_official_Senate_photo_portrait.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"John","last_name":"McCain","election":9,"party":"Republican","state":"Arizona","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/4/4b/John_McCain.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"4"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":"Ralph","last_name":"Nader/Others","election":9,"party":"Green/Various","state":"Connecticut/Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#3aab3e","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/ralph-nader-2000.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"Winona","last_name":"LaDuke/Others","election":9,"party":"Green/Various","state":"Minnesota/Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"../static/images/winona-laduke-2000.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"6"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1002}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1003,"running_mate":1004}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1005,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1007,"running_mate":1008}}];
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+  credits = function() {
+    credits = ["Credits", "This Code 1 was made by...", "", "C0SM0, for the writing & coding.", "Someone created the banner for this mod but they deleted their account. Oh well.", "Some codes borrowed from 1972 PWH, 1996 EOH, & 2008 Vice."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+quotes = ["", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>1996: THE WIZARD</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+
+
+HistHexcolour=["#3a50a6","#c77e30","#b03737","#3aab3e"];
+    HistName=[" Bill Clinton"," Arlen Specter"," David Duke"," Ralph Nader/Others"];
+    HistEV=[485,50,3,0];
+    HistPV=["48,580,468","30,844,742","15,615,150","1,349,457"];
+    HistPVP=["50.4%","32.0%","16.2%","1.4%"];
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#6b6b6b",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#000000",
+  "description_background_color": "#dbdbdb",
+  "main_color": "#878787",
+  "secondary_color": "#6b6b6b",
+ "ui_text_color": "#ffffff"
+}
+
+    // Select the node that will be observed for mutations
+    const windowsAdvisorTargetNode = document.getElementById("game_window");
+    
+    // Options for the observer (which mutations to observe)
+    const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+    
+    // Callback function to execute when mutations are observed
+    const callback = (mutationList, observer) => {
+        visitWindow = document.getElementsByClassName("overlay_window")[0];
+    
+        if(visitWindow == null || visitWindow.classList.contains("done")) {
+            return;
+        }
+        visitWindow.classList.add("done");
+        visitWindow.classList.add("window");
+        let titleBar = visitWindow.querySelector("h3");
+        titleBar.classList.add("title-bar");
+        titleBar.classList.add("title-bar-text")
+        titleBar.style.paddingLeft = "3px";
+    };
+    
+    // Create an observer instance linked to the callback function
+    const windowsAdvisorObserver = new MutationObserver(callback);
+    
+    // Start observing the target node for configured mutations
+    windowsAdvisorObserver.observe(windowsAdvisorTargetNode, windowsAdvisorConfig);
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://jetsimon.com/public/crt.css"
+    >`
+    
+    document.body.classList.add("crt");
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://unpkg.com/98.css"
+    >`
+    
+    document.head.innerHTML += `<style>
+    h3 {
+        font-size:1.17em!important;
+    }
+    
+    label {
+        font-size:1em!important;
+    }
+    </style>`
+    
+    document.head.innerHTML += `<link
+      rel="stylesheet"
+      href="https://unpkg.com/98.css"
+    >`
+    
+    document.head.innerHTML += `<style>
+    h3 {
+        font-size:1.17em!important;
+    }
+    
+    label {
+        font-size:1em!important;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif!important;
+    }
+    </style>`
+
+let crtStyle = document.createElement('style');
+document.head.appendChild(crtStyle);
+
+let crtOn = true;
+var setCRTLines = (enabled) => {
+    crtStyle.innerText = enabled ? "" : ".crt::before {background: none;}";
+}
+footer = $(".footer")[0]
+var button = document.createElement("button") // <button onclick="changeBanner()" style="font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;">Change banner</button>
+button.style = `font-weight: bold; height:19.49px; position: static; right: 770px; top: 0px;`
+button.innerHTML = "Toggle CRT Lines"
+footer.insertBefore(button, footer.firstChild);
+button.addEventListener("click", () => {crtOn = !crtOn; setCRTLines(crtOn)});
+
+class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "Bury Me In Southern Ground",
+      "Rebel Son",
+      "https://files.catbox.moe/qfuo7w.jpg",
+      "https://files.catbox.moe/ne0ea7.mp3"
+    );
+    
+    const song2 = new Song(
+      "Rebels",
+      "Tom Petty",
+      "https://upload.wikimedia.org/wikipedia/en/8/8b/TP_-_Rebels_single.png",
+      "https://files.catbox.moe/d143gp.mp3"
+    );
+  
+    const song3 = new Song(
+      "Song Of The South",
+      "Alabama",
+      "https://upload.wikimedia.org/wikipedia/en/3/34/Song_of_the_South_vinyl.png",
+      "https://files.catbox.moe/vv1vtt.mp3"
+    );
+  
+    const song4 = new Song(
+      "Johnny Reb",
+      "Johnny Horton",
+      "https://files.catbox.moe/fvzvah.jpg",
+      "https://files.catbox.moe/iykvpz.mp3"
+    );
+  
+    const song5 = new Song(
+      "These Are My People",
+      "Johnny Cash",
+      "https://files.catbox.moe/lpxdhk.png",
+      "https://files.catbox.moe/5umne5.mp3"
+    );
+  
+    const song6 = new Song(
+      "The Night They Drove Old Dixie Down",
+      "Joan Baez",
+      "https://files.catbox.moe/70lvr4.jpg",
+      "https://files.catbox.moe/wq0dvi.mp3"
+    );
+  
+    const song7 = new Song(
+      "The Devil Went Down To Georgia",
+      "The Charlie Daniels Band",
+      "https://upload.wikimedia.org/wikipedia/en/6/62/The_Devil_Went_Down_To_Georgia_cover.jpg",
+      "https://files.catbox.moe/g8nij4.mp3"
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://i.ibb.co/s2csF3n/67repx.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "black"; // Set text color to black
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.ibb.co/NNZ77Jp/0ns58l.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.ibb.co/8xqqpsz/9phz8w.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.ibb.co/k1Nrky1/vaacmd.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.ibb.co/8xqqpsz/9phz8w.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.ibb.co/JRBFbfb/3o92rh.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+
+  
+    const volumeSliderContainer = document.createElement("div");
+    //volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "0%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 1; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+      let currentVolume = 1; // Initial volume
+  
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+    });
+  
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #C9C9C9; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://i.ibb.co/Wx9NBmQ/qls0kd.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+    padding-left:20px
+  
+    }
+    #volumeSlider {
+        padding-top:88px;
+        padding-right:100px;
+  }
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 70%;
+    }
+  
+    #progress-bar {
+      width: 100%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+    
+  `;
+  
+  document.head.appendChild(style);
+  
+  const gameWindow_player = document.getElementById("game_window");
+  //use this function directly or put it in an event listener to start the music on the press of a certain button
+  setupMusicPlayer();
+
