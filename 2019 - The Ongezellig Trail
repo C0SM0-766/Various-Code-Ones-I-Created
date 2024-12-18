@@ -1,0 +1,955 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#a1430e";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#eed6a1";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#c99751";
+
+$("#game_window")[0].style.backgroundImage = "url(https://i.postimg.cc/DfQnc4dJ/image-1.png)"
+
+$("#game_window")[0].style.borderColor = "#ab7f43"
+
+$(".container")[0].style.border = ".2em solid #ab7f43"
+            document.getElementById("header").src = "https://files.catbox.moe/u1kkhp.jpg";
+
+            document.body.background = "https://files.catbox.moe/t1k2s4.png";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":20,"fields":{"year":2016,"summary":"<p>After a \"failed schoolacaust\", Mymy Schoppenboer throws her hat in the ring for class president, despite her campaign announcement being nothing more then a fumble. Her friend/enemy Kiki, her adoptive sister Coco, and her fellow classmate Henk run as well, setting the stage up for a four way battle in an interesting election.<br><br>Mymy & Kiki both struggle to keep their \"Dutch\" & \"Pirate\" coalitions intact, while Coco & Henk plan to gain in the polls from behind. All bets are off in what is becoming of the most interesting elections in local Urk history.","image_url":"https://files.catbox.moe/yc4amc.jpg","winning_electoral_vote_number":270,"advisor_url":"https://files.catbox.moe/2vphi6.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":20,"year":2016,"is_premium":0,"display_year":"2019 - The Ongezellig Trail"}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":35,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"Mymy","last_name":"Schoppenboer","election":20,"party":"NVP","state":"Urk","priority":1,"description":"<li><b>Name: Mymy Schoppenboer</b></li><li><b>Party: Nationale Volkspartij</b></li><li><b>Home City: Urk</b></li><i>\"I hate this kid so much.\" ~ Vera Persijn</i><br><br>A larger than life figure, or a psychopathic maniac, depending on who you ask. Mymy Schoppenboer loves the spotlight and loves fighting for the Netherlands. Originally from Nagasaki, she has since been obsessed with Dutch culture, as reflected in her clothing, her opinions, and her campaign. Extremely Nationalistic, Belgian-hating, and having a superiority complex, it's evident that Mymy is proud to have escaped from Japan to here.<br><br>Even though the campaign announcement was nothing less then a disaster, she still believes she can become class president... or, \"emperor\". As an outsider, her controversial & extreme stances on many issues of the day helps feed her popularity.<br><br>Mymy has been yapping about becoming class representative for awhile. She's certainly reaching high in her career, but is it too high for her?","color_hex":"#e79241","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/2ouxiy.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"","last_name":"Kiki","election":20,"party":"VPB","state":"Urk","priority":1,"description":"<li><b>Name: Kiki</b></li><li><b>Party: Verenigd Piraten Beweging</b></li><li><b>Home City: Urk</b></li><i>\"A Somali pirate in the making.\" ~ Studio Massa</i><br><br>A \"frenemy\" to Mymy, Kiki the Pirate could best be described as \"if Mymy was obsessed with pirates\". As the leader of her own pirate club and frequent debater with Mymy, Kiki knows that this election will be tiring and chaotic with both of them in the running.<br><br>Despite being a proponent of Anarchism, Kiki starts off second in the polls. However, she can easily gain or lose support in various ways. Her controversial stances on school funding, as well as confessing that she owns a gun and wants to fund terrorists, can help feed or destroy her popularity.<br><br>Kiki looks to be in quite a challenge, but pirates aren't new to challenges. Can Kiki survive the ensuing tide, or be washed up on shore?","color_hex":"#201a1a","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/zgcaxg.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"Coco","last_name":"Schoppenboer-Potgieter","election":20,"party":"SDP / PvdA","state":"Urk","priority":1,"description":"<li><b>Name: Coco Schoppenboer-Potgieter</b></li><li><b>Party: Sociaaldemocratische Partij / Partij van de Arbeid</b></li><li><b>Home City: Urk</b></li><i>\"Mind your own life, Ms. Perfect.\" ~ Maya Schoppenboer</i><br><br>Coco Schoppenboer is the embodiment of a perfect person. Extroverted, talented, & ubiquitous. Such a shame that she had decided to run in a game with no morals.<br><br>Coming from South Africa, Coco is a sister of Mymy, and is the most popular girl in the school. Despite this, popularity doesn't exactly translate into having the most votes. Coco starts off third in the polls, but can easily gain support from there. Her calming and nice presence starkly contrasts to the firebrands that are Mymy & Kiki and the weirdness of Henk. She essentially being a blank slate can help mold her image that fits with other students' minds.<br><br>Her lack of knowledge with technology and politics are two of her biggest weaknesses. Can Coco be as successful in politics as she is in rugby, or fail against the odds?","color_hex":"#efbe76","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/x7380w.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"","last_name":"Henk","election":20,"party":"D66","state":"Urk","priority":1,"description":"<li><b>Name: Henk</b></li><li><b>Party: Democraten 66</b></li><li><b>Home City: Urk</b></li><i>\"In love with Caroline van der Plaas.\" ~ Studio Massa</i><br><br>When Henk first announced his candidacy, some people could do nothing but laugh. After all, this guy, this cross-eyed freak, is running for class president. Fortunately for Henk, he gains the support for those who dislike Mymy & Kiki, while also being unsatisfied with Coco.<br><br>Henk stands dead last in the polls. However, if he plays his cards carefully and wisely, he may as well launch the greatest comeback the school has ever known. Henk holds various idiosyncratic positions on important issues, and his general unlikeability leaves him with nothing but a handful of people supporting him. What's needed for him to win is a general attacking campaign on <i>virtually everything.</i> <br><br>Can Henk pull off a comeback, or remain dead last in the election?","color_hex":"#404158","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/5jkumh.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"Nationale","last_name":"Volkspartij (NVP)","election":20,"party":"NVP","state":"Urk","priority":1,"description":"<p>William the Silent, Pim Fortuyn, Geert Wilders. In a party of Nationalists hailing historical Dutch heroes, the new face is Mymy Schoppenboer. A local party gaining momentum, the Nationale Volkspartij (National People's Party) doesn't shy away from their uncompromising rhetoric–one of right-wing populism. The party shares striking resemblance to the PVV–some jokingly referring to the party as \"The party for PVV rejects\". Nevertheless, the party stand strong in the polls, with Mymy being its leader.<br><br>Heading into the election, the NVP stands as the most dominant political party in the school. But the question on everyone's mind: can the party hold onto its dominance until election day? With three candidates eating its support, it doesn't seem likely. The party can just hope that Mymy can hold her own while being degraded on all sides.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/vw7267.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<li><b>Ideology: Right-wing Populism</b></li><p>William the Silent, Pim Fortuyn, Geert Wilders. In a party of Nationalists hailing historical Dutch heroes, the new face is Mymy Schoppenboer. A local party gaining momentum, the Nationale Volkspartij (National People's Party) doesn't shy away from their uncompromising rhetoric–one of right-wing populism. The party shares striking resemblance to the PVV–some jokingly referring to the party as \"The party for PVV rejects\". Nevertheless, the party stand strong in the polls, with Mymy being its leader.<br><br>Heading into the election, the NVP stands as the most dominant political party in the school. But the question on everyone's mind: can the party hold onto its dominance until election day? With three candidates eating its support, it doesn't seem likely. The party can just hope that Mymy can hold her own while being degraded on all sides.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"Verenigd","last_name":"Piraten Beweging (VPB)","election":20,"party":"VPB","state":"Urk","priority":1,"description":"<p>What started as just a local school club turned into a \"political party\". The Verenigd Piraten Beweging (National Pirate Movement), currently being led by Kiki, is the second largest political party in the school. As it rivals the NVP in terms of membership & support, the future of VPB seems to be satisfactory. The \"party\" supports the piracy of media, general lawlessness, and a curriculum focused on the golden age of piracy, among other things.<br><br>If the pirate momentum was stopped, it could have severe consequences. Not to mention the \"party\" can easily be attacked by opponents as completely unserious and a danger to the school. Nevertheless, Kiki and the VPB sails forward into the unknown, hoping to get the treasure of class president and launch their \"party\" from there, hoping to breach out into the unknown.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/fz0esf.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<li><b>Ideology: Anarchism</b></li><p>What started as just a local school club turned into a \"political party\". The Verenigd Piraten Beweging (National Pirate Movement), currently being led by Kiki, is the second largest political party in the school. As it rivals the NVP in terms of membership & support, the future of VPB seems to be satisfactory. The \"party\" supports the piracy of media, general lawlessness, and a curriculum focused on the golden age of piracy, among other things.<br><br>If the pirate momentum was stopped, it could have severe consequences. Not to mention the \"party\" can easily be attacked by opponents as completely unserious and a danger to the school. Nevertheless, Kiki and the VPB sails forward into the unknown, hoping to get the treasure of class president and launch their \"party\" from there, hoping to breach out into the unknown.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":"Sociaaldemocratische Partij / Partij van de Arbeid","last_name":"(SDP / LvdA)","election":20,"party":"SDP / LvdA","state":"Urk / Nationwide","priority":1,"description":"<p>An offshoot of the existing PvdA party, the Sociaaldemocratische Partij (Social Democratic Party) is a local party hosted in Urk. With advice from her parents and friends, Coco decided to join the party and run for class president under the Social Democratic banner. There was some confusion on the news about the party, which led to Koos thinking that Coco was apart of the Partij van de Arbeid (PvdA).<br><br>Coco's a blank slate, which is both a blessing and a curse in itself. Coco can mold herself to become a Social Democrat. On the contrary, Coco can mold herself to become virtually any other ideology. Coco is essentially gambling on whether or not her fame and personality can attract people to the red banner, as she's barely knowledgeable in the realm of politics.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/1981_election_poster_PvdA.jpg/1280px-1981_election_poster_PvdA.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<li><b>Ideology: Social Democracy</b></li><p>An offshoot of the existing PvdA party, the Sociaaldemocratische Partij (Social Democratic Party) is a local party hosted in Urk. With advice from her parents and friends, Coco decided to join the party and run for class president under the Social Democratic banner. There was some confusion on the news about the party, which led to Koos thinking that Coco was apart of the Partij van de Arbeid (PvdA).<br><br>Coco's a blank slate, which is both a blessing and a curse in itself. Coco can mold herself to become a Social Democrat. On the contrary, Coco can mold herself to become virtually any other ideology. Coco is essentially gambling on whether or not her fame and personality can attract people to the red banner, as she's barely knowledgeable in the realm of politics.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"Democraten 66","last_name":"(D66)","election":20,"party":"D66","state":"Nationwide","priority":1,"description":"<p>Democraten 66 (Democrats 66) was founded in 1966 as a vehicle against the entrenched pillarized powers that were, seeking to initiate radical democratization. Since then, the party has had many ups and downs. It achieved revolutionary policy goals like the legalization of gay marriage and decriminalization of weed, and was the main architect behind the reconciliation between historical rivals VVD and PvdA in the 90s, giving rise to the Purple Kok cabinets. At the same time, the party was almost disbanded twice: first in the late 1970s, and later in the mid 2000s.<br><br>Despite not knowing or even caring about the Urk class president election, Henk has somehow gotten on the ballot with D66 next to his name. Henk finds it difficult to stay within the party's platform, which could end up with consequences in the long term.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://i.imgur.com/3qpsnOG.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<li><b>Ideology: Social Liberalism</b></li><p>Democraten 66 (Democrats 66) was founded in 1966 as a vehicle against the entrenched pillarized powers that were, seeking to initiate radical democratization. Since then, the party has had many ups and downs. It achieved revolutionary policy goals like the legalization of gay marriage and decriminalization of weed, and was the main architect behind the reconciliation between historical rivals VVD and PvdA in the 90s, giving rise to the Purple Kok cabinets. At the same time, the party was almost disbanded twice: first in the late 1970s, and later in the mid 2000s.<br><br>Despite not knowing or even caring about the Urk class president election, Henk has somehow gotten on the ballot with D66 next to his name. Henk finds it difficult to stay within the party's platform, which could end up with consequences in the long term.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"3"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1005}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1002,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1003,"running_mate":1007}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1004,"running_mate":1008}}];
+
+document.getElementById("campaigntrailmusic").src = "https://files.catbox.moe/bhe761.mp3"
+document.getElementById("campaigntrailmusic").play()
+document.getElementById("modLoadReveal").style.display="show"
+document.getElementById("modloaddiv").style.display="show"
+
+e.music = {};
+e.music.shuffleEnabled = false;
+e.music.Volume=0.3;
+e.music.loopEnabled = false;
+
+var element = document.getElementById('my-invisible-element');
+if (!element) {
+
+	// Get the reference to the bar
+	var bar = document.getElementById('bottomBar');
+
+	// Create the checkbox
+	var checkbox = document.createElement('input');
+	checkbox.type = 'checkbox';
+	checkbox.id = 'volumeCheckbox';
+	checkbox.checked = false;
+	checkbox.style.display = 'none';
+
+	// Create the label for the checkbox
+	var label = document.createElement('label');
+	label.htmlFor = 'volumeCheckbox';
+	label.style.fontSize = '0px';  // Increase the size of the text
+	label.style.fontWeight = 'bold';  // Make the text bold
+	label.appendChild(document.createTextNode('Enable Volume'));
+
+	// Wrap the checkbox and label in a div and style it
+	var wrapper = document.createElement('div');
+	wrapper.style.padding = '0px';  // Add some padding
+	wrapper.style.borderRadius = '0px';  // Round the corners
+	wrapper.style.backgroundColor = '#d3d3d3';  // Set the background color to the default button color
+	wrapper.style.border = '0px solid black';  // Add a black border
+	wrapper.appendChild(checkbox);
+	wrapper.appendChild(label);
+
+	// Position the wrapper in the middle of the bar
+	var div = document.createElement('div');
+	div.style.position = 'absolute';
+	div.style.left = '50%';
+	div.style.transform = 'translate(-50%, 0)';  // Center the div
+	div.appendChild(wrapper);
+
+	// Add the div to the bar
+	bar.appendChild(div);
+
+	// Add event listener to the checkbox
+	checkbox.addEventListener('change', function() {
+    	if (!this.checked) {
+        	e.music.Volume = 0;  // Set the initial volume of the music player to 0
+    	}
+	});
+
+	let trackIndices;
+	let shuffledIndices;
+
+ $("#game_start").click((event) => {
+	event.preventDefault();
+	musicMode()
+  	})
+	musicMode = () => {
+    	$("#music_player")[0].children[0].style.display = "none"
+    	$("#music_player")[0].children[1].style.display = "none"
+    	document.getElementById("modLoadReveal").style.display = "none"
+    	document.getElementById("modloaddiv").style.display = "none"
+    	musicBox = document.getElementById("music_player")
+    	musicBox.style.display = ""
+    	var trackSel;
+    	e = campaignTrail_temp
+    	e.selectedSoundtrack = 0
+    	toTime = (seconds) => {
+        	var date = new Date(null);
+        	date.setSeconds(seconds);
+        	return date.toISOString().substr(11, 8);
+    	}
+    	generateTime = () => {
+        	// Get the audio element
+        	var audio = document.getElementById("campaigntrailmusic");
+        	timeTracker = document.createElement("div");
+        	timeTracker.id ='timeTracker'
+        	timeTracker.style = `
+  	text-align:left;
+  	border-style:solid;
+  	border-width:3px;
+  	height:200px;
+  	width:200px;
+  	background-color:#eed6a1;
+  	float:right;
+  	padding: 10px;
+  	`
+        	$("#trackSelParent")[0].prepend(timeTracker);
+        	$("#trackSelParent")[0].prepend(document.createElement("br"));
+        	var positionDisplay = document.createElement("gg");
+        	positionDisplay.id = "position-display";
+        	var timeSlider = document.createElement("input");
+        	timeSlider.type = "range";
+        	timeSlider.min = 0;
+        	timeSlider.max = 1;
+        	timeSlider.step = 0.001;
+        	timeSlider.value = 0;
+        	timeSlider.style.width = "200px";
+        	timeSlider.id = "time-slider";
+        	var pausePlay = document.createElement("button");
+        	pausePlay.id = "position-display";
+        	pausePlay.innerHTML = "<b>Pause</b>"
+        	pausePlay.style.width = "100%";
+        	pausePlay.style.margin = "2px";
+        	pausePlay.addEventListener("click", event => {
+            	event.preventDefault();
+            	updatePositionDisplay();
+            	let audio = document.getElementById("campaigntrailmusic");
+            	if (audio.paused) {
+                	audio.play();
+                	event.target.innerHTML = "<b>Pause</b>";
+                	return;
+            	}
+            	audio.pause();
+            	event.target.innerHTML = "<b>Play</b>";
+            	return;
+        	})
+        	var shuffleButton = document.createElement("button");
+        	shuffleButton.id = "shuffle-button";
+        	shuffleButton.innerHTML = "<b>Shuffle</b>"
+        	shuffleButton.style.width = "100%"
+        	shuffleButton.style.margin = "2px";;
+        	shuffleButton.addEventListener("click", event => {
+            	event.preventDefault();
+            	e.music.shuffleEnabled = !e.music.shuffleEnabled;
+            	event.target.innerHTML = e.music.shuffleEnabled ? "<b>Unshuffle</b>" : "<b>Shuffle</b>";
+            	if (e.music.shuffleEnabled) {
+                	shuffledIndices = shuffle(trackIndices.slice());
+                	let currentTrackIndex = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+                	shuffledIndices = shuffledIndices.filter(index => index !== currentTrackIndex);
+                	shuffledIndices.unshift(currentTrackIndex);
+            	}
+        	});
+        	var skipButton = document.createElement("button");
+        	skipButton.id = "skip-button";
+        	skipButton.innerHTML = "<b>Skip</b>"
+        	skipButton.style.width = "100%";
+        	skipButton.style.margin = "2px"; // Add margin
+        	skipButton.addEventListener("click", event => {
+            	event.preventDefault();
+            	let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+            	let newSel;
+            	if (e.music.shuffleEnabled) {
+                	if (!shuffledIndices) {
+                    	shuffledIndices = shuffle(trackIndices.slice());
+                	}
+                	let currentIndex = shuffledIndices.findIndex(index => index === selected);
+                	if (currentIndex === shuffledIndices.length - 1) {
+                    	shuffledIndices = shuffle(trackIndices.slice());
+                    	currentIndex = -1;
+                	}
+                	newSel = shuffledIndices[currentIndex + 1];
+            	} else {
+                	newSel = selected + 1 === soundtracks[e.selectedSoundtrack].tracklist.length ? 0 : selected + 1;
+            	}
+            	let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                    	return f.tagName == "LABEL"
+                	}).map(f => f.children[0])
+            	buttons[newSel].click()
+        	});
+        	skipButton.style.width = "50%";
+        	var loopButton = document.createElement("button");
+        	loopButton.id = "loop-button";
+        	loopButton.innerHTML = e.music.loopEnabled ? "<b>Unloop</b>" : "<b>Loop Song</b>";  // Check the initial loop state
+        	loopButton.style.width = "50%";  // Match the width with skipButton
+        	loopButton.style.margin = "2px";
+        	loopButton.addEventListener("click", event => {
+            	event.preventDefault();
+            	e.music.loopEnabled = !e.music.loopEnabled;
+            	let audio = document.getElementById("campaigntrailmusic");
+            	audio.loop = e.music.loopEnabled;  // Set the audio's loop property
+            	event.target.innerHTML = e.music.loopEnabled ? "<b>Unloop</b>" : "<b>Loop Song</b>";  // Toggle the button text
+        	});
+        	var volumeLabel = document.createElement("gg");
+        	volumeLabel.id = "volume-label";
+        	volumeLabel.innerHTML = "<br><b>Volume: </b>"
+        	var volumeSlider = document.createElement("input");
+        	volumeSlider.type = "range";
+        	volumeSlider.min = 0;
+        	volumeSlider.max = 1;
+        	volumeSlider.step = 0.001;
+        	volumeSlider.value = 0;
+        	volumeSlider.style.width = "200px";
+        	volumeSlider.id = "volume-slider";
+        	audio.volume= e.music.Volume;
+        	volumeSlider.value = audio.volume;
+        	timeTracker.appendChild(pausePlay);
+        	if (audio.volume === 0) {
+            	audio.pause();
+            	pausePlay.innerHTML = "<b>Play</b>";  // Update the pause button text to "Play"
+        	}
+        	timeTracker.appendChild(shuffleButton);
+        	var buttonContainer = document.createElement("div");
+        	buttonContainer.style.display = "flex"; // Makes children inline
+        	buttonContainer.style.justifyContent = "space-between";
+        	skipButton.style.flex = "1"; // Makes it take up equal space
+        	skipButton.style.marginRight = "5px"; // Adds some space between the buttons
+
+        	loopButton.style.marginRight = "0px";
+
+        	buttonContainer.appendChild(skipButton);
+        	buttonContainer.appendChild(loopButton);
+
+        	timeTracker.appendChild(buttonContainer); // Add the container to timeTracker instead of individual buttons
+        	timeTracker.appendChild(positionDisplay);
+        	timeTracker.appendChild(timeSlider);
+        	timeTracker.appendChild(volumeLabel);
+        	timeTracker.appendChild(volumeSlider);
+        	updatePositionDisplay();
+        	function updatePositionDisplay() {
+            	positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+            	timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+        	}
+        	function changeTime() {
+            	positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+            	audio.currentTime = timeSlider.value * audio.duration;
+        	}
+        	updateVolume = event => {
+            	audio.volume = event.target.value;
+            	e.music.Volume=audio.volume;
+        	}
+        	setInterval(updatePositionDisplay, 1000);
+        	timeSlider.addEventListener("input", changeTime);
+        	volumeSlider.addEventListener("input", updateVolume)
+    	}
+
+	function newMusicPlayer(previousBgImage = null) {
+        	trackSel = document.createElement("div");
+        	trackSel.id = "trackSelParent";
+        	let z = `<br><br><br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#eed6a1;float:right;">`
+        	z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
+        	for (i in soundtracks) {
+            	if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+                	z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
+            	}
+        	}
+        	z += `</select></b><br><br>`
+            	// <label><input type="radio" name="option" value="option1">Option 1</label><br>
+        	for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+            	let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+            	let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
+            	z += b
+        	}
+        	z += "</div><br><br>"
+        	trackSel.innerHTML = z
+        	musicBox.appendChild(trackSel);
+        	Array.from(document.getElementById("trackSel").children).filter(f => {
+            	return f.tagName == "LABEL"
+        	}).map(f => f.children[0])[0].checked = true
+        	soundtrackSelector = document.getElementById("selectSoundtrack")
+        	soundtrackSelector.onchange = function() {
+            	let currentBgImage = document.getElementById("trackSel").style.backgroundImage;
+
+            	for (i in soundtracks) {
+                	if (soundtracks[i].name == soundtrackSelector.value) {
+                    	e.selectedSoundtrack = i;
+                    	break;
+                	}
+            	}
+            	e.music.shuffleEnabled = false;
+            	shuffledIndices = null;
+
+            	document.getElementById("trackSelParent").remove();
+            	newMusicPlayer(currentBgImage);  // Pass the current background image to the next function invocation.
+        	};
+        	var matches = document.querySelectorAll('.trackSelector');
+        	for (match in matches) {
+            	matches[match].onchange = function() {
+                	audio = $("#campaigntrailmusic")[0];
+                	audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+                	audio.currentTime = 0
+            	}
+        	}
+        	musicBox.children[2].loop = false
+        	musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+        	trackIndices = Array.from({length: soundtracks[e.selectedSoundtrack].tracklist.length}, (_, i) => i);
+
+        	musicBox.children[2].onended = function() {
+            	if (e.music.loopEnabled) {
+                	this.play();  // If loop is enabled, simply play the same track again
+            	} else {
+            	let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+            	let newSel;
+            	if (e.music.shuffleEnabled) {
+                	if (!shuffledIndices) {
+                    	shuffledIndices = shuffle(trackIndices.slice());
+                	}
+                	let currentIndex = shuffledIndices.findIndex(index => index === selected);
+                	if (currentIndex === shuffledIndices.length - 1) {
+                    	shuffledIndices = shuffle(trackIndices.slice());
+                    	currentIndex = -1;
+                	}
+                	newSel = shuffledIndices[currentIndex + 1];
+            	} else {
+                	newSel = selected + 1 === soundtracks[e.selectedSoundtrack].tracklist.length ? 0 : selected + 1;
+            	}
+            	let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                    	return f.tagName == "LABEL"
+                	}).map(f => f.children[0])
+            	buttons[newSel].click()
+            	}
+        	}
+
+        	for (w = 0; w < 7; w++) {
+          	document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+        	}
+        	generateTime();
+       	if (previousBgImage) {
+            	document.getElementById("trackSel").style.backgroundImage = previousBgImage;
+             	document.getElementById("timeTracker").style.backgroundImage = previousBgImage;
+        	}
+    	}
+    	clamp = function(a, max, min, overflow = true) {
+        	if (overflow) {
+            	return a > max ? min : a < min ? max : a;
+        	}
+        	return a > max ? max : a < min ? min : a;
+    	}
+    	var soundtracks = {
+  0: {
+    
+	name: "Opening Song",
+	tracklist: [
+	{
+    	name: "Holland 1945 (Neutral Milk Hotel)",
+    	url: "https://files.catbox.moe/nljl0g.mp3",
+	},
+	],
+  },
+
+1: {
+    
+	name: "Songs For Our Mymy",
+	tracklist: [
+	{
+    	name: "VOC (Marieke Lustenhouwer)",
+    	url: "https://files.catbox.moe/pkl745.mp3",
+	},
+{
+    	name: "Europapa (Joost Klein)",
+    	url: "https://files.catbox.moe/nxke5o.mp3",
+	},
+{
+    	name: "Jeremy (Pearl Jam)",
+    	url: "https://files.catbox.moe/0xx311.mp3",
+	},
+{
+    	name: "'N Vriend (Andre Hazes)",
+    	url: "https://files.catbox.moe/fn8k26.mp3",
+	},
+{
+    	name: "Oost-Indisch Vaarderslied (Camerata Trajectina)",
+    	url: "https://files.catbox.moe/ub1amh.mp3",
+	},
+{
+    	name: "Geuzenlied (Minikoraal, 3 October Vereening)",
+    	url: "https://files.catbox.moe/c5z9a1.mp3",
+	},
+	],
+  },
+
+
+2: {
+    
+	name: "Songs For Our Kiki",
+	tracklist: [
+	{
+    	name: "Sea Shanty 2 (Runescape OST)",
+    	url: "https://files.catbox.moe/7ciutt.mp3",
+	},
+{
+    	name: "Wellerman (Nathan Evans)",
+    	url: "https://files.catbox.moe/ofuiu8.mp3",
+	},
+{
+    	name: "Te Kaapren Veren (Jongens Van Jan De Witt)",
+    	url: "https://files.catbox.moe/h0k7mt.mp3",
+	},
+{
+    	name: "Weigh, Hey, & Up She Rises (The Irish Rovers)",
+    	url: "https://files.catbox.moe/c9moyr.mp3",
+	},
+{
+    	name: "De Zuiderzee (The Sunstreams)",
+    	url: "https://files.catbox.moe/21x9o0.mp3",
+	},
+{
+    	name: "Maid Of Amsterdam (The Roaring Trowmen)",
+    	url: "https://files.catbox.moe/dnm3bh.mp3",
+	},
+	],
+  },
+
+
+3: {
+    
+	name: "Songs For Our Coco",
+	tracklist: [
+	{
+    	name: "Island In The Sun (Weezer)",
+    	url: "https://audio.jukehost.co.uk/ND1w5K5F3lHGICbA9MsJgHFTU8gTJPVZ",
+	},
+{
+    	name: "Sarie Marais (Heino)",
+    	url: "https://files.catbox.moe/qw04qp.mp3",
+	},
+{
+    	name: "Vorentoe, Suid-Afrika!",
+    	url: "https://files.catbox.moe/xh862a.mp3",
+	},
+{
+    	name: "Shiny Happy People (R.E.M)",
+    	url: "https://files.catbox.moe/y4aiw0.mp3",
+	},
+{
+    	name: "Happy Together (The Turtles)",
+    	url: "https://audio.jukehost.co.uk/UFgRRpCixJuIfaJDu1kRm3as1vjl1cU7",
+	},
+{
+    	name: "In The Aeroplane Over The Sea (Neutral Milk Hotel)",
+    	url: "https://files.catbox.moe/6bx32j.mp3",
+	},
+	],
+  },
+
+
+4: {
+    
+	name: "Songs For Our Henk",
+	tracklist: [
+	{
+    	name: "Sweet Caroline (Neil Diamond)",
+    	url: "https://files.catbox.moe/i8qwdc.mp3",
+	},
+{
+    	name: "The Dutch Farmers Song (Brett Norman)",
+    	url: "https://files.catbox.moe/s8ve1s.mp3",
+	},
+{
+    	name: "Laet Ons Den Landman Loven (Folkcorn)",
+    	url: "https://files.catbox.moe/iqg9u3.mp3",
+	},
+{
+    	name: "Young Waters (Deidre)",
+    	url: "https://files.catbox.moe/1h50cw.mp3",
+	},
+{
+    	name: "Teenage Dirtbag (Wheatus)",
+    	url: "https://files.catbox.moe/vrn103.mp3",
+	},
+{
+    	name: "Hoor Je Hey Zingen Op De Straat?",
+    	url: "https://files.catbox.moe/t3y4fv.mp3",
+	},
+	],
+  },
+
+
+5: {
+    
+	name: "Ongezellig OST",
+	tracklist: [
+	{
+    	name: "Ouverture + Ik Ben Het Maar",
+    	url: "https://files.catbox.moe/qqzwcl.mp3",
+	},
+{
+    	name: "Schoolacaust + Alt Version",
+    	url: "https://files.catbox.moe/noqlnh.mp3",
+	},
+{
+    	name: "Coco + Other Versions",
+    	url: "https://files.catbox.moe/97ttg4.mp3",
+	},
+{
+    	name: "Mymy",
+    	url: "https://files.catbox.moe/6b3a8q.mp3",
+	},
+{
+    	name: "Stel Je Voor + Reprises",
+    	url: "https://files.catbox.moe/xlxfiq.mp3",
+	},
+{
+    	name: "Naar Huis + Reprise",
+    	url: "https://files.catbox.moe/qalarr.mp3",
+	},
+{
+    	name: "Pasfoto",
+    	url: "https://files.catbox.moe/utuvq4.mp3",
+	},
+{
+    	name: "Dit Jaar + Untermensch",
+    	url: "https://files.catbox.moe/htx7gm.mp3",
+	},
+{
+    	name: "Goedmorgen",
+    	url: "https://files.catbox.moe/jvhttu.mp3",
+	},
+{
+    	name: "Ik Ben Het Maar (Other Versions)",
+    	url: "https://files.catbox.moe/hyhc6n.mp3",
+	},
+{
+    	name: "Credits (Other Versions)",
+    	url: "https://files.catbox.moe/aycbob.mp3",
+	},
+	],
+  },
+
+
+  6: {
+	name: "Fanmade Songs",
+	tracklist: [
+	{
+    	name: "I'm Stuck... Underground (ChudGunner)",
+    	url: "https://files.catbox.moe/9crmz8.mp3",
+	},
+	{
+    	name: "It's Only Me (English Ongezellig AI Cover)",
+    	url: "https://files.catbox.moe/hh4ub3.mp3",
+	},
+{
+    	name: "Psycho Killer (Maya AI Cover)",
+    	url: "https://files.catbox.moe/x33ppw.mp3",
+	},
+{
+    	name: "Ongezellig 2022 (Zellig Party Archive)",
+    	url: "https://files.catbox.moe/alk8cw.mp3",
+	},
+{
+    	name: "Unmelodious (Funkgezellig OST)",
+    	url: "https://files.catbox.moe/5awm1z.mp3",
+	},
+{
+    	name: "Oranje Patriot (Running In The 60s)",
+    	url: "https://files.catbox.moe/dzbwt5.mp3",
+	},
+	],
+  },
+}
+
+    	newMusicPlayer()
+  	}
+
+      	function shuffle(array) {
+        	let currentIndex = array.length, temporaryValue, randomIndex;
+
+        	while (0 !== currentIndex) {
+            	randomIndex = Math.floor(Math.random() * currentIndex);
+            	currentIndex -= 1;
+
+            	temporaryValue = array[currentIndex];
+            	array[currentIndex] = array[randomIndex];
+            	array[randomIndex] = temporaryValue;
+        	}
+
+        	return array;
+    	}
+}
+
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "black"
+
+styling = document.createElement("style");
+document.head.appendChild(styling);
+
+styling.innerHTML = `
+#candidate_form h3 {
+    visibility: hidden;
+}
+
+#candidate_form h3::before {
+  content: "Please select your candidate:";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  visibility: visible;
+}
+
+#candidate_id, #running_mate_id, .person_description_window, .person_button {
+    z-index: 289;
+    position:relative;
+}
+
+#running_mate_form h3 {
+    visibility: hidden;
+}
+
+#running_mate_form h3::before {
+  content: "Please select your party:";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  visibility: visible;
+}
+
+#candidate_summary ul li:nth-child(2),
+#candidate_summary ul li:nth-child(3), #running_mate_summary ul li:nth-child(2) {
+    display: none;
+}
+`
+
+let z = new MutationObserver((mutationsList, observer) => {
+    let runningMateSummary = document.querySelector("#running_mate_summary");
+    if (runningMateSummary && runningMateSummary.children[0].children[2].innerHTML != runningMateSummary.children[0].children[2].innerHTML.replaceAll("Home State", "Borough")) {
+        runningMateSummary.children[0].children[2].innerHTML = runningMateSummary.children[0].children[2].innerHTML.replaceAll("Home State", "Borough");
+    }
+});
+
+var element = document.getElementById('my-invisible-element');
+if(!element){
+function changeIntroDescription() {
+  introObserver.disconnect();
+
+  const introTitle = document.querySelector("#inner_window_1 h3");
+  const listItems = document.querySelectorAll("#inner_window_1 ul li");
+
+  if (introTitle) {
+    introTitle.textContent = "Do you have what it takes to win a Presidential Election?";
+  }
+
+  if (listItems) {
+    listItems.forEach(item => {
+      if (item.textContent.includes('candidate')) {
+        item.textContent = item.textContent.replace('candidate', 'party');
+      }
+      if (item.textContent.includes('states')) {
+        item.textContent = item.textContent.replace('states', 'provinces');
+      }
+      if (item.textContent.includes('Walk the fine line between appealing to your base and winning a majority of the votes.')) {
+        item.textContent = 'Walk the fine line between appealing to your base and winning a majority of the votes.';
+      }
+    });
+  }
+
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!introObserver){
+  var introObserver = new MutationObserver(changeIntroDescription);
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function modifyForm(){
+  modifiedFormobserver.disconnect();
+
+  const form = document.querySelector('form[name="game_type_selection"]');
+
+  if (form) {
+    const select = form.querySelector('select[name="game_type_id"]');
+    const h3 = form.querySelector('h3');
+    const option = select.querySelector('option[value="1"]');
+
+    if (option && option.textContent !== 'Default (Direct Vote)') {
+      option.textContent = 'Default (Direct Vote)';
+    }
+    if (select && select.querySelector('option[value="2"]')) {
+      const queryTwo = select.querySelector('option[value="2"]');
+      if (queryTwo) {
+        queryTwo.remove();
+      }
+    }
+    if (h3 && h3.textContent !== 'How would you like to determine the winner?') {
+      h3.textContent = 'How would you like to determine the winner?';
+    }
+  }
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!modifiedFormobserver){
+  var modifiedFormobserver = new MutationObserver(modifyForm);
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function changeOpponentSelectionDescription() {
+  selectionObserver.disconnect();
+
+  const opponentSelectionDescription = document.getElementById("opponent_selection_description_window");
+  
+  if (opponentSelectionDescription) {
+    opponentSelectionDescription.innerHTML = `<p><strong>Use the default method.</strong></p><p>The defeault method uses a direct election system. Every student gets one vote.</p><p>This method means every vote is worth the same. It also makes it very easy for one party/student to win a vote. On the other hand, it is nearly impossible for a single party/student to win a majority of the seats.</p>`;
+  }
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!selectionObserver){
+  var selectionObserver = new MutationObserver(changeOpponentSelectionDescription);
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateCandidateForm() {
+  formobserver.disconnect();
+  const heading = document.querySelector("#candidate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your candidate:";
+  }
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!formobserver){
+  var formobserver = new MutationObserver(updateCandidateForm);
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateRunningMateForm() {
+  runformobserver.disconnect();
+  const heading = document.querySelector("#running_mate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your party:";
+  }
+  runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!runformobserver){
+var runformobserver = new MutationObserver(updateRunningMateForm);
+runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+
+function removeCandidateSummary() {
+  sumobserver.disconnect();
+  const candidateSummary = document.querySelector("#candidate_summary");
+  if (candidateSummary) {
+    const ulList = candidateSummary.querySelector("ul");
+    if (ulList) {
+      candidateSummary.removeChild(ulList);
+    }
+  }
+  sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+if(!sumobserver){
+var sumobserver = new MutationObserver(removeCandidateSummary);
+sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+
+function updateHeader() {
+  var gameHeader = document.getElementsByClassName("game_header")[0];
+
+  if (gameHeader.getAttribute("id") !== "modifiedHeader") {
+    gameHeader.innerHTML = corrr;
+    gameHeader.style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    gameHeader.setAttribute("id", "modifiedHeader");
+  }
+}
+
+var headerobserver = new MutationObserver(updateHeader);
+headerobserver.observe(document.documentElement, { childList: true, subtree: true });
+
+var invisibleElement = document.createElement('div');
+invisibleElement.style.display = 'none';
+invisibleElement.id = 'my-invisible-element';
+document.body.appendChild(invisibleElement);
+}
+
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: #F7AB6F;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: #F7AB6F;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: #cea669;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+quotes = ["''Ga je mijn maagdeneiland koloniseren?'' ~ Maya Schoppenboer", "''Ik, Ik, had het ook over de slavernij...'' ~ Mymy Schoppenboer", "''Ik doe een scholocaust!'' ~ Mymy Schoppenboer", "''Mymy, dit is niet Amerika.'' ~ Vera Persijn", "''Weekdieren liefde in het oude Japan.'' ~ Coco Schoppenboer", "''Wat, zijn jullie mongolen of zo?'' ~ Vera Persijn","''Japsterdam. Waar ligt Japsterdam?'' ~ Vera Persijn", "[schreeuwt in Japsterdams]","Coco heeft niets verkeerds gedaan.", "Maya heeft geen autisme.","Maya is boos.", "''Je bent een kerngezonde, vitale... autist.'' ~ Mymy Schoppenboer", "''Ik heb geen autisme, ik heb ADD!'' ~ Maya Schoppenboer","''Dat was heel erg racistisch.'' ~ Coco Schoppenboer", "''Belgen zijn geen ras!'' ~ Mymy Schoppenboer", "[scheldt in Afrikaans]", "''Liever geen vrienden dan geen ouders.'' ~ Maya Schoppenboer", "Ik ben het maar...", "''Oh my lord. Ongezellig is such a gem.'' ~ Nigel Farage", "''We zamelen geld in voor kinderen in Somalië.'' ~ Kiki", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>THE ONGEZELLIG TRAIL</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#a1430e",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#000000",
+  "description_background_color": "#eed6a1",
+  "main_color": "#c99751",
+  "secondary_color": "#a1430e",
+ "ui_text_color": "#ffffff"
+}
+
+HistHexcolour=["#efbe76","#e79241","#201a1a","#404158"];
+    HistName=[" Coco Schoppenboer-Potgieter"," Mymy Schoppenboer"," Kiki The Pirate"," Henk The Weirdo"];
+    HistEV=[10,7,4,2];
+    HistPV=["10","7","4","2"];
+    HistPVP=["43.4%","30.4%","17.3%","8.6%"];
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+  credits = function() {
+    credits = ["CREDITS", "This code 1 was made by...", "", "C0SM0, for the writing & coding.", "Various codes made by DecstarG, of course.", "Show & characters belong to Studio Massa.", "Some codes taken from 2023 Netherlands, Animal Crossing Mayoral Election, 2008 Spongebob, 1972 PWH, & 1864." , "Some writing from 2023 Netherlands cause I'm so FUCKING LAZY TO WRITE.", "Featuring art from Studio Massa, Cam, Project ROY, LidlyArts, and much more I forgot.", "", "Big thanks for Studio Massa for the show & characters. I love this show so much."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #F7AB6F;
+  }
+  a:-webkit-any-link {
+    color: #8b421a;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>Hallo, allemaal! Welcome to <b><span style="color: #F7AB6F;">The Ongezellig Trail</span></b>!</li><li>Play as either <b><span style="color: #e79241;">Mymy</span></b>, <b><span style="color: #201a1a;">Kiki</span></b>, <b><span style="color: #efbe76;">Coco</span></b>, or <b><span style="color: #404158;">Henk</span></b>, and find out if you can win the election for Class President.</li><li>You will answer questions about your platform and positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both classwide and in individual people.</li><li>Walk the fine line between appealing to your base and winning a majority of the votes.</li><li>Additionally, the game contains Choose Your Own Adventure elements, secret endings and achievements.</li><li>This mod is based off of the Dutch indie web show "Ongezellig" by Studio Massa.</li>`;
+document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 1em 0 !important;padding-top: 0.5em !important;}", 0);
+document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 1em .7em !important;padding-top: 0.3em !important;}", 0);
+document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}", 0);
+
+campaignTrail_temp.achievements = {
+    "March of the Stroopwafels" : {
+      "image" : "https://files.catbox.moe/snm8r1.jpg",
+      "description" : "As Mymy, win in a landslide.",
+      "cannotBeCheated" : true
+    },
+    "The Flying Dutchman" : {
+      "image" : "https://files.catbox.moe/gfvw7y.jpg",
+      "description" : "As Kiki, win in a landslide.",
+      "cannotBeCheated" : true
+    },
+    "Coconut" : {
+      "image" : "https://files.catbox.moe/4nss66.jpg",
+      "description" : "As Coco, win in a landslide.",
+      "cannotBeCheated" : true
+    },
+    "HENKslide" : {
+      "image" : "https://files.catbox.moe/72g5i2.png",
+      "description" : "As Henk, win in a landslide.",
+      "cannotBeCheated" : true
+    },
+    "Japsterdam" : {
+      "image" : "https://files.catbox.moe/cctmd5.jpeg",
+      "description" : "As Mymy, win the vote of Vera.",
+      "cannotBeCheated" : true
+    },
+    "Feeling Nice" : {
+      "image" : "https://files.catbox.moe/9enny3.jpg",
+      "description" : "As Coco, drop out and endorse any candidate.",
+      "cannotBeCheated" : true
+    },
+    "Buccaneer Bests the Bastard" : {
+      "image" : "https://files.catbox.moe/p1ksny.webp",
+      "description" : "As Kiki, challenge Mymy to a duel... & win.",
+      "cannotBeCheated" : true
+    },
+    "Im Still Standing" : {
+      "image" : "https://files.catbox.moe/eaiugo.jpg",
+      "description" : "As Henk, see the collapse of three campaigns.",
+      "cannotBeCheated" : true
+    },
+    "Dit is NIET Amerika" : {
+      "image" : "https://files.catbox.moe/6x4m3y.jpg",
+      "description" : "As Mymy, force Vera to cancel the election.",
+      "cannotBeCheated" : true
+    },
+    "Ive Never Met a Nice South African" : {
+      "image" : "https://files.catbox.moe/06mxq4.jpg",
+      "description" : "As Coco, lose the votes of all of your band mates.",
+      "cannotBeCheated" : true
+    },
+    "Ik Ben Het Maar" : {
+      "image" : "https://files.catbox.moe/qar59k.jpg",
+      "description" : "Achieve the true ending.",
+      "cannotBeCheated" : true
+    }
+    }
+
+
