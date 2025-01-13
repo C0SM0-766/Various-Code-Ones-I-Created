@@ -1,0 +1,666 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#161b2f";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#313757";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#000000";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/iiucq8.png)"
+
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "white"
+
+$("#game_window")[0].style.borderColor = "#161b2f"
+
+$(".container")[0].style.border = ".2em solid #161b2f"
+            document.getElementById("header").src = "https://files.catbox.moe/u92n75.jpg";
+
+            document.body.background = "https://files.catbox.moe/tedcre.png";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":20,"fields":{"year":2016,"summary":"Donald Trump and his cronies have put our American democracy in a chokehold. A free country into one controlled by fascists, a flawed democracy to a hybrid regime. The Constitution has been destroyed to fit the needs of the Republican Machine as it grows day by day, ever so slightly consuming and destroying the brains of the American public.<br><br>The Resistance decides to fight Trump at his own game. Four former Presidents come together and fight to keep democracy alive. Despite their policy differences, Barack Obama, Joe Biden, George W. Bush, & Bill Clinton have decided to all put their hats in the ring in the fight against the president.<br><br>The American people had had enough. Enough of being their neck stepped on by the hobnail boot the Donald wears. Welcome to <b>The Resistance.</b>","image_url":"https://files.catbox.moe/lj9nld.jpg","winning_electoral_vote_number":270,"advisor_url":"https://files.catbox.moe/x9fgyz.jpg","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":20,"year":2016,"is_premium":0,"display_year":"2028 Resistance"}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":35,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"The","last_name":"Resistance","election":20,"party":"Democratic / Independent (The Sane)","state":"Global","priority":1,"description":"<li><b>Name: The Resistance</b></li><li><b>Party: Democratic / Independent (The Sane)</b></li><li><b>Ideology: Anti-Trumpism</b></li>Do you hear the people sing? Singing a song of angry men? It's the music of a people who will <b>never</b> be slaves again.<br><br>The Cult has tackled this country down into the abyss. As the Night increases over America, The Cult rises. The Cult amends the constitution and changes the law to prevent them from losing power. The Resistance rejects their views.<br><br>The Resistance is a big-tent coalition filled to the brim with liberals, progressives, corporations, populists, and blue dogs. All are united under one belief: Anti-Trumpism. The Resistance doesn't believe in party lines: it welcomes anyone who sees the Carnage that the Cult has placed upon us.<br><br>Kamala Harris' defeat in the 2024 election led to a chain reaction. Trump wanted to ensure that the Resistance wouldn't last–he altered the law to keep us down. The Resistance stands up and says \"no longer\".","color_hex":"#18258c","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/i5ee1e.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"The","last_name":"Cult","election":20,"party":"Republican (The Nazis)","state":"Florida","priority":1,"description":"<li><b>Name: The Cult</b></li><li><b>Republican (The Nazis)</b></li><li><b>Ideology: Fascism</b></li>The Cult praises the octogenarian in charge. When the Resistance has an old man, they throw everything at him. When the Resistance tells the truth, they turn it into a lie. Since the days of McCain and Romney, the Republican party has turned into a reactionary conspiratorial party echoing the beliefs of the Alt-Right.<br><br>The Cult has mastered the art of brainwashing–the Republican party blindly following their king. Opportunists and reactionaries galore in the Grand Old Party. Authoritarian policies combined with a total lack of empathy towards minorities has made a fire the likes of which can't be extinguished. In the name of \"Making America Great Again\", the Cult has destroyed our liberty and our equality.<br><br>Their brainwashing tactics seem successful. Voter engagement seems to be soaring to new heights. Trump seems unstoppable. But it's just an illusion... hopefully.","color_hex":"#851313","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/x6nziz.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"Crazy","last_name":"Kooks","election":20,"party":"Various","state":"Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#4e2278","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"Barack","last_name":"Obama","election":20,"party":"Democratic","state":"Illinois","priority":1,"description":"<p>The charismatic and charming Barack Obama has been on this road before. The perfect agent for \"change\" in 2008 now holds the perfect agent for \"normalcy\". People remember fondly the times during the Obama years–a period where politics wasn't as divided and polarized as it is now. It's a fresh face of nostalgia to many. Obama hasn't lost his charm yet: people still love his speaking skills, attitude, and one-liners.<br><br>Obama knows his strengths and weaknesses, his supporters and haters. Thanks due to the Cult brainwashing our citizens, people have forgotten almost all of Obama's tenure except for Obamacare and... being black. Despite this, it's an opportunity for Barack to paint himself in a different light. Obama is a man who all true Americans can get behind and seems to be the Resistance's best bet to hold back the night.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/4udwoj.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>The charismatic and charming Barack Obama has been on this road before. The perfect agent for \"change\" in 2008 now holds the perfect agent for \"normalcy\". People remember fondly the times during the Obama years–a period where politics wasn't as divided and polarized as it is now. It's a fresh face of nostalgia to many. Obama hasn't lost his charm yet: people still love his speaking skills, attitude, and one-liners.<br><br>Obama knows his strengths and weaknesses, his supporters and haters. Thanks due to the Cult brainwashing our citizens, people have forgotten almost all of Obama's tenure except for Obamacare and... being black. Despite this, it's an opportunity for Barack to paint himself in a different light. Obama is a man who all true Americans can get behind and seems to be the Resistance's best bet to hold back the night.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"Joe","last_name":"Biden","election":20,"party":"Democratic","state":"Delaware","priority":1,"description":"<p>Joe Biden is tired. At 86 years old, Joe should've figured out he shouldn't be here. Living a quiet and peaceful life in retirement, Joe decided that he hasn't done enough. Despite pushback, Biden still continues to believe that he could've won the 2024 election, despite internal polling showing the exact opposite. Biden gave his entire adult life fighting for the common man, the state of Delaware, and the Democratic party.<br><br>Fragile and out of his mind, Biden selfishly decides to have another go at becoming the leader of the Resistance. As he trembles across the stage and sleeps at important events, he remembers his 2024 campaign: the debate, the attacks, the backstabbing. He believes that he was on the urge of a comeback. A cold took that all away. And so, Joe runs again, hoping to reclaim a job he once had.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/5fdpiq.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Joe Biden is tired. At 86 years old, Joe should've figured out he shouldn't be here. Living a quiet and peaceful life in retirement, Joe decided that he hasn't done enough. Despite pushback, Biden still continues to believe that he could've won the 2024 election, despite internal polling showing the exact opposite. Biden gave his entire adult life fighting for the common man, the state of Delaware, and the Democratic party.<br><br>Fragile and out of his mind, Biden selfishly decides to have another go at becoming the leader of the Resistance. As he trembles across the stage and sleeps at important events, he remembers his 2024 campaign: the debate, the attacks, the backstabbing. He believes that he was on the urge of a comeback. A cold took that all away. And so, Joe runs again, hoping to reclaim a job he once had.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"George W.","last_name":"Bush","election":20,"party":"Independent Republican","state":"Texas","priority":1,"description":"<p>George W. Bush doesn't belong here. In a movement considering people from the left and center, it seems like the worst possible choice to have the nominee be a NeoCon who lied to us about Afghanistan and Iraq. But the Democrats have earned an award: the party for woke and out-of-touch people. They say they feel... well, left out of the political process, treating them like products than voters.<br><br>That's where the strengths of George Bush shine. His iconic Bushisms have made him tied to the average American–his errors in his speeches made him look like he's of us. But anyone paying attention can see he isn't. A war criminal, no less, and still ideologically aligns with conservatives. Progressives risk revolt and turnout will crater into the ground. But perhaps a new realignment in Voter blocs could benefit Bush... or not.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/1mewxe.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>George W. Bush doesn't belong here. In a movement considering people from the left and center, it seems like the worst possible choice to have the nominee be a NeoCon who lied to us about Afghanistan and Iraq. But the Democrats have earned an award: the party for woke and out-of-touch people. They say they feel... well, left out of the political process, treating them like products than voters.<br><br>That's where the strengths of George Bush shine. His iconic Bushisms have made him tied to the average American–his errors in his speeches made him look like he's of us. But anyone paying attention can see he isn't. A war criminal, no less, and still ideologically aligns with conservatives. Progressives risk revolt and turnout will crater into the ground. But perhaps a new realignment in Voter blocs could benefit Bush... or not.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1007,"fields":{"first_name":"Bill","last_name":"Clinton","election":20,"party":"Democratic","state":"New York","priority":1,"description":"<p>Bill Clinton is a relic from a bygone era. His Third-Way views and the \"New Democrats\" have long been overshadowed by the rise of liberalism and progressivism. His slip-ups during the 2024 election has revealed that he has support among an entirely different coalition. He's a man like Fetterman–or perhaps he's just a man stuck in the 90s holding views for people in the 90s.<br><br>The moderates wail about the Resistance being too far to the left. Clinton rallies them up behind him. The man who was in charge when the prosperous Golden 90s were in full swing. A man from a simpler time. Clinton has been the target of many attacks: Monica, his wife Hillary, and... Epstein. But he's been through it all. He faced off against them, he'll do it again. But when decades of conservative propaganda is on your screen, people may believe the lies.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/hl8yvo.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Bill Clinton is a relic from a bygone era. His Third-Way views and the \"New Democrats\" have long been overshadowed by the rise of liberalism and progressivism. His slip-ups during the 2024 election has revealed that he has support among an entirely different coalition. He's a man like Fetterman–or perhaps he's just a man stuck in the 90s holding views for people in the 90s.<br><br>The moderates wail about the Resistance being too far to the left. Clinton rallies them up behind him. The man who was in charge when the prosperous Golden 90s were in full swing. A man from a simpler time. Clinton has been the target of many attacks: Monica, his wife Hillary, and... Epstein. But he's been through it all. He faced off against them, he'll do it again. But when decades of conservative propaganda is on your screen, people may believe the lies.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1008,"fields":{"first_name":"J̸̏ͅḭ̶̇m̴̺͛m̶͙̓y̵͇̅","last_name":"̶̮̊C̷͍̐a̸͙͑r̵͕̀t̷̝͗ḛ̴̓r̷̨̓","election":20,"party":"Democratic","state":"Georgia","priority":1,"description":"<p>By God, Jimmy Carter descended down from heaven. The Fountain of Youth has turned him once again into a strong man reminiscent of himself during his campaigns in 1976 and 1980. The public stands in awe, the delegates are in shock. \"How?\", the newscasters say. Jimmy Carter has come back from the dead. The 39th president who died in 2024 is back under the Lord's command. Delegates, ever so slowly, pledge their support to him.<br><br>The Democratic National Convention is ecstatic. It's a message from God–and he's on the side of the Resistance. As Carter walks onto the stage of the DNC, he looks above to the Lord. He sent him hear for a reason.<br><br>Donald Trump must be stopped, for whatever it takes.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/t6l9i6.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>By God, Jimmy Carter descended down from heaven. The Fountain of Youth has turned him once again into a strong man reminiscent of himself during his campaigns in 1976 and 1980. The public stands in awe, the delegates are in shock. \"How?\", the newscasters say. Jimmy Carter has come back from the dead. The 39th president who died in 2024 is back under the Lord's command. Delegates, ever so slowly, pledge their support to him.<br><br>The Democratic National Convention is ecstatic. It's a message from God–and he's on the side of the Resistance. As Carter walks onto the stage of the DNC, he looks above to the Lord. He sent him hear for a reason.<br><br>Donald Trump must be stopped, for whatever it takes.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1009,"fields":{"first_name":"Donald","last_name":"Trump","election":20,"party":"Republican","state":"Florida","priority":1,"description":"<p>Crowned with a hair of gold, combined with an endless lust for power and ratings, Donald Trump is the embodiment of what America shouldn't be. Singlehandedly destroying America's soul, Trump has managed to accelerate far-right politics into the mainstream. Thanks to him, Trump has started a chain reaction where the west is falling to conservative governments everywhere, from Germany to the UK.<br><br>As he parades around the country with Satan, Lucifer, and Beelzebub, trying to get re-elected, the people watch him behind a flat-screen TV. They see his lies. They see the fascist ideology he tries to persuade you into believing. Some are gullible and stupid. They're easily swayed. Some aren't. But as long as the Resistance is even slightly competent, the Donald will be gone in January.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://files.catbox.moe/1con61.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Crowned with a hair of gold, combined with an endless lust for power and ratings, Donald Trump is the embodiment of what America shouldn't be. Singlehandedly destroying America's soul, Trump has managed to accelerate far-right politics into the mainstream. Thanks to him, Trump has started a chain reaction where the west is falling to conservative governments everywhere, from Germany to the UK.<br><br>As he parades around the country with Satan, Lucifer, and Beelzebub, trying to get re-elected, the people watch him behind a flat-screen TV. They see his lies. They see the fascist ideology he tries to persuade you into believing. Some are gullible and stupid. They're easily swayed. Some aren't. But as long as the Resistance is even slightly competent, the Donald will be gone in January.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1010,"fields":{"first_name":"Kook","last_name":"VPs","election":20,"party":"Various","state":"Various","priority":1,"description":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"Dummy Example is a veteran from Hell. He loves puppies and magic! Dummy Example will unite America!<br><br>New line<br><br>This is <b>bold</b> and this <i>italic</i>!","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1004}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1001,"running_mate":1005}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1001,"running_mate":1006}},{"model":"campaign_trail.running_mate","pk":2004,"fields":{"candidate":1001,"running_mate":1007}},{"model":"campaign_trail.running_mate","pk":2005,"fields":{"candidate":1001,"running_mate":1008}},{"model":"campaign_trail.running_mate","pk":2006,"fields":{"candidate":1002,"running_mate":1009}},{"model":"campaign_trail.running_mate","pk":2007,"fields":{"candidate":1003,"running_mate":1010}}];
+
+var element = document.getElementById('my-invisible-element');
+if(!element){
+function changeIntroDescription() {
+  introObserver.disconnect();
+
+  const introTitle = document.querySelector("#inner_window_1 h3");
+  const listItems = document.querySelectorAll("#inner_window_1 ul li");
+
+  if (introTitle) {
+    introTitle.textContent = "Do you have what it takes to reclaim America's Soul?";
+  }
+
+  if (listItems) {
+    listItems.forEach(item => {
+      if (item.textContent.includes('candidate')) {
+        item.textContent = item.textContent.replace('candidate', 'party');
+      }
+      if (item.textContent.includes('states')) {
+        item.textContent = item.textContent.replace('states', 'provinces');
+      }
+      if (item.textContent.includes('Walk the fine line between appealing to your base and winning a majority of the votes.')) {
+        item.textContent = 'Walk the fine line between appealing to your base and winning a majority of the votes.';
+      }
+    });
+  }
+
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!introObserver){
+  var introObserver = new MutationObserver(changeIntroDescription);
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function modifyForm(){
+  modifiedFormobserver.disconnect();
+
+  const form = document.querySelector('form[name="game_type_selection"]');
+
+  if (form) {
+    const select = form.querySelector('select[name="game_type_id"]');
+    const h3 = form.querySelector('h3');
+    const option = select.querySelector('option[value="1"]');
+
+    if (option && option.textContent !== 'Default (Winner-Take-All)') {
+      option.textContent = 'Winner-Take-All)';
+    }
+    if (select && select.querySelector('option[value="2"]')) {
+      const queryTwo = select.querySelector('option[value="2"]');
+      if (queryTwo) {
+        queryTwo.remove();
+      }
+    }
+    if (h3 && h3.textContent !== 'Select your game mode.') {
+      h3.textContent = 'Select your game mode.';
+    }
+  }
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!modifiedFormobserver){
+  var modifiedFormobserver = new MutationObserver(modifyForm);
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function changeOpponentSelectionDescription() {
+  selectionObserver.disconnect();
+
+  const opponentSelectionDescription = document.getElementById("opponent_selection_description_window");
+  
+  if (opponentSelectionDescription) {
+    opponentSelectionDescription.innerHTML = `<p><strong>Use the default method of allocating electoral votes for each state.</strong></p><p>In the vast majority of cases, states use a winner-take-all method. For instance, if Candiate A defeats Candidate B in a state, worth 20 electoral votes, Candidate A will usually win all 20 votes.</p><p>This method tends to concentrate the election into a handful of swing states. It also makes it difficult for third-party candidates to win electoral votes. On the other hand, it is easier for a single candidate to gain an overall majority of the electoral votes.</p>`;
+  }
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!selectionObserver){
+  var selectionObserver = new MutationObserver(changeOpponentSelectionDescription);
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateCandidateForm() {
+  formobserver.disconnect();
+  const heading = document.querySelector("#candidate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your movement:";
+  }
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!formobserver){
+  var formobserver = new MutationObserver(updateCandidateForm);
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateRunningMateForm() {
+  runformobserver.disconnect();
+  const heading = document.querySelector("#running_mate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your candidate:";
+  }
+  runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!runformobserver){
+var runformobserver = new MutationObserver(updateRunningMateForm);
+runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+
+function removeCandidateSummary() {
+  sumobserver.disconnect();
+  const candidateSummary = document.querySelector("#candidate_summary");
+  if (candidateSummary) {
+    const ulList = candidateSummary.querySelector("ul");
+    if (ulList) {
+      candidateSummary.removeChild(ulList);
+    }
+  }
+  sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+if(!sumobserver){
+var sumobserver = new MutationObserver(removeCandidateSummary);
+sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+
+function updateHeader() {
+  var gameHeader = document.getElementsByClassName("game_header")[0];
+
+  if (gameHeader.getAttribute("id") !== "modifiedHeader") {
+    gameHeader.innerHTML = corrr;
+    gameHeader.style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    gameHeader.setAttribute("id", "modifiedHeader");
+  }
+}
+
+var headerobserver = new MutationObserver(updateHeader);
+headerobserver.observe(document.documentElement, { childList: true, subtree: true });
+
+var invisibleElement = document.createElement('div');
+invisibleElement.style.display = 'none';
+invisibleElement.id = 'my-invisible-element';
+document.body.appendChild(invisibleElement);
+}
+
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: #6fb3f7;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: #6fb3f7;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: #6fb3f7;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+quotes = ["", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>THE RESISTANCE</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#161b2f",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#313757",
+  "main_color": "#000000",
+  "secondary_color": "#161b2f",
+ "ui_text_color": "#ffffff"
+}
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+  credits = function() {
+    credits = ["CREDITS", "This Code 1 was made by...", "", "C0SM0, for the writing and coding.", "Metheguy on discord for the banner and for the orignal mod idea.", "", "DecStarG for various codes, of course.", "Thatchmaster for the soundtrack code.", "Some other codes taken from 1864 and 2023 Netherlands.", "", "Inspired by 2032 Swan Song by Naimina OS."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>Welcome to <b><span style="color: #161b2f;">The Resistance.</span></b></li><li>An alternate 2028 election where various former presidents take on Dictator Donald Trump.</li><li>You will answer questions about The Resistance's platform and positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, both nationwide and in individual states.</li><li>Walk the fine line between appealing to your base and winning a majority of the votes.</li><li>Additionally, the game contains Choose Your Own Adventure elements, secret endings and achievements.</li><li>Get ready to fight for your freedom and for the right to be equal.</li>`;
+document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 1em 0 !important;padding-top: 0.5em !important;}", 0);
+document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 1em .7em !important;padding-top: 0.3em !important;}", 0);
+document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}", 0);
+
+// Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "Uprising",
+      "Muse",
+      "https://files.catbox.moe/7q3tyv.jpg",
+      "https://files.catbox.moe/ihn8md.mp3"
+    );
+    
+    const song2 = new Song(
+      "The Resistance",
+      "Skillet",
+      "https://files.catbox.moe/a8nbcs.jpg",
+      "https://files.catbox.moe/yn0axe.mp3"
+    );
+  
+    const song3 = new Song(
+      "Point Of No Return",
+      "Starset",
+      "https://files.catbox.moe/qjoeqa.png",
+      "https://files.catbox.moe/89ccrj.mp3"
+    );
+  
+    const song4 = new Song(
+      "Living In The 20s",
+      "Green Day",
+      "https://files.catbox.moe/dploa5.jpg",
+      "https://files.catbox.moe/ipb503.mp3"
+    );
+  
+    const song5 = new Song(
+      "America Has A Problem",
+      "Beyoncé (Ft. Kendrick Lamar)",
+      "https://upload.wikimedia.org/wikipedia/en/f/f1/Beyonc%C3%A9_-_America_Has_a_Problem.png",
+      "https://files.catbox.moe/yunbs8.mp3"
+    );
+  
+    const song6 = new Song(
+      "Bulls On Parade",
+      "Rage Against The Machine",
+      "https://files.catbox.moe/spk9qr.jpg",
+      "https://files.catbox.moe/asqhpk.mp3"
+    );
+  
+    const song7 = new Song(
+      "Mein Trumpf",
+      "Millions Of Dead Cops",
+      "https://files.catbox.moe/hhblfg.jpg",
+      "https://files.catbox.moe/15oyfg.mp3"
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://i.imgur.com/BB1ejv6.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+  
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 1; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+      let currentVolume = 1; // Initial volume
+  
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+    });
+  
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #C9C9C9; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://i.imgur.com/Ok791w6.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+  
+    }
+    .is-vertical #volumeSlider {
+    width: 16px;
+    appearance: slider-vertical;
+  }
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+    
+  `;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
