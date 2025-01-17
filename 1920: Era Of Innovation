@@ -5,9 +5,9 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 1916,
             "summary": "<p>President Roosevelt, having shattered records with his unprecedented tenure, will stand as a towering figure in American history. His leadership during an era of international upheaval and his relentless drive for progressivism have left an indelible mark on the nation.<br><br>As the country approaches the dawn of the Roaring '20s, the people eagerly anticipate the emergence of new leadership to navigate the exhilarating and unpredictable times ahead.</p>",
-            "image_url": "https://imgur.com/vgKVYCw.jpg",
+            "image_url": "https://i.imgur.com/vgKVYCw.jpg",
             "winning_electoral_vote_number": 266,
-            "advisor_url": "https://imgur.com/UpHWHxh.jpg",
+            "advisor_url": "https://i.imgur.com/UpHWHxh.jpg",
             "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Books and Links</h4>A. Scott Berg - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0425270068/amhius20-20\" target=\"_blank\">Wilson</a></br>Arthur Link - <a href=\"B00350CVHM\" target=\"_blank\">Woodrow Wilson and the Progressive Era, 1910-1917</a></br><a href=\"https://presidentialcampaignselectionsreference.wordpress.com/overviews/20th-century/1916-overview/\" target=\"_blank\">Presidential Campaigns and Elections - 1916</a></br><a href=\"http://millercenter.org/president/biography/wilson-campaigns-and-elections\" target=\"_blank\">Woodrow Wilson's Campaigns</a></br><a href=\"http://articles.latimes.com/2005/oct/23/opinion/oe-shaffer23\" target=\"_blank\">The Great GOP Spat -- of 1916</a></br><a href=\"http://maxkade.iupui.edu/adams/chap8.html\" target=\"_blank\">German-Americans as Voters and Office-Seekers</a></br><a href=\"http://www.jstor.org/stable/1900319?seq=1#page_scan_tab_contents\">Woodrow Wilson, Irish-Americans, and the Election of 1916</a></br><a href=\"https://feminist.org/blog/index.php/2014/07/08/july-8-1916-alice-paul-pushes-presidential-nominee-to-support-suffrage/\" target=\"_blank\">July 8, 1916: Alice Paul Pushes Presidential Nominee to Support Suffrage</a>",
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
@@ -32,7 +32,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#f7e7ce",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
-            "image_url": "https://imgur.com/P5Dk76F.jpg",
+            "image_url": "https://i.imgur.com/P5Dk76F.jpg",
             "electoral_victory_message": "<h3>Henry Ford Wins Presidential Election in Historic Upset</h3><p>The New York Times<p>November 3, 1920<p>Detroit, MI - In a stunning turn of events, Henry Ford, the Democratic candidate, has emerged victorious in the 1920 presidential election, defeating General Leonard Wood, the Republican nominee. This historic upset marks a significant shift in the political landscape.</p>",
             "electoral_loss_message": "<h3>General Leonard Wood Wins Presidential Election in Resounding Victory</h3><p>The New York Times<p>November 3, 1920</p><p>New York, NY - General Leonard Wood, the Republican candidate, has secured a decisive victory in the 1920 presidential election, defeating Henry Ford, the Democratic nominee. This outcome reaffirms the nation’s confidence in experienced leadership and continuity, following the tenure of President Theodore Roosevelt.</p>",
             "no_electoral_majority_message": "<h3>Presidential Election Deadlock: Neither Ford Nor Wood Secures Electoral Majority</h3><p>The New York Times<p>November 3, 1920<p>Washington, D.C. - In a dramatic and unprecedented turn of events, the 1920 presidential election has ended without either candidate securing an electoral majority. Henry Ford, the Democratic nominee, and General Leonard Wood, the Republican candidate, have both fallen short of the required 266 electoral votes, plunging the nation into political uncertainty</p>",
@@ -55,7 +55,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#637c65",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://imgur.com/d21WTxC.jpg",
+            "image_url": "https://i.imgur.com/d21WTxC.jpg",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
@@ -124,7 +124,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#f7e7ce",
             "secondary_color_hex": "#90C0FF",
             "is_active": 0,
-            "image_url": "https://imgur.com/5nFR8DM.jpg",
+            "image_url": "https://i.imgur.com/5nFR8DM.jpg",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
@@ -327,9 +327,9 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#b81f29";
 
-document.getElementById("header").src = "https://imgur.com/yMeVAlC.jpg";
+document.getElementById("header").src = "https://i.imgur.com/yMeVAlC.jpg";
 
-document.body.background = "https://imgur.com/IQC1a0I.jpg";
+document.body.background = "https://i.imgur.com/IQC1a0I.jpg";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#b3912d!important;}</style>";
 
