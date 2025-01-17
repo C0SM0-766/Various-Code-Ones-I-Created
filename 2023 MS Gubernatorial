@@ -6,9 +6,9 @@ campaignTrail_temp.election_json = [
             "year": 2016,
             "display_year": "2023 Mississippi",
             "summary": "<p>By nearly every metric, Mississippi ranks at the bottom. The average lifespan is shorter than anywhere else in the country, the average income is lower, and the education system is struggling. To make matters worse, the capital, Jackson, recently experienced a traumatic water crisis, leaving residents without clean running water for days.<p>Perhaps this shouldn't come as a shock. Since the end of the Civil War, those in higher positions have largely neglected the state. Local politicians seem indifferent to improving the situation. Could a new figure emerge to bring about change?</p>",
-            "image_url": "https://imgur.com/Dnc7nTX.jpg",
+            "image_url": "https://i.imgur.com/Dnc7nTX.jpg",
             "winning_electoral_vote_number": 270,
-            "advisor_url": "https://imgur.com/MGB0xf8.jpg",
+            "advisor_url": "https://i.imgur.com/MGB0xf8.jpg",
             "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
             "has_visits": 1,
             "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
@@ -67,7 +67,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#3a54a3",
             "secondary_color_hex": null,
             "is_active": 1,
-            "image_url": "https://imgur.com/oZQ09OD.jpg",
+            "image_url": "https://i.imgur.com/oZQ09OD.jpg",
             "electoral_victory_message": "Mississippi Gov. Tate Reeves, a Republican, has lost his reelection bid to Brandon Presley, a Democrat and one of the state's three public service commissioners, according to the Associated Press. Despite Reeves' deep advantages as the incumbent candidate and being a staple in Mississippi politics known as one of the best fundraisers in state history, Presley's campaign proved more competitive than state Republicans anticipated. <p>Presley, a cousin of rock and roll legend Elvis, campaigned in all of the state's 82 counties. He criticized Reeves for refusing to expand Medicaid, arguing that it puts dozens of rural hospitals at risk of closure and leaves 300,000 Mississippians without health care. Presley received a $7 million cash infusion from the National Democratic Governors Association to boost his campaign, which ultimately led to his victory.",
             "electoral_loss_message": "Mississippi Gov. Tate Reeves, a Republican, has won reelection, according to the Associated Press.Reeves had deep advantages as the incumbent candidate. He's a staple in Mississippi politics and is known as one of the best fundraisers in state history. His fifth term in statewide office has been defined by a supermajority in both chambers of the state legislature and all statewide offices.<p>Reeves squared off against Brandon Presley, a Democrat and one of the state's three public service commissioners, in a race that was more competitive than state Republicans anticipated.<p>Presley – a cousin of the rock and roll legend Elvis – campaigned in all of the state's 82 counties. He criticized Reeves for refusing to expand Medicaid, which Presley argued puts dozens of rural hospitals at risk of closure and leaves 300,000 Mississippians without health care.<p>Presley received a $7 million cash infusion from the National Democratic Governors Association to boost his campaign. Even so, it was an uphill climb.",
             "no_electoral_majority_message": "'",
@@ -90,7 +90,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#3a54a3",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://imgur.com/laBakEW.jpg",
+            "image_url": "https://i.imgur.com/laBakEW.jpg",
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
@@ -185,13 +185,13 @@ $(".container")[0].style.backgroundColor = "#06144b";
 
 document.getElementById("header").src = "";
 
-document.body.background = "https://imgur.com/ACha42W.jpg";
+document.body.background = "https://i.imgur.com/ACha42W.jpg";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#dfa72b!important;}</style>";
 
 //#endcode
 
-bannerlist=["https://imgur.com/9ZgVW7X.jpg", "https://files.catbox.moe/xsg57y.jpeg"]
+bannerlist=["https://i.imgur.com/9ZgVW7X.jpg", "https://files.catbox.moe/xsg57y.jpeg"]
 document.getElementById("header").src = bannerlist[Math.floor((Math.random() * bannerlist.length))]
 RecReading=true
 
