@@ -5,9 +5,9 @@ campaignTrail_temp.election_json = [
         "fields": {
             "year": 2020,
             "summary": "<p>Tragedy has struck the Grand Old Party. Their beloved leader, Donald J. Trump was just slain in Butler, Pennsylvania at the hands of a rogue assassin. For the first time in years, the party is without leadership. What was supposed to be a time of jubilation for Republicans has now turned into a nightmare and a time for solace. The calm before the storm if you will. A time before the inevitable riots, protests, and flames that will engulf the nation once again.<p>However, many in party leadership have been left to sit and ponder. For the first time in decades the Republicans will have to bear the burden of an open convention. The late Donald's delegates have been released, and therefore can elect whomever they so chose.</p>",
-            "image_url": "https://imgur.com/dJSDOXx.jpg",
+            "image_url": "https://i.imgur.com/dJSDOXx.jpg",
             "winning_electoral_vote_number": 270,
-            "advisor_url": "https://imgur.com/VsKm59p.jpg",
+            "advisor_url": "https://i.imgur.com/VsKm59p.jpg",
             "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
             "has_visits": 1,
             "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
@@ -55,7 +55,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#c01a38",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 1,
-            "image_url": "https://imgur.com/6yAHj7J.jpg",
+            "image_url": "https://i.imgur.com/6yAHj7J.jpg",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
@@ -124,7 +124,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#c01a38",
             "secondary_color_hex": "#FFA0A0",
             "is_active": 0,
-            "image_url": "https://imgur.com/Rwv34JP.jpg",
+            "image_url": "https://i.imgur.com/Rwv34JP.jpg",
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
@@ -381,9 +381,9 @@ $("#game_window")[0].style.borderColor = "#ab192c"
 
 $(".container")[0].style.border = ".2em solid #ab192c"
 
-document.getElementById("header").src = "https://imgur.com/kpqqmVC.png";
+document.getElementById("header").src = "https://files.catbox.moe/gpdvr6.jpg";
 
-document.body.background = "https://imgur.com/GF8HAJD.jpg";
+document.body.background = "https://i.imgur.com/GF8HAJD.jpg";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#fefefe!important;}</style>";
 
