@@ -10,7 +10,8 @@ Over time, I generally got used to adding more and more codes, as well as adding
 
 ---------
 
-List of Code 1s
+**List of Code 1s Made and/or Edited**
+
 1992 Rock!
 Creation Date: January 23rd, 2024
 
