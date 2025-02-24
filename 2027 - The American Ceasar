@@ -1,0 +1,746 @@
+e = campaignTrail_temp;
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#212121";
+
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+            $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+            $(".container")[0].style.backgroundColor = "#000000";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/n8phjq.png)"
+
+$("#game_window")[0].style.borderColor = "#FFFFFF"
+
+$(".container")[0].style.border = ".2em solid #ffffff"
+            document.getElementById("header").src = "https://i.postimg.cc/SRbQ3KcZ/v0-h9yvg4viyfge1.png";
+
+            document.body.background = "https://www.colorhexa.com/000000.png";
+
+            e.election_json = [{"model":"campaign_trail.election","pk":20,"fields":{"year":2016,"summary":"<b>America is heading towards an oligarchy.</b><br><br>Bernie Sanders, Joe Biden. They've warned us. The rich are ever slowly using their immense wealth to pull the strings of the country. Donald Trump has been denied by the Supreme Court to run for a third term. He wasn't rich enough, it seems.<br><br>But now, <b>Elon Musk</b> and his cronies are strangling America by its neck. The Supreme Court altered the constitution to allow Elon to run as the \"Overseer\"–coded word for allowing him to become Big Brother. A Referendum is being held on November 2nd, 2027 to determine the future of the Republic.<br><br>America is marching towards an oligarchy, and half of the country is complacent on it. Complacent that Musk is quickly becoming <b>The American Ceasar.</b>","image_url":"https://i.postimg.cc/BZ51sWt8/v0-h9yvg4viyfge1.png","winning_electoral_vote_number":270,"advisor_url":"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/09/1200/675/emhofftrump.png?ve=1&tl=1","recommended_reading":"<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>","has_visits":1,"no_electoral_majority_image":"../static/images/2012-no-majority.jpg"}}];e.temp_election_list = [{"id":20,"year":2016,"is_premium":0,"display_year":"2027 - The American Ceasar"}];e.credits = "C0SM0";e.global_parameter_json = [{"model":"campaign_trail.global_parameter","pk":1,"fields":{"vote_variable":1.125,"max_swing":0.12,"start_point":0.94,"candidate_issue_weight":10,"running_mate_issue_weight":3,"issue_stance_1_max":-0.71,"issue_stance_2_max":-0.3,"issue_stance_3_max":-0.125,"issue_stance_4_max":0.125,"issue_stance_5_max":0.3,"issue_stance_6_max":0.71,"global_variance":0.01,"state_variance":0.005,"question_count":32,"default_map_color_hex":"#C9C9C9","no_state_map_color_hex":"#999999"}}];e.candidate_json = [{"model":"campaign_trail.candidate","pk":1001,"fields":{"first_name":"The","last_name":"Pro-Overseers","election":20,"party":"Elitist","state":"Texas","priority":1,"description":"<li><b>Name: Pro-Overseers</b></li><li><b>Position on Elon Musk: Supports</b></li><li><b>Campaign Strategist: Elon Musk</b></li><p>On one side, those who support Elon becoming the \"Overseer\". After Trump was decided unanimously by the Supreme Court that he couldn't run for a third term, Elon Musk decided to throw his hat in the ring. In the controversial case \"Musk V. United States\", the court decided that the Constitution left the term \"natural-born citizen\" vague and nonapplicable to Elon. And in terms of crisis, a person can run for \"Overseer\".<br><br>Now, Musk is creeping in becoming the new Ceasar, the next Mussolini. Already, Musk has been gaining endorsements from all of his rich cronies, as well as brainwashed conservatives such as Charlie Kirk.<br><br>The spirit of liberty is long dead. And on troubled times, people don't really care about freedom–only a return to normalcy.","color_hex":"#294a7c","secondary_color_hex":null,"is_active":1,"image_url":"https://i.postimg.cc/DynY15vJ/v0-h9yvg4viyfge1.png","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1002,"fields":{"first_name":"The","last_name":"Anti-Overseers","election":20,"party":"Populist","state":"United States","priority":1,"description":"<li><b>Name: Anti-Overseers</b></li><li><b>Position on Elon Musk: Opposes</b></li><li><b>Campaign Strategist: Kamala Harris</b></li><p>On the other side, those who are against Elon becoming Big Brother. After Trump & Elon's public feud between one another, Elon decided to reach even higher in American politics. Fighting the elites and the rich unite the right and left. The belief of a \"class war\" shows overlaps in all political parties. It's...unexpected to see a tankie and a redneck both voting against the richest man in the world.<br><br>Those who oppose Musk becoming dictator are a disorganized group of millions. The common man and a state governor of the opposing party are united under one phrase; \"No to Elon\".<br><br>May Brutus kill Ceasar once more.","color_hex":"#5d5c2d","secondary_color_hex":null,"is_active":1,"image_url":"https://files.catbox.moe/q8qj23.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1003,"fields":{"first_name":"","last_name":"Invalid/Blank Votes","election":20,"party":"None","state":"N/A","priority":1,"description":"","color_hex":"#696969","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":null,"candidate_score":1,"running_mate":false,"scrollable":false}},{"model":"campaign_trail.candidate","pk":1004,"fields":{"first_name":"Elon","last_name":"Musk","election":20,"party":"Republican","state":"Texas","priority":1,"description":"<i>Vox Populi, Vox Dei.</i><br><br>My God. Elon Musk has used enough of his power and pulled enough strings to barely convince the Supreme Court that he could run for President. Altering the constitution with his billions of dollars tied to his name, Musk now stands just a couple votes away from becoming de-facto leader of the Free World. One issue will bite him in the ass later on: his public fued against his former friend, Donald Trump.<br><br>Musk is closing in on the reaching the mountaintop. But for a person like him, the winds of the Resistance is very strong. But he's confident in his abilities to control what people can think, act, and believe.<br><br>His dad is against him, both parties are largely against him, Trump hates him. But when you're the richest man alive, does it really matter?","color_hex":"#ff0000","secondary_color_hex":null,"is_active":0,"image_url":"https://i.postimg.cc/jq4DS6Md/QXJBLRHJVQUVDB7-ETLHIZHGCAQ.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<i>Vox Populi, Vox Dei.</i><br><br>My God. Elon Musk has used enough of his power and pulled enough strings to barely convince the Supreme Court that he could run for President. Altering the constitution with his billions of dollars tied to his name, Musk now stands just a couple votes away from becoming de-facto leader of the Free World. One issue will bite him in the ass later on: his public fued against his former friend, Donald Trump.<br><br>Musk is closing in on the reaching the mountaintop. But for a person like him, the winds of the Resistance is very strong. But he's confident in his abilities to control what people can think, act, and believe.<br><br>His dad is against him, both parties are largely against him, Trump hates him. But when you're the richest man alive, does it really matter?","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"0"}},{"model":"campaign_trail.candidate","pk":1005,"fields":{"first_name":"Kamala","last_name":"Harris","election":20,"party":"Democratic","state":"California","priority":1,"description":"<i>You think you just fell out of a coconut tree?</i><br><br>There's many politicians and activists campaigning against Elon cosplaying as Big Brother. One of those is former Vice President Kamala Harris. Since her defeat in the 2024 election against President Trump, she has since won the California governorship and has won an NAACP award. Looking to get the nomination for the Democratic Party next year, Kamala's attention now turn towards Elon Musk and the Referendum.<br><br>Her former boss said in his farewell address, \"An oligarchy is taking shape in America\". She didn't forgot that. Knowing that the future of our democracy is at stake, Kamala decides to do everything in her power to prevent Musk from becoming de-facto dictator of all things political. By all means necessary, she has an important responsibility to this country and to the Free World–a responsibility to save the freedom of 350 million citizens. Sic Semper Tyrannis.","color_hex":"#0000ff","secondary_color_hex":null,"is_active":0,"image_url":"https://i.postimg.cc/QMF7BBHY/Kamala-Harris-53915644463.jpg","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<i>You think you just fell out of a coconut tree?</i><br><br>There's many politicians and activists campaigning against Elon cosplaying as Big Brother. One of those is former Vice President Kamala Harris. Since her defeat in the 2024 election against President Trump, she has since won the California governorship and has won an NAACP award. Looking to get the nomination for the Democratic Party next year, Kamala's attention now turn towards Elon Musk and the Referendum.<br><br>Her former boss said in his farewell address, \"An oligarchy is taking shape in America\". She didn't forgot that. Knowing that the future of our democracy is at stake, Kamala decides to do everything in her power to prevent Musk from becoming de-facto dictator of all things political. By all means necessary, she has an important responsibility to this country and to the Free World–a responsibility to save the freedom of 350 million citizens. Sic Semper Tyrannis.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"1"}},{"model":"campaign_trail.candidate","pk":1006,"fields":{"first_name":"A","last_name":"Pencil","election":20,"party":"N/A","state":"N/A","priority":1,"description":"<p>Just a pencil on which vote is considered valid or not.","color_hex":"#575757","secondary_color_hex":null,"is_active":0,"image_url":"","electoral_victory_message":"<h3>REAL PATRIOT DUMMY EXAMPLE SWEEPS</h3>","electoral_loss_message":"<h3>Fake News?</h3>","no_electoral_majority_message":"<h3>DUMMY EXAMPLE RETURNS TO HELL</h3>","description_as_running_mate":"<p>Just a pencil on which vote is considered valid or not.","candidate_score":1,"running_mate":true,"scrollable":false,"partner":"2"}}];e.running_mate_json = [{"model":"campaign_trail.running_mate","pk":2001,"fields":{"candidate":1001,"running_mate":1004}},{"model":"campaign_trail.running_mate","pk":2002,"fields":{"candidate":1002,"running_mate":1005}},{"model":"campaign_trail.running_mate","pk":2003,"fields":{"candidate":1003,"running_mate":1006}}];
+
+let blueBarHTML = `
+  <div id="pagelet_bluebar" data-referrer="pagelet_bluebar">
+    <div id="blueBarHolder">
+      <div id="blueBar">
+        <div class="loggedout_menubar_container">
+          <div class="clearfix loggedout_menubar">
+            <i class="fb_logo img sp_biahfe sx_374e4b"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+`;
+
+document.body.insertAdjacentHTML('afterbegin', blueBarHTML);
+
+let blueBarStyle = `
+  #blueBarHolder {
+    background-color: #000000; 
+    height: 60px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+
+  #blueBar .loggedout_menubar {
+    display: flex;
+    justify-content: left; 
+    align-items: left;
+    height: 100%;
+  }
+
+  #blueBar .loggedout_menubar_container {
+    padding: 5px 10px;
+  }
+
+  #blueBar .fb_logo {
+    height: 42px;
+    width: 813px;
+    align-items: left;
+    margin-left: 720px;
+    display: inline-block;
+    background-image: url('https://files.catbox.moe/hwsxvw.jpg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+`;
+
+let styleSheet = document.createElement("style");
+styleSheet.type = "text/css";
+styleSheet.innerText = blueBarStyle;
+document.head.appendChild(styleSheet);
+
+document.styleSheets[0].insertRule(".campaign_trail_start_emphasis{ background-color: #000000 !important; position: relative; z-index: 1 !important;}", 0);
+
+// Apply font, size, and overall structure with the requested styles
+
+var element = document.getElementById('my-invisible-element');
+if(!element){
+function changeIntroDescription() {
+  introObserver.disconnect();
+
+  const introTitle = document.querySelector("#inner_window_1 h3");
+  const listItems = document.querySelectorAll("#inner_window_1 ul li");
+
+  if (introTitle) {
+    introTitle.textContent = "Do you have what it takes to destroy the advancing American Oligarchy?";
+  }
+
+  if (listItems) {
+    listItems.forEach(item => {
+      if (item.textContent.includes('candidate')) {
+        item.textContent = item.textContent.replace('candidate', 'party');
+      }
+      if (item.textContent.includes('states')) {
+        item.textContent = item.textContent.replace('states', 'states');
+      }
+      if (item.textContent.includes('Walk the fine line between appealing to your base and winning a majority of the votes.')) {
+        item.textContent = 'Walk the fine line between appealing to your base and winning a majority of the votes.';
+      }
+    });
+  }
+
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!introObserver){
+  var introObserver = new MutationObserver(changeIntroDescription);
+  introObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function modifyForm(){
+  modifiedFormobserver.disconnect();
+
+  const form = document.querySelector('form[name="game_type_selection"]');
+
+  if (form) {
+    const select = form.querySelector('select[name="game_type_id"]');
+    const h3 = form.querySelector('h3');
+    const option = select.querySelector('option[value="1"]');
+
+    if (option && option.textContent !== 'Default (Direct Vote)') {
+      option.textContent = 'Direct Vote';
+    }
+    if (select && select.querySelector('option[value="2"]')) {
+      const queryTwo = select.querySelector('option[value="2"]');
+      if (queryTwo) {
+        queryTwo.remove();
+      }
+    }
+    if (h3 && h3.textContent !== 'Select your game mode.') {
+      h3.textContent = 'Select your game mode.';
+    }
+  }
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!modifiedFormobserver){
+  var modifiedFormobserver = new MutationObserver(modifyForm);
+  modifiedFormobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function changeOpponentSelectionDescription() {
+  selectionObserver.disconnect();
+
+  const opponentSelectionDescription = document.getElementById("opponent_selection_description_window");
+  
+  if (opponentSelectionDescription) {
+    opponentSelectionDescription.innerHTML = `<p><strong>Use the default method.</strong></p><p>In a Referendum, the decision is decided by raw popular vote only. When a decision wins a plurality (50%) of the votes, that decision is set to become law.</p><p>This method makes every vote equal to another.</p>`;
+  }
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!selectionObserver){
+  var selectionObserver = new MutationObserver(changeOpponentSelectionDescription);
+  selectionObserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateCandidateForm() {
+  formobserver.disconnect();
+  const heading = document.querySelector("#candidate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your position on Elon Musk:";
+  }
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!formobserver){
+  var formobserver = new MutationObserver(updateCandidateForm);
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+function updateRunningMateForm() {
+  runformobserver.disconnect();
+  const heading = document.querySelector("#running_mate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your campaign strategist:";
+  }
+  runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+if(!runformobserver){
+var runformobserver = new MutationObserver(updateRunningMateForm);
+runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+
+function removeCandidateSummary() {
+  sumobserver.disconnect();
+  const candidateSummary = document.querySelector("#candidate_summary");
+  if (candidateSummary) {
+    const ulList = candidateSummary.querySelector("ul");
+    if (ulList) {
+      candidateSummary.removeChild(ulList);
+    }
+  }
+  sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+if(!sumobserver){
+var sumobserver = new MutationObserver(removeCandidateSummary);
+sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+
+function updateHeader() {
+  var gameHeader = document.getElementsByClassName("game_header")[0];
+
+  if (gameHeader.getAttribute("id") !== "modifiedHeader") {
+    gameHeader.innerHTML = corrr;
+    gameHeader.style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    gameHeader.setAttribute("id", "modifiedHeader");
+  }
+}
+
+var headerobserver = new MutationObserver(updateHeader);
+headerobserver.observe(document.documentElement, { childList: true, subtree: true });
+
+var invisibleElement = document.createElement('div');
+invisibleElement.style.display = 'none';
+invisibleElement.id = 'my-invisible-element';
+document.body.appendChild(invisibleElement);
+}
+
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: #6fb3f7;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: #6fb3f7;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 240px;
+            background-color: #6fb3f7;
+            color: black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border: 1px solid black;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 240px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+quotes = ["''There is too much focus on past guilt, and we need to move beyond that.'' ~ Elon Musk", "''Vox Populi, Vox Dei.'' ~ Elon Musk", "''I'm not just MAGA. I'm dark, gothic MAGA.'' ~ Elon Musk", "''We will never reach Mars if Kamala wins.'' ~ Elon Musk", "''To err is human, to forgive divine.'' ~ Elon Musk", "''The Dems want to take your kids.'' ~ Elon Musk","''Great damage was done today to the public’s faith in the American legal system.'' ~ Elon Musk", "''Civilization is rare. We should do everything possible to save it.'' ~ Elon Musk","''Musk is a parasitic illegal immigrant.'' ~ Steve Bannon", "''Musk isn’t promoting liberty; he’s using his power to privilege many of the worst voices in American life.'' ~ David French","''Lmao at a billionaire earnestly trying to sell people on the idea that 'free speech' is actually a $8/mo subscription plan.'' ~ AOC", "''Nothing good ever happens after midnight.''", "''Today, an oligarchy is taking shape in America.'' ~ Joe Biden", "Literally 1984.", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>𝕋𝕙𝕖 𝔸𝕞𝕖𝕣𝕚𝕔𝕒𝕟 ℂ𝕖𝕒𝕤𝕒𝕣</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+HistHexcolour=["#294a7c","#5d5c2d","#f8f9fa","#000000"];
+    HistName=[" Pro-Overseers"," Anti-Overseers"," Invalid/Blank Votes"," -"];
+    HistEV=[25,25,0,0];
+    HistPV=["73,974,311","73,811,573","5,056,101","0"];
+    HistPVP=["50.06%","49.94%","3.31%","0%"];
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+  credits = function() {
+    credits = ["CREDITS", "This code 1 was made by...", "C0SM0, for most of the writing & coding.", "u/Melodic_Honeydew_314 for some writing, as well as the original inspiration.", "", "Some codes made by DecstarG & Thatchmaster.", "", "Various codes taken from 1972 PWH, 1864, 2012 Shattered, American Carnage, & 2023 Netherlands."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+document.getElementById("inner_window_1").children[1].innerHTML =  `<li>Welcome to <b><span style="color: #000000;">The American Ceasar.</span></b></li><li>A Referendum is being held to determine whether or not Elon Musk can become ''Overseer''.</li><li>You will answer questions as either Elon Musk or Kamala Harris to persuade the public into voting for or against Musk.</li><li>The answers will affect your position for better or worse, both nationwide and in individual states.</li><li>Walk the fine line between appealing to your base and winning a majority of the votes.</li><li>Additionally, the game contains Choose Your Own Adventure elements and secret endings.</li><li>God save America from the inevitable oligarchy.</li>`;
+
+document.getElementById('game_start').innerHTML = 'Lets Do This.';
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#000000",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#ffffff",
+  "description_background_color": "#212121",
+  "main_color": "#000000",
+  "secondary_color": "#212121",
+ "ui_text_color": "#ffffff"
+}
+
+// Select the node that will be observed for mutations
+  const windowsAdvisorTargetNode = document.getElementById("game_window");
+  
+  // Options for the observer (which mutations to observe)
+  const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+  
+  // Callback function to execute when mutations are observed
+  const callback = (mutationList, observer) => {
+      visitWindow = document.getElementsByClassName("overlay_window")[0];
+  
+      if(visitWindow == null || visitWindow.classList.contains("done")) {
+          return;
+      }
+      visitWindow.classList.add("done");
+      visitWindow.classList.add("window");
+      let titleBar = visitWindow.querySelector("h3");
+      titleBar.classList.add("title-bar");
+      titleBar.classList.add("title-bar-text")
+      titleBar.style.paddingLeft = "3px";
+  };
+  
+  class Song {
+    constructor(title, artist, coverLink, audioLink) {
+      this.title = title;
+      this.artist = artist;
+      this.coverLink = coverLink;
+      this.audioLink = audioLink;
+    }
+    getTitle() {
+      return this.title;
+    }
+  
+    getArtist() {
+      return this.artist;
+    }
+  
+    getCoverLink() {
+      return this.coverLink;
+    }
+  
+    getAudioLink() {
+      return this.audioLink;
+    }
+  }
+  
+  class Playlist {
+    constructor() {
+      this.songs = [];
+      this.currentSongIndex = 0;
+    }
+  
+    addSong(song) {
+      this.songs.push(song);
+    }
+  
+    getCurrentSong() {
+      return this.songs[this.currentSongIndex];
+    }
+  
+    playNext() {
+      this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+  
+    playPrevious() {
+      this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+  }
+  window.Playlist=Playlist
+  window.Song=Song
+  
+  function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  }
+  window.changePlaylist=changePlaylist
+  
+  function updateUI(playlist) {
+      const currentSong = playlist.getCurrentSong();
+      var player = document.getElementById("player");
+      player.querySelector("#cover").src = currentSong.getCoverLink();
+      player.querySelector("#title").textContent = currentSong.getTitle();
+      player.querySelector("#artist").textContent = currentSong.getArtist();
+  }
+  
+  window.updateUI=updateUI
+  
+  
+  function setupMusicPlayer() {
+    playlist = new Playlist();
+  
+  
+    const song1 = new Song(
+      "After Dark",
+      "Mr. Kitty",
+      "https://files.catbox.moe/9px36m.jpg",
+      "https://files.catbox.moe/uzsln6.mp3"
+    );
+    
+    const song2 = new Song(
+      "Rät",
+      "Penelope Scott",
+      "https://files.catbox.moe/yne5g6.jpg",
+      "https://audio.jukehost.co.uk/kwpc5s0IQl582rjb6pBMpPojw816aPJs"
+    );
+  
+    const song3 = new Song(
+      "Idiots Are Taking Over",
+      "NOFX",
+      "https://files.catbox.moe/fqoxoe.jpg",
+      "https://files.catbox.moe/1zdz8y.mp3"
+    );
+  
+    const song4 = new Song(
+      "Strange Days Are Here To Stay",
+      "Green Day",
+      "https://files.catbox.moe/dploa5.jpg",
+      "https://files.catbox.moe/irr1ny.mp3"
+    );
+  
+    const song5 = new Song(
+      "Control Alt-Right Delete",
+      "The Briggs",
+      "https://files.catbox.moe/aew495.jpg",
+      "https://files.catbox.moe/lysu8l.mp3"
+    );
+  
+    const song6 = new Song(
+      "Class Struggle",
+      "Dog Park Dissidents",
+      "https://files.catbox.moe/hdv9gk.jpg",
+      "https://files.catbox.moe/9daxti.mp3"
+    );
+  
+    const song7 = new Song(
+      "Feed The Machine",
+      "Poor Man's Poison",
+      "https://files.catbox.moe/561p8d.jpg",
+      "https://files.catbox.moe/idzl0a.mp3"
+    );
+  
+  
+    const song8 = new Song(
+      "Singularity",
+      "Bad History",
+      "https://files.catbox.moe/qjgy7j.jpg",
+      "https://files.catbox.moe/wmlj2w.mp3"
+    );
+  
+  
+    const song9 = new Song(
+      "Nazi Party In The USA",
+      "Patrick Fitzgerald",
+      "https://files.catbox.moe/rlugu4.jpg",
+      "https://files.catbox.moe/d3vgf7.mp3"
+    );
+  
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+    playlist.addSong(song8);
+    playlist.addSong(song9);
+  
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+  
+   const displayBox = document.createElement("div");
+  displayBox.id = "display-box";
+  
+  const coverElement = document.createElement("img");
+  coverElement.id = "cover";
+  displayBox.appendChild(coverElement);
+  
+  const infoContainer = document.createElement("div");
+  infoContainer.id = "info-container";
+  infoContainer.style.backgroundImage = "url('https://i.imgur.com/BB1ejv6.png')";
+  infoContainer.style.backgroundSize = "cover"; // Optional: adjust based on your needs
+  infoContainer.style.color = "white"; // Set text color to white
+  
+  const songInfo = document.createElement("div");
+  songInfo.id = "song-info";
+  
+  const titleElement = document.createElement("h3");
+  titleElement.id = "title";
+  titleElement.style.fontWeight = 'normal'; // Make it normal as per previous request
+  songInfo.appendChild(titleElement);
+  
+  const artistElement = document.createElement("p");
+  artistElement.id = "artist";
+  songInfo.appendChild(artistElement);
+  
+  infoContainer.appendChild(songInfo);
+  displayBox.appendChild(infoContainer);
+  
+  playerContainer.appendChild(displayBox);
+  
+  const controlsContainer = document.createElement("div");
+  controlsContainer.id = "controls-container";
+  
+  const controls = document.createElement("div");
+  controls.id = "controls";
+  
+  const prevButton = document.createElement("img");
+  prevButton.id = "prevButton";
+  prevButton.src = "https://i.imgur.com/imIqTEA.png";
+  prevButton.alt = "Previous";
+  controls.appendChild(prevButton);
+  
+  const playPauseButton = document.createElement("img");
+  playPauseButton.id = "playPauseButton";
+  playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the default play image
+  playPauseButton.alt = "Play/Pause";
+  controls.appendChild(playPauseButton);
+  
+  const nextButton = document.createElement("img");
+  nextButton.id = "nextButton";
+  nextButton.src = "https://i.imgur.com/7TtaN04.png";
+  nextButton.alt = "Next";
+  controls.appendChild(nextButton);
+  
+  controlsContainer.appendChild(controls);
+  
+  playPauseButton.addEventListener("click", function () {
+    const audio = document.getElementById("audio");
+    if (audio.paused) {
+      audio.play();
+      playPauseButton.src = "https://i.imgur.com/oQbfTxw.png"; // Set the pause image
+    } else {
+      audio.pause();
+      playPauseButton.src = "https://i.imgur.com/ttdoyfG.png"; // Set the play image
+    }
+  });
+  
+  nextButton.addEventListener("click", function () {
+    playlist.playNext();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+  prevButton.addEventListener("click", function () {
+    playlist.playPrevious();
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+  });
+  
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+  
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+  
+  
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+  
+   const volumeContainer = document.createElement("div");
+    volumeContainer.id = "volume-container";
+  
+  const volumeLabel = document.createElement("img");
+  volumeLabel.src = "https://i.imgur.com/0BJYsXt.png";
+  volumeLabel.alt = "Volume";
+  volumeContainer.appendChild(volumeLabel);
+  
+    const volumeSliderContainer = document.createElement("div");
+    volumeSliderContainer.classList.add("is-vertical");
+    volumeSliderContainer.style.marginLeft = "23%";
+    volumeSliderContainer.style.height = "126px";
+  
+    const volumeSlider = document.createElement("input");
+    volumeSlider.type = "range";
+    volumeSlider.id = "volumeSlider";
+    volumeSlider.min = 0;
+    volumeSlider.max = 9;
+    volumeSlider.step = 1;
+    volumeSlider.value = 1; // Initial volume
+  
+    volumeSliderContainer.appendChild(volumeSlider);
+  
+    const volumeDisplay = document.createElement("span");
+    volumeDisplay.id = "volume-display";
+    volumeDisplay.style.fontWeight = 'bold'; 
+    volumeDisplay.style.display = 'none';
+    volumeDisplay.textContent = "1";
+  
+    volumeContainer.appendChild(volumeSliderContainer);
+    volumeContainer.appendChild(volumeDisplay);
+  
+    playerContainer.appendChild(volumeContainer);
+  
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+  
+  
+    function updateProgressBar() {
+      const audio = document.getElementById("audio");
+      const progress = (audio.currentTime / audio.duration) * 100;
+      try{progressBar.value = progress}
+    catch{}
+    }
+  
+   
+    progressBar.addEventListener("input", function () {
+      const audio = document.getElementById("audio");
+      const seekTime = (progressBar.value / 100) * audio.duration;
+      audio.currentTime = seekTime;
+    });
+  
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.volume = 1/9;
+  
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+      // Play the next song when the current song ends
+      playlist.playNext();
+      updateUI(playlist);
+      audio.src = playlist.getCurrentSong().audioLink;
+      audio.play();
+    });
+  
+      let currentVolume = 1; // Initial volume
+  
+    volumeSlider.addEventListener("input", function () {
+      currentVolume = parseInt(volumeSlider.value, 10);
+      updateVolumeDisplay();
+      updateAudioVolume();
+    });
+  
+    function updateVolumeDisplay() {
+      volumeDisplay.textContent = currentVolume;
+    }
+  
+     function updateAudioVolume() {
+      const audio = document.getElementById("audio");
+      audio.volume = currentVolume / 9; // Set volume between 0 and 1
+    }
+  
+    document.body.appendChild(audio);
+    audio.play();
+  
+    // Update the UI when the page loads
+    updateUI(playlist);
+  }
+  
+  const style = document.createElement("style");
+  style.textContent = `
+  #player {
+      border: 3px solid #ffffff; /* Add your desired border style */
+      display: flex;
+      flex-direction: row;
+    height:191px;
+      background-Image: url("https://i.imgur.com/Ok791w6.png");
+    }
+  
+    #display-box {
+      display: flex;
+      align-items: center;
+      width: 50%;
+    }
+  
+    #cover {
+      width: 176px;
+    height:176px;
+    }
+  
+    #info-container {
+      display: flex;
+      flex-direction: row;
+      height:178px;
+    width:127px;
+    margin-top: 3px;
+    }
+  
+    #song-info {
+      width: 100%;
+    padding:5px;
+    }
+  
+    #controls-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      width:100%;
+    padding-top:15px;
+  
+    }
+    .is-vertical #volumeSlider {
+    width: 16px;
+    appearance: slider-vertical;
+  }
+  
+    #controls {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 80%;
+    }
+  
+    #progress-bar-container {
+      width: 100%;
+    }
+  
+    #progress-bar {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      margin-Top: 20px;
+    }
+    
+  `;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+//use this function directly or put it in an event listener to start the music on the press of a certain button
+setupMusicPlayer();
