@@ -114,4 +114,7 @@ Creation Date: January 13th, 2025
 *2027 - The American Ceasar*
 Creation Date: February 24th, 2025
 
+*1976 - The Death Of Honesty*
+Creation Date: May 25th, 2025
+
 And now, I'm creating/editing even more Code 1s...
