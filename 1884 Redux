@@ -334,12 +334,12 @@ $("#game_window")[0].style.borderColor = "#fcb514"
 
 $(".container")[0].style.border = ".2em solid #fcb514"
 
-document.getElementById("campaigntrailmusic").src = "https://files.catbox.moe/35dd0e.mp3"
+document.getElementById("campaigntrailmusic").src = "https://files.catbox.moe/twrx1t.mp3"
 document.getElementById("campaigntrailmusic").play()
 document.getElementById("modLoadReveal").style.display="show"
 document.getElementById("modloaddiv").style.display="show"
 
-quotes = ["We Love Him Most For The Enemies He Has Made.", "Public Office Is A Public Trust.", "James G. Blaine, Maine's Magnetic Man.", "''Burn this letter.'' ~ James G. Blaine", "''I have tried so hard to do the right.'' ~ Grover Cleveland", "WHATEVER YOU DO, TELL THE TRUTH.","A stream of light shall pierce the darkness of ignorance and man's oppression, until Liberty enlightens the world.", "''Party honesty is party expediency.'' ~ Grover Cleveland","There is no 'Republican,' no 'Democrat,' on the Fourth of July — all are Americans.'' ~ James G. Blaine", "Ma! Ma! Where's My Pa?","Blaine, Blaine, James G. Blaine, The Continental Liar from the State of Maine!", "If The Johnnies Get Into Power Again...", "Democrats, Good Democrats.", ]
+quotes = ["We Love Him Most For The Enemies He Has Made.", "Public Office Is A Public Trust.", "James G. Blaine, Maine's Magnetic Man.", "''Burn this letter.'' ~ James G. Blaine", "''I have tried so hard to do the right.'' ~ Grover Cleveland", "WHATEVER YOU DO, TELL THE TRUTH.","A stream of light shall pierce the darkness of ignorance and man's oppression, until Liberty enlightens the world.", "''Party honesty is party expediency.'' ~ Grover Cleveland","''There is no 'Republican,' no 'Democrat,' on the Fourth of July — all are Americans.'' ~ James G. Blaine", "Ma! Ma! Where's My Pa?","Blaine, Blaine, James G. Blaine, The Continental Liar from the State of Maine!", "If The Johnnies Get Into Power Again...", "Democrats, Good Democrats.", ]
 customquote = quotes[Math.floor((Math.random() * quotes.length))]
                                    
 corrr=`\n<h2>The Campaign Trail</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
