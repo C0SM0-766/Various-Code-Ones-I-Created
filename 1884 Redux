@@ -1,0 +1,364 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 5,
+        "fields": {
+            "year": 1896,
+            "summary": "<p>In the years following President Garfield's assassination, the Republican brand has been tarnished by continued graft and corruption, with them losing control of Congress and many state houses. The Democracy is most eager to end a twenty-four year Presidential drought, nominating the fresh-faced Crover Cleveland to face James G. Blaine, in a campaign increasingly marred by personal scandals.<br><br>• Cleveland will seek to bring his reputation for reforrn to a national stage, while defending himself from attacks on his character and avoiding conflict with Democratic bosses.<br><br>• Blaine must use his charisma to corner his opponent on issues like tariffs, while attempting to clear himself from long-time accusations of corruption, to ensure a Republican victory.",
+            "image_url": "https://files.catbox.moe/hx96xx.jpg",
+            "winning_electoral_vote_number": 224,
+            "advisor_url": "https://i.imgur.com/038ISRB.jpeg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">General Resources</h4>  <a href=\"http://www.uselectionatlas.org/RESULTS/national.php?f=0&year=1896\" target=\"_blank\">Final 1896 Results</a> <br> <a href=\"http://projects.vassar.edu/1896/1896home.html\" target=\"_blank\">1896 Election -- Overview and Political Cartoons</a> <br>  <h4>By the Candidates</h4>  William Jennings Bryan - <a href=\"http://books.google.com/books/about/The_first_battle.html?id=9k4TAAAAYAAJ\" target=\"_blank\">The First Battle: A story of the campaign of 1896</a> <br>  William Jennings Bryan - <a href=\"http://www.youtube.com/watch?v=Ydrq2-j92cU\" target=\"_blank\">\"Cross of Gold\" speech</a> <br>  William McKinley - <a href=\"http://www.youtube.com/watch?v=m6ZUneyU7Vo\" target=\"_blank\">\"Front Porch\" speech</a> <br>  <h4>The Panic of 1893</h4> <a href=\"http://www.youtube.com/watch?v=Qu_b6N-G1Os\" target=\"_blank\">The Panic of 1893 with Lawrence Reed</a> (video) <br> <a href=\"http://eh.net/encyclopedia/article/Whitten.panic.1893\" target=\"_blank\">The Depression of 1893</a>  <h4>Misceallany</h4> <a href=\"http://www.oyez.org/cases/1851-1900/1895/1895_210/\" target=\"_blank\">Plessy v. Ferguson</a> <br> <a href=\"http://www.stfrancis.edu/content/ba/ghkickul/stuwebs/btopics/works/PullmanStrike.htm\" target=\"_blank\">Pullman Strike of 1894</a> <br> <a href=\"http://en.wikipedia.org/wiki/Wilson%E2%80%93Gorman_Tariff_Act\" target=\"_blank\">Wilson-Gorman Tariff</a> <br> <a href=\"http://prosperityuk.com/2001/01/a-wonderful-wizard-of-oz-a-monetary-reform-parable/\" target=\"_blank\">The Wonderful Wizard of Oz - A Monetary Reform Parable</a>",
+            "has_visits": 0,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1884"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 20,
+        "fields": {
+            "first_name": "Grover",
+            "last_name": "Cleveland",
+            "election": 5,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Grover Cleveland is the Governor of New York, having first been elected in the wave election of 1882. Raised elsewhere in the Empire State, he settled in Buffalo, where he practiced law for several years; in 1881, he was elected Mayor and quickly became known for frequently vetoing bloated spending projects. He has continued this good work as Governor, earning a national reputation in the process for his reformist measures. With the backing of party figures like the aging Samuel J. Tilden, he won the Democratic nomination for President on the second ballot.<br><br>His record of dedicated honesty in public service makes for great contrast with the checkered past of Blaine, but has also damaged his relationship with machines like Tammany Hall. He has never served in Federal office and thus has not yet taken a side on heated tariff disputes of the day, which has served to his benefit. All this being said, there are whispers of improprieties in his past which may come back to haunt him if not dealt with properly...",
+            "color_hex": "#fbb70f",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/xgb65q.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1896 election.</h3><p>In spite of a real scare from Mr. Bryan, you have done your part to preserve good order in the United States.</p><p>None of that changes the fact that the country is facing a depression with millions out of work. Are you the man to lead the nation back into greatness?</p><p>Your first order of business will be tariff increases to stimulate industry, as well as a new commitment to the gold standard.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 1896 election.</h3><p>The titans of American industry were counting on you to put down this nonsense idea of free silver, and to protect them from the other whims of the populist Democrats. Your defeat will go down as one of the most ignominous in the history of American politics.</p><p>Bryan's victory stings all the more because after the inept Cleveland Administration, this election shouldn't have been close. Needless to say, your political career is over.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won a true nail-biter.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for you accordingly.</p><p>The important thing is that you won. Go about implementing your agenda accordingly, and pay no attention to Democrats and agitators who call for 'compromise' and 'conciliation'.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 21,
+        "fields": {
+            "first_name": "James G.",
+            "last_name": "Blaine",
+            "election": 5,
+            "party": "Republican",
+            "state": "Maine",
+            "priority": 2,
+            "description": "<p>James G. Blaine is a giant of Republican politics, for all the right and wrong reasons. Born in Pennsylvania before settling in Maine, Blaine was first elected to the U.S. House in 1862, becoming Speaker in 1869. Known among his colleagues for his parliamentary wit and magnetic personality, the \"Plumed Knight\" served in this capacity until 1875 before serving as a U.S. Senator, and later as Garfield's Secretary of State. He has finally won the Republican nomination for President on his third attempt, defeating the incumbent Chester A. Arthur in the process.<br><br>Blaine's corrupt dealings in public office and his foreign policy antics have, for years, been a great source of scandal, leading a number of independent-minded Republicans - or \"Mugwumps\" to support the candidacy of Grover Cleveland. If he is to win, he must make good use of his charisma, along with the many aces up his sleeve–if he does not, the Democracy will take charge of the White House for the first time in twenty-four years.",
+            "color_hex": "#193668",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/av1q4z.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1896 election.</h3><p>\"The Great Commoner\" will soon be President of the United States! Nobody with your political views has ever sniffed the Presidency, let alone won it, and with that in mind your supporters are rioting frenziedly in the streets. The sweetest speech of all will be your victory speech tomorrow in Lincoln, Nebraska. Prepare to enact your reform agenda and most importantly the free coinage of silver.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 1896 election.</h3><p>With all of the maneuvering, chicanery, and propoganda that the Republicans threw at you, it's amazing that you even had a chance.</p><p>Regardless of the outcome this time, you have built a legion of devoted followers who will support anything you do. If you play your cards right, you just might get another shot against McKinley in four years...</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately  for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for William McKinley.</p><p>Given the incredibly close nature of the election, you can certainly set your sights on a political comeback in 1900, if that is what you desire.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 22,
+        "fields": {
+            "first_name": "John St.",
+            "last_name": "John",
+            "election": 5,
+            "party": "Prohibition",
+            "state": "Kansas",
+            "priority": 3,
+            "description": "<p>John Palmer is a splinter candidate put forward by Democrats who favor the gold standard. He has little chance of winning the general election, but a very good chance of pulling enough votes from Bryan to cause his defeat in certain states. This is the goal of conservative Democrats who simply wish to hold out until 1900 and nominate a better candidate than the radical Bryan.</p>",
+            "color_hex": "#0fb007",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/John_St_John_1880.jpg",
+            "electoral_victory_message": "Congratulations!",
+            "electoral_loss_message": "Better luck next time!",
+            "no_electoral_majority_message": "Congratulations!",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 45,
+        "fields": {
+            "first_name": "Benjamin",
+            "last_name": "Butler/Others",
+            "election": 5,
+            "party": "Greenback/Various",
+            "state": "Massachusetts/Various",
+            "priority": 20,
+            "description": "n/a",
+            "color_hex": "#fb0f0f",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Benjamin_Franklin_Butler_Brady-Handy_%283x4b%29.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Garret Hobart is currently President of the New Jersey Senate and a popular political figure in the Mid-Atlantic region. Before entering politics, he was a successful corporate lawyer.</p><p>Hobart is a strong party man, and the Republicans will certainly be drawing the battle lines clearly if they go with this choice.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 47,
+        "fields": {
+            "first_name": "Thomas A.",
+            "last_name": "Hendricks",
+            "election": 5,
+            "party": "Democratic",
+            "state": "Indiana",
+            "priority": 21,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/ocodw4.jpeg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Thomas A. Hendricks is the former Governor of Indiana, having served from 1873 to 1877. Starting out as a prominent lawyer in central Indiana, he was first elected to Congress in 1850, losing his seat in 1854 in that year's wave election. He remained a top Indiana Democrat for several years afterwards, serving a term as Senator before being elected Governor in 1872, the first Northern Democrat to do so after the Civil War. Quickly gaining prominence, he was first nominated for the Vice Presidency on a ticket with Samuel J. Tilden in 1876.<br><br>After declining last time around for health reasons, the aging Hendricks is ready for another go at it, and his presence on the ticket means a lot to the many Democrats still bitter about the \"fraud\" of 1876. He is also in better relations with Tammany Hall than Cleveland, and it is believed he will be of great help on that front.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 46,
+        "fields": {
+            "first_name": "Henry G.",
+            "last_name": "Davis",
+            "election": 5,
+            "party": "Democratic",
+            "state": "West Virginia",
+            "priority": 22,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/7h9ctk.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Henry G. Davis is a former U.S. Senator from West Virginia, having served from 1871 to 1883. In his youth, he worked on the railroads, eventually cutting his teeth in the business world. During the Civil War, he helped the Union move supplies along the Baltimore and Ohio Railroad. Afterward, his business empire grew, and he was elected to his new state's House of Delegates before serving as Senator, eventually chairing the Appropriations Committee.<br><br>Davis' holdings in a number of industries have made him a millionaire, and it is thought that he could donate a healthy portion of his wealth to the campaign. While he has been influential in building up the Democratic Party in his state, and could help deliver it to Cleveland, his son-in-law and business partner, Stephen Elkins, is managing Blaine's campaign a conflict of interest which some worry could restrain him on multiple fronts.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 49,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Logan",
+            "election": 5,
+            "party": "Republican",
+            "state": "Illinois",
+            "priority": 24,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/yf3sg5.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>John Logan is a U.S. Senator from Illinois, having served in that role intermittently since 1871. Hailing from the southern region of his state known as \"Little Egypt,\" he was a Douglas Democrat in his early career, before becoming an outspoken Radical Republican after the Civil War. In his time in the House, and later the Senate, he has made a name for himself as a prominent Mid-American Stalwart. Due to his fellow spoilsmens' misgivings about Arthur, he made his own attempt at the Republican nomination this year.<br><br>The \"Black Eagle\" is certainly not the cleanest politician. While he is well liked by Negro leaders due to his hard work for civil rights, many believe his shamelessness in loudly \"waving the bloody flag\" may serve perceptions worse than ever at this juncture, even if it still stirs up sympathies in Union veterans, a large and powerful voting bloc.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50,
+        "fields": {
+            "first_name": "Benjamin",
+            "last_name": "Harrison",
+            "election": 5,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 25,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/6f88au.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Benjamin Harrison is a U.S. Senator from Indiana, having served in that role since 1881. A grandson of \"Tippecanoe\" himself, he was raised in Ohio before moving to Indianapolis to practice law, and quickly rose to the top of state Republican politics by 1860. During the Civil War, he followed General Sherman to Atlanta as the commander of the 70th Indiana Infantry. After the war, he remained active in politics, unsuccessfully running for Governor and heading the State Republican Committee before his election as a Senator.<br><br>Logan is the convention's first choice, but Blaine could intervene on Harrison's behalf. He is a spirited campaigner, and backed Blaine in 1880 as the head of Indiana's delegation. That said, having him on the ticket will not help with bringing Stalwarts back into the fold a hindrance in some states, even if it calms the nerves of reformers.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 26,
+        "fields": {
+            "candidate": 21,
+            "running_mate": 49
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 28,
+        "fields": {
+            "candidate": 21,
+            "running_mate": 50
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 24,
+        "fields": {
+            "candidate": 20,
+            "running_mate": 47
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 23,
+        "fields": {
+            "candidate": 20,
+            "running_mate": 46
+        }
+    }
+]
+
+campaignTrail_temp.credits = "u/astrohunch_o & Verbluffen. Code 1 exported by C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 30,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 5,
+        "candidates": [
+            20,
+            21,
+            22,
+            45
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 5,
+        "candidates": [
+            20,
+            21,
+            22,
+            45
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 5,
+        "year": 1896,
+        "is_premium": 0,
+        "display_year": "1884"
+    }
+]
+
+jet_data = {
+    "headerColor": "#222222",
+    "windowColor": "#f7f8ea",
+    "containerColor": "#d0debb",
+    "innerWindowColor": "#f7f8ea",
+    "bannerImageUrl": "https://files.catbox.moe/ngm3rh.jpg",
+    "backgroundImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Broadway-1885-APL.jpeg/2516px-Broadway-1885-APL.jpeg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#222222";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#f7f8ea";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#d0debb";
+
+document.getElementById("header").src = "https://files.catbox.moe/ngm3rh.jpg";
+
+document.body.background = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Broadway-1885-APL.jpeg/2516px-Broadway-1885-APL.jpeg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#f7f8ea!important;}</style>";
+
+$("#game_window")[0].style.borderColor = "#fcb514"
+
+$(".container")[0].style.border = ".2em solid #fcb514"
+
+document.getElementById("campaigntrailmusic").src = "https://files.catbox.moe/35dd0e.mp3"
+document.getElementById("campaigntrailmusic").play()
+document.getElementById("modLoadReveal").style.display="show"
+document.getElementById("modloaddiv").style.display="show"
+
+quotes = ["We Love Him Most For The Enemies He Has Made.", "Public Office Is A Public Trust.", "James G. Blaine, Maine's Magnetic Man.", "''Burn this letter.'' ~ James G. Blaine", "''I have tried so hard to do the right.'' ~ Grover Cleveland", "WHATEVER YOU DO, TELL THE TRUTH.","A stream of light shall pierce the darkness of ignorance and man's oppression, until Liberty enlightens the world.", "''Party honesty is party expediency.'' ~ Grover Cleveland","There is no 'Republican,' no 'Democrat,' on the Fourth of July — all are Americans.'' ~ James G. Blaine", "Ma! Ma! Where's My Pa?","Blaine, Blaine, James G. Blaine, The Continental Liar from the State of Maine!", "If The Johnnies Get Into Power Again...", "Democrats, Good Democrats.", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>The Campaign Trail</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = {
+  "header_color": "#222222",
+  "header_text_color": "#ffffff",
+  "description_text_color": "#000000",
+  "description_background_color": "#f7f8ea",
+  "main_color": "#d0debb",
+  "secondary_color": "#222222",
+ "ui_text_color": "#ffffff"
+}
+
+HistHexcolour=["#fbb70f","#193668","#0fb007","#fb0f0f"];
+    HistName=[" Grover Cleveland"," James G. Blaine"," John St. John"," Benjamin Butler/Others"];
+    HistEV=[219,182,0,0];
+    HistPV=["4,914,482","4,856,905","147,482","142,064"];
+    HistPVP=["48.8%","48.3%","1.5%","1.4%"];
+
+
+//#endcode
