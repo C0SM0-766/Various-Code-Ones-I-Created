@@ -120,4 +120,7 @@ Creation Date: May 25th, 2025
 *1884 Redux: The Public Be Crammed*
 Creation Date: May 31st, 2025
 
+*1936 - American Cabaret*
+Creation Date: June 1st, 2025
+
 And now, I'm creating/editing even more Code 1s...
