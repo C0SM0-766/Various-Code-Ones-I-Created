@@ -1,0 +1,1604 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 12,
+        "fields": {
+            "year": 1948,
+            "summary": "<p>America is on the brink of collapse. President Al Smith has done frustratingly little in terms of relieving the economy, causing unemployment to rise unchallenged. Smith's Catholicism and his ties to urban political machines have alienated progressives, protestants, farmers, and the elite. Paramilitary organizations galore while the streets continue to rot.<br><br>The Republicans look on with uncertainty. After the Old Guard has seemingly failed to be seen as any better as the Democrats, the Party takes a turn towards the far-right. The Hartford program has been adopted in 1934 with a platform of anti-catholicism, antisemitism, isolationism, and social corporatism. Moderates offer weak objections, including former president Hoover, as Charles Lindbergh takes the mantle.<br><br><button onclick='next0()'>More</button></p>",
+            "image_url": "https://files.catbox.moe/b47ool.png",
+            "winning_electoral_vote_number": 266,
+            "advisor_url": "https://clevelandhistorical.org/files/fullsize/54393e7ffc5f662636915ddfc168706e.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1948 Election Books and Links</h4>David McCullough - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B000FC0VVQ/amhius20-20\" target=\"_blank\">Truman</a></br>Andrew E. Busch - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0700618678/amhius20-20\" target=\"_blank\">Truman's Triumphs: The 1948 Election and the Making of Postwar America</a></br>David Pietruza - <a href=\"http://www.amazon.com/exec/obidos/ASIN/140276748X/amhius20-20\" target=\"_blank\">1948: Harry Truman's Improbable Victory and the Year that Transformed America</a></br>Richard Norton Smith - <a href=\"http://www.amazon.com/exec/obidos/ASIN/067141741X/amhius20-20\" target=\"_blank\">Thomas E. Dewey and His Times</a></br><a href=\"https://www.youtube.com/watch?v=rJABgG4YDwM\" target=\"_blank\">The 1948 Democratic Convention (newsreel footage)</a></br><a href=\"https://www.youtube.com/watch?v=ogg9YsxGQm4\" target=\"_blank\">The 1948 Republican Convention (newsreel footage)</a></br><a href=\"https://www.youtube.com/watch?v=LW2ae0Fznwg\" target=\"_blank\">The 1948 Election Explained (video)</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1960-no-majority-photo.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1936 - American Cabaret"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 116,
+        "fields": {
+            "first_name": "Charles",
+            "last_name": "Lindbergh",
+            "election": 12,
+            "party": "Republican",
+            "state": "New Jersey",
+            "priority": 1,
+            "description": "<p>Renowned aviator and celebrity Charles Lindbergh takes control of an increasingly radical party. With Americans still stuck in shantytowns & Hoovervilles, the Republicans have nominated a familiar and patriotic face to the average Joe. Lindbergh's most famous for flying over the Atlantic in the Spirit of Saint Louis. Getting drafted and winning over a field of candidates at the Republican National Convention, Lindbergh seems like the perfect candidate to rally people of all stripes under the famed pilot and the Grand Old Party.<br><br>But for Lindbergh, his political positions are guaranteed to alienate many. As a proponent and spokesperson of the America First Committee, Lindbergh has espoused antisemitic and isolationist rhetoric in various speeches. Moderates in all parties attack Lindbergh for his perceived radicalism. But as long as Lindbergh can overcome these challenges, there's nothing stopping Lucky Lindy from winning the presidency.",
+            "color_hex": "#3f4953",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/qd8gue.webp",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1948 Presidential Election.</h3><p>In a comeback for the ages, you defeated Thomas Dewey and shocked the nation. Prepare for another four years in the White House. There is much work to be done. You have an ambitious domestic agenda, and face a dangerous foreign situation with the Soviet Union. With a new Democratic majority in Congress, you can hopefully push for universal health care and a repeal of the Taft-Hartley Act.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1948 Presidential Election.</h3><p>It was always going to be a longshot after your first, tumultuous years in office. With luck, Dewey will defend the New Deal reforms and continue your foreign policy. As for you, who knows what history will say of your Presidency? You made some momentous decisions, but will ultimately leave office under a cloud of unpopularity. Perhaps you could serve another term in the Senate?</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>This leaves everyone in a bad situation. Segregationists from the South are demanding concessions before they will support a candidate, leaving the House deadlocked. Perhaps you can work out a deal with Dewey to circumvent this, based on who has the plurality of popular and electoral votes. It's always possible that one of you could serve as the other's Vice President.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 117,
+        "fields": {
+            "first_name": "Al",
+            "last_name": "Smith",
+            "election": 12,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 2,
+            "description": "<p>Four years ago, Al Smith defeated President Hoover in a rematch for the ages. Now, people are pissed at him for seemingly doing little in terms of fighting the great depression. Smith's fiscal conservatism–not drifting far enough from Hoover's economic agenda–has made the depression spiral out of control. His approval rating has crashed, and senators from dissident left parties have taken down the Democratic supermajority in the Senate.<br><br>Al Smith is not blind. He knows that he has very little time left to turn the Depression around and to destroy the paramilitary organizations that plague America's streets. To do this, he must take risky decisions, shift his policies leftward, and enact bold moves if he wants to prevent the blowout of his party, at any cost.<br><br>The clock is ticking for our first Catholic President...",
+            "color_hex": "#dea23a",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/yrklor.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1948 Presidential Election.</h3><p>You have become the first Republican to win the White House in 20 years. You face a dangerous foreign situation, and your domestic agenda is likely to be opposed by Democrats and conservatives alike. Conversely, the support and confidence of the Republican establishment is almost guaranteed. With luck, you might become the first two-term Republican since Ulysses Grant.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1948 Presidential Election.</h3><p>Pundits and political pros are shocked at your collapse. The second-guessing will likely come fast and furious from your party. The Republicans have now lost five Presidential elections in a row, and have no obvious standard-bearer to break the trend in 1952. As for your own career, you are still the Governor of New York, but it is pretty unlikely that you'll be given another chance to prove yourself on the national stage.</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>This leaves everyone in a bad situation. Segregationists from the South are demanding concessions before they will support a candidate, leaving the House deadlocked. Perhaps you can work out a deal with Truman to circumvent this, based on who has the plurality of popular and electoral votes. It's always possible that one of you could serve as the other's Vice President.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 118,
+        "fields": {
+            "first_name": "Huey",
+            "last_name": "Long",
+            "election": 12,
+            "party": "Share Our Wealth",
+            "state": "Louisiana",
+            "priority": 3,
+            "description": "<p>Populism. It has reached the hearts and minds of desperate voters who seek someone the blame for their problems. Across the country, people tune into demagogues who promise the world to them. One of them being the Kingfish himself, Huey Long. Senator Long is well known nationwide for his \"Share Our Wealth\" economic policy, his bombastic speeches, and general perception as an outsider treated unfairly by the establishment. His progressive policies and belief in general isolationism are just what America needs in this dire time.<br><br>Still, to the majority of the populace, he's still perceived as an authoritarian radical; a man wanting nothing more than to make America into an autocracy. It's no surprise that the upper classes despise him for wanting to take their money. Still, Long has a major grass-roots movement in his name, and his third party is guaranteed to make a large dent on the election.",
+            "color_hex": "#ce8dca",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/ugeajm.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 119,
+        "fields": {
+            "first_name": "Robert",
+            "last_name": "La Follette Jr.",
+            "election": 12,
+            "party": "Farmer–Labor",
+            "state": "Wisconsin",
+            "priority": 4,
+            "description": "<p>James B. Weaver, William Jennings Bryan, Robert La Follette. Farmers have long supported a charismatic populist who cares for the plight of the farmer and the laborer. In 1936, that man will be Robert La Follette Jr., the son of Fighting Bob himself. As apart of the La Follette Political Dynasty, Junior isn't a stranger to progressive politics. He has served diligently as a progressive advocate, succeeding his father in the senate. Like his father, Young Bob dislikes the two-party system, is an advocate for the laborer and the farmer, and supports noninterventionism.<br><br>Unfortunately for La Follette, he isn't the only progressive candidate in the running. Senator Long proves to be a major threat to La Follette's support, and Young Bob must deal with him constantly. Plus, as a third-party candidate, he must consolidate his support out west and limit his visits elsewhere. Hopefully Young Bob can overcome these challenges...",
+            "color_hex": "#a1d897",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/dhcylb.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 120,
+        "fields": {
+            "first_name": "Herbert",
+            "last_name": "Hoover",
+            "election": 12,
+            "party": "Independent Republican",
+            "state": "California",
+            "priority": 5,
+            "description": "<p>At the Republican National Convention, disgraced former president Herbert Hoover knew something was wrong. He quickly realized that the party he was under was shifting ever more to the far-right; it wasn't the party when he was president. Despite Lindbergh campaigning for Hoover in 1928, the two have seem to have fallen out. Now, Hoover tries to gather as many moderate voters as possible to send a message to Lindbergh: they do not approve of his radicalism.<br><br>Hoover's base of support is in New England, where many traditional moderate Republicans still have a favorable opinion of him. Hoover can either branch out nationwide, can focus on appealing to unsatisfied Lindbergh voters, or try to right his wrongs from his presidency. Whatever it is, Hoover is seen as nothing more but a spoiler candidate.",
+            "color_hex": "#9b3434",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/na87ze.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Alben Barkley is a longtime Senate Leader for the Democrats, and an elder statesman of sorts within the Democratic Party. He has served his home state of Kentucky loyally for many years, and was a strong advocate of Roosevelt's New Deal. While other candidates have rejected Truman's overtures to serve as his running mate, for what they see as a lost cause, Barkley has graciously agreed to do his part for the 1948 ticket.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 121,
+        "fields": {
+            "first_name": "James P.",
+            "last_name": "Cannon",
+            "election": 12,
+            "party": "Communist",
+            "state": "California",
+            "priority": 6,
+            "description": "<div style='overflow-y:scroll;height:200px;'><p>Al Smith's fiscal conservatism has led to the rise of far-left parties nationwide–the Socialist Party, the Workers Party, and the Communist Party. Despite the Red Scare occuring after the Great War, it seems that more and more people are being attracted to Marxist thoughts thanks to the Depression. One of the most well-known Communists currently in America is James Patrick Cannon. Cannon has been involved in various far-left parties and labor unions. Now, as the Depression continues on, the Red banner that Cannon carries continues to attract more dissatisfied Americans.<br><br>After previously being kicked out of the Communist party in 1928, Cannon has returned to lead a party and its paramilitary wing that's quickly gaining support nationwide. However, that support is met with a barrage of attacks from all parties. Cannon's Communism scares away most moderates and all businessmen, leaving him with little funds to finance the campaign. Cannon has little to no chance of winning any state, barring a few out west. Whatever it takes, Cannon must reach over 5% in the popular vote to show America that Communism has reached the New World.",
+            "color_hex": "#fe9494",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/bt0fr5.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Earl Warren is the current Governor of California, and enjoys massive popularity in that state. He has pursued a modernizing agenda in California, building a huge, well-funded highway and university system, and other public works projects. He would add a number of crucial votes in his home state, and would distinguish the ticket nationally as a sensible, moderate alternative to Truman.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 122,
+        "fields": {
+            "first_name": "David A.",
+            "last_name": "Reed",
+            "election": 12,
+            "party": "Republican",
+            "state": "Pennsylvania",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/3u0rpi.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Your biggest opponent at the convention and the co-author of the controversial Hartford Program, long-time senator David Aiken Reed can help unite the party after a tense convention. Appointed to the senate after the death of senator William Crow, Reed has made a name of himself as a conservative nativist. Reed co-authored the 1924 Immigration Act and has battled against liberals and progressives in the chamber ever since. Since 1934, Reed now commands the \"Wide Awakes\"–a nationalist paramilitary group–and has helped convinced GOP leaders to drop the primary system.<br><br>Those in the Wide Awakes would automatically go to you if Reed became your running mate. Reed's ideology would appeal to conservative southerners distrustful of Smith, but would alienate your chances elsewhere, and especially in the northeast.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 123,
+        "fields": {
+            "first_name": "Robert R.",
+            "last_name": "McCormick",
+            "election": 12,
+            "party": "Republican",
+            "state": "Illinois",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/zx4vtm.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Throughout his career, Robert Rutherford McCormick has been an officer, businessman, publisher, and lawyer. A crusading publisher for the conservative cause, McCormick has targeted anything remotely liberal in his time in the Chicago Tribune. He enthusiastically endorsed you during the convention and wrote articles in support of your candidacy. McCormick's loud mouth could help you on the campaign trail. Isolationist, anti-communist, advocating for America First; he agrees with you on virtually all issues.<br><br>His selection will come with plenty of downsides, however. McCormick has little experience in elected office–being only elected to the Chicago City Council decades ago–and is seen as too elitist and out of touch to the common man. His aloof and weird personality can alienate some who are desperate for any answer. If you're looking for the media to be on your side, Robert's your guy. Otherwise, look elsewhere.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 124,
+        "fields": {
+            "first_name": "Hamilton",
+            "last_name": "Fish III",
+            "election": 12,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/om1ttr.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>In Congress, representative Fish has been the most vocal anti-communist. On the streets, Fish rallies men against laborers and socialists. To you, he's a great pick to be your running mate. Representative Hamilton Fish III has shown his nationalistic fervor for the country to see. As apart of the Fish political dynasty and a founding member of the American Legion, he's as just of a patriot as you are. Due to this, he can help you attract veteran voters. He'll also butt heads with the Communists constantly along the campaign trail if chosen, which could help in raising fear in the hearts of Americans, and in return, make their vote for you.<br><br>Unfortunately for him, he has been the target of multiple foreign influence campaigns. Whether he'll actually will be influenced by them on the campaign trail remains uncertain, however. He'll also be attacked for allegedly having ties to Hitler's Germany, so you'll have to defend him in that area.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 125,
+        "fields": {
+            "first_name": "Styles",
+            "last_name": "Bridges",
+            "election": 12,
+            "party": "Republican",
+            "state": "New Hampshire",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/ked7ph.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>It's astonishing how Styles Bridges got this far at such a young age. Serving currently as the New Hampshire Governor, Bridges was previously a teacher, newspaper editor, and he held various local positions. His oratory skills led him to gaining a satisfactory amount of delegates at the RNC before eventually endorsing your candidacy. A reactionary, Bridges will help double down on your conservative strongman image and he'll help counteract Hoover's base in his native New England.<br><br>Bridges is very light on experience–serving only a mere year as governor so far. If chosen, the ticket–comprising of two people with not much political experience–will have its chances of succeeding falling quickly. Hopefully, you and Bridges' charisma can make up for that...",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 126,
+        "fields": {
+            "first_name": "John Nance",
+            "last_name": "Garner",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Texas",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#00C100",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/cxxl86.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Cactus Jack was picked to be your running mate back in '32 to appeal to the Old Guard–the protestant conservative southerners and the classical liberals that made up to majority of the party. Four years later, it seems that he has failed in that endeavor. The South is in open revolt and lily-white Republicans are certain to break through the \"Solid South\" this election cycle. As Garner holds similar fiscal conservative views as you, he has been nothing more than a liability to your entire presidency.<br><br>Staying with Garner can signal to the nation that you intend to stay the current course. In normal circumstances, it would be fine. But these aren't normal times. The economy is collapsing, crime is rampant, and American people are outraged and militarized. You may wish to change the dismal status quo, and Garner would just hold you back.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 127,
+        "fields": {
+            "first_name": "Alben",
+            "last_name": "Barkley",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Kentucky",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/u8tgc2.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>If you're looking for a replacement for Cactus Jack, senator Alben William Barkley is one suggestion. He can trace his political career back during the Wilson years, and his working relationship with him has morphed his political views into one of liberalism. The Kentucky man has shown his liberal prowess in the halls of congress; he's a vocal supporter of economic intervention, federal spending, and of Roosevelt's \"New Deal\"–a program you think is hogwash. His background can appeal to those in the plain states, too. He's a breath of fresh air from liberals at least, which will help you immensely.<br><br>Still, Barkley holds many differing views from you, as is the reason why you didn't choose him for your running mate in 1928. This can make the ticket seem indecisive. As the South still distrusts you, Barkley can convince voters and party leaders alike to stay loyal to the Democratic cause. However, he'll help more in Appalachia and less in states like Texas and Arkansas.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 128,
+        "fields": {
+            "first_name": "Cordell",
+            "last_name": "Hull",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Tennessee",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/wat2i0.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>In hard times, leaders must be willing to make bold and risky moves to achieve their goals. If your goal is to save your re-election bid and unite the party, then Senator Hull is your risky move. Cordell Hull is a long-time representative-turned-senator of Tennessee and has been a prominent leader of the growing liberal wing in the party. In the senate chamber, he has disagreed with his fellow southerners on many issues and has called on you to increase federal spending. Despite your known disagreements with the Tennessee man, he's willing to serve as second-in-command to help save his party from the brink of annihilation.<br><br>Hull's internationalism will alienate some who are tired of politicians who seem to care more about foreigners than Americans. This could prove costly due to Lindbergh's campaign being centered around \"America First\".",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 129,
+        "fields": {
+            "first_name": "William",
+            "last_name": "Lemke",
+            "election": 12,
+            "party": "Share Our Wealth",
+            "state": "North Dakota",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/foia75.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>A progressive crusader just like you, Representative William Lemke is a sensible choice for running mate. The North Dakota denizen has shown his plight for the farmer in the halls of congress. Lemke has shown his distaste for elitist corporations and has fought for progressive policies in the House, which has failed to pass due to President Smith's incessant use of the veto. He's been a supporter of yours and the two of you are considered allies.<br><br>Lemke knows the people who inhabit the plain states, and especially in his native North Dakota. Due to this, Lemke can help you counteract La Follette's support in that area. He has been described as lacking charisma and he has little name recognition outside the American frontier, but you should be able to cover both fronts. Overall, advisors agree that Lemke is a safe choice.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 130,
+        "fields": {
+            "first_name": "Hattie",
+            "last_name": "Caraway",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Arkansas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/37cbyd.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>The first woman ever elected to a full term to the senate, Arkansas native Hattie Caraway is a bold choice for most. Like her husband, Caraway dipped her foot in politics and was proven to be a capable politician. Being previously appointed to the senate by Governor Parnell, she ran for a full term and won, thanks to you and your vigorous campaigning. Since then, she has voted alongside with you, championing progressive and populist policies alike.<br><br>Her presence could help your polling numbers in her native Arkansas. Having a woman on the ticket will entice women voters nationwide, driving a wedge in the party duopoly and their chances of winning outright. Despite all of her positives, Caraway refuses to join your party since in the case of your failure to cause a deadlock, her senate career is DOA.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 131,
+        "fields": {
+            "first_name": "Fiorello",
+            "last_name": "La Guardia",
+            "election": 12,
+            "party": "Republican/American Labor",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/bwkqs6.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>The New York Mayor as the Kingfish's running mate? It's an unexpected decision, for sure. Despite being a registered republican, Mayor La Guardia has often been described as a socialist and is affiliated with the American Labor Party. He's been a vocal critic of his own party for going increasingly reactionary, frequently condemning the Wide Awakes in radio addresses and speeches. A political ally of Franklin Roosevelt, La Guardia can help your ticket seem appealing to liberals.<br><br>La Guardia is a good attack dog; being a republican close to Roosevelt, La Guardia can attack the two major parties effectively. Still, La Guardia is hesitant to serve as your running mate–willing to continue as New York's mayor rather than run a national campaign. If you can convince him to join, he'll for sure be a valuable asset.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 132,
+        "fields": {
+            "first_name": "Francis",
+            "last_name": "Shoemaker",
+            "election": 12,
+            "party": "Farmer–Labor",
+            "state": "Minnesota",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/qkvqhg.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>A close colleague of yours; former representative Francis Shoemaker is a logical choice. Shoemaker is valuable member in the party; having helped organize the party in the first place. Shoemaker could also be credited as the publisher of various progressive newspapers in his native Minnesota. Choosing him will indicate a shift towards appealing to farmers on the frontier.<br><br>His lack of name recognition wouldn't help you, and neither is his lack of experience–serving a mere two years as a representative. His terrible electoral record–losing various congressional races prior to 1936–can also harm you. And just to note, there's a skeleton in his closet just waiting to be found...",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 133,
+        "fields": {
+            "first_name": "Upton",
+            "last_name": "Sinclair",
+            "election": 12,
+            "party": "Democratic/EPIC",
+            "state": "California",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/t8ou53.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Many remember the well-known muckraker Upton Sinclair and his hit book, \"The Jungle\", which exposed the Meat industry's unhealthy food factories. But he didn't stop his socialist activism there; Sinclair has been vocal since then. The famed journalist has published various novels, including \"King Coal\" & \"Oil!\". Choosing him will indicate a shift towards appealing to laborers in the factories.<br><br>After an ill-fated run for California governor, Sinclair has still been looking towards elected politics ever since. With him by your side, you'll gain ever a greater share laborers this November. Some Communists may even flock to your clause. Still, he'll bring in more attacks from your opponents than usual and will alienate the press, especially in his native California where his non-stop attacks by the media led him to fail in '34.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 134,
+        "fields": {
+            "first_name": "Ruth Bryan",
+            "last_name": "Owen",
+            "election": 12,
+            "party": "Progressive",
+            "state": "Florida",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/q6lkof.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>In 1934, Ruth Bryan Owen won an upset victory in Florida, defeating Park Trammell by a comfortable margin. Since then, the daughter of The Great Commoner has proven herself to be a valiant fighter for the progressive cause. She helped introduce legislation to ban paramilitary groups (which died) and voted against most of Smith's so-called \"reforms\" to the economy. She has even bolted away from the rest of the progressives due to the party's endorsement for Lucky Lindy. Choosing her will indicate a shift towards neither voting bloc within the party, hoping to maintain a broad appeal nationwide.<br><br>A woman on a ticket is a bold move, no matter what. Her dry stance on prohibition is unpopular anywhere but the south. Florida also doesn't look likely to flip to your column anytime soon. Nevertheless, Owen's your best bet if you're looking for a stable path forward for the progressive cause.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 135,
+        "fields": {
+            "first_name": "Frederick",
+            "last_name": "Steiwer",
+            "election": 12,
+            "party": "Independent Republican",
+            "state": "Oregon",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/u0iero.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Looking through your VP shortlist, and you'll find barely any names featured. One name mentioned is Senator Steiwer, one of the few sitting politicians actually willing to be on the ticket. Lindbergh's candidacy led to the walkout of many delegates, and you lead the charge with him by your side. Steiwer also gave the keynote address to the Independent Republican \"convention\" held not soon after. Fred has an inoffensive resume to his name, but maybe that's what you need to deadlock the election.<br><br>Pundits note his impeccable charisma and his willingness to defend your administration. To add on, Steiwer can appeal to veteran voters and can be used as an attack dog against any candidate. However, his health has been declining lately and can't campaign as nearly as much as you would like him to.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 136,
+        "fields": {
+            "first_name": "Wilbur L.",
+            "last_name": "Cross",
+            "election": 12,
+            "party": "Independent Republican",
+            "state": "Connecticut",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/q4we40.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>When the Hartford Program was first proposed, Yale Graduate and Connecticut Governor Wilbur Cross was one of the first to object. As his party increasingly went radical, his objections became more and more ignored. Frustrated, he walked out of the convention and turned towards you and your campaign. With a squeaky clean image, Cross will help your gains in New England.<br><br>Cross may help your campaign gain some legitimacy in the eyes of voters. But still, whatever benefit he may bring from this will soon be nullified; Cross recently changed from being a Democrat to a Republican to avoid being ousted from Connecticut's Gubernatorial office, still keeping the liberal policies he enacted during his tenure. This opportunism can make the ticket look indecisive and unserious: a death kneel to your campaign before it even gets started.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 137,
+        "fields": {
+            "first_name": "William Z.",
+            "last_name": "Foster",
+            "election": 12,
+            "party": "Communist",
+            "state": "Pennsylvania",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/g2v1w0.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>At a first glance, Comrade Foster seems to be the most logical choice for your running mate. Like you, Foster has participated in various strikes during the 1910s. After playing a major role in the strike and gaining notoriety as a staunch Marxist, Foster continued organizing and militarizing labor unions. His refusal to chose a side between the Earl Browder's men and yours could potentially unite the party. Foster can also expand your appeal in the midwest and in the plain states.<br><br>Despite all of this, the Communist Party faces a stark divide between the Browderists and the Cannonites. There's a possibility Foster wouldn't help heal the stark divide, potentially causing the party to crumble due to petty divisions. Foster's heart attack in 1932 raises questions about his health–still not looking great.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 138,
+        "fields": {
+            "first_name": "Earl",
+            "last_name": "Browder",
+            "election": 12,
+            "party": "Communist",
+            "state": "Kansas",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/hpnu75.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>You and Comrade Browder do not get along. In fact, you two have publicly butting heads for years in the lead-up to the election. Leader of the so-called \"Majority Faction\" in the party, Browder shares a personal distain of you. You and his paramilitaries have clashed on numerous occasions. His brand of Communism is different than yours. Perhaps the only possible way he could be on your ticket is if you two think there's greater threats on the horizon. Fortunately, there is; Charles Lindbergh.<br><br>Browder's still extremely reluctant to serve as your running mate, and he expects major concessions from you. His selection will surely disappoint your Trotskyist base and most people haven't forgotten your feud with him, but perhaps the idea of a United Front will pay off–a truce with the two paramilitaries, a united Communist party, and another energetic campaigner. It's a risky choice nevertheless.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 99358,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 122
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 107776,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 123
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 178527,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 124
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 123908,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 125
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 164194,
+        "fields": {
+            "candidate": 117,
+            "running_mate": 126
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 133855,
+        "fields": {
+            "candidate": 117,
+            "running_mate": 127
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 119944,
+        "fields": {
+            "candidate": 117,
+            "running_mate": 128
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 163761,
+        "fields": {
+            "candidate": 118,
+            "running_mate": 129
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 112492,
+        "fields": {
+            "candidate": 118,
+            "running_mate": 130
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 83992,
+        "fields": {
+            "candidate": 118,
+            "running_mate": 131
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 114684,
+        "fields": {
+            "candidate": 119,
+            "running_mate": 132
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 139941,
+        "fields": {
+            "candidate": 119,
+            "running_mate": 133
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 129362,
+        "fields": {
+            "candidate": 119,
+            "running_mate": 134
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 116931,
+        "fields": {
+            "candidate": 120,
+            "running_mate": 135
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 118842,
+        "fields": {
+            "candidate": 120,
+            "running_mate": 136
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 149805,
+        "fields": {
+            "candidate": 121,
+            "running_mate": 137
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 127844,
+        "fields": {
+            "candidate": 121,
+            "running_mate": 138
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 35,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 12,
+        "candidates": [
+            116,
+            117,
+            118,
+            119,
+            120,
+            121
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 12,
+        "candidates": [
+            116,
+            117,
+            118,
+            119,
+            120,
+            121
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 12,
+        "year": 1948,
+        "is_premium": 0,
+        "display_year": "1936 - American Cabaret"
+    }
+]
+
+jet_data = {
+    "headerColor": "#000000",
+    "windowColor": "#525252",
+    "containerColor": "#212121",
+    "innerWindowColor": "#525252",
+    "bannerImageUrl": "https://files.catbox.moe/hawfhj.png",
+    "backgroundImageUrl": "https://files.catbox.moe/011dky.png",
+    "endingTextColor": "#ffffff",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#525252";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#212121";
+
+document.getElementById("header").src = "https://files.catbox.moe/hawfhj.png";
+
+document.body.background = "https://files.catbox.moe/011dky.png";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#525252!important;}</style>";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/8k7oge.png)"
+
+$("#game_window")[0].style.borderColor = "#360703"
+
+$(".container")[0].style.border = ".2em solid #360703"
+
+quotes = ["''If I had to choose, I would rather have birds than airplanes.'' ~ Charles Lindbergh", "''If one took no chances, one would not fly at all.'' ~ Charles Lindbergh", "''Instead of agitating for war, Jews in this country should be opposing it in every way.'' ~ Charles Lindbergh", "''All the ills of democracy can be cured by more democracy.'' ~ Al Smith", "''The American people never carry an umbrella. They prepare to walk in eternal sunshine.'' ~ Al Smith", "''I can think of no greater disaster to this country than to have the voters of it divide upon religious lines.'' ~ Al Smith","''Sure we'll have Fascism here, but it will come as an anti-Fascism movement.'' ~ Huey Long", "''Corrupted by wealth and power, your government is like a restaurant with only one dish.'' ~ Huey Long","''I’m Mussolini and Hitler rolled in one. Mussolini gave them castor oil; I’ll give them tabasco, and then they’ll like Louisiana.'' ~ Huey Long", "''Publicity, discussion, and agitation are necessary to accomplish any work of lasting benefit.'' ~ Robert La Follette Sr.","''Honor is not the exclusive property of any political party.'' ~ Herbert Hoover", "''We are determined to save our country from the hell of capitalism.'' ~ Earl Browder", "''I outlived the bastards.'' ~ Herbert Hoover","''This is a nightmare, which will pass away with the morning.'' ~ John Maynard Keynes", "It can happen here.", "''When fascism comes to America, it will be wrapped in the flag and carrying the cross.''", "''The revolutionary tradition is the heart of Americanism.'' ~ Earl Browder", "''I say that if this country ever needed a Mussolini, it needs one now.'' ~ David A. Reed", "''I think we simply have to recognize the fact that our enemies have succeeded in spreading the Big Lie.'' ~ Upton Sinclair", "''It is difficult to get a man to understand something, when his salary depends upon him not understanding it.'' ~ Upton Sinclair", "''This power of the press is the greatest free protection the people have for their general welfare.'' ~ Robert R. McCormick", "''Congratulations. I pledge my support for national defense... and to keep America out of foreign wars.'' ~ Hamilton Fish III", "''Revolutions are the locomotives of history.'' ~ Karl Marx", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>AMERICAN CABARET</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+  credits = function() {
+    credits = ["CREDITS", "This Code 1 was made by...", "", "C0SM0, for the writing and coding.", "RouteVenus for the r/imaginaryelections post that this is based off of.", "", "Various codes made by DecStarG & Mangolith."]
+    text = "CREDITS:\n\n"
+    for (i in credits) {
+        text += credits[i] + "\n"
+    }
+    alert(text)
+  }
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#000000", "header_image_url": "https://files.catbox.moe/2s78bc.png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#525252", "main_color": "#000000", "secondary_color": "#212121", "ui_text_color": "#FFFFFF" }
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #525252;
+  }
+  a:-webkit-any-link {
+    color: #525252;
+  }
+`;
+
+document.head.appendChild(style);
+
+next0 = function() {document.getElementById("screen0").style.display = "none";document.getElementById("screen1").style.display = "initial";}
+back0 = function() {document.getElementById("screen0").style.display = "initial";document.getElementById("screen1").style.display = "none";}
+
+
+RecReading=true
+
+HistHexcolour=["#3f4953","#dea23a","#ce8dca","#a1d897"];
+    HistName=[" Charles Lindbergh"," Al Smith"," Huey Long"," Other Candidates"];
+    HistEV=[325,110,50,46];
+    HistPV=["19,453,217","13,689,742","11,100,896","18,038,786"];
+    HistPVP=["30.1%","21.9%","19.1%","28.9%"];
+
+next0 = function() {
+
+        text = "<p>Many people still unsatisfied with the two-party system find themselves being attracted to populist demagogues and extremist groups. Huey Long & Robert La Follette Jr. Both run as progressive candidates, hoping to deadlock the election and force a progressive agenda on whoever wins the House vote. However, some drift away from the capitalist system and into the Red realms of Communism.<br><br>With the rise of paramilitary groups, crime running rampant, tensions between ethnic and religious groups continuing to rise, and a crashed economy, many people wonder if America can stay sane and free in these hard times...<br><br></li></ul><button onclick='back0()'>Back</button></p>"
+
+        document.getElementById("election_summary").innerHTML = text
+
+}
+
+
+back0 = function() {
+
+        text = "<p>America is on the brink of collapse. President Al Smith has done frustratingly little in terms of relieving the economy, causing unemployment to rise unchallenged. Smith's Catholicism and his ties to urban political machines have alienated progressives, protestants, farmers, and the elite. Paramilitary organizations galore while the streets continue to rot.<br><br>The Republicans look on with uncertainty. After the Old Guard has seemingly failed to be seen as any better as the Democrats, the Party takes a turn towards the far-right. The Hartford program has been adopted in 1934 with a platform of anti-catholicism, antisemitism, isolationism, and social corporatism. Moderates offer weak objections, including former president Hoover, as Charles Lindbergh takes the mantle.<br><br><button onclick='next0()'>More</button></p>"
+
+        document.getElementById("election_summary").innerHTML = text
+
+}
+
+$("#music_player")[0].children[0].style.display="none"
+
+$("#music_player")[0].children[1].style.display="none"
+
+
+document.getElementById("modLoadReveal").style.display="none"
+
+document.getElementById("modloaddiv").style.display="none"
+
+
+musicBox = document.getElementById("music_player")
+
+musicBox.style.display=""
+
+
+var trackSel;
+
+e = campaignTrail_temp
+
+e.selectedSoundtrack = 0
+
+
+toTime = (seconds) => {
+
+  var date = new Date(null);
+
+  date.setSeconds(seconds);
+
+  return date.toISOString().substr(11, 8);
+
+}
+
+
+generateTime = () => {
+
+    // Get the audio element
+
+    var audio = document.getElementById("campaigntrailmusic");
+
+
+    timeTracker = document.createElement("div");
+
+    timeTracker.style = `
+
+      text-align:left;
+
+      border-style:solid;
+
+      border-width:3px;
+
+      height:150px;
+
+      width:200px;
+
+      background-color:#525252;
+
+      float:right;
+
+      padding: 10px;
+
+    `
+
+    $("#trackSelParent")[0].prepend(timeTracker);
+
+    $("#trackSelParent")[0].prepend(document.createElement("br"));
+
+
+    // Create a new element to display the current position of the audio
+
+    var positionDisplay = document.createElement("gg");
+
+    positionDisplay.id = "position-display";
+
+
+    // Create a new slider element to change the time
+
+    var timeSlider = document.createElement("input");
+
+    timeSlider.type = "range";
+
+    timeSlider.min = 0;
+
+    timeSlider.max = 1;
+
+    timeSlider.step = 0.001;
+
+    timeSlider.value = 0;
+
+    timeSlider.style.width = "200px";
+
+    timeSlider.id = "time-slider";
+
+
+    var pausePlay = document.createElement("button");
+
+    pausePlay.id = "position-display";
+
+    pausePlay.innerHTML = "<b>Pause</b>"
+
+    pausePlay.style.width = "100%";
+
+
+
+    pausePlay.addEventListener("click", event => {
+
+      event.preventDefault();
+
+      updatePositionDisplay();
+
+      let audio = document.getElementById("campaigntrailmusic");
+
+      if (audio.paused) {
+
+        audio.play();
+
+        event.target.innerHTML = "<b>Pause</b>";
+
+        return;
+
+      }
+
+      audio.pause();
+
+      event.target.innerHTML = "<b>Play</b>";
+
+      return;
+
+    })
+
+
+    var volumeLabel = document.createElement("gg");
+
+    volumeLabel.id = "volume-label";
+
+    volumeLabel.innerHTML = "<br><b>Volume: </b>"
+
+
+    var volumeSlider = document.createElement("input");
+
+    volumeSlider.type = "range";
+
+    volumeSlider.min = 0;
+
+    volumeSlider.max = 1;
+
+    volumeSlider.step = 0.001;
+
+    volumeSlider.value = 0;
+
+    volumeSlider.style.width = "200px";
+
+    volumeSlider.id = "volume-slider";
+
+
+    volumeSlider.value = audio.volume;
+
+
+    timeTracker.appendChild(pausePlay);
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(document.createElement("br"));
+
+    timeTracker.appendChild(positionDisplay);
+
+    timeTracker.appendChild(timeSlider);
+
+    timeTracker.appendChild(volumeLabel);
+
+    timeTracker.appendChild(volumeSlider);
+
+
+    updatePositionDisplay();
+
+
+    //for (let i = 0; i < 10; i++)
+
+    //timeTracker.append(document.createElement("br"));
+
+
+
+    // Function to update the position display
+
+    function updatePositionDisplay() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+
+    }
+
+
+    // Function to change the time of the audio
+
+    function changeTime() {
+
+      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+
+      audio.currentTime = timeSlider.value * audio.duration;
+
+    }
+
+
+    updateVolume = event => {
+
+      audio.volume = event.target.value;
+
+    }
+
+   
+
+    // Update the position display and slider every second
+
+    setInterval(updatePositionDisplay, 1000);
+
+
+    // Listen for changes to the time slider and change the time of the audio
+
+    timeSlider.addEventListener("input", changeTime);
+
+    volumeSlider.addEventListener("input", updateVolume)
+
+}
+
+
+function newMusicPlayer() {
+
+  trackSel = document.createElement("div");
+
+  trackSel.id = "trackSelParent"
+
+  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#525252;float:right;">`
+
+  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
+
+  for (i in soundtracks) {
+
+    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+
+      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
+
+    }
+
+  }
+
+  z += `</select></b><br><br>`
+
+  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+
+  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+
+    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+
+    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
+
+    z += b
+
+  }
+
+  z += "</div><br><br>"
+
+  trackSel.innerHTML = z
+
+
+  // select correct song
+
+
+  musicBox.appendChild(trackSel);
+
+  Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+    return f.tagName == "LABEL"
+
+  }).map(f=>f.children[0])[0].checked = true
+
+
+  // set soundtrack changer
+
+
+  soundtrackSelector = document.getElementById("selectSoundtrack")
+
+  soundtrackSelector.onchange = function() {
+
+    for (i in soundtracks) {
+
+      if (soundtracks[i].name == soundtrackSelector.value) {
+
+        e.selectedSoundtrack = i
+
+        break
+
+      }
+
+    }
+
+    document.getElementById("trackSelParent").remove()
+
+    newMusicPlayer()
+
+  }
+
+
+  var matches = document.querySelectorAll('.trackSelector');
+
+
+  for (match in matches) {
+
+    matches[match].onchange = function() {
+
+      musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+
+      musicBox.children[2].currentTime = 0
+
+    }
+
+  }
+
+
+  musicBox.children[2].loop = false
+
+  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+
+
+  musicBox.children[2].onended = function() {
+
+    console.log("next track")
+
+    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+
+    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
+
+    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
+
+      return f.tagName == "LABEL"
+
+    }).map(f=>f.children[0])
+
+    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+
+    buttons[newSel].click()
+
+  }
+
+
+  for (w = 0; w < 7; w++) {
+
+    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+
+  }
+
+ 
+
+  generateTime();
+
+}
+
+
+clamp = function(a, max, min, overflow=true) {
+
+  if (overflow) {
+
+    return a > max ? min : a < min ? max : a;
+
+  }
+
+  return a > max ? max : a < min ? min : a;
+
+}
+
+
+// Track list
+
+
+var soundtracks = {
+
+  0: {
+
+    name: "Opening Song",
+
+    tracklist: [
+
+      {
+
+        name: "I'm Always Chasing Rainbows (Perry Como)",
+
+        url: "https://files.catbox.moe/my4mhf.mp3",
+      
+
+      },
+
+    ],
+
+  },
+
+  1: {
+
+    name: "Lindbergh’s March",
+
+    tracklist: [
+
+      {
+
+        name: "Battle Hymn Of The Republic (Mitch Miller)",
+
+        url: "https://files.catbox.moe/4u5abh.mp3",
+
+      },
+
+      {
+
+        name: "Lindbergh (Woody Guthrie)",
+
+        url: "https://files.catbox.moe/h823ey.mp3",
+
+      },
+
+      {
+
+        name: "The Eagle Of The USA (Vernon Dalhart)",
+
+        url: "https://files.catbox.moe/4yp3o2.mp3",
+
+      },
+
+      {
+
+        name: "America Did It Again (Nat Shilkret)",
+
+        url: "https://files.catbox.moe/l90ie5.mp3",
+
+      },
+
+      {
+
+        name: "Lucky Lindy (Vernon Dalhart)",
+
+        url: "https://files.catbox.moe/pdykm7.mp3",
+
+      },
+
+      {
+
+        name: "Like An Angel You Flew Into Everyone's Heart (Vaughn De Leath)",
+
+        url: "https://files.catbox.moe/hvcpuk.mp3",
+
+      },
+
+    ],
+
+  },
+
+  2: {
+
+    name: "Songs For Smith",
+
+    tracklist: [
+
+      {
+
+        name: "The Sidewalks Of New York (Nat Shilkret)",
+
+        url: "https://audio.jukehost.co.uk/fQM0YqWjiaY1nqs302PpWdwFy1y9WgNu",
+
+      },
+
+      {
+
+        name: "You're Driving Me Crazy (The New York Twelve)",
+
+        url: "https://files.catbox.moe/tl9d3g.mp3",
+
+      },
+
+      {
+
+        name: "He's Our Al (Willie Walker)",
+
+        url: "https://files.catbox.moe/5angce.mp3",
+
+      },
+
+      {
+
+        name: "Governor Al Smith (Uncle Dave Macon)",
+
+        url: "https://files.catbox.moe/60ndkb.mp3",
+
+      },
+
+      {
+
+        name: "Al Smith (Oscar Brand)",
+
+        url: "https://files.catbox.moe/vkn34n.mp3",
+
+      },
+
+      {
+
+        name: "Governor Al Smith For President (Carolina Night Hawks)",
+
+        url: "https://files.catbox.moe/b102ea.mp3",
+
+      },
+
+    ],
+
+  },
+
+  3: {
+
+    name: "Every Man A King",
+
+    tracklist: [
+
+      {
+
+        name: "Every Man A King (Louisiana Ramblers)",
+
+        url: "https://files.catbox.moe/qeko15.mp3",
+
+      },
+
+      {
+
+        name: "Thank God And Huey Long (Louie Ludwig)",
+
+        url: "https://files.catbox.moe/ul6saa.mp3",
+
+      },
+
+      {
+
+        name: "Hello, Huey! (Huey Long Collection)",
+
+        url: "https://files.catbox.moe/l10icy.mp3",
+
+      },
+
+      {
+
+        name: "Marching Along (George Mitchell Chorale)",
+
+        url: "https://files.catbox.moe/5gmmp9.mp3",
+
+      },
+
+      {
+
+        name: "Kingfish (Levon Helm)",
+
+        url: "https://files.catbox.moe/0wtfgj.mp3",
+
+      },
+
+      {
+
+        name: "Sixteen Tons (Tennessee Ernie Ford)",
+
+        url: "https://files.catbox.moe/n8wnqe.mp3",
+
+      },
+
+    ],
+
+  },
+
+  4: {
+
+    name: "Farmer–Labor Tunes",
+
+    tracklist: [
+
+      {
+
+        name: "Which Side Are You On (Pete Seeger)",
+
+        url: "https://files.catbox.moe/2t4iry.mp3",
+
+      },
+
+      {
+
+        name: "Roll The Union On (The Almanac Singers)",
+
+        url: "https://files.catbox.moe/xvaiwm.mp3",
+
+      },
+
+      {
+
+        name: "Joe Hill (Billy Bragg)",
+
+        url: "https://files.catbox.moe/hzhs7d.mp3",
+
+      },
+
+      {
+
+        name: "If I Had A Hammer (Pete Seeger)",
+
+        url: "https://files.catbox.moe/ij9zug.mp3",
+
+      },
+
+      {
+
+        name: "How Ya Gonna Keep 'Em Down On The Farm (Judy Garland)",
+
+        url: "https://files.catbox.moe/gj0h9o.mp3",
+
+      },
+
+      {
+
+        name: "Dust Bowl Refugee (Woody Guthrie)",
+
+        url: "https://files.catbox.moe/4xmek3.mp3",
+
+      },
+
+    ],
+
+  },
+
+  5: {
+
+    name: "Hoover’s Hymns",
+
+    tracklist: [
+
+      {
+
+        name: "President Hoover March (Howard Da Silva)",
+
+        url: "https://files.catbox.moe/6p0bef.mp3",
+
+      },
+
+      {
+
+        name: "Puttin' On The Ritz (Fred Astaire)",
+
+        url: "https://files.catbox.moe/ab0lfg.mp3",
+
+      },
+
+      {
+
+        name: "Anything Goes (Cole Porter)",
+
+        url: "https://audio.jukehost.co.uk/1ZFEdOCUlv5ifq1B0o748T9pm3LeN411",
+
+      },
+
+      {
+
+        name: "We Sure Got Hard Times (Barbacue Bob)",
+
+        url: "https://files.catbox.moe/vovt20.mp3",
+
+      },
+
+      {
+
+        name: "Bank Failures (Bob Miller)",
+
+        url: "https://audio.jukehost.co.uk/TIhxbDbzY4AoVhv0MWgzACgMhqWvCFhq",
+
+      },
+
+      {
+
+        name: "Herbert Hoover (Adam Tressler)",
+
+        url: "https://files.catbox.moe/wovk7o.mp3",
+
+      },
+
+    ],
+
+  },
+
+  6: {
+
+    name: "Cannon’s Anthems",
+
+    tracklist: [
+
+      {
+
+        name: "The Internationale (The New Singers)",
+
+        url: "https://files.catbox.moe/a590kk.mp3",
+
+      },
+
+      {
+
+        name: "Song Of The United Front (The New Singers)",
+
+        url: "https://files.catbox.moe/e01ltn.mp3",
+
+      },
+
+      {
+
+        name: "Rise Up (The New Singers)",
+
+        url: "https://files.catbox.moe/hctydv.mp3",
+
+      },
+
+      {
+
+        name: "Preacher And The Slave (Progressive Labor Party)",
+
+        url: "https://files.catbox.moe/y8hv3i.mp3",
+
+      },
+
+      {
+
+        name: "If You Ain't Been Called A Red (Monsieur Jack)",
+
+        url: "https://files.catbox.moe/2khpgl.mp3",
+
+      },
+
+      {
+
+        name: "March Of The Volunteers (Paul Robeson)",
+
+        url: "https://files.catbox.moe/omdjk8.mp3",
+
+      },
+
+    ],
+
+  },
+
+}
+
+
+
+newMusicPlayer()
+
+//#endcode
