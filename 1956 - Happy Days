@@ -1,0 +1,858 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 12,
+        "fields": {
+            "year": 1948,
+            "summary": "<p>The Eisenhower Presidency has brought tranquility to a restless nation still shaking after the Second World War. While President Eisenhower has brought stability and peace, domestic division on the issues of communism and civil rights continue to split the nation down the middle. Although Eisenhower remains personally popular, his administration and numerous kooks within the Republican Party threaten to tear down the tattered flag of conservatism.<br><br>Senate Majority Leader Lyndon Johnson faces off against the popular president to give Democratic liberalism another go in the American Century.",
+            "image_url": "https://files.catbox.moe/uchwxp.jpg",
+            "winning_electoral_vote_number": 266,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/clifford-bridges-1948.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1948 Election Books and Links</h4>David McCullough - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B000FC0VVQ/amhius20-20\" target=\"_blank\">Truman</a></br>Andrew E. Busch - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0700618678/amhius20-20\" target=\"_blank\">Truman's Triumphs: The 1948 Election and the Making of Postwar America</a></br>David Pietruza - <a href=\"http://www.amazon.com/exec/obidos/ASIN/140276748X/amhius20-20\" target=\"_blank\">1948: Harry Truman's Improbable Victory and the Year that Transformed America</a></br>Richard Norton Smith - <a href=\"http://www.amazon.com/exec/obidos/ASIN/067141741X/amhius20-20\" target=\"_blank\">Thomas E. Dewey and His Times</a></br><a href=\"https://www.youtube.com/watch?v=rJABgG4YDwM\" target=\"_blank\">The 1948 Democratic Convention (newsreel footage)</a></br><a href=\"https://www.youtube.com/watch?v=ogg9YsxGQm4\" target=\"_blank\">The 1948 Republican Convention (newsreel footage)</a></br><a href=\"https://www.youtube.com/watch?v=LW2ae0Fznwg\" target=\"_blank\">The 1948 Election Explained (video)</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1960-no-majority-photo.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1956 - Happy Days"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 116,
+        "fields": {
+            "first_name": "Lyndon B.",
+            "last_name": "Johnson",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Lyndon Baines Johnson is a titan from the great state of Texas. During the depression, Johnson worked in congress to help expand rural electrification in his home state. He arrived in the senate in 1949 after a dubious ballot drop in Jim Wells county helped him defeat his opponent in a tight race.<br><br>Johnson ascended to represent his party in the senate with the defeat of Majority Leader Emest McFarland in 1952. No stranger to managing a divided party from his experience with Texas Democrats, Johnson as a southern senator has kept the south in line, helping defeat more liberal initiatives just as often as he works to force them onto Eisenhower's desk. The average American will not appreciate the strategies and nuance of a southern Democrat, meaning throughout the election Johnson will need to create a new national image for himself if he hopes to defeat the popular Eisenhower in November.",
+            "color_hex": "#3e445e",
+            "secondary_color_hex": "#3e445e",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/rxdmex.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1948 Presidential Election.</h3><p>In a comeback for the ages, you defeated Thomas Dewey and shocked the nation. Prepare for another four years in the White House. There is much work to be done. You have an ambitious domestic agenda, and face a dangerous foreign situation with the Soviet Union. With a new Democratic majority in Congress, you can hopefully push for universal health care and a repeal of the Taft-Hartley Act.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1948 Presidential Election.</h3><p>It was always going to be a longshot after your first, tumultuous years in office. With luck, Dewey will defend the New Deal reforms and continue your foreign policy. As for you, who knows what history will say of your Presidency? You made some momentous decisions, but will ultimately leave office under a cloud of unpopularity. Perhaps you could serve another term in the Senate?</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>This leaves everyone in a bad situation. Segregationists from the South are demanding concessions before they will support a candidate, leaving the House deadlocked. Perhaps you can work out a deal with Dewey to circumvent this, based on who has the plurality of popular and electoral votes. It's always possible that one of you could serve as the other's Vice President.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 117,
+        "fields": {
+            "first_name": "Dwight D.",
+            "last_name": "Eisenhower",
+            "election": 12,
+            "party": "Republican",
+            "state": "Pennsylvania",
+            "priority": 2,
+            "description": "<p>Thomas Dewey, Governor of New York, makes his second attempt at the Presidency. He became famous for his prosecutions of Mafia figures in New York, and is an exemplar of the Republican Party's eastern business establishment. Dewey waged a hard-hitting campaign against Roosevelt in 1944 that alienated some voters. Advisors this time are recommending that he take a more cautious, conciliatory approach, especially in light of the huge lead he enjoys.</p>",
+            "color_hex": "#8a4442",
+            "secondary_color_hex": "#8a4442",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959_%28cropped%29%283%29.jpg/1280px-Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959_%28cropped%29%283%29.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1948 Presidential Election.</h3><p>You have become the first Republican to win the White House in 20 years. You face a dangerous foreign situation, and your domestic agenda is likely to be opposed by Democrats and conservatives alike. Conversely, the support and confidence of the Republican establishment is almost guaranteed. With luck, you might become the first two-term Republican since Ulysses Grant.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1948 Presidential Election.</h3><p>Pundits and political pros are shocked at your collapse. The second-guessing will likely come fast and furious from your party. The Republicans have now lost five Presidential elections in a row, and have no obvious standard-bearer to break the trend in 1952. As for your own career, you are still the Governor of New York, but it is pretty unlikely that you'll be given another chance to prove yourself on the national stage.</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>This leaves everyone in a bad situation. Segregationists from the South are demanding concessions before they will support a candidate, leaving the House deadlocked. Perhaps you can work out a deal with Truman to circumvent this, based on who has the plurality of popular and electoral votes. It's always possible that one of you could serve as the other's Vice President.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 118,
+        "fields": {
+            "first_name": "Unpledged",
+            "last_name": "Electors",
+            "election": 12,
+            "party": "Various",
+            "state": "Various",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#6d428a",
+            "secondary_color_hex": "#6d428a",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 119,
+        "fields": {
+            "first_name": "T. Coleman",
+            "last_name": "Andrews/Others",
+            "election": 12,
+            "party": "States Rights' Democratic/Various",
+            "state": "Virginia",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#5e8a42",
+            "secondary_color_hex": "#5e8a42",
+            "is_active": 0,
+            "image_url": "https://tac.imgix.net/wp-content/uploads/2023/10/T._Coleman_Andrews.jpg?ar=1%3A1&auto=format&crop=faces%2Centropy&fit=crop&ixlib=php-3.3.1&w=1300",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 120,
+        "fields": {
+            "first_name": "Robert F.",
+            "last_name": "Wagner Jr.",
+            "election": 12,
+            "party": "Democratic",
+            "state": "New York",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/80ucwq.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Mayor Robert F. Wagner Jr. of New York is the most high profile name you would be able to bag for Vice President. As the executive of the largest city of the nation, Wagner has made a name for himself combatting the Tammany machine and other assets of corruption in the Big Apple. Although a Catholic, as the Mayor of New York he possesses a unique appeal to ''hyphenated voters'' who may make up for the loss of anti-clerical veters, perhaps even expanding the Democratic coalition.<br><br>Wagner is a true party man, with his father being an asset to fiew Deal programs in the senate years ago. He has the backing of both Truman and Roosevelt in the absence of Governor Harriman. With his uncontroversial stances, name status, and fair relations with most everyone in the party, Wagner provides your most realistic chance at uniting traditional Democrats against President Eisenhower this November.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 121,
+        "fields": {
+            "first_name": "John F.",
+            "last_name": "Kennedy",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Massachusetts",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#0000ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/yojaik.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Senator John Kennedy is a freshman senator from Massachusetts. He shares his delegation with the man most responsible with elevating Eisenhower to the Presidency, Henry Cabot Lodge Jr. Although southern delegates at the conventions are on board with his nomination, as a Catholic, Kennedy would be the first non-protestant on a Democratic ticket since Al Smith, which may be a detriment to an already tough campaign.<br><br>Having made a name for himself opposing the excess of government in his home state, the nomination of Kennedy would break from the New Deal Liberalism that the party had made its brand for the past 24 years. His youth and charisma may makeup for his ideological rifts by helping expand the Democratic coalition to voters who haven't flipped the lover since Roosevelt or first time voters.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 122,
+        "fields": {
+            "first_name": "Hubert H.",
+            "last_name": "Humphrey",
+            "election": 12,
+            "party": "Democratic",
+            "state": "Minnesota",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#0000ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/vh7i1x.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Senator Hubert Humphrey of Minnesota is the man most responsible for the adoption of the minority plank back in 1948. Humphrey's portfolio expands beyond the problem of civil rights. In the senate, he has primarily dedicated himself to combatting communism, foreign and domestic. He was a key voice in whipping the necessary votes for a strong defense bill to stand up to soviet aggression and just 2 years ago proposed making membership in the Communist Party a felony.<br><br>His tough-on-communism is not unique, especially from an anxious liberal. His true asset is his relations with labor, who you are bleeding support from due to your support for Taft-Hartley, among other things. Humphrey in far from well liked by southern delegations, although many are willing to give you the beneft of the doubt in selecting him. Though be warned as if Eisenhower smells blood in the water, he just may make the south competitive.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 123,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Nixon",
+            "election": 12,
+            "party": "Republican",
+            "state": "California",
+            "priority": 8,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Richard_Nixon_official_portrait_as_Vice_President_%28cropped%29.tiff/lossy-page1-1280px-Richard_Nixon_official_portrait_as_Vice_President_%28cropped%29.tiff.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 124,
+        "fields": {
+            "first_name": "Various",
+            "last_name": "Running Mates",
+            "election": 12,
+            "party": "Various",
+            "state": "Various",
+            "priority": 9,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 125,
+        "fields": {
+            "first_name": "Thomas",
+            "last_name": "Werdel/Various",
+            "election": 12,
+            "party": "States' Rights Democratic/Various",
+            "state": "California/Various",
+            "priority": 10,
+            "description": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Thomas_H._Werdel_%28California_Congressman%29.jpg",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 76,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 120
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 79,
+        "fields": {
+            "candidate": 117,
+            "running_mate": 123
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 173993,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 121
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 85849,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 122
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 122247,
+        "fields": {
+            "candidate": 118,
+            "running_mate": 124
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 143146,
+        "fields": {
+            "candidate": 119,
+            "running_mate": 125
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Many People"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 12,
+        "candidates": [
+            116,
+            117,
+            118,
+            119
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 12,
+        "candidates": [
+            116,
+            117,
+            118,
+            119
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 12,
+        "year": 1948,
+        "is_premium": 0,
+        "display_year": "1956 - Happy Days"
+    }
+]
+
+jet_data = {
+    "headerColor": "#1f2633",
+    "windowColor": "#3f4f69",
+    "containerColor": "#2d384a",
+    "innerWindowColor": "#3f4f69",
+    "bannerImageUrl": "https://files.catbox.moe/mfg4ji.png",
+    "backgroundImageUrl": "https://files.catbox.moe/6tyzi0.png",
+    "endingTextColor": "#ffffff",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1f2633";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#3f4f69";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#2d384a";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/3q00vm.png)"
+
+$("#game_window")[0].style.borderColor = "#3f4f69"
+
+$(".container")[0].style.border = ".2em solid #3f4f69"
+
+document.getElementById("header").src = "https://files.catbox.moe/mfg4ji.png";
+
+document.body.background = "https://files.catbox.moe/6tyzi0.png";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#3f4f69!important;}</style>";
+
+quotes = ["''If a man can tell you who you must hire, he can tell you who not to employ.'' ~ Lyndon B. Johnson", "''For so long as man has lived on this earth, poverty has been his curse.'' ~ Lyndon B. Johnson", "''Our success in that pursuit is the test of our success as a Nation.'' ~ Lyndon B. Johnson", "''Poverty must not be a bar to learning, and learning must offer an escape from poverty.'' ~ Lyndon B. Johnson", "''Eisenhower used to tell me that this place was a prison. I never felt freer.'' ~ Lyndon B. Johnson", "''The only real road to progress for free people is through the process of law.'' ~ Lyndon B. Johnson","''Things don't just happen, they are made to happen.'' ~ John F. Kennedy", "''I learned more about economics from one South Dakota dust storm than I did in all my years at college.'' ~ Hubert H. Humphrey", "''This is a long tough road we have to travel.'' ~ Dwight D. Eisenhower", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>HAPPY DAYS</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#1f2633", "header_image_url": "https://files.catbox.moe/alhl0f.png", "header_text_color": "#ffffff", "description_text_color": "#ffffff", "description_background_color": "#3f4f69", "main_color": "#2d384a", "secondary_color": "#1f2633", "ui_text_color": "#FFFFFF" }
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>Many People</button>";
+  
+window.credits = function() {
+  const creditsList = ["Mangolith, Obummer, RouteVenus, & Atom_Heart_Mother, for the writing and coding.", "", "Help from Jet and some codes made by DecStarG, Thatchmaster, & Mangolith.", "Code 1 exported by C0SM0."];
+
+  const text = "This Code 1 was made by...:\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+HistHexcolour=["#8a4442","#3e445e","#6d428a","#5e8a42"];
+    HistName=[" Dwight D. Eisenhower"," Lyndon B. Johnson"," Unpledged Electors"," T. Coleman Andrews/Others"];
+    HistEV=[359,172,0,0];
+    HistPV=["32,750,277","28,656,492","186,081","434,189"];
+    HistPVP=["52.8%","46.2%","0.3%","0.7%"];
+
+// Select the node that will be observed for mutations
+const windowsAdvisorTargetNode = document.getElementById("game_window");
+
+// Options for the observer (which mutations to observe)
+const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+
+// Callback function to execute when mutations are observed
+const callback = (mutationList, observer) => {
+    visitWindow = document.getElementsByClassName("overlay_window")[0];
+
+    if (visitWindow == null || visitWindow.classList.contains("done")) {
+        return;
+    }
+    visitWindow.classList.add("done");
+    visitWindow.classList.add("window");
+    let titleBar = visitWindow.querySelector("h3");
+    titleBar.classList.add("title-bar");
+    titleBar.classList.add("title-bar-text");
+    titleBar.style.paddingLeft = "3px";
+};
+
+class Song {
+    constructor(title, artist, coverLink, audioLink) {
+        this.title = title;
+        this.artist = artist;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+    }
+    getTitle() {
+        return this.title;
+    }
+
+    getArtist() {
+        return this.artist;
+    }
+
+    getCoverLink() {
+        return this.coverLink;
+    }
+
+    getAudioLink() {
+        return this.audioLink;
+    }
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+        this.currentSongIndex = 0;
+    }
+
+    addSong(song) {
+        this.songs.push(song);
+    }
+
+    getCurrentSong() {
+        return this.songs[this.currentSongIndex];
+    }
+
+    playNext() {
+        this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+
+    playPrevious() {
+        this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+window.Playlist = Playlist;
+window.Song = Song;
+
+function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+}
+window.changePlaylist = changePlaylist;
+
+function updateUI(playlist) {
+    const currentSong = playlist.getCurrentSong();
+    var player = document.getElementById("player");
+    player.querySelector("#cover").src = currentSong.getCoverLink();
+    player.querySelector("#title").textContent = currentSong.getTitle();
+    player.querySelector("#artist").textContent = currentSong.getArtist();
+}
+
+window.updateUI = updateUI;
+
+function setupMusicPlayer() {
+    playlist = new Playlist();
+
+    const song1 = new Song(
+        "This Must Be The Place",
+        "Tennessee Ernie Ford",
+        "https://i.discogs.com/PMQz6HIUjEGaxFY0XQZjZDcEdpROua-2EAGxYEjy8JQ/rs:fit/g:sm/q:90/h:457/w:460/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNTUy/NTAtMTMyNzA5ODYx/OC5qcGVn.jpeg",
+        "https://files.catbox.moe/adit5q.mp3"
+    );
+    const song2 = new Song(
+        "The Yellow Rose Of Texas",
+        "Johnny Desmond",
+        "https://i.discogs.com/wGnxsHQk7wnGJdFYUnlNkMlSdCqz8kH2fB6yCaCA-70/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNDgz/NzMtMTI2NjYzMjkw/OC5qcGVn.jpeg",
+        "https://audio.jukehost.co.uk/Xd6tcs15rCTLKSPnufJIVajexFNeRZGS"
+    );
+    const song3 = new Song(
+        "The Wild Side Of Life",
+        "Hank Thompson",
+        "https://files.catbox.moe/v2wirv.jpg",
+        "https://files.catbox.moe/t122ac.mp3"
+    );
+    const song4 = new Song(
+        "El Paso",
+        "Marty Robbins",
+        "https://i.discogs.com/AbelYNeivbNIJcQmZ99kM03GrHQa8ga2NGKfuKpi0Fc/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5ODgy/NDAtMTQwODE4NjY2/NC01MzA2LmpwZWc.jpeg",
+        "https://files.catbox.moe/zt74rp.mp3"
+    );
+    const song5 = new Song(
+        "Cold, Cold Heart",
+        "Hank Williams",
+        "https://e.snmc.io/i/600/w/be297a0c2f66b1c31126a08dc08657e5/6638576/hank-williams-with-his-drifting-cowboys-dear-john-cold-cold-heart-Cover-Art.png",
+        "https://files.catbox.moe/zcch4q.mp3"
+    );
+    const song6 = new Song(
+        "Everything's OK On The LBJ",
+        "Leo Jarnagin",
+        "https://files.catbox.moe/ocjj5w.jpg",
+        "https://files.catbox.moe/tl14jd.mp3"
+    );
+
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+
+
+
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+
+    const displayBox = document.createElement("div");
+    displayBox.id = "display-box";
+
+    const coverElement = document.createElement("img");
+    coverElement.id = "cover";
+    displayBox.appendChild(coverElement);
+
+    const infoContainer = document.createElement("div");
+    infoContainer.id = "info-container";
+    infoContainer.style.backgroundImage = "url('https://i.imgur.com/HTUJApX.png')";
+    infoContainer.style.backgroundSize = "cover";
+    infoContainer.style.color = "#6e441b";
+
+    const songInfo = document.createElement("div");
+    songInfo.id = "song-info";
+
+    const titleElement = document.createElement("h3");
+    titleElement.id = "title";
+    titleElement.style.fontWeight = 'normal';
+    songInfo.appendChild(titleElement);
+
+    const artistElement = document.createElement("p");
+    artistElement.id = "artist";
+    songInfo.appendChild(artistElement);
+
+    infoContainer.appendChild(songInfo);
+    displayBox.appendChild(infoContainer);
+
+    playerContainer.appendChild(displayBox);
+
+    const controlsContainer = document.createElement("div");
+    controlsContainer.id = "controls-container";
+
+    const controls = document.createElement("div");
+    controls.id = "controls";
+
+    const volumeDownButton = document.createElement("img");
+    volumeDownButton.id = "volumeDownButton";
+    volumeDownButton.src = "https://i.imgur.com/VQfvYev.png";
+    volumeDownButton.alt = "Volume Down";
+    controls.appendChild(volumeDownButton);
+
+    const prevButton = document.createElement("img");
+    prevButton.id = "prevButton";
+    prevButton.src = "https://i.imgur.com/LAojana.png";
+    prevButton.alt = "Previous";
+    controls.appendChild(prevButton);
+
+    const playPauseButton = document.createElement("img");
+    playPauseButton.id = "playPauseButton";
+    playPauseButton.src = "https://i.imgur.com/JdndnqR.png";
+    playPauseButton.alt = "Play/Pause";
+    controls.appendChild(playPauseButton);
+
+    const nextButton = document.createElement("img");
+    nextButton.id = "nextButton";
+    nextButton.src = "https://i.imgur.com/VpjQN97.png";
+    nextButton.alt = "Next";
+    controls.appendChild(nextButton);
+
+    const volumeUpButton = document.createElement("img");
+    volumeUpButton.id = "volumeUpButton";
+    volumeUpButton.src = "https://i.imgur.com/AWjSTLv.png";
+    volumeUpButton.alt = "Volume Up";
+    controls.appendChild(volumeUpButton);
+
+    controlsContainer.appendChild(controls);
+
+    playPauseButton.addEventListener("click", function () {
+        const audio = document.getElementById("audio");
+        if (audio.paused) {
+            audio.play();
+            playPauseButton.src = "https://i.imgur.com/JdndnqR.png";
+        } else {
+            audio.pause();
+            playPauseButton.src = "https://i.imgur.com/nzG7asd.png";
+        }
+    });
+
+    nextButton.addEventListener("click", function () {
+        playlist.playNext();
+        updateUI(playlist);
+        const audio = document.getElementById("audio");
+        audio.src = playlist.getCurrentSong().audioLink;
+        audio.play();
+        rotateButton(nextButton, "right");
+    });
+
+    prevButton.addEventListener("click", function () {
+        playlist.playPrevious();
+        updateUI(playlist);
+        const audio = document.getElementById("audio");
+        audio.src = playlist.getCurrentSong().audioLink;
+        audio.play();
+        rotateButton(prevButton, "left");
+    });
+
+    let currentVolume = 6; // Medium initial volume 
+
+    volumeUpButton.addEventListener("click", function () {
+        const audio = document.getElementById("audio");
+        if (currentVolume < 20) { // Increased max volume range
+            currentVolume++;
+            audio.volume = currentVolume / 20; // Adjusted for new range
+            rotateButton(volumeUpButton, "left");
+        }
+    });
+    
+    volumeDownButton.addEventListener("click", function () {
+        const audio = document.getElementById("audio");
+        if (currentVolume > 0) {
+            currentVolume--;
+            audio.volume = currentVolume / 20; // Adjusted for new range
+            rotateButton(volumeDownButton, "right");
+        }
+    });
+
+    function rotateButton(button, direction) {
+        const rotationAngle = direction === "left" ? "rotate(-15deg)" : "rotate(15deg)";
+        button.style.transform = rotationAngle;
+        setTimeout(() => {
+            button.style.transform = "rotate(0deg)";
+        }, 200);
+    }
+
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+
+    const lipImage = document.createElement("div");
+    lipImage.id = "lip-overlay";
+    playerContainer.appendChild(lipImage); // Add the overlay as a child of #player
+    
+    
+
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+    function updateProgressBar() {
+        const audio = document.getElementById("audio");
+        const progress = (audio.currentTime / audio.duration) * 100;
+        try {
+            progressBar.value = progress;
+        } catch {}
+    }
+
+    progressBar.addEventListener("input", function () {
+        const audio = document.getElementById("audio");
+        const seekTime = (progressBar.value / 100) * audio.duration;
+        audio.currentTime = seekTime;
+    });
+
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+        playlist.playNext();
+        updateUI(playlist);
+        audio.src = playlist.getCurrentSong().audioLink;
+        audio.play();
+    });
+
+    document.body.appendChild(audio);
+    audio.play();
+
+    updateUI(playlist);
+}
+
+const style = document.createElement("style");
+style.textContent = `
+#player {
+    position: relative; /* Ensures child absolute elements are positioned relative to this */
+    border: 3px solid #5e2f0d;
+    display: flex;
+    flex-direction: row;
+    height: 191px;
+    background-image: url("https://i.imgur.com/XvHX0fc.png");
+    transition: transform 0.2s ease;
+}
+
+#lip-overlay {
+    position: absolute;
+    top: 0; /* Align at the top of the player */
+    left: 0;
+    width: 100%;
+    height: 100%; /* Same height as the #player */
+    z-index: 2; /* Brings it to the foreground */
+    pointer-events: none; /* Prevent interference with user interactions */
+    background-image: url('https://i.imgur.com/4vt4JNH.png');
+    background-size: cover; /* Ensures the image fills the container */
+}
+
+
+#display-box {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+#cover {
+    width: 176px;
+    height: 176px;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: row;
+    height: 178px;
+    width: 127px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+#song-info {
+    width: 100%;
+    padding: 5px;
+}
+
+#controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+#progress-bar-container {
+    width: 100%;
+}
+
+#progress-bar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#progress-bar::-webkit-progress-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#progress-bar::-webkit-progress-value {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#progress-bar::-moz-progress-bar {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+`;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();
+
+styling = document.createElement("style");
+document.head.appendChild(styling);
+
+styling.innerHTML = `
+#opponent_selection_id_back {
+    display: none;
+}
+`
+
+
+//#endcode
