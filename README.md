@@ -129,4 +129,7 @@ Creation Date: July 5th, 2025
 *1956 - Happy Days*
 Creation Date: July 9th, 2025
 
+*2025-2028 - American Calamity*
+Creation Date: August 12th, 2025
+
 And now, I'm creating/editing even more Code 1s...
