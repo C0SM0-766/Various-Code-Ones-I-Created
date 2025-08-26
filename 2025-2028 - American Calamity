@@ -8,11 +8,11 @@ campaignTrail_temp.election_json = [
             "image_url": "https://files.catbox.moe/l2owyi.gif",
             "winning_electoral_vote_number": 270,
             "advisor_url": "https://files.catbox.moe/1f8hng.png",
-            "recommended_reading": "",
+            "recommended_reading": "<h4 style='margin-top: 0.5em;'>Further Reading</h4></a><a href='https://www.amazon.com/American-Carnage-Front-Republican-President/dp/006289644X' target='_blank'>American Carnage: On the Front Lines of the Republican Civil War and the Rise of President Trump</a><br><a href='https://static.heritage.org/project2025/2025_MandateForLeadership_FULL.pdf' target='_blank'>Project 2025</a><br><a href='https://trumpwhitehouse.archives.gov/wp-content/uploads/2021/01/The-Presidents-Advisory-1776-Commission-Final-Report.pdf' target='_blank'>The 1776 Report</a><br><a href='https://www.amazon.com/Cant-Happen-Here-Signet-Classics/dp/0451465644' target='_blank'>It Can't Happen Here</a><p>''Unite to win. Divide to conquer.'' ~ Donald J. Trump<br><h4>Hope you enjoyed this mod!</h4><img src='https://i.postimg.cc/BbTbRMDm/ag9pcyeduvq11.jpg' width='280px'></img><br><br>",
             "has_visits": 1,
-            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
-            "creator": "Dan Bryan",
-            "display_year": "2025-2028 - American Calamity"
+            "no_electoral_majority_image": "https://i.postimg.cc/wBLpcyk5/5-UUDGPTJDZOV3-LLPTXUTQSLFAQ.jpg",
+            "creator": "C0SM0",
+            "display_year": "2025-2028"
         }
     }
 ]
@@ -259,7 +259,7 @@ campaignTrail_temp.global_parameter_json = [
             "issue_stance_6_max": 0.71,
             "global_variance": 0.01,
             "state_variance": 0.005,
-            "question_count": 35,
+            "question_count": 47,
             "default_map_color_hex": "#C9C9C9",
             "no_state_map_color_hex": "#999999"
         }
@@ -295,7 +295,7 @@ campaignTrail_temp.temp_election_list = [
         "id": 20,
         "year": 2016,
         "is_premium": 0,
-        "display_year": "2025-2028 - American Calamity"
+        "display_year": "2025-2028"
     }
 ]
 
@@ -304,8 +304,8 @@ jet_data = {
     "windowColor": "#262626",
     "containerColor": "#000000",
     "innerWindowColor": "#262626",
-    "bannerImageUrl": "https://files.catbox.moe/dvswid.png",
-    "backgroundImageUrl": "https://files.catbox.moe/uluq0f.jpg",
+    "bannerImageUrl": "https://i.postimg.cc/Pqc6S220/DAD6-D722-91-FE-4437-A06-A-E721028-C6-C90.png",
+    "backgroundImageUrl": "https://file.garden/Zrv1pPC1HzBK0svl/TrumpLightning-5fe156dc5673d.jpg",
     "endingTextColor": "#ffffff",
     "customQuote": "",
     "gameTitle": "AMERICAN CALAMITY"
@@ -327,9 +327,9 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#000000";
 
-document.getElementById("header").src = "https://files.catbox.moe/dvswid.png";
+document.getElementById("header").src = "https://i.postimg.cc/Pqc6S220/DAD6-D722-91-FE-4437-A06-A-E721028-C6-C90.png";
 
-document.body.background = "https://files.catbox.moe/uluq0f.jpg";
+document.body.background = "https://file.garden/Zrv1pPC1HzBK0svl/TrumpLightning-5fe156dc5673d.jpg";
 
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#262626!important;}</style>";
 
@@ -344,7 +344,7 @@ RecReading=true
   campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
   
 window.credits = function() {
-  const creditsList = ["C0SM0, for the writing & coding.", "", "Inspired by Thatchmaster's American Carnage, with CYOA routes made by u/lithobrakingdragon & achievements made by u/wangming2.", "Some codes made by Mangolith, Thatchmaster, & DecStarG, with the soundtrack taken from 2016: Class War."];
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Heavily inspired by Thatchmaster's American Carnage, with CYOA routes made by u/lithobrakingdragon, achievements made by u/lithobrakingdragon & u/wangming2, & banner made by littleamericanman_85501.", "", "Some codes made by Mangolith, Thatchmaster, & DecStarG, with the soundtrack taken from 2016: Class War."];
 
   const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
 
@@ -382,7 +382,7 @@ HistHexcolour=["#6a40be","#8e0c10","#c39e84","#5c2121"];
     HistPVP=["62.3%","34.1%","3.3%","0.3%"];
 
 // Custom favicon
-$("#dynamic-favicon").attr("href", "https://files.catbox.moe/em0eo9.png");
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/n1rob2.png");
 
 document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election_description_window {background-color:#000000!important} .campaign_trail_start_emphasis {background-color:#f2f2f2!important; color:#f2f2f2!important} .game_start {color:#f2f2f2!important} .inner_window_front {background-color:#f2f2f2!important}.inner_window_w_desc {background-color:#000000!important;} .person_description_window {background-color:#000000!important} .person_summary {color:#f2f2f2!important} .inner_window_w_desc {color:#f2f2f2!important} .description_window_small {background-color:#000000!important} </style>";
 
@@ -483,10 +483,10 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
   
   
     const song1 = new Song(
-      "Little Dark Age (Ghost Vision Remix)",
-      "MGMT",
-      "https://files.catbox.moe/abbu03.jpg",
-      "https://files.catbox.moe/r8jnd9.mp3"
+      "I Thought The Future Would Be Cooler",
+      "YACHT",
+      "https://files.catbox.moe/olsob6.jpg",
+      "https://files.catbox.moe/a60mdy.mp3"
     );
     
     const song2 = new Song(
@@ -497,10 +497,10 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
     );
   
     const song3 = new Song(
-      "Welcome To Hell",
-      "Black Midi",
-      "https://upload.wikimedia.org/wikipedia/en/1/12/Black_Midi_-_Hellfire.png",
-      "https://audio.jukehost.co.uk/UIHdUryJ1XMkYpDsi6uTs9av0NwAy3dx"
+      "We The Movement",
+      "Rebel Diaz",
+      "https://files.catbox.moe/t29did.jpg",
+      "https://files.catbox.moe/3esphv.mp3"
     );
   
     const song4 = new Song(
@@ -520,18 +520,30 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
     const song6 = new Song(
       "Who'll Stand With Us?",
       "Dropkick Murphys",
-      "https://files.catbox.moe/mkgg0n.jpg",
-      "https://files.catbox.moe/8721si.mp3"
+      "https://file.garden/Zrv1pPC1HzBK0svl/artworks-TDVeqP5W1HWT-0-t500x500.jpg",
+      "https://file.garden/Zrv1pPC1HzBK0svl/Who'll%20Stand%20With%20Us_.mp3"
+    );
+    const song7 = new Song(
+      "There's A Man In A Prison",
+      "Seth Staton Watkins",
+      "https://files.catbox.moe/48u7b1.jpg",
+      "https://files.catbox.moe/144qvv.mp3"
     );
 
-    const song7 = new Song(
+    const song8 = new Song(
       "Demagogue",
       "Franz Ferdinand",
       "https://files.catbox.moe/4fwqdc.jpg",
       "https://files.catbox.moe/qs11w5.mp3"
     );
+    const song9 = new Song(
+      "Banker And Boss",
+      "Risky Biscuit",
+      "https://files.catbox.moe/yizr1u.jpg",
+      "https://files.catbox.moe/p0bj4i.mp3"
+    );
 
-    const song8 = new Song(
+    const song10 = new Song(
       "Give The People What They Want",
       "The O’Jays",
       "https://files.catbox.moe/rb8c5h.jpg",
@@ -546,6 +558,8 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
     playlist.addSong(song6);
     playlist.addSong(song7);
     playlist.addSong(song8);
+    playlist.addSong(song9);
+    playlist.addSong(song10);
   
     const playerContainer = document.createElement("div");
     playerContainer.id = "player";
@@ -815,274 +829,274 @@ setupMusicPlayer();
 campaignTrail_temp.achievements = {
     // Achievements
     "Death To Tradition" : {
-    "image" : "https://files.catbox.moe/i7qlb5.png",
+    "image" : "https://files.catbox.moe/2wb4gn.png",
     "description" : "Repeal the 22nd Amendment.",
     "cannotBeCheated" : true
     },
     "Upon A Cross of Liquid Gold" : {
-    "image" : "https://i.postimg.cc/BnBzndyv/DFN-L-cartoon-01.jpg",
+    "image" : "https://files.catbox.moe/2hfru4.jpg",
     "description" : "Lose after fulfilling your destiny.",
     "cannotBeCheated" : true
     },
     "Hoover Them Up" : {
-    "image" : "https://files.catbox.moe/bcjhk1.jpg",
+    "image" : "https://files.catbox.moe/vyxu88.jpg",
     "description" : "Flip the script.",
     "cannotBeCheated" : true
     },
     "Bloodfeast" : {
-    "image" : "https://i.postimg.cc/mr2TL3m0/YH6-MX3-IBTRCQJAMBWGBVGVHBYQ.jpg",
+    "image" : "https://files.catbox.moe/19apxs.jpg",
     "description" : "Lives the dreams of John McCain.",
     "cannotBeCheated" : true
     },
     "Proliferation" : {
-    "image" : "https://files.catbox.moe/itcqxl.jpeg",
+    "image" : "https://files.catbox.moe/45sfhs.jpeg",
     "description" : "Let the genie out of the bottle.",
     "cannotBeCheated" : true
     },
     "You Can't Say That Word" : {
-    "image" : "https://i.postimg.cc/mDK4yvTs/Jspw-TFw-RUWEJo5v-Dhzj-Xgk.jpg",
+    "image" : "https://files.catbox.moe/a26xza.jpg",
     "description" : "Drop the N-bomb.",
     "cannotBeCheated" : true
     },
     "Article You" : {
-    "image" : "https://files.catbox.moe/qwhb91.jpg",
+    "image" : "https://files.catbox.moe/nwf0tz.jpg",
     "description" : "Suppliment the schemers.",
     "cannotBeCheated" : true
     },
     "Thumbs Up" : {
-    "image" : "https://files.catbox.moe/gk8zpe.jpg",
+    "image" : "https://files.catbox.moe/8g8idu.jpg",
     "description" : "Finally slay the beast.",
     "cannotBeCheated" : true
     },
     "These Divided States" : {
-    "image" : "https://i.postimg.cc/hPLnVZwk/gettyimages-1230473117-c20c03676083b31fa3450b1e765a91ea1995fc1b.jpg",
+    "image" : "https://files.catbox.moe/6nkx9e.jpg",
     "description" : "Ensure The Fire Rises.",
     "cannotBeCheated" : true
     },
     "TACO" : {
-    "image" : "https://i.postimg.cc/WpxCWmgs/tfl-l-trump-tweet-taco-bowl-2016-01-e1748532604713.jpg",
+    "image" : "https://files.catbox.moe/x3vx7s.jpg",
     "description" : "Chicken Out.",
     "cannotBeCheated" : true
     },
     "Fell For It Again Award" : {
-    "image" : "https://i.postimg.cc/hvFFdV04/Glnj9w-PWw-AAPJk-D.jpg",
+    "image" : "https://files.catbox.moe/sfzmk6.jpeg",
     "description" : "Take advantage of your rubes.",
     "cannotBeCheated" : true
     },
     "Empires Only Last 250 Years" : {
-    "image" : "https://i.postimg.cc/4NQCY7HZ/Sp250531ce-small-0.jpg",
+    "image" : "https://files.catbox.moe/f3gq3w.jpg",
     "description" : "Cede the world.",
     "cannotBeCheated" : true
     },
     "New & Improved" : {
-    "image" : "https://i.postimg.cc/T1js5FwQ/bw5-VNPRvh-XNudh-WZmj-AQX3.jpg",
+    "image" : "https://files.catbox.moe/owla1k.jpg",
     "description" : "Win the midterms.",
     "cannotBeCheated" : true
     },
     "Fool Me Thrice" : {
-    "image" : "https://files.catbox.moe/kck2vj.jpg",
+    "image" : "https://files.catbox.moe/5mpxws.jpg",
     "description" : "Defeat your forefather.",
     "cannotBeCheated" : true
     },
     "No, They Can't" : {
-    "image" : "https://files.catbox.moe/rv5eh5.jpg",
+    "image" : "https://files.catbox.moe/fv3tzt.jpg",
     "description" : "Defeat your nemesis.",
     "cannotBeCheated" : true
     },
     "End the Fed" : {
-    "image" : "https://files.catbox.moe/7bkczs.jpg",
+    "image" : "https://files.catbox.moe/7nsetv.jpg",
     "description" : "Defeat a traitor.",
     "cannotBeCheated" : true
     },
     "This Map Displays Human Feces" : {
-    "image" : "https://files.catbox.moe/thsowh.webp",
+    "image" : "https://files.catbox.moe/11xmi5.webp",
     "description" : "Defeat a psycho.",
     "cannotBeCheated" : true
     },
     "Low Hopes" : {
-    "image" : "https://files.catbox.moe/foxxms.jpg",
+    "image" : "https://files.catbox.moe/fwmxei.jpg",
     "description" : "Defeat a mayor.",
     "cannotBeCheated" : true
     },
     "Sinking the Squad" : {
-    "image" : "https://files.catbox.moe/eyk3il.jpg",
+    "image" : "https://files.catbox.moe/5s483u.jpg",
     "description" : "Defeat a socialist.",
     "cannotBeCheated" : true
     },
     "Cacti Are Prickly" : {
-    "image" : "https://files.catbox.moe/i2qnyn.jpeg",
+    "image" : "https://files.catbox.moe/9nb3vr.jpeg",
     "description" : "Defeat a robophobe.",
     "cannotBeCheated" : true
     },
     "Kicking Around... Again" : {
-    "image" : "https://files.catbox.moe/adt2ts.jpg",
+    "image" : "https://files.catbox.moe/dieyoj.jpg",
     "description" : "Defeat a familar face.",
     "cannotBeCheated" : true
     },
     "-1005000 Social Credit" : {
-    "image" : "https://files.catbox.moe/ft0ny3.jpg",
+    "image" : "https://files.catbox.moe/c03w6p.jpg",
     "description" : "Defeat a coach.",
     "cannotBeCheated" : true
     },
     "Counter-Intelligence" : {
-    "image" : "https://files.catbox.moe/p9ly1b.jpg",
+    "image" : "https://files.catbox.moe/vmkraw.jpg",
     "description" : "Defeat an agent.",
     "cannotBeCheated" : true
     },
     "Atlantis" : {
-    "image" : "https://files.catbox.moe/8635jv.jpg",
-    "description" : "Defeat a Georgian.",
+    "image" : "https://files.catbox.moe/xuzu2k.jpg",
+    "description" : "Defeat a Rising Star.",
     "cannotBeCheated" : true
     },
     "Khanate Killer" : {
-    "image" : "https://files.catbox.moe/2iapb7.jpeg",
+    "image" : "https://files.catbox.moe/zmt5td.jpeg",
     "description" : "Defeat a Trump wannabe.",     
     "cannotBeCheated" : true
     },
-    "A City We Can't Afford." : {
-    "image" : "https://files.catbox.moe/6xd08h.jpg",
+    "A City We Can't Afford" : {
+    "image" : "https://files.catbox.moe/91dy6x.webp",
     "description" : "Defeat an immigrant.",
     "cannotBeCheated" : true
     },
     "Drain The Swamp" : {
-    "image" : "https://files.catbox.moe/okas88.jpg",
+    "image" : "https://files.catbox.moe/4814mv.jpg",
     "description" : "Defeat a Deep-Stater.",
     "cannotBeCheated" : true
     },
     "Fried Chicken" : {
-    "image" : "https://files.catbox.moe/zlfr3z.jpg",
+    "image" : "https://files.catbox.moe/fi59np.jpg",
     "description" : "Defeat a southerner.",
     "cannotBeCheated" : true
     },
     "The Murphy Law" : {
-    "image" : "https://files.catbox.moe/7nboi3.jpg",
+    "image" : "https://files.catbox.moe/3woue0.jpg",
     "description" : "Defeat an establishmentarian.",
      "cannotBeCheated" : true
     },
    "Foul Play" : {
-    "image" : "https://files.catbox.moe/81umw3.jpg",
+    "image" : "https://files.catbox.moe/aj00ze.jpg",
     "description" : "Defeat an analyst.",
     "cannotBeCheated" : true
    },
    "Delete Your Browsing History" : {
-    "image" : "https://files.catbox.moe/za7nma.jpg",
+    "image" : "https://files.catbox.moe/l9jcpm.jpg",
     "description" : "Defeat a crackhead.",
     "cannotBeCheated" : true
    },
    "Monkey Business" : {
-    "image" : "https://files.catbox.moe/djwa3j.jpg",
+    "image" : "https://files.catbox.moe/ktqbt5.jpg",
     "description" : "Defeat a comedian.",
     "cannotBeCheated" : true
    },
    "Rage Against The Machine" : {
-    "image" : "https://files.catbox.moe/obq5pb.jpg",
+    "image" : "https://files.catbox.moe/sxerzh.jpg",
     "description" : "Defeat a husk.",
     "cannotBeCheated" : true
    },
    "Jane Jacobs Legacy" : {
-    "image" : "https://files.catbox.moe/c8fek9.jpg",
+    "image" : "https://files.catbox.moe/h6yq1z.jpg",
     "description" : "Defeat a libertarian.",
     "cannotBeCheated" : true
    },
    "Price Fixing" : {
-    "image" : "https://files.catbox.moe/hmo222.jpg",
+    "image" : "https://files.catbox.moe/cmwy1w.jpg",
     "description" : "Defeat a redditor.",
     "cannotBeCheated" : true
    },
    "The Apprentice" : {
-    "image" : "https://files.catbox.moe/mu5hj4.jpg",
+    "image" : "https://files.catbox.moe/c4zfnd.jpg",
     "description" : "Win as the Hillbilly.",
     "cannotBeCheated" : true
    },
    "The Heir" : {
-    "image" : "https://files.catbox.moe/3w53ak.webp",
+    "image" : "https://files.catbox.moe/m4aa4u.webp",
     "description" : "Win as the Heir Apparent.",
     "cannotBeCheated" : true
    },
    "Worm Brain" : {
-    "image" : "https://files.catbox.moe/sxqi7t.jpg",
+    "image" : "https://files.catbox.moe/5d4ltn.jpg",
     "description" : "Win as the Anti-vaxxer.",
     "cannotBeCheated" : true
    },
    "Money Comes Marching" : {
-    "image" : "https://files.catbox.moe/x65mq2.jpg",
+    "image" : "https://files.catbox.moe/06auj1.jpg",
     "description" : "Win as the Anarchist.",
     "cannotBeCheated" : true
    },
    "Redneck Billionaire" : {
-    "image" : "https://i.postimg.cc/SsHXY15X/64e67d50464517-86492578.jpg",
+    "image" : "https://files.catbox.moe/j8x5dw.jpeg",
     "description" : "Win as the technocrat.",
     "cannotBeCheated" : true
    },
    "The Replica" : {
-    "image" : "https://i.postimg.cc/Ghw8cNGV/Vivek-Ramaswamy-republican-candidate-president-2023.jpg",
+    "image" : "https://files.catbox.moe/hwriny.jpg",
     "description" : "Win as the copycat.",
     "cannotBeCheated" : true
    },
    "Top Gov" : {
-    "image" : "https://i.postimg.cc/LsXhCMFY/75738b27-2a4c-4f29-ab16-4c17448079d6-large3x4-AP221900842684901.jpg",
+    "image" : "https://files.catbox.moe/v4a4r4.jpg",
     "description" : "Win as the crusader.",
     "cannotBeCheated" : true
    },
    "The King" : {
-    "image" : "https://i.postimg.cc/MpspjrfW/29pol-trump-vance-topart-zfhj-medium-Square-At3-X.jpg",
+    "image" : "https://files.catbox.moe/ydw8p8.jpg",
     "description" : "Win as Trump/Vance.",
     "cannotBeCheated" : true
    },
    "The Simon & Garfunkel" : {
-    "image" : "https://files.catbox.moe/yhhj5l.jpg",
+    "image" : "https://files.catbox.moe/f9ywsl.jpg",
     "description" : "Win as Trump/Musk.",
     "cannotBeCheated" : true
    },
    "The 1%" : {
-    "image" : "https://i.postimg.cc/pdZykXSt/republican-presidential-candidate-donald-trump-on-stage-with-north-dakoka-governor-doug-burgum-and-w.jpg",
+    "image" : "https://files.catbox.moe/rik8pn.jpg",
     "description" : "Win as Trump/Burgum.",
     "cannotBeCheated" : true
    },
    "Our Hearts Goes Out" : {
-    "image" : "https://files.catbox.moe/5yi94n.jpg",
+    "image" : "https://files.catbox.moe/nr8nq6.jpg",
     "description" : "Win as the trolligarch.",
     "cannotBeCheated" : true
    },
    "Similarity, Inequity, and Exclusion" : {
-    "image" : "https://files.catbox.moe/ho75ny.jpg",
+    "image" : "https://files.catbox.moe/z04zo7.jpg",
     "description" : "Get bailed out again.",
     "cannotBeCheated" : true
    },
    "Sui Generis" : {
-    "image" : "https://files.catbox.moe/5z1klp.jpg",
+    "image" : "https://files.catbox.moe/n4rghr.jpg",
     "description" : "Get Buried.",
     "cannotBeCheated" : true
    },
    "Futility" : {
-    "image" : "https://files.catbox.moe/33wpda.jpg",
+    "image" : "https://files.catbox.moe/28k0qd.jpg",
     "description" : "Lose every state to your nemesis.",
     "cannotBeCheated" : true
    },
    "Shrubbed" : {
-    "image" : "https://files.catbox.moe/c8frb9.jpg",
+    "image" : "https://files.catbox.moe/t9r06q.jpg",
     "description" : "Lose every state to your forefather.",
     "cannotBeCheated" : true
    },
    "Schedule L" : {
-    "image" : "https://files.catbox.moe/i4f2dv.jpg",
+    "image" : "https://files.catbox.moe/daq9j6.jpg",
     "description" : "Lose every state to a bureaucrat.",
     "cannotBeCheated" : true
    },
    "I Am Your Voice" : {
-    "image" : "https://files.catbox.moe/bowcbc.jpg",
+    "image" : "https://files.catbox.moe/2x6rs8.jpg",
     "description" : "Win 350 or more Electoral Votes as Trump.",
     "cannotBeCheated" : true
    },
    "Greatest In 132 Years" : {
-    "image" : "https://files.catbox.moe/hy5ym2.jpg",
+    "image" : "https://files.catbox.moe/pp6has.jpg",
     "description" : "Ensure It Can Happen Here.",
     "cannotBeCheated" : true
    },
    // Special Achievements
-    "American Carnage" : {
-    "image" : "https://i.postimg.cc/1XbHvKj2/AP25037554474703.jpg",
-    "description" : "Wake Up.",
+    "Death To America" : {
+    "image" : "https://files.catbox.moe/xfli8k.png",
+    "description" : "UNLEASH THE CARNAGE.",
     "cannotBeCheated" : true
    }
 }
