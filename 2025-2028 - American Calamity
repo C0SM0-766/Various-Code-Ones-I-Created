@@ -492,7 +492,7 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
     const song2 = new Song(
       "Thought I Was Dead",
       "Tyler, The Creator",
-      "https://i1.sndcdn.com/avatars-ZKzZaeyRYPL5o4ez-ivIFQw-t240x240.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/5/5b/Chromakopia_CD_cover.jpg",
       "https://files.catbox.moe/5lt9t9.mp3"
     );
   
@@ -542,8 +542,14 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
       "https://files.catbox.moe/yizr1u.jpg",
       "https://files.catbox.moe/p0bj4i.mp3"
     );
-
     const song10 = new Song(
+      "Tear The Fascists Down",
+      "Lil Darkie",
+      "https://files.catbox.moe/8zfa74.jpg",
+      "https://files.catbox.moe/topnn1.mp3"
+    );
+
+    const song11 = new Song(
       "Give The People What They Want",
       "The O’Jays",
       "https://files.catbox.moe/rb8c5h.jpg",
@@ -560,6 +566,7 @@ document.head.innerHTML += "<style>#results_container {color:#f2f2f2;} .election
     playlist.addSong(song8);
     playlist.addSong(song9);
     playlist.addSong(song10);
+    playlist.addSong(song11);
   
     const playerContainer = document.createElement("div");
     playerContainer.id = "player";
