@@ -132,4 +132,7 @@ Creation Date: July 9th, 2025
 *2025-2028 - American Calamity*
 Creation Date: August 12th, 2025
 
+*2025-2028: Twilight Of A Republic*
+Creation Date: October 14th, 2025
+
 And now, I'm creating/editing even more Code 1s...
