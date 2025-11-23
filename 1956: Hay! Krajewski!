@@ -1,0 +1,809 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 11,
+        "fields": {
+            "year": 1960,
+            "summary": "<p>The Party duopoly has abandoned the common man. From Eisenhower to Stevenson, both have desired the demands of the bureaucrats & the wealthy over who truly built this country: the farmers. America can't—and should not—vote for this elitist framework if it wishes to be truly the global great power it says it is. Will the real Americans please stand up and fight for the plight of the farmer, laborer, and the family?<br><br>Well... there is hope. In New Jersey, a certain Secaucus pig farmer has gained minor attention from his populist approach to politics, drawing noticeable crowds to his rallies. What's his name, you may ask? It's <b>Henry B. Krajewski.</b>",
+            "image_url": "https://files.catbox.moe/0ca6zp.jpg",
+            "winning_electoral_vote_number": 269,
+            "advisor_url": "https://files.catbox.moe/r7jtv7.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1960 Election Books and Links</h4>David Pietrusza - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1402777469/amhius20-20\" target=\"_blank\">1960--LBJ vs. JFK vs. Nixon: The Epic Campaign That Forged Three Presidencies</a></br>Theodore White - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061900605/amhius20-20\" target=\"_blank\">The Making of the President 1960</a></br>W. J. Rorabaugh - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0700618872/amhius20-20\" target=\"_blank\">The Real Making of the President: Kennedy, Nixon, and the 1960 Election</a></br><a href=\"http://www.davidpietrusza.com/1960-cast-of-characters.html\" target=\"_blank\">1960 Cast of Characters</a></br><a href=\"https://www.youtube.com/watch?v=gbrcRKqLSRw\" target=\"_blank\">First Kennedy-Nixon Debate (video)</a></br><a href=\"https://www.youtube.com/watch?v=_CtSW-HQlxQ\" target=\"_blank\">The Making of the President 1960 (video documentary, 1963)</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1960-no-majority-photo.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1956: Hay! Krajewski!"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 105,
+        "fields": {
+            "first_name": "Henry B.",
+            "last_name": "Krajewski",
+            "election": 11,
+            "party": "American Third",
+            "state": "New Jersey",
+            "priority": 1,
+            "description": "<p>Hear the true voice of the common man, America!<br><br>Born in 1912, Henry B. Krajewski is a pig farmer native to the garden state. Krajewski knows how it's like to suffer as an average man from Secaucus—endless work for such little pay. But it didn't have to be this way. Unfortunately, the D.C. elite have all but ignored the cries of Henry and others, willing to serve the interest of the warmonger or the cigar-smoking boss than those breaking their backs out in fields or factories.<br><br>Having previously ran for president in 1952, Henry knows how to take a defeat; he'll run again, beat the odds with his bombastic and tall stature, and maybe, just maybe, secure a position in the American history books as more than just a pig farmer—<b>president.</b>",
+            "color_hex": "#18961c",
+            "secondary_color_hex": "#18961c",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/h2md0n.jpeg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1960 Presidential Election.</h3><p>Hopefully you can move the United States in a more modern direction after eight quiet years of Eisenhower, while holding the line against the Soviet Union. At your young age, you have the potential to define the entire decade as President, and perhaps to hand the torch to one of your brothers in the future.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1960 Presidential Election.</h3><p>It was always going to be tough to defeat the Vice President to someone as popular as Eisenhower. However, you still have your seat in the Senate. At your young age, there is no reason you couldn't be a strong contender for President in 1964 or 1968, especially if this election was close. Let's just hope the Democrats don't blame your defeat on your religion.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has won a majority in the Electoral College.</h3><p>The Democrats have an advantage in the House of Representatives, so you are probably in good shape. However, a lot depends on how you deal with Harry Byrd. It's possible that some kind of deal will need to be struck with Byrd or Nixon to get a clean majority in the House.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 106,
+        "fields": {
+            "first_name": "Dwight D.",
+            "last_name": "Eisenhower",
+            "election": 11,
+            "party": "Republican",
+            "state": "Pennsylvania",
+            "priority": 2,
+            "description": "<p>Richard Nixon has served as Vice President for eight years, and begins the campaign as the better known of the two candidates. He has long been known as a staunch anti-communist and a Cold Warrior. Nixon faces similar problems as Kennedy, to a lesser extent -- different wings of the party have different demands on civil rights. On the other hand, Nixon might be in a better position than Kennedy to paint himself as strong on defense. Some voters also feel Nixon is cold and unrelatable.</p>",
+            "color_hex": "#961818",
+            "secondary_color_hex": "#961818",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Dwight_David_Eisenhower_1952_crop.jpg/1280px-Dwight_David_Eisenhower_1952_crop.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1960 Presidential Election.</h3><p>With luck, you will be able to duplicate the eight years of peace and prosperity under Eisenhower. Unfortunately, the Democrats maintain their majority in both houses of Congress. With luck, they will be good partners in a bipartisan governing coalition. Your first order of business is to mend fences with Lyndon Johnson, who is returning to his role as Senate Majority Leader.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1960 Presidential Election.</h3><p>A lot of people think this election was yours to lose, and party operatives are already whispering that Nelson Rockefeller will be the frontrunner in 1964. As such, it appears that your chances of becoming President are over. Perhaps you can return to California and run for Governor, or for the Senate again.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has won a majority in the Electoral College.</h3><p>The Democrats have an advantage in the House of Representatives, so you are probably in bad shape. However, a lot depends on how Kennedy deals with Harry Byrd. It's possible that some kind of deal will need to be struck for any candidate to get a clean majority in the House.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 107,
+        "fields": {
+            "first_name": "Adlai E.",
+            "last_name": "Stevenson",
+            "election": 11,
+            "party": "Democratic",
+            "state": "Illinois",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#185196",
+            "secondary_color_hex": "#185196",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Adlai_Stevenson_close-up.jpg/1280px-Adlai_Stevenson_close-up.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 108,
+        "fields": {
+            "first_name": "Anna M.",
+            "last_name": "Yezo",
+            "election": 11,
+            "party": "American Third",
+            "state": "New Jersey",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/doxjcy.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Anna Marie Yezo could be considered more of a mascot than an ideal running mate. Born in the same state as you, Anna Yezo is a housewife from North Bergen. As a surprisingly progressive choice for running mate, Yezo can excite women voters and convince you to support a plank dedicated to advancing women's rights and equality.<br><br>On the contrary, her being on the ballot will nullify any potential electoral votes you'll gain with the Garden state. Yezo also has no political experience heading into election day, but maybe that's what you need to help burnish your outsider credentials. Yezo won't bring anymore desperately needed attention to your campaign—a possible big blow to the campaign.<br><br>Nevertheless, Yezo's stuck to being your running mate, so best of luck with her.",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 109,
+        "fields": {
+            "first_name": "Richard M.",
+            "last_name": "Nixon",
+            "election": 11,
+            "party": "Republican",
+            "state": "California",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Stuart Symington was a minor contender for the nomination, but he is a respected Senator on foreign policy issues and has good rapport with Kennedy. He has served as Secretary of the Air Force and was a more outspoken opponent of McCarthyism than Kennedy was, which makes him appealing to liberals. His home state of Missouri should be very close in the fall, but he is somewhat unpopular in the Deep South.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 110,
+        "fields": {
+            "first_name": "C. Estes",
+            "last_name": "Kefauver",
+            "election": 11,
+            "party": "Democratic",
+            "state": "Tennessee",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Hubert H. Humphrey was another rival for the nomination with clout among the agricultural and labor wings of the party. He is basically blacklisted by the Southern wing of the party for the stances he has taken on civil rights. Selecting him would sacrifice the South, but should increase the chances of winning states like Illinois, Wisconsin, New Jersey, Pennsylvania, and New York.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 111,
+        "fields": {
+            "first_name": "Unpledged",
+            "last_name": "Electors/Others",
+            "election": 11,
+            "party": "Various",
+            "state": "Various",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#966018",
+            "secondary_color_hex": "#966018",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/1954_Press_Photo_T._Coleman_Andrews.webp/750px-1954_Press_Photo_T._Coleman_Andrews.webp.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Henry Cabot Lodge Jr. has an impeccable pedigree, a great war record, and a career that has seen him serve as a Senator and an Ambassador to the United Nations. He is a committed internationalist and a moderate in the party. He appeals to a similar wing of the party as Nelson Rockefeller, but is much more willing to be the running mate on a Nixon ticket.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 112,
+        "fields": {
+            "first_name": "Various",
+            "last_name": "Running Mates",
+            "election": 11,
+            "party": "Various",
+            "state": "Various",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 68,
+        "fields": {
+            "candidate": 105,
+            "running_mate": 108
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 129868,
+        "fields": {
+            "candidate": 106,
+            "running_mate": 109
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 158960,
+        "fields": {
+            "candidate": 107,
+            "running_mate": 110
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 97751,
+        "fields": {
+            "candidate": 111,
+            "running_mate": 112
+        }
+    }
+]
+
+campaignTrail_temp.credits = "C0SM0"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 11,
+        "candidates": [
+            105,
+            106,
+            107,
+            111
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 11,
+        "candidates": [
+            105,
+            106,
+            107,
+            111
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 11,
+        "year": 1960,
+        "is_premium": 0,
+        "display_year": "1956: Hay! Krajewski!"
+    }
+]
+
+jet_data = {
+    "headerColor": "#3d3d3d",
+    "windowColor": "#99c496",
+    "containerColor": "#616161",
+    "innerWindowColor": "#99c496",
+    "bannerImageUrl": "https://files.catbox.moe/spgkb0.png",
+    "backgroundImageUrl": "https://files.catbox.moe/5zd9g3.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#3d3d3d";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#99c496";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#616161";
+
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "cover";
+
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/se8yi6.png)"
+
+$("#game_window")[0].style.borderColor = "#3d3d3d"
+
+$(".container")[0].style.border = ".2em solid #3d3d3d"
+
+document.getElementById("header").src = "https://files.catbox.moe/spgkb0.png";
+
+document.body.background = "https://files.catbox.moe/5zd9g3.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#99c496!important;}</style>";
+
+quotes = ["''Farmer, Senator, Governor, President!''", "''Hay! Krajewski! Hay! Hay!''", "''No more piggy deals in Washington.''", "''The Democrats have been hogging the Administration at Washington for 20 years, and it's about time the people began to squeal.'' ~ Henry Krajewski", "''...They'd be so busy watching each other that there would be no danger of a dictatorship.'' ~ Henry Krajewski", "A pig in every pot!","''The pig represents the squeals of the people for a square deal.'' ~ Henry Krajewski", ]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+                                   
+corrr=`\n<h2>HAY! KRAJEWSKI!</h2><font id='wittyquote' size='3' color='white'><em>`+customquote+`</em></font>`
+
+campaignTrail_temp.modBoxTheme = { "header_color": "#3d3d3d", "header_image_url": "https://files.catbox.moe/i2b40g.png", "header_text_color": "#FFFFFF", "description_text_color": "#000000", "description_background_color": "#99c496", "main_color": "#616161", "secondary_color": "#3d3d3d", "ui_text_color": "#FFFFFF" }
+
+// Custom favicon
+$("#dynamic-favicon").attr("href", "https://files.catbox.moe/qx51pb.png");
+
+RecReading=true
+
+  campaignTrail_temp.credits = "<button onclick='credits()'>C0SM0</button>";
+  
+window.credits = function() {
+  const creditsList = ["C0SM0, for the writing & coding.", "", "Banner & Mod Idea from RosemaryThe.", "Some codes made by Mangolith, Thatchmaster, & DecStarG."];
+
+  const text = "This Code 1 was made by...\n\n" + creditsList.join('\n');
+
+  alert(text);
+}
+
+HistHexcolour=["#961818","#185196","#966018","#18961c"];
+    HistName=[" Dwight D. Eisenhower"," Adlai E. Stevenson II"," Unpledged Electors/Others"," Henry B. Krajewski"];
+    HistEV=[457,73,1,0];
+    HistPV=["35,579,180","26,028,028","412,942","1,829"];
+    HistPVP=["57.4%","42.0%","0.6%","<0.1%"];
+
+// Select the node that will be observed for mutations
+const windowsAdvisorTargetNode = document.getElementById("game_window");
+
+// Options for the observer (which mutations to observe)
+const windowsAdvisorConfig = { attributes: true, childList: true, subtree: true };
+
+// Callback function to execute when mutations are observed
+const callback = (mutationList, observer) => {
+    visitWindow = document.getElementsByClassName("overlay_window")[0];
+
+    if (visitWindow == null || visitWindow.classList.contains("done")) {
+        return;
+    }
+    visitWindow.classList.add("done");
+    visitWindow.classList.add("window");
+    let titleBar = visitWindow.querySelector("h3");
+    titleBar.classList.add("title-bar");
+    titleBar.classList.add("title-bar-text");
+    titleBar.style.paddingLeft = "3px";
+};
+
+class Song {
+    constructor(title, artist, coverLink, audioLink) {
+        this.title = title;
+        this.artist = artist;
+        this.coverLink = coverLink;
+        this.audioLink = audioLink;
+    }
+    getTitle() {
+        return this.title;
+    }
+
+    getArtist() {
+        return this.artist;
+    }
+
+    getCoverLink() {
+        return this.coverLink;
+    }
+
+    getAudioLink() {
+        return this.audioLink;
+    }
+}
+
+class Playlist {
+    constructor() {
+        this.songs = [];
+        this.currentSongIndex = 0;
+    }
+
+    addSong(song) {
+        this.songs.push(song);
+    }
+
+    getCurrentSong() {
+        return this.songs[this.currentSongIndex];
+    }
+
+    playNext() {
+        this.currentSongIndex = (this.currentSongIndex + 1) % this.songs.length;
+    }
+
+    playPrevious() {
+        this.currentSongIndex = (this.currentSongIndex - 1 + this.songs.length) % this.songs.length;
+    }
+}
+window.Playlist = Playlist;
+window.Song = Song;
+
+function changePlaylist(newPlaylist) {
+    playlist = newPlaylist;
+    playlist.currentSongIndex = 0;
+    updateUI(playlist);
+    const audio = document.getElementById("audio");
+    audio.src = playlist.getCurrentSong().audioLink;
+    audio.play();
+}
+window.changePlaylist = changePlaylist;
+
+function updateUI(playlist) {
+    const currentSong = playlist.getCurrentSong();
+    var player = document.getElementById("player");
+    player.querySelector("#cover").src = currentSong.getCoverLink();
+    player.querySelector("#title").textContent = currentSong.getTitle();
+    player.querySelector("#artist").textContent = currentSong.getArtist();
+}
+
+window.updateUI = updateUI;
+
+function setupMusicPlayer() {
+    playlist = new Playlist();
+
+    const song1 = new Song(
+        "Hay! Krajewski! Hay! Hay!",
+        "Bernie Witkowski & His Silver Bells",
+        "https://files.catbox.moe/ja7o7r.jpg",
+        "https://files.catbox.moe/5mbym8.mp3"
+    );
+    const song2 = new Song(
+        "Hard Ain't It Hard",
+        "Woody Guthrie",
+        "https://i.postimg.cc/7LV8cfCV/MOW-Woody-Guthrie.png",
+        "https://files.catbox.moe/2ycl88.mp3"
+    );
+    const song3 = new Song(
+        "Pastures Of Plenty",
+        "Woody Guthrie",
+        "https://files.catbox.moe/gxla2e.jpg",
+        "https://files.catbox.moe/vy4anu.mp3"
+    );
+    const song4 = new Song(
+        "Eisenhower Blues",
+        "J. B. Lenoir",
+        "https://files.catbox.moe/ss0q15.jpg",
+        "https://files.catbox.moe/m3c7oq.mp3"
+    );
+    const song5 = new Song(
+        "Farmer's Letter To The President",
+        "Bob Miller",
+        "https://files.catbox.moe/p7y0uj.jpg",
+        "https://files.catbox.moe/yxkz73.mp3"
+    );
+    const song6 = new Song(
+        "The Farm Relief Song",
+        "Vernon Dalhart",
+        "https://files.catbox.moe/az79s0.jpg",
+        "https://files.catbox.moe/eed99l.mp3"
+    );
+    const song7 = new Song(
+        "All I Want",
+        "The Almanac Singers",
+        "https://i.postimg.cc/WpYYhMLr/MOW-Almanac-Singers.png",
+        "https://audio.jukehost.co.uk/hjULxw3tbuREOLCLXmcoiz6yuqq21xY9"
+    );
+
+    playlist.addSong(song1);
+    playlist.addSong(song2);
+    playlist.addSong(song3);
+    playlist.addSong(song4);
+    playlist.addSong(song5);
+    playlist.addSong(song6);
+    playlist.addSong(song7);
+
+
+
+    const playerContainer = document.createElement("div");
+    playerContainer.id = "player";
+
+    const displayBox = document.createElement("div");
+    displayBox.id = "display-box";
+
+    const coverElement = document.createElement("img");
+    coverElement.id = "cover";
+    displayBox.appendChild(coverElement);
+
+    const infoContainer = document.createElement("div");
+    infoContainer.id = "info-container";
+    infoContainer.style.backgroundImage = "url('https://i.imgur.com/HTUJApX.png')";
+    infoContainer.style.backgroundSize = "cover";
+    infoContainer.style.color = "#6e441b";
+
+    const songInfo = document.createElement("div");
+    songInfo.id = "song-info";
+
+    const titleElement = document.createElement("h3");
+    titleElement.id = "title";
+    titleElement.style.fontWeight = 'normal';
+    songInfo.appendChild(titleElement);
+
+    const artistElement = document.createElement("p");
+    artistElement.id = "artist";
+    songInfo.appendChild(artistElement);
+
+    infoContainer.appendChild(songInfo);
+    displayBox.appendChild(infoContainer);
+
+    playerContainer.appendChild(displayBox);
+
+    const controlsContainer = document.createElement("div");
+    controlsContainer.id = "controls-container";
+
+    const controls = document.createElement("div");
+    controls.id = "controls";
+
+    const volumeDownButton = document.createElement("img");
+    volumeDownButton.id = "volumeDownButton";
+    volumeDownButton.src = "https://i.imgur.com/VQfvYev.png";
+    volumeDownButton.alt = "Volume Down";
+    controls.appendChild(volumeDownButton);
+
+    const prevButton = document.createElement("img");
+    prevButton.id = "prevButton";
+    prevButton.src = "https://i.imgur.com/LAojana.png";
+    prevButton.alt = "Previous";
+    controls.appendChild(prevButton);
+
+    const playPauseButton = document.createElement("img");
+    playPauseButton.id = "playPauseButton";
+    playPauseButton.src = "https://i.imgur.com/JdndnqR.png";
+    playPauseButton.alt = "Play/Pause";
+    controls.appendChild(playPauseButton);
+
+    const nextButton = document.createElement("img");
+    nextButton.id = "nextButton";
+    nextButton.src = "https://i.imgur.com/VpjQN97.png";
+    nextButton.alt = "Next";
+    controls.appendChild(nextButton);
+
+    const volumeUpButton = document.createElement("img");
+    volumeUpButton.id = "volumeUpButton";
+    volumeUpButton.src = "https://i.imgur.com/AWjSTLv.png";
+    volumeUpButton.alt = "Volume Up";
+    controls.appendChild(volumeUpButton);
+
+    controlsContainer.appendChild(controls);
+
+    playPauseButton.addEventListener("click", function () {
+        const audio = document.getElementById("audio");
+        if (audio.paused) {
+            audio.play();
+            playPauseButton.src = "https://i.imgur.com/JdndnqR.png";
+        } else {
+            audio.pause();
+            playPauseButton.src = "https://i.imgur.com/nzG7asd.png";
+        }
+    });
+
+    nextButton.addEventListener("click", function () {
+        playlist.playNext();
+        updateUI(playlist);
+        const audio = document.getElementById("audio");
+        audio.src = playlist.getCurrentSong().audioLink;
+        audio.play();
+        rotateButton(nextButton, "right");
+    });
+
+    prevButton.addEventListener("click", function () {
+        playlist.playPrevious();
+        updateUI(playlist);
+        const audio = document.getElementById("audio");
+        audio.src = playlist.getCurrentSong().audioLink;
+        audio.play();
+        rotateButton(prevButton, "left");
+    });
+
+    let currentVolume = 6; // Medium initial volume 
+
+    volumeUpButton.addEventListener("click", function () {
+        const audio = document.getElementById("audio");
+        if (currentVolume < 20) { // Increased max volume range
+            currentVolume++;
+            audio.volume = currentVolume / 20; // Adjusted for new range
+            rotateButton(volumeUpButton, "left");
+        }
+    });
+    
+    volumeDownButton.addEventListener("click", function () {
+        const audio = document.getElementById("audio");
+        if (currentVolume > 0) {
+            currentVolume--;
+            audio.volume = currentVolume / 20; // Adjusted for new range
+            rotateButton(volumeDownButton, "right");
+        }
+    });
+
+    function rotateButton(button, direction) {
+        const rotationAngle = direction === "left" ? "rotate(-15deg)" : "rotate(15deg)";
+        button.style.transform = rotationAngle;
+        setTimeout(() => {
+            button.style.transform = "rotate(0deg)";
+        }, 200);
+    }
+
+    const progressBarContainer = document.createElement("div");
+    progressBarContainer.id = "progress-bar-container";
+
+    const progressBar = document.createElement("progress");
+    progressBar.type = "range";
+    progressBar.id = "progress-bar";
+    progressBar.value = "0";
+    progressBar.max = "100";
+
+    progressBarContainer.appendChild(progressBar);
+    controlsContainer.appendChild(progressBarContainer);
+    playerContainer.appendChild(controlsContainer);
+
+    const lipImage = document.createElement("div");
+    lipImage.id = "lip-overlay";
+    playerContainer.appendChild(lipImage); // Add the overlay as a child of #player
+    
+    
+
+    gameWindow_player.insertAdjacentElement("afterend", playerContainer);
+
+    function updateProgressBar() {
+        const audio = document.getElementById("audio");
+        const progress = (audio.currentTime / audio.duration) * 100;
+        try {
+            progressBar.value = progress;
+        } catch {}
+    }
+
+    progressBar.addEventListener("input", function () {
+        const audio = document.getElementById("audio");
+        const seekTime = (progressBar.value / 100) * audio.duration;
+        audio.currentTime = seekTime;
+    });
+
+    const audio = document.createElement("audio");
+    audio.id = "audio";
+    audio.src = playlist.getCurrentSong().audioLink;
+
+    audio.addEventListener("timeupdate", updateProgressBar);
+    audio.addEventListener("ended", function () {
+        playlist.playNext();
+        updateUI(playlist);
+        audio.src = playlist.getCurrentSong().audioLink;
+        audio.play();
+    });
+
+    document.body.appendChild(audio);
+    audio.play();
+
+    updateUI(playlist);
+}
+
+const style = document.createElement("style");
+style.textContent = `
+#player {
+    position: relative; /* Ensures child absolute elements are positioned relative to this */
+    border: 3px solid #5e2f0d;
+    display: flex;
+    flex-direction: row;
+    height: 191px;
+    background-image: url("https://i.imgur.com/XvHX0fc.png");
+    transition: transform 0.2s ease;
+}
+
+#lip-overlay {
+    position: absolute;
+    top: 0; /* Align at the top of the player */
+    left: 0;
+    width: 100%;
+    height: 100%; /* Same height as the #player */
+    z-index: 2; /* Brings it to the foreground */
+    pointer-events: none; /* Prevent interference with user interactions */
+    background-image: url('https://i.imgur.com/4vt4JNH.png');
+    background-size: cover; /* Ensures the image fills the container */
+}
+
+
+#display-box {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+#cover {
+    width: 176px;
+    height: 176px;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: row;
+    height: 178px;
+    width: 127px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+#song-info {
+    width: 100%;
+    padding: 5px;
+}
+
+#controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+#progress-bar-container {
+    width: 100%;
+}
+
+#progress-bar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#progress-bar::-webkit-progress-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#progress-bar::-webkit-progress-value {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#progress-bar::-moz-progress-bar {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+`;
+
+document.head.appendChild(style);
+
+const gameWindow_player = document.getElementById("game_window");
+setupMusicPlayer();
+
+styling = document.createElement("style");
+document.head.appendChild(styling);
+
+styling.innerHTML = `
+#opponent_selection_id_back {
+    display: none;
+}
+`
+
+
+//#endcode
