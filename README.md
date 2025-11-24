@@ -109,7 +109,7 @@ Creation Date: December 17th, 2024
 Creation Date: December 27th, 2024
 
 *2028 Resistance*
-Creation Date: January 13th, 2025
+Creation Date: January 13th, 2025 (Updated on November 23rd, 2025)
 
 *2027 - The American Ceasar*
 Creation Date: February 24th, 2025
@@ -136,6 +136,6 @@ Creation Date: August 12th, 2025
 Creation Date: October 14th, 2025
 
 *1956: Hay! Krajewski!*
-Creation Date: November 23, 2025
+Creation Date: November 23rd, 2025
 
 And now, I'm creating/editing even more Code 1s...
